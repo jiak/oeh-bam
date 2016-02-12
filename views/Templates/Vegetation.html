@@ -7,18 +7,18 @@
                 <th>Formation</th>
                 <th>Keith Class</th>
                 <th>Plant Community Type</th>
-                <th>PCT Code</th>
+                <!--<th>PCT Code</th>-->
                 <th>Associated TEC</th>
                 <th>PCT % Cleared</th>
                 <th>Threat Status Class</th>
             </tr>
             </thead>
-            <tbody data-ng-repeat="pctItem in vc.vegetationTab.model.input.pct">
-            <tr>
+            <tbody>
+            <tr data-ng-repeat="pctItem in vc.vegetationTab.model.input.pct">
                 <td><select class="form-control" ng-model="pctItem.formation" ng-options="ref.name for ref in vc.vegetationTab.model.referenceData.formations"></select></td>
                 <td><select class="form-control" ng-model="pctItem.keithClass" ng-options="ref.name for ref in pctItem.formation.keithClass"></select></td>
                 <td><select class="form-control" ng-model="pctItem.pct" ng-options="ref.name for ref in pctItem.keithClass.pct"></select></td>
-                <td>{{item.pct.id}}</td>
+                <!--<td>{{item.pct.id}}</td>-->
                 <td><select class="form-control" ng-model="pctItem.tec" ng-options="ref.name for ref in pctItem.pct.tec"></select></td>
                 <td>{{pctItem.pct.percCleared}}</td>
                 <td>{{pctItem.pct.threatStatusClass}}</td>
@@ -27,4 +27,71 @@
         </table>
         <button ng-click="vc.vegetationTab.addPctObject()" class="btn btn-secondary">Add another</button>
     </div>
+    <div>
+        <h4>Vegetation Zones (current)</h4>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Number</th>
+                <th>PCT Code</th>
+                <th>Condition Class</th>
+                <th>Identifier</th>
+                <th>Area</th>
+                <th>Composition</th>
+                <th>Structure</th>
+                <th>Function</th>
+                <th>VIS</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr data-ng-repeat="vegetationZoneItem in vc.vegetationTab.model.input.vegetationZones">
+                    <td>{{$index}}</td>
+                    <td>{{vegetationZoneItem.pctCode}}</td>
+                    <td>{{vegetationZoneItem.conditionClass}}</td>
+                    <td>{{vegetationZoneItem.identifier}}</td>
+                    <td>{{vegetationZoneItem.area}}</td>
+                    <td>{{vegetationZoneItem.composition}}</td>
+                    <td>{{vegetationZoneItem.structure}}</td>
+                    <td>{{vegetationZoneItem.function}}</td>
+                    <td>{{vegetationZoneItem.vis}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <button ng-click="vc.vegetationTab.addVegetationZoneItem()" class="btn btn-secondary">Add another</button>
+    </div>
+    <div>
+        <h4>Vegetation Zones (future)</h4>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Number</th>
+                <th>Type Code</th>
+                <th>Condition Class</th>
+                <th>Identifier</th>
+                <th>Area</th>
+                <th>Composition</th>
+                <th>Structure</th>
+                <th>Function</th>
+                <th>VIS</th>
+                <th>Change VIS</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr data-ng-repeat="futureVegetationZoneItem in vc.vegetationTab.model.input.futureVegetationZones">
+                <td>{{$index}}</td>
+                <td>{{futureVegetationZoneItem.typeCode}}</td>
+                <td>{{futureVegetationZoneItem.conditionClass}}</td>
+                <td>{{futureVegetationZoneItem.identifier}}</td>
+                <td>{{futureVegetationZoneItem.area}}</td>
+                <td>{{futureVegetationZoneItem.composition}}</td>
+                <td>{{futureVegetationZoneItem.structure}}</td>
+                <td>{{futureVegetationZoneItem.function}}</td>
+                <td>{{futureVegetationZoneItem.vis}}</td>
+                <td>{{futureVegetationZoneItem.changeVis}}</td>
+            </tr>
+            </tbody>
+        </table>
+        <button ng-click="vc.vegetationTab.addFutureVegetationZoneItem()" class="btn btn-secondary">Add another</button>
 </div>
+
+
