@@ -1,0 +1,32 @@
+<div ng-controller="SiteContextController">
+
+	<h4>General</h4>
+	<form>
+		<fieldset class="form-group">
+			<label for="ibra-sub-region">IBRA Sub-Region</label>
+			<select id="ibram-sub-region" class="form-control" ng-model="ibra-sub-region" ng-options="item.name for item in data.ibra track by item.id">
+			</select>
+			<label for="cover">Cover</label>
+			<input id="cover" type="number" class="form-control"/>
+			<label for="patch-size">Patch Size</label>
+			<input id="patch-size" type="number" class="form-control"/>
+		</fieldset>
+	</form>
+	<h4>Landscape Features</h4>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Feature</th>
+				<th>Name</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody data-ng-repeat="attribute in data.landscape_features">
+			<tr>
+				<th>{{attribute.name}}</th>
+				<td><input class="form-control" type="text" value="{{attribute.name}}" /></td>
+				<td><a href="#">Remove</a></td>
+			</tr>
+		</tbody>
+	</table>
+</div>

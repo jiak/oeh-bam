@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html ng-app="BAMApp" class="resp">
+	<head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+-->
+		<link href="http://d36paqt25bx4vd.cloudfront.net/Css/_Libs/oeh-font.css?" rel="stylesheet">
+		<link href="http://d36paqt25bx4vd.cloudfront.net/Css/_Libs/oeh-libs.css?" rel="stylesheet">
+		<link href="http://d36paqt25bx4vd.cloudfront.net/Css/_sitecore/sitecore-oeh-blessed1.min.css?" rel="stylesheet">
+		<link href="http://d36paqt25bx4vd.cloudfront.net/Css/_sitecore/sitecore-oeh.min.css?" rel="stylesheet">
+		<link href="http://d36paqt25bx4vd.cloudfront.net/Css/_sitecore/sitecore-oeh-print.css?" media="print" rel="stylesheet">
+		<script type="text/javascript" src="http://d36paqt25bx4vd.cloudfront.net/js/libs/modernizr.2.8.3.js?"></script>
+
+		<script type="text/javascript" src="http://wd-edge.sharethis.com/button/checkOAuth.esi"></script>
+		<link rel="stylesheet" type="text/css" href="http://w.sharethis.com/button/css/buttons.ab966a004186897711de4a5ed256c924.css">
+
+
+		<link href="http://www.environment.nsw.gov.au/css/decc/styles_v3.css?cb=10122015" rel="stylesheet" />
+		<link href="http://www.environment.nsw.gov.au/css/decc/modules.css?cb=10122015" rel="stylesheet" />
+		<link href="http://www.environment.nsw.gov.au/css/decc/jquery-ui-1.7.1/jquery-ui.css?cb=10122015" rel="stylesheet" />
+
+		<!-- Local fonts -->
+		<!-- Fontello -->
+		<link href="http://www.environment.nsw.gov.au/css/decc/fontello/fontello.css?cb=10122015" rel="stylesheet" />
+		<!-- Font Awesome -->
+		<link href="http://www.environment.nsw.gov.au/css/decc/secondary/font-awesome.min.css?cb=10122015" rel="stylesheet" />
+		<!-- Roboto is loaded from CDN in oeh-styles-common.css -->
+		<!-- http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,700italic -->
+
+		<!--[if IE]>
+		    <link rel="stylesheet" href="http://www.environment.nsw.gov.au/css/decc/ie_v2.css?cb=10122015" type="text/css" />
+		    <![endif]-->
+
+		<!--[if lte IE 6]>
+		    <link rel="stylesheet" href="http://www.environment.nsw.gov.au/css/decc/ie6.css?cb=10122015" type="text/css" />
+		    <![endif]-->
+
+		<!--[if gte IE 5.5]>
+		    <link rel="stylesheet" href="http://www.environment.nsw.gov.au/css/decc/ie5.css?cb=10122015" type="text/css" />
+		    <![endif]-->
+
+		<!-- styles -->
+		<link href="http://www.environment.nsw.gov.au/css/decc/oeh-styles-common.css?cb=10122015" rel="stylesheet" />
+		<link href="http://www.environment.nsw.gov.au/css/decc/oeh-styles-responsive.css?cb=10122015" rel="stylesheet" />
+		<link href="http://www.environment.nsw.gov.au/css/decc/oeh-styles-unresponsive.css?cb=10122015" rel="stylesheet" />
+		<link href="http://www.environment.nsw.gov.au/css/decc/responsive/oeh-work.css?cb=10122015" rel="stylesheet" />
+
+		<!--[if lt IE 9]>
+		    <link href="http://www.environment.nsw.gov.au/css/decc/oeh-styles-ie.css?cb=10122015" rel="stylesheet" />
+		    <![endif]-->
+
+		<link rel="stylesheet" type="text/css" media="print" href="http://www.environment.nsw.gov.au/css/decc/print_v2.css?cb=10122015" />
+
+		<script type="text/javascript" src="http://www.environment.nsw.gov.au/js/decc/vendor/modernizr.js?cb=10122015"></script>
+
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/jquery/jquery-1.7.2.min.js?cb=10122015">
+		    /* jQuery */
+
+		</script>
+
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/responsive/resp.js?cb=10122015"></script>
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/jquery/jquery.treeview.pack-090504.js?cb=10122015">
+		    /* jQuery Menu Plugin */
+
+		</script>
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/jquery/jquery.hoverIntent.022015.js?cb=10122015">
+		    /* jQuery Menu Plugin */
+
+		</script>
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/jquery/jquery.superfish.min.js?cb=10122015">
+		    /* jQuery menu plugin */
+
+		</script>
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/jquery/jquery.lightbox-0.5.pack-090504.js?cb=10122015">
+		    /* jQuery Lightbox Plugin */
+
+		</script>
+		<!--[if IE 6]>
+		    <script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/jquery/jquery.bgiframe.pack-090504.js?cb=10122015">/* jQuery IE6 Fix */</script>
+		    <![endif]-->
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/main-090504.js?cb=10122015">
+		    /* Main Script */
+
+		</script>
+
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/resize.js?cb=10122015"></script>
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/jquery/jquery-ui-1.7.1.min-090504.js?cb=10122015"></script>
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/jquery/jquery.jcarousel.js?cb=10122015"></script>
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/general.js?cb=10122015"></script>
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/smartData.js?cb=10122015"></script>
+
+		<!--    Bootstrap plugins-->
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/jquery/plugins/bootstrap/collapse-min.js?cb=10122015"></script>
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/jquery/plugins/bootstrap/dropdown-min.js?cb=10122015"></script>
+		<script type="text/javascript" charset="utf-8" src="http://www.environment.nsw.gov.au/js/decc/jquery/plugins/bootstrap/tabs-min.js?cb=10122015"></script>
+
+		<script type="text/javascript" src="http://www.environment.nsw.gov.au/js/decc/oeh-scripts.js?cb=10122015"></script>
+
+
+
+		<script src="../js/AngularJS-1.4.9/angular.min.js"></script>
+		<script src="../js/AngularJS-1.4.9/angular-route.min.js"></script>
+		<script src="../js/AngularJS-1.4.9/angular-animate.min.js"></script>
+		<script src="../js/Controllers/BAMController.js"></script>	
+		<script src="../js/App.js"></script>
+
+		<script src="../js/Services/DataService.js"></script>
+
+		<script src="../js/Controllers/BAMController.js"></script>
+		<script src="../js/Controllers/CreditsController.js"></script>
+		<script src="../js/Controllers/ApplicationDetailsController.js"></script>
+		<script src="../js/Controllers/SiteContextController.js"></script>
+		<script src="../js/Controllers/VegetationController.js"></script>
+		
+
+		<style>
+
+			.ui-tabs .ui-tabs-nav li {
+			margin-bottom: -4px;
+			}
+			.ui-tabs .ui-tabs-nav li.active {
+			background: #fff !important;
+			    border-bottom: 1px solid #fff !important;
+
+			}
+			.ui-tabs .ui-tabs-nav li.active a{
+			    color: #547420;
+			    border-bottom: none;
+			    background-color: #fff;
+			}
+			div.ui-tabs-panel {
+			margin-left: 3px;
+			}
+			html.resp .table-striped > tbody > tr:nth-of-type(odd), html.resp table > tbody > tr:nth-of-type(odd) {
+			    background-color: white;
+			}
+		</style>
+
+	</head>
+	<body ng-controller="BAMController">
+		<div id="mainContainer02">
+			<div id="contentArea">
+				<h1>Biodiversity Assessment Methodology Demonstration Tool</h1>
+				<div class="intro">
+					<p>This is the introduction text to the Biodiversity Assessment Methodology Demonstration Tool</p>
+				</div>
+				<div class="container-fluid" style="padding: 20px">
+					<div class="">
+						<div class="comp-more-info panel-1">
+							<h3 class="title-1 grey">Running totals</h3>
+							<p>{{models.Message}}</p>
+						</div>
+
+						<div class="" id="details">
+
+							<h3 class="">Assessment</h3>
+							<div class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+				                <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+				                    <li class="ui-state-default ui-corner-top ui-tabs-selected active">
+				                        <a href="#ApplicationDetails" data-toggle="tab" aria-expanded="true">Application Details</a>
+				                    </li>
+				                    <li class="ui-state-default ui-corner-top">
+				                        <a href="#SiteContext" data-toggle="tab" aria-expanded="false">Site Context</a>
+				                    </li>
+				                    <li class="ui-state-default ui-corner-top">
+				                        <a href="#Vegetation" data-toggle="tab" aria-expanded="true">Vegetation</a>
+				                    </li>
+				                    <li class="ui-state-default ui-corner-top">
+				                        <a href="#Credits" data-toggle="tab" aria-expanded="false">Credits</a>
+				                    </li>
+				                </ul>
+				            </div>
+				            <div class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+					            <div ng-view></div>
+				            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+<div  ng-controller="VegetationController">
+	<h4>Plant Community Types &amp; Ecological Communities</h4>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Formation</th>
+				<th>Keith Class</th>
+				<th>Plant Community Type</th>
+				<!--th>PCT Code</th-->
+				<th>Associated TEC</th>
+				<th>PCT % Cleared</th>
+				<th>Threat Status Class</th>
+			</tr>
+		</thead>
+		<tbody data-ng-repeat="item in input.vegetation">
+			<tr>
+				<td><select class="form-control" ng-model="item.formation" ng-options="ref.name for ref in referenceData.formations"></select> </td>
+				<td><select class="form-control" ng-model="item.keithClass" ng-options="ref.name for ref in item.formation.keithClass"></select></td>
+				<td><select class="form-control" ng-model="item.pct" ng-options="ref.name for ref in item.keithClass.pct"></select></td>
+				<!--td>{{item.pct.id}}</td-->
+				<td><select class="form-control" ng-model="item.tec" ng-options="ref.name for ref in item.pct.tec"></select></td>
+				<td>{{item.pct.percCleared}}</td>
+				<td>{{item.pct.threatStatusClass}}</td>
+			</tr>
+		</tbody>
+	</table>
+	<button ng-click="anotherVegetation()" class="btn btn-secondary">Add another</button>
+</div>
