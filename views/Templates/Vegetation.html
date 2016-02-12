@@ -1,28 +1,30 @@
-<div  ng-controller="VegetationController">
-	<h4>Plant Community Types &amp; Ecological Communities</h4>
-	<table class="table">
-		<thead>
-			<tr>
-				<th>Formation</th>
-				<th>Keith Class</th>
-				<th>Plant Community Type</th>
-				<!--th>PCT Code</th-->
-				<th>Associated TEC</th>
-				<th>PCT % Cleared</th>
-				<th>Threat Status Class</th>
-			</tr>
-		</thead>
-		<tbody data-ng-repeat="item in input.vegetation">
-			<tr>
-				<td><select class="form-control" ng-model="item.formation" ng-options="ref.name for ref in referenceData.formations"></select> </td>
-				<td><select class="form-control" ng-model="item.keithClass" ng-options="ref.name for ref in item.formation.keithClass"></select></td>
-				<td><select class="form-control" ng-model="item.pct" ng-options="ref.name for ref in item.keithClass.pct"></select></td>
-				<!--td>{{item.pct.id}}</td-->
-				<td><select class="form-control" ng-model="item.tec" ng-options="ref.name for ref in item.pct.tec"></select></td>
-				<td>{{item.pct.percCleared}}</td>
-				<td>{{item.pct.threatStatusClass}}</td>
-			</tr>
-		</tbody>
-	</table>
-	<button ng-click="anotherVegetation()" class="btn btn-secondary">Add another</button>
+<div ng-controller="VegetationController as vc">
+    <div>
+        <h4>Plant Community Types &amp; Ecological Communities</h4>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Formation</th>
+                <th>Keith Class</th>
+                <th>Plant Community Type</th>
+                <th>PCT Code</th>
+                <th>Associated TEC</th>
+                <th>PCT % Cleared</th>
+                <th>Threat Status Class</th>
+            </tr>
+            </thead>
+            <tbody data-ng-repeat="pctItem in vc.vegetationTab.model.input.pct">
+            <tr>
+                <td><select class="form-control" ng-model="pctItem.formation" ng-options="ref.name for ref in vc.vegetationTab.model.referenceData.formations"></select></td>
+                <td><select class="form-control" ng-model="pctItem.keithClass" ng-options="ref.name for ref in pctItem.formation.keithClass"></select></td>
+                <td><select class="form-control" ng-model="pctItem.pct" ng-options="ref.name for ref in pctItem.keithClass.pct"></select></td>
+                <td>{{item.pct.id}}</td>
+                <td><select class="form-control" ng-model="pctItem.tec" ng-options="ref.name for ref in pctItem.pct.tec"></select></td>
+                <td>{{pctItem.pct.percCleared}}</td>
+                <td>{{pctItem.pct.threatStatusClass}}</td>
+            </tr>
+            </tbody>
+        </table>
+        <button ng-click="vc.vegetationTab.addPctObject()" class="btn btn-secondary">Add another</button>
+    </div>
 </div>

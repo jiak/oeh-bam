@@ -1,42 +1,31 @@
-angular.module('BAMApp.controllers').controller('VegetationController', function ($scope, dataService) {
+angular.module('BAMApp.controllers').controller('VegetationController', ["$scope", "dataService", function ($scope, dataService) {
 
-    this.pctPane = {
+    this.vegetationTab = {
+
         model: {
             referenceData: dataService.referenceData,
-            pctInput: {
-                input: {
-                    pct: [],
-                    vegetationZones: [],
-                    futureVegetationZones: []
-                }
+            input: {
+                pct: [],
+                vegetationZones: [],
+                futureVegetationZones: []
             }
-
         },
 
-        createPctObject: function() {
+        createPctObject: function () {
             return {
-                "formation": null,
-                "keithClass": null,
-                "pct": null,
-                "tec": null,
-                "percentCleared": "waiting",
-                "threatStatusClass": "waiting"
+                formation: null,
+                keithClass: null,
+                pct: null,
+                tec: null,
+                percentCleared: "waiting",
+                threatStatusClass: "waiting"
             }
+        },
+
+        addPctObject: function () {
+            this.model.input.pct.push(this.createPctObject())
         }
     }
-
-    $scope.referenceData = dataService.referenceData;
-    $scope.input = dataService.input;
-    $scope.anotherVegetation = function () {
-        $scope.input.vegetation.push({
-            "formation": null,
-            "keithClass": null,
-            "pct": null,
-            "tec": null,
-            "percentCleared": "waiting",
-            "threatStatusClass": "waiting"
-        });
-    };
-});
+}]);
 
 

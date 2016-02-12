@@ -1,6 +1,5 @@
 angular.module('BAMApp.dataService').service('dataService', function () {
 	var _dataObject = Data;
-
 	return _dataObject;
 });
 
@@ -130,21 +129,6 @@ var Data =
 				]
 			}
 		]
-	},
-	"input": {
-		"vegetation": [
-			{
-				"formation": null,
-				"keithClass": null,
-				"pct": null,
-				"tec": null,
-				"percentCleared": "waiting",
-				"threatStatusClass": "waiting"
-			}
-		]
 	}
-
-
-
 }
 
