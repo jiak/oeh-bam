@@ -1,5 +1,27 @@
 angular.module('BAMApp.controllers').controller('VegetationController', ["$scope", "dataService", "localStorageService", function ($scope, dataService, localStorageService) {
 
+    this.composition = {
+
+        model: {
+            compositionTransectReferenceData: [{}],
+            compositionTransects: []
+        },
+
+        createCompositionTransect: function(){
+            return {
+                tree: null,
+                shurb: null,
+                grassLike: null,
+                forb: null,
+                fern: null
+            }
+        },
+
+        addCompositionTransect: function () {
+            this.model.compositionTransects.push(this.createCompositionTransect())
+        }
+    }
+
     this.vegetationTab = {
 
         model: {
@@ -59,11 +81,11 @@ angular.module('BAMApp.controllers').controller('VegetationController', ["$scope
             this.model.input.vegetationZones.push(this.createVegetationZoneItem())
         },
 
-        addFutureVegetationZoneItem: function() {
+        addFutureVegetationZoneItem: function () {
             this.model.input.futureVegetationZones.push(this.createFutureVegetationZoneItem())
         },
 
-        saveData: function() {
+        saveData: function () {
             localStorageService.saveData()
         }
 
