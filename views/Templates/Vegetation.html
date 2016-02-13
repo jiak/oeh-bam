@@ -50,7 +50,9 @@
                 <td>{{vegetationZoneItem.conditionClass}}</td>
                 <td>{{vegetationZoneItem.identifier}}</td>
                 <td>{{vegetationZoneItem.area}}</td>
-                <td>{{vegetationZoneItem.composition}}</td>
+                <td>
+                    <button uib-popover-template="'Templates/composition.html'" popover-animation="true" popover-placement="bottom-right" popover-title="Composition" type="button" class="btn btn-default">Composition</button>
+                </td>
                 <td>{{vegetationZoneItem.structure}}</td>
                 <td>{{vegetationZoneItem.function}}</td>
                 <td>{{vegetationZoneItem.vis}}</td>
