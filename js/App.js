@@ -2,8 +2,7 @@
 angular.module('BAMApp.controllers',[]);
 angular.module('BAMApp.dataService',[]);
 
-
-var BAMApp = angular.module('BAMApp', ['ngRoute','BAMApp.controllers', 'BAMApp.dataService'])
+var BAMApp = angular.module('BAMApp', ['ngRoute','BAMApp.controllers', 'BAMApp.dataService', 'ngAnimate', 'ui.bootstrap'])
 
 BAMApp.config( function ($routeProvider) {
     $routeProvider

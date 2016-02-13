@@ -1,27 +1,22 @@
 <div ng-controller="ApplicationDetailsController">
+    <fieldset class="form-group">
+        <label for="AssessmentType">Assessment type</label>
+        <select id="AssessmentType" class="form-control" ng-model="selected" ng-options="item as item.Type for item in items track by item.Type">
 
-	<form>
-		<fieldset class="form-group">
-			<label for="AssessmentType">Assessment type</label>
-			<select id="AssessmentType" class="form-control" ng-model="selected" ng-options="item as item.Type for item in items track by item.Type">
-				
-			</select>
-			<label for="ProposalID">Proposal ID</label>
-			<input id="ProposalID" class="form-control" ng-model="items[current].ProposalId" ></input>
+        </select>
+        <label for="ProposalID">Proposal ID</label>
+        <input id="ProposalID" class="form-control" ng-model="items[current].ProposalId"></input>
 
-			<label for="ProposalVersion">Proposal version</label>
-			<input id="ProposalVersion" class="form-control" ng-model="items[current].ProposalVersion" ></input>
+        <label for="ProposalVersion">Proposal version</label>
+        <input id="ProposalVersion" class="form-control" ng-model="items[current].ProposalVersion"></input>
 
-			<label for="ProposalName">Proposal name</label>
-			<input id="ProposalName" class="form-control" ng-model="items[current].ProposalName" ></input>
+        <label for="ProposalName">Proposal name</label>
+        <input id="ProposalName" class="form-control" ng-model="items[current].ProposalName"></input>
 
-			<label for="MajorCatchmentArea">Major Catchment Area</label>
-			<input id="MajorCatchmentArea" class="form-control" ng-model="items[current].MajorCatchmentArea" ></input>
+        <label for="MajorCatchmentArea">Major Catchment Area</label>
+        <input id="MajorCatchmentArea" class="form-control" ng-model="items[current].MajorCatchmentArea"></input>
 
-			<label for="StreetAddress">Street Address</label>
-			<input id="StreetAddress" class="form-control" ng-model="items[current].StreetAddress" ></input>
-
-		</fieldset>
-	</form>
-
+        <label for="StreetAddress">Street Address</label>
+        <input id="StreetAddress" class="form-control" ng-model="items[current].StreetAddress"></input>
+    </fieldset>
 </div>

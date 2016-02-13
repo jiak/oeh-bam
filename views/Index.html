@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html ng-app="BAMApp">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- style sheets -->
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- angular js -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-animate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js"></script>
 
-    <!-- jquery -->
-    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- ui-bootstrap -->
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.1.2.js"></script>
 
     <!-- bootstrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
     <!-- application js -->
     <script src="../js/App.js"></script>
@@ -27,63 +23,47 @@
     <script src="../js/Controllers/ApplicationDetailsController.js"></script>
     <script src="../js/Controllers/SiteContextController.js"></script>
     <script src="../js/Controllers/VegetationController.js"></script>
-
 </head>
 <body ng-controller="BAMController">
-<div class="container">
+<div class="container" style="padding-bottom: 80px;">
     <div class="page-header">
         <h1>Biodiversity Assessment Methodology Demonstration Tool</h1>
+        <br/>
         <h4>This is the introduction text to the Biodiversity Assessment Methodology Demonstration Tool</h4>
     </div>
     <div class="row">
         <div class="col-md-12">
-            <h3>Running Totals</h3>
+            <h2>Running Totals</h2>
             <div class="well">This section will be implemented in sprint 3. It will contain the running totals for the credits etc.</div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Assessment</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <uib-tabset>
+                <uib-tab active="true">
+                    <uib-tab-heading>Application Details</uib-tab-heading>
+                    <ng-include src="'Templates/ApplicationDetails.html'"></ng-include>
+                </uib-tab>
+                <uib-tab>
+                    <uib-tab-heading>Site Context</uib-tab-heading>
+                    <ng-include src="'Templates/SiteContext.html'"></ng-include>
+                </uib-tab>
+                <uib-tab>
+                    <uib-tab-heading>Vegetation</uib-tab-heading>
+                    <ng-include src="'Templates/Vegetation.html'"></ng-include>
+                </uib-tab>
+                <uib-tab>
+                    <uib-tab-heading>Credits</uib-tab-heading>
+                    <ng-include src="'Templates/Credits.html'"></ng-include>
+                </uib-tab>
+            </uib-tabset>
+        </div>
+    </div>
 </div>
-
-
-<!--<div id="mainContainer02">-->
-<!--<div id="contentArea">-->
-
-
-<!--<div class="intro">-->
-<!--<p>This is the introduction text to the Biodiversity Assessment Methodology Demonstration Tool</p>-->
-<!--</div>-->
-<!--<div class="container-fluid" style="padding: 20px">-->
-<!--<div class="">-->
-<!--<div class="comp-more-info panel-1">-->
-<!--<h3 class="title-1 grey">Running totals</h3>-->
-<!--<p>{{models.Message}}</p>-->
-<!--</div>-->
-
-<!--<div class="" id="details">-->
-
-<!--<h3 class="">Assessment</h3>-->
-<!--<div class="ui-tabs ui-widget ui-widget-content ui-corner-all">-->
-<!--<ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">-->
-<!--<li class="ui-state-default ui-corner-top ui-tabs-selected active">-->
-<!--<a href="#ApplicationDetails" data-toggle="tab" aria-expanded="true">Application Details</a>-->
-<!--</li>-->
-<!--<li class="ui-state-default ui-corner-top">-->
-<!--<a href="#SiteContext" data-toggle="tab" aria-expanded="false">Site Context</a>-->
-<!--</li>-->
-<!--<li class="ui-state-default ui-corner-top">-->
-<!--<a href="#Vegetation" data-toggle="tab" aria-expanded="true">Vegetation</a>-->
-<!--</li>-->
-<!--<li class="ui-state-default ui-corner-top">-->
-<!--<a href="#Credits" data-toggle="tab" aria-expanded="false">Credits</a>-->
-<!--</li>-->
-<!--</ul>-->
-<!--</div>-->
-<!--<div class="ui-tabs-panel ui-widget-content ui-corner-bottom">-->
-<!--<div ng-view></div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
 </body>
 </html>
