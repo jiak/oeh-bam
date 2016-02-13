@@ -1,4 +1,4 @@
-angular.module('BAMApp.controllers').controller('VegetationController', ["$scope", "dataService", function ($scope, dataService) {
+angular.module('BAMApp.controllers').controller('VegetationController', ["$scope", "dataService", "localStorageService", function ($scope, dataService, localStorageService) {
 
     this.vegetationTab = {
 
@@ -51,6 +51,8 @@ angular.module('BAMApp.controllers').controller('VegetationController', ["$scope
 
         addPctObject: function () {
             this.model.input.pct.push(this.createPctObject())
+            this.addVegetationZoneItem()
+            this.addFutureVegetationZoneItem()
         },
 
         addVegetationZoneItem: function () {
@@ -59,7 +61,12 @@ angular.module('BAMApp.controllers').controller('VegetationController', ["$scope
 
         addFutureVegetationZoneItem: function() {
             this.model.input.futureVegetationZones.push(this.createFutureVegetationZoneItem())
+        },
+
+        saveData: function() {
+            localStorageService.saveData()
         }
+
     }
 }]);
 
