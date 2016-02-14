@@ -1,48 +1,56 @@
-<div>
-    <h4>Zone Composition Data</h4>
-    <div class="row">
-        <div class="col-md-1">Easting</div>
-        <div class="col-md-11"><input/></div>
+<div class="row">
+    <div class="col-md-12">
+        <h4>Zone Composition Data</h4>
     </div>
-    <div class="row">
-        <div class="col-md-1">Northing</div>
-        <div class="col-md-11"><input/></div>
+</div>
+<div class="row" style="padding-top: 10px">
+    <div class="col-md-5">Easting</div>
+    <div class="col-md-2"><input/></div>
+</div>
+<div class="row" style="padding-top: 10px">
+    <div class="col-md-5">Northing</div>
+    <div class="col-md-2"><input/></div>
+</div>
+<div class="row" style="padding-top: 10px">
+    <div class="col-md-5">Zone</div>
+    <div class="col-md-2"><input/></div>
+</div>
+<div class="row" style="padding-top: 10px">
+    <div class="col-md-5">Required Transects</div>
+    <div class="col-md-2"><input/></div>
+</div>
+<div class="row" style="padding-top: 30px">
+    <div class="col-md-12">
+        <table class="table">
+            <tr>
+                <th>Item</th>
+                <th>Tree</th>
+                <th>Shrub</th>
+                <th>Gass/like</th>
+                <th>Forb</th>
+                <th>Fern</th>
+            </tr>
+            <tr data-ng-repeat="item in vc.composition.model.compositionTransectReferenceData">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr data-ng-repeat="item in vc.composition.model.compositionTransects">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
     </div>
-    <div class="row">
-        <div class="col-md-1">Zone</div>
-        <div class="col-md-11"><input/></div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <button ng-click="vc.composition.addCompositionTransect()" class="btn btn-secondary">Add Transect</button>
     </div>
-    <div class="row">
-        <div class="col-md-1">Required Transects</div>
-        <div class="col-md-11"><input/></div>
-    </div>
-    <hr/>
-    <table class="table">
-        <tr>
-            <th>Item</th>
-            <th>Tree</th>
-            <th>Shrub</th>
-            <th>Gass/like</th>
-            <th>Forb</th>
-            <th>Fern</th>
-        </tr>
-        <tr data-ng-repeat="item in vc.composition.model.compositionTransectReferenceData">
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr data-ng-repeat="item in vc.composition.model.compositionTransects">
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
-    <button ng-click="vc.composition.model.addCompositionTransect()" class="btn btn-secondary">Add Transect</button>
-
 </div>
