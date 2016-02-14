@@ -26,20 +26,37 @@
                 <th>Item</th>
                 <th>Tree</th>
                 <th>Shrub</th>
-                <th>Gass/like</th>
+                <th>Grass and Grass Like</th>
                 <th>Forb</th>
                 <th>Fern</th>
+                <th>Other</th>
             </tr>
-            <tr data-ng-repeat="item in vc.composition.model.compositionTransectReferenceData">
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+            <tr>
+                <td>Benchmark</td>
+                <td>{{vc.composition.model.benchmarks['Coastal Valley Grassy Woodlands (Sydney Basin)']['Tree'].structureBenchmark}}</td>
+                <td>{{vc.composition.model.benchmarks['Coastal Valley Grassy Woodlands (Sydney Basin)']['Shrub'].structureBenchmark}}</td>
+                <td>{{vc.composition.model.benchmarks['Coastal Valley Grassy Woodlands (Sydney Basin)']['Grass and Grass Like'].structureBenchmark}}</td>
+                <td>{{vc.composition.model.benchmarks['Coastal Valley Grassy Woodlands (Sydney Basin)']['Forb'].structureBenchmark}}</td>
+                <td>{{vc.composition.model.benchmarks['Coastal Valley Grassy Woodlands (Sydney Basin)']['Fern'].structureBenchmark}}</td>
+                <td>{{vc.composition.model.benchmarks['Coastal Valley Grassy Woodlands (Sydney Basin)']['Other'].structureBenchmark}}</td>
+            </tr>
+            <tr>
+                <td>Observed Mean</td>
+
+            </tr>
+            <tr>
+                <td>Unweight Score</td>
+
+            </tr>
+            <tr>
+                <td>Weighting</td>
+
+            </tr>
+            <tr>
+                <td>Score</td>
             </tr>
             <tr data-ng-repeat="item in vc.composition.model.compositionTransects">
-                <td></td>
+                <td>Transect {{$index}}</td>
                 <td></td>
                 <td></td>
                 <td></td>
