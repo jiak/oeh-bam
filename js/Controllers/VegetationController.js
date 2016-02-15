@@ -8,15 +8,15 @@ angular.module('BAMApp.controllers').controller('VegetationController', ["$scope
             currentComposition: null
         },
 
-        setCurrentComposition: function(index) {
+        setCurrentComposition: function (index) {
             this.model.currentComposition = this.model.compositionCalcResults[index]
         },
 
-        addCompositionCalcResults: function() {
+        addCompositionCalcResults: function () {
             this.model.compositionCalcResults.push(this.createCompositionCalcResults())
         },
 
-        createCompositionCalcResults: function() {
+        createCompositionCalcResults: function () {
             return {
                 compositionTransects: [],
                 observedMeanTree: null,
@@ -42,7 +42,8 @@ angular.module('BAMApp.controllers').controller('VegetationController', ["$scope
                 dynamicWeightingGrassAndGrassLikeScore: null,
                 dynamicWeightingForbScore: null,
                 dynamicWeightingFernScore: null,
-                dynamicWeightingOtherScore: null
+                dynamicWeightingOtherScore: null,
+                compositionSubtotal: null
             }
         },
 
@@ -52,6 +53,7 @@ angular.module('BAMApp.controllers').controller('VegetationController', ["$scope
             this.calculateDynamicWeightingScore(theObject, theObjectLower)
             this.calculateUnweightedCompositionScore(theObject, theObjectLower, observedValue)
             this.calculateWeightedCompositionScore(theObject, theObjectLower)
+            this.calculateCompositionSubtotal()
         },
 
         calculateObservedMean: function (theObject, theObjectLower) {
@@ -94,8 +96,15 @@ angular.module('BAMApp.controllers').controller('VegetationController', ["$scope
             eval(`this.model.currentComposition.unweighted${theObject}Score = Math.round(returnValue)`)
         },
 
-        getCompositionSubtotal: function () {
-
+        calculateCompositionSubtotal: function () {
+            var total = 0
+            for (var property in this.model.currentComposition) {
+                if (this.model.currentComposition.hasOwnProperty(property) && (property == 'weightedTreeScore' || property == 'weightedShrubScore' || property == 'weightedGrassAndGrassLikeScore' || property == 'weightedForbScore' || property == 'weightedFernScore' || property == 'weightedOtherScore')) {
+                    console.log("Adding: " + this.model.currentComposition[property] + " to total: " + total)
+                    total += this.model.currentComposition[property]
+                }
+            }
+            this.model.currentComposition.compositionSubtotal = total
         },
 
         createCompositionTransect: function () {
@@ -116,220 +125,13 @@ angular.module('BAMApp.controllers').controller('VegetationController', ["$scope
 
     this.function = {
         model: {
-            benchmarks: {
-                function: {
-                    "Coastal Swamp Forests": {
-                        "North Coast": {
-                            numberOfLargeTrees: 2,
-                            litterCover: 40,
-                            coarseWoodyDebris: 10,
-                            stemSizeClasses: 4,
-                            regeneration: "present"
-                        },
-                        "SE Queensland": {
-                            numberOfLargeTrees: 2,
-                            litterCover: 40,
-                            coarseWoodyDebris: 10,
-                            stemSizeClasses: 4,
-                            regeneration: "present"
-                        },
-                        "Sydney Basin": {
-                            numberOfLargeTrees: 2,
-                            litterCover: 30,
-                            coarseWoodyDebris: 10,
-                            stemSizeClasses: 4,
-                            regeneration: "present"
-                        }
-                    },
-                    "Coastal Valley Grassy Woodlands": {
-                        "SE Corner": {
-                            numberOfLargeTrees: 4,
-                            litterCover: 58,
-                            coarseWoodyDebris: 68,
-                            stemSizeClasses: 4,
-                            regeneration: "present"
-                        },
-                        "Sydney Basin": {
-                            numberOfLargeTrees: 4,
-                            litterCover: 58,
-                            coarseWoodyDebris: 68,
-                            stemSizeClasses: 4,
-                            regeneration: "present"
-                        }
-                    },
-                    "Cumberland Dry Sclerophyll Forests": {
-                        "Sydney Basin": {
-                            numberOfLargeTrees: 4,
-                            litterCover: 58,
-                            coarseWoodyDebris: 68,
-                            stemSizeClasses: 4,
-                            regeneration: "present"
-                        }
-                    },
-                    "Hunter-Macleay Dry Sclerophyll": {
-                        "North Coast": {
-                            numberOfLargeTrees: 3,
-                            litterCover: 55,
-                            coarseWoodyDebris: 43,
-                            stemSizeClasses: 4,
-                            regeneration: "present"
-                        },
-                        "Sydney Basin": {
-                            numberOfLargeTrees: 3,
-                            litterCover: 55,
-                            coarseWoodyDebris: 43,
-                            stemSizeClasses: 4,
-                            regeneration: "present"
-                        },
-                    },
-                    "Western Slopes Grassy Woodlands": {
-                        "Brigalow Belt South": {
-                            numberOfLargeTrees: 5,
-                            litterCover: 40,
-                            coarseWoodyDebris: 48,
-                            stemSizeClasses: 4,
-                            regeneration: "present"
-                        },
-                        "Nandewar": {
-                            numberOfLargeTrees: 5,
-                            litterCover: 40,
-                            coarseWoodyDebris: 48,
-                            stemSizeClasses: 4
-                        },
-                        "Sydney Basin": {
-                            numberOfLargeTrees: 5,
-                            litterCover: 40,
-                            coarseWoodyDebris: 48,
-                            stemSizeClasses: 4
-                        }
-                    },
-                    "Temperate Montane Grasslands": {
-                        "South Eastern Highlands": {
-                            numberOfLargeTrees: 0,
-                            litterCover: 0,
-                            coarseWoodyDebris: 0,
-                            stemSizeClasses: 0
-                        }
-                    }
-                }
-            }
+            benchmarks: dataService.functionBenchmarkData
         }
     }
 
     this.structure = {
         model: {
-            benchmarks: {
-                structure: {
-                    "Coastal Swamp Forests": {
-                        "North Coast": {
-                            treeCover: 51,
-                            shrubCover: 26,
-                            grassAndGrassLikeCover: 59,
-                            forbCover: 10,
-                            fernCover: 7,
-                            otherCover: 7
-                        },
-                        "SE Queensland": {
-                            treeCover: 53,
-                            shrubCover: 17,
-                            grassAndGrassLikeCover: 42,
-                            forbCover: 8,
-                            fernCover: 8,
-                            otherCover: 10
-                        },
-                        "Sydney Basin": {
-                            treeCover: 21,
-                            shrubCover: 35,
-                            grassAndGrassLikeCover: 71,
-                            forbCover: 10,
-                            fernCover: 6,
-                            otherCover: 6
-                        },
-                    },
-                    "Coastal Valley Grassy Woodlands": {
-                        "SE Corner": {
-                            treeCover: 21,
-                            shrubCover: 20,
-                            grassAndGrassLikeCover: 40,
-                            forbCover: 13,
-                            fernCover: 2,
-                            otherCover: 5
-                        },
-                        "Sydney Basin": {
-                            treeCover: 24,
-                            shrubCover: 21,
-                            grassAndGrassLikeCover: 39,
-                            forbCover: 20,
-                            fernCover: 2,
-                            otherCover: 5
-                        }
-                    },
-                    "Cumberland Dry Sclerophyll Forests": {
-                        "Sydney Basin": {
-                            treeCover: 16,
-                            shrubCover: 18,
-                            grassAndGrassLikeCover: 27,
-                            forbCover: 16,
-                            fernCover: 2,
-                            otherCover: 5
-                        }
-                    },
-                    "Hunter-Macleay Dry Sclerophyll Forests": {
-                        "North Coast": {
-                            treeCover: 39,
-                            shrubCover: 27,
-                            grassAndGrassLikeCover: 58,
-                            forbCover: 24,
-                            fernCover: 2,
-                            otherCover: 8
-                        },
-                        "Sydney Basin": {
-                            treeCover: 29,
-                            shrubCover: 29,
-                            grassAndGrassLikeCover: 41,
-                            forbCover: 17,
-                            fernCover: 2,
-                            otherCover: 6
-                        }
-                    },
-                    "Western Slopes Grassy Woodlands": {
-                        "Brigalow Belt South": {
-                            treeCover: 34,
-                            shrubCover: 12,
-                            grassAndGrassLikeCover: 66,
-                            forbCover: 21,
-                            fernCover: 1,
-                            otherCover: 3
-                        },
-                        "Nandewar": {
-                            treeCover: 30,
-                            shrubCover: 6,
-                            grassAndGrassLikeCover: 55,
-                            forbCover: 19,
-                            fernCover: 1,
-                            otherCover: 3
-                        },
-                        "Sydney Basin": {
-                            treeCover: 32,
-                            shrubCover: 29,
-                            grassAndGrassLikeCover: 28,
-                            forbCover: 25,
-                            fernCover: 2,
-                            otherCover: 6
-                        }
-                    },
-                    "Temperate Montane Grasslands": {
-                        "South Eastern Highlands": {
-                            treeCover: 1,
-                            shrubCover: 5,
-                            grassAndGrassLikeCover: 80,
-                            forbCover: 21,
-                            fernCover: 1,
-                            otherCover: 0
-                        }
-                    }
-                }
-            }
+            benchmarks: dataService.structureBenchmarkData
         }
     }
 

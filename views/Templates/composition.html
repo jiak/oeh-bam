@@ -20,12 +20,12 @@
             </tr>
             <tr data-ng-repeat="item in vc.composition.model.compositionCalcResults[vc.vegetationTab.model.inFocusVegetationZoneIndex].compositionTransects">
                 <td>Transect {{$index}}</td>
-                <td><input class="form-control" size=3 type="number" ng-model="item.tree" ng-change="vc.composition.updateCalcsFor('Tree', item.tree)"/></td>
-                <td><input class="form-control" size=3 type="number" ng-model="item.shrub" ng-change="vc.composition.updateCalcsFor('Shrub', item.shrub)"/></td>
-                <td><input class="form-control" size=3 type="number" ng-model="item.grassAndGrassLike" ng-change="vc.composition.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)"/></td>
-                <td><input class="form-control" size=3 type="number" ng-model="item.forb" ng-change="vc.composition.updateCalcsFor('Forb', item.forb)"/></td>
-                <td><input class="form-control" size=3 type="number" ng-model="item.fern" ng-change="vc.composition.updateCalcsFor('Fern', item.fern)"/></td>
-                <td><input class="form-control" size=3 type="number" ng-model="item.other" ng-change="vc.composition.updateCalcsFor('Other', item.other)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.tree" ng-blur="vc.composition.updateCalcsFor('Tree', item.tree)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.shrub" ng-blur="vc.composition.updateCalcsFor('Shrub', item.shrub)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.grassAndGrassLike" ng-blur="vc.composition.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.forb" ng-blur="vc.composition.updateCalcsFor('Forb', item.forb)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.fern" ng-blur="vc.composition.updateCalcsFor('Fern', item.fern)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.other" ng-blur="vc.composition.updateCalcsFor('Other', item.other)"/></td>
             </tr>
             <tr>
                 <td>Benchmark</td>

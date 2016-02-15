@@ -51,7 +51,7 @@
                 <td>{{vegetationZoneItem.identifier}}</td>
                 <td>{{vegetationZoneItem.area}}</td>
                 <td>
-                    <button ng-click="vc.vegetationTab.setFocusedVegetationZone($index)" uib-popover-template="'Templates/composition.html'" popover-trigger="outsideClick" popover-animation="true" popover-placement="top-left" type="button" class="btn btn-default">Composition (CS)</button>
+                    <button ng-click="vc.vegetationTab.setFocusedVegetationZone($index)" uib-popover-template="'Templates/composition.html'" popover-trigger="outsideClick" popover-animation="true" popover-placement="top-left" type="button" class="btn btn-default">Composition (CS): {{vc.composition.model.compositionCalcResults[$index].compositionSubtotal}}</button>
                 </td>
                 <td>
                     <button ng-click="vc.vegetationTab.setFocusedVegetationZone($index)" uib-popover-template="'Templates/structure.html'" popover-trigger="outsideClick" popover-animation="true" popover-placement="top-left" type="button" class="btn btn-default">Structure (SS)</button>
