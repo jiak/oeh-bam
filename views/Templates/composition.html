@@ -1,23 +1,10 @@
 <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-6">
         <h4>Zone Composition Data</h4>
     </div>
-</div>
-<div class="row" style="padding-top: 10px">
-    <div class="col-md-5">Easting</div>
-    <div class="col-md-2"><input/></div>
-</div>
-<div class="row" style="padding-top: 10px">
-    <div class="col-md-5">Northing</div>
-    <div class="col-md-2"><input/></div>
-</div>
-<div class="row" style="padding-top: 10px">
-    <div class="col-md-5">Zone</div>
-    <div class="col-md-2"><input/></div>
-</div>
-<div class="row" style="padding-top: 10px">
-    <div class="col-md-5">Required Transects</div>
-    <div class="col-md-2"><input/></div>
+    <div class="col-md-6">
+        <button ng-click="vc.composition.addCompositionTransect()" class="btn btn-secondary pull-right">Add Transect</button>
+    </div>
 </div>
 <div class="row" style="padding-top: 30px">
     <div class="col-md-12">
@@ -26,48 +13,65 @@
                 <th>Item</th>
                 <th>Tree</th>
                 <th>Shrub</th>
-                <th>Grass and Grass Like</th>
+                <th>Grass & <br/> Grass Like</th>
                 <th>Forb</th>
                 <th>Fern</th>
                 <th>Other</th>
             </tr>
+            <tr data-ng-repeat="item in vc.composition.model.compositionCalcResults[vc.vegetationTab.model.inFocusVegetationZoneIndex].compositionTransects">
+                <td>Transect {{$index}}</td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.tree" ng-change="vc.composition.updateCalcsFor('Tree', item.tree)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.shrub" ng-change="vc.composition.updateCalcsFor('Shrub', item.shrub)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.grassAndGrassLike" ng-change="vc.composition.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.forb" ng-change="vc.composition.updateCalcsFor('Forb', item.forb)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.fern" ng-change="vc.composition.updateCalcsFor('Fern', item.fern)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.other" ng-change="vc.composition.updateCalcsFor('Other', item.other)"/></td>
+            </tr>
             <tr>
                 <td>Benchmark</td>
-                <td>{{vc.composition.model.benchmarks['Coastal Valley Grassy Woodlands (Sydney Basin)']['Tree'].structureBenchmark}}</td>
-                <td>{{vc.composition.model.benchmarks['Coastal Valley Grassy Woodlands (Sydney Basin)']['Shrub'].structureBenchmark}}</td>
-                <td>{{vc.composition.model.benchmarks['Coastal Valley Grassy Woodlands (Sydney Basin)']['Grass and Grass Like'].structureBenchmark}}</td>
-                <td>{{vc.composition.model.benchmarks['Coastal Valley Grassy Woodlands (Sydney Basin)']['Forb'].structureBenchmark}}</td>
-                <td>{{vc.composition.model.benchmarks['Coastal Valley Grassy Woodlands (Sydney Basin)']['Fern'].structureBenchmark}}</td>
-                <td>{{vc.composition.model.benchmarks['Coastal Valley Grassy Woodlands (Sydney Basin)']['Other'].structureBenchmark}}</td>
+                <td>{{vc.composition.model.benchmarks['Coastal Swamp Forests']['North Coast'].treeComposition || "0"}}</td>
+                <td>{{vc.composition.model.benchmarks['Coastal Swamp Forests']['North Coast'].shrubComposition || "0"}}</td>
+                <td>{{vc.composition.model.benchmarks['Coastal Swamp Forests']['North Coast'].grassAndGrassLikeComposition || "0"}}</td>
+                <td>{{vc.composition.model.benchmarks['Coastal Swamp Forests']['North Coast'].forbComposition || "0"}}</td>
+                <td>{{vc.composition.model.benchmarks['Coastal Swamp Forests']['North Coast'].fernComposition || "0"}}</td>
+                <td>{{vc.composition.model.benchmarks['Coastal Swamp Forests']['North Coast'].otherComposition || "0"}}</td>
             </tr>
             <tr>
-                <td>Observed Mean</td>
-
+                <td>Observed Mean (x&#772;)</td>
+                <td>{{vc.composition.model.currentComposition.observedMeanTree || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.observedMeanShrub || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.observedMeanGrassAndGrassLike || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.observedMeanForb || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.observedMeanFern || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.observedMeanOther || "0"}}</td>
             </tr>
             <tr>
-                <td>Unweight Score</td>
-
+                <td>Unweighted Composition Score (UCS<sub>i</sub>)</td>
+                <td>{{vc.composition.model.currentComposition.unweightedTreeScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.unweightedShrubScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.unweightedGrassAndGrassLikeScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.unweightedForbScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.unweightedFernScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.unweightedOtherScore || "0"}}</td>
             </tr>
             <tr>
-                <td>Weighting</td>
-
+                <td>Weighted Composition Score (WCS<sub>i</sub>)</td>
+                <td>{{vc.composition.model.currentComposition.weightedTreeScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.weightedShrubScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.weightedGrassAndGrassLikeScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.weightedForbScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.weightedFernScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.weightedOtherScore || "0"}}</td>
             </tr>
             <tr>
-                <td>Score</td>
-            </tr>
-            <tr data-ng-repeat="item in vc.composition.model.compositionTransects">
-                <td>Transect {{$index}}</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>Dynamic Weighting (w<sub>i</sub>)</td>
+                <td>{{vc.composition.model.currentComposition.dynamicWeightingTreeScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.dynamicWeightingShrubScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.dynamicWeightingGrassAndGrassLikeScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.dynamicWeightingForbScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.dynamicWeightingFernScore || "0"}}</td>
+                <td>{{vc.composition.model.currentComposition.dynamicWeightingOtherScore || "0"}}</td>
             </tr>
         </table>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-12">
-        <button ng-click="vc.composition.addCompositionTransect()" class="btn btn-secondary">Add Transect</button>
     </div>
 </div>

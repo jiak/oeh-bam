@@ -3,150 +3,333 @@ angular.module('BAMApp.controllers').controller('VegetationController', ["$scope
     this.composition = {
 
         model: {
-            benchmarks: {
-                structure: {
-                    "Coastal Swamp Forests (North Coast)": {
-                        "TreeCover": 51,
-                        "ShrubCover": 26,
-                        "Grass and Grass Like Cover": 59,
-                        "Forb Cover": 10,
-                        "Fern Cover": 7,
-                        "Other Cover": 7
-                    },
-                    "Coastal Swamp Forests (SE Queensland)": {
-                        "TreeCover": 53,
-                        "ShrubCover": 17,
-                        "Grass and Grass Like Cover": 42,
-                        "Forb Cover": 8,
-                        "Fern Cover": 8,
-                        "Other Cover": 10
-                    },
-                    "Coastal Swamp Forests (Sydney Basin)": {
-                        "TreeCover": 21,
-                        "ShrubCover": 35,
-                        "Grass and Grass Like Cover": 71,
-                        "Forb Cover": 10,
-                        "Fern Cover": 6,
-                        "Other Cover": 6
-                    },
-                    "Coastal Valley Grassy Woodlands (SE Corner)": {
-                        "TreeCover": 21,
-                        "ShrubCover": 20,
-                        "Grass and Grass Like Cover": 40,
-                        "Forb Cover": 13,
-                        "Fern Cover": 2,
-                        "Other Cover": 5
-                    },
-                    "Coastal Valley Grassy Woodlands (Sydney Basin)": {
-                        "TreeCover": 24,
-                        "ShrubCover": 21,
-                        "Grass and Grass Like Cover": 39,
-                        "Forb Cover": 20,
-                        "Fern Cover": 2,
-                        "Other Cover": 5
-                    },
-                    "Cumberland Dry Sclerophyll Forests (Sydney Basin)": {
-                        "TreeCover": 16,
-                        "ShrubCover": 18,
-                        "Grass and Grass Like Cover": 27,
-                        "Forb Cover": 16,
-                        "Fern Cover": 2,
-                        "Other Cover": 5
-                    },
-                    "Hunter-Macleay Dry Sclerophyll Forests (North Coast)": {
-                        "TreeCover": 39,
-                        "ShrubCover": 27,
-                        "Grass and Grass Like Cover": 58,
-                        "Forb Cover": 24,
-                        "Fern Cover": 2,
-                        "Other Cover": 8
-                    },
-                    "Hunter-Macleay Dry Sclerophyll Forests (Sydney Basin)": {
-                        "TreeCover": 29,
-                        "ShrubCover": 29,
-                        "Grass and Grass Like Cover": 41,
-                        "Forb Cover": 17,
-                        "Fern Cover": 2,
-                        "Other Cover": 6
-                    },
-                    "Western Slopes Grassy Woodlands (Brigalow Belt South)": {
-                        "TreeCover": 34,
-                        "ShrubCover": 12,
-                        "Grass and Grass Like Cover": 66,
-                        "Forb Cover": 21,
-                        "Fern Cover": 1,
-                        "Other Cover": 3
-                    },
-                    "Western Slopes Grassy Woodlands (Nandewar)": {
-                        "TreeCover": 30,
-                        "ShrubCover": 6,
-                        "Grass and Grass Like Cover": 55,
-                        "Forb Cover": 19,
-                        "Fern Cover": 1,
-                        "Other Cover": 3
-                    },
-                    "Western Slopes Grassy Woodlands (Sydney Basin)": {
-                        "TreeCover": 32,
-                        "ShrubCover": 29,
-                        "Grass and Grass Like Cover": 28,
-                        "Forb Cover": 25,
-                        "Fern Cover": 2,
-                        "Other Cover": 6
-                    },
-                    "Temperate Montane Grasslands (South Eastern Highlands)": {
-                        "TreeCover": 1,
-                        "ShrubCover": 5,
-                        "Grass and Grass Like Cover": 80,
-                        "Forb Cover": 21,
-                        "Fern Cover": 1,
-                        "Other Cover": 0
-                    }
-                },
-                richness: {
-                    "Coastal Swamp Forests (North Coast)": {
-                        "TreeRichness": 5,
-                        "ShrubRichness": 10,
-                        "Grass and Grass Like Richness": 10,
-                        "ForbRichness": 8,
-                        "FernRichness": 2,
-                        "OtherRichness": 5
-                    },
-                    "Coastal Swamp Forests (SE Queensland)": {
-                        "TreeRichness": 8,
-                        "ShrubRichness": 8,
-                        "Grass and Grass Like Richness": 7,
-                        "ForbRichness": 6,
-                        "FernRichness": 3,
-                        "OtherRichness": 6
-                    },
-                    "Coastal Swamp Forests (Sydney Basin)": {
-                        "TreeRichness": 4,
-                        "ShrubRichness": 10,
-                        "Grass and Grass Like Richness": 8,
-                        "ForbRichness": 8,
-                        "FernRichness": 2,
-                        "OtherRichness": 5
-                    },
-                    "Coastal Valley Grassy Woodlands (SE Corner)": {
+            benchmarks: dataService.compositionBenchmarkData,
+            compositionCalcResults: [],
+            currentComposition: null
+        },
 
-                    }
+        setCurrentComposition: function(index) {
+            this.model.currentComposition = this.model.compositionCalcResults[index]
+        },
+
+        addCompositionCalcResults: function() {
+            this.model.compositionCalcResults.push(this.createCompositionCalcResults())
+        },
+
+        createCompositionCalcResults: function() {
+            return {
+                compositionTransects: [],
+                observedMeanTree: null,
+                observedMeanShrub: null,
+                observedMeanGrassAndGrassLike: null,
+                observedMeanForb: null,
+                observedMeanFern: null,
+                observedMeanOther: null,
+                unweightedTreeScore: null,
+                unweightedShrubScore: null,
+                unweightedGrassAndGrassLikeScore: null,
+                unweightedForbScore: null,
+                unweightedFernScore: null,
+                unweightedOtherScore: null,
+                weightedTreeScore: null,
+                weightedShrubScore: null,
+                weightedGrassAndGrassLikeScore: null,
+                weightedForbScore: null,
+                weightedFernScore: null,
+                weightedOtherScore: null,
+                dynamicWeightingTreeScore: null,
+                dynamicWeightingShrubScore: null,
+                dynamicWeightingGrassAndGrassLikeScore: null,
+                dynamicWeightingForbScore: null,
+                dynamicWeightingFernScore: null,
+                dynamicWeightingOtherScore: null
+            }
+        },
+
+        updateCalcsFor: function (theObject, observedValue) {
+            var theObjectLower = theObject.toCamelCase()
+            this.calculateObservedMean(theObject, theObjectLower)
+            this.calculateDynamicWeightingScore(theObject, theObjectLower)
+            this.calculateUnweightedCompositionScore(theObject, theObjectLower, observedValue)
+            this.calculateWeightedCompositionScore(theObject, theObjectLower)
+        },
+
+        calculateObservedMean: function (theObject, theObjectLower) {
+            var observedMean = 0;
+            this.model.currentComposition.compositionTransects.forEach(function (element) {
+                eval(`observedMean += element.${theObjectLower}`)
+            })
+            eval(`this.model.currentComposition.observedMean${theObject} = observedMean / this.model.currentComposition.compositionTransects.length`)
+        },
+
+        calculateWeightedCompositionScore: function (theObject, theObjectLower) {
+            eval(`this.model.currentComposition.weighted${theObject}Score = Math.round(this.model.currentComposition.unweighted${theObject}Score * this.model.currentComposition.dynamicWeighting${theObject}Score)`)
+        },
+
+        calculateDynamicWeightingScore: function (theObject, theObjectLower) {
+            var sumOfBenchmarkScores = 0;
+            var benchmarks = this.model.benchmarks['Coastal Swamp Forests']['North Coast'];
+            for (var property in benchmarks) {
+                if (benchmarks.hasOwnProperty(property)) {
+                    sumOfBenchmarkScores += benchmarks[property];
                 }
-            },
-            compositionTransects: []
+            }
+            eval(`this.model.currentComposition.dynamicWeighting${theObject}Score = (benchmarks.${theObjectLower}Composition / sumOfBenchmarkScores).toFixed(2)`)
+        },
+
+        calculateUnweightedCompositionScore: function (theObject, theObjectLower, observedValue) {
+            var benchmarks = this.model.benchmarks['Coastal Swamp Forests']['North Coast'];
+            var returnValue = 0;
+            if (observedValue == 0) {
+                returnValue = 0;
+            } else {
+                if (observedValue > eval(`benchmarks.${theObjectLower}Composition`)) {
+                    returnValue = (100);
+                } else {
+                    returnValue = (
+                        1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval(`benchmarks.${theObjectLower}Composition`), 1.85))) * 100
+                    );
+                }
+            }
+            eval(`this.model.currentComposition.unweighted${theObject}Score = Math.round(returnValue)`)
+        },
+
+        getCompositionSubtotal: function () {
+
         },
 
         createCompositionTransect: function () {
             return {
                 tree: null,
                 shurb: null,
-                grassLike: null,
+                grassAndGrassLike: null,
                 forb: null,
-                fern: null
+                fern: null,
+                other: null
             }
         },
 
         addCompositionTransect: function () {
-            this.model.compositionTransects.push(this.createCompositionTransect())
+            this.model.compositionCalcResults[$scope.vc.vegetationTab.model.inFocusVegetationZoneIndex].compositionTransects.push(this.createCompositionTransect())
+        }
+    }
+
+    this.function = {
+        model: {
+            benchmarks: {
+                function: {
+                    "Coastal Swamp Forests": {
+                        "North Coast": {
+                            numberOfLargeTrees: 2,
+                            litterCover: 40,
+                            coarseWoodyDebris: 10,
+                            stemSizeClasses: 4,
+                            regeneration: "present"
+                        },
+                        "SE Queensland": {
+                            numberOfLargeTrees: 2,
+                            litterCover: 40,
+                            coarseWoodyDebris: 10,
+                            stemSizeClasses: 4,
+                            regeneration: "present"
+                        },
+                        "Sydney Basin": {
+                            numberOfLargeTrees: 2,
+                            litterCover: 30,
+                            coarseWoodyDebris: 10,
+                            stemSizeClasses: 4,
+                            regeneration: "present"
+                        }
+                    },
+                    "Coastal Valley Grassy Woodlands": {
+                        "SE Corner": {
+                            numberOfLargeTrees: 4,
+                            litterCover: 58,
+                            coarseWoodyDebris: 68,
+                            stemSizeClasses: 4,
+                            regeneration: "present"
+                        },
+                        "Sydney Basin": {
+                            numberOfLargeTrees: 4,
+                            litterCover: 58,
+                            coarseWoodyDebris: 68,
+                            stemSizeClasses: 4,
+                            regeneration: "present"
+                        }
+                    },
+                    "Cumberland Dry Sclerophyll Forests": {
+                        "Sydney Basin": {
+                            numberOfLargeTrees: 4,
+                            litterCover: 58,
+                            coarseWoodyDebris: 68,
+                            stemSizeClasses: 4,
+                            regeneration: "present"
+                        }
+                    },
+                    "Hunter-Macleay Dry Sclerophyll": {
+                        "North Coast": {
+                            numberOfLargeTrees: 3,
+                            litterCover: 55,
+                            coarseWoodyDebris: 43,
+                            stemSizeClasses: 4,
+                            regeneration: "present"
+                        },
+                        "Sydney Basin": {
+                            numberOfLargeTrees: 3,
+                            litterCover: 55,
+                            coarseWoodyDebris: 43,
+                            stemSizeClasses: 4,
+                            regeneration: "present"
+                        },
+                    },
+                    "Western Slopes Grassy Woodlands": {
+                        "Brigalow Belt South": {
+                            numberOfLargeTrees: 5,
+                            litterCover: 40,
+                            coarseWoodyDebris: 48,
+                            stemSizeClasses: 4,
+                            regeneration: "present"
+                        },
+                        "Nandewar": {
+                            numberOfLargeTrees: 5,
+                            litterCover: 40,
+                            coarseWoodyDebris: 48,
+                            stemSizeClasses: 4
+                        },
+                        "Sydney Basin": {
+                            numberOfLargeTrees: 5,
+                            litterCover: 40,
+                            coarseWoodyDebris: 48,
+                            stemSizeClasses: 4
+                        }
+                    },
+                    "Temperate Montane Grasslands": {
+                        "South Eastern Highlands": {
+                            numberOfLargeTrees: 0,
+                            litterCover: 0,
+                            coarseWoodyDebris: 0,
+                            stemSizeClasses: 0
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    this.structure = {
+        model: {
+            benchmarks: {
+                structure: {
+                    "Coastal Swamp Forests": {
+                        "North Coast": {
+                            treeCover: 51,
+                            shrubCover: 26,
+                            grassAndGrassLikeCover: 59,
+                            forbCover: 10,
+                            fernCover: 7,
+                            otherCover: 7
+                        },
+                        "SE Queensland": {
+                            treeCover: 53,
+                            shrubCover: 17,
+                            grassAndGrassLikeCover: 42,
+                            forbCover: 8,
+                            fernCover: 8,
+                            otherCover: 10
+                        },
+                        "Sydney Basin": {
+                            treeCover: 21,
+                            shrubCover: 35,
+                            grassAndGrassLikeCover: 71,
+                            forbCover: 10,
+                            fernCover: 6,
+                            otherCover: 6
+                        },
+                    },
+                    "Coastal Valley Grassy Woodlands": {
+                        "SE Corner": {
+                            treeCover: 21,
+                            shrubCover: 20,
+                            grassAndGrassLikeCover: 40,
+                            forbCover: 13,
+                            fernCover: 2,
+                            otherCover: 5
+                        },
+                        "Sydney Basin": {
+                            treeCover: 24,
+                            shrubCover: 21,
+                            grassAndGrassLikeCover: 39,
+                            forbCover: 20,
+                            fernCover: 2,
+                            otherCover: 5
+                        }
+                    },
+                    "Cumberland Dry Sclerophyll Forests": {
+                        "Sydney Basin": {
+                            treeCover: 16,
+                            shrubCover: 18,
+                            grassAndGrassLikeCover: 27,
+                            forbCover: 16,
+                            fernCover: 2,
+                            otherCover: 5
+                        }
+                    },
+                    "Hunter-Macleay Dry Sclerophyll Forests": {
+                        "North Coast": {
+                            treeCover: 39,
+                            shrubCover: 27,
+                            grassAndGrassLikeCover: 58,
+                            forbCover: 24,
+                            fernCover: 2,
+                            otherCover: 8
+                        },
+                        "Sydney Basin": {
+                            treeCover: 29,
+                            shrubCover: 29,
+                            grassAndGrassLikeCover: 41,
+                            forbCover: 17,
+                            fernCover: 2,
+                            otherCover: 6
+                        }
+                    },
+                    "Western Slopes Grassy Woodlands": {
+                        "Brigalow Belt South": {
+                            treeCover: 34,
+                            shrubCover: 12,
+                            grassAndGrassLikeCover: 66,
+                            forbCover: 21,
+                            fernCover: 1,
+                            otherCover: 3
+                        },
+                        "Nandewar": {
+                            treeCover: 30,
+                            shrubCover: 6,
+                            grassAndGrassLikeCover: 55,
+                            forbCover: 19,
+                            fernCover: 1,
+                            otherCover: 3
+                        },
+                        "Sydney Basin": {
+                            treeCover: 32,
+                            shrubCover: 29,
+                            grassAndGrassLikeCover: 28,
+                            forbCover: 25,
+                            fernCover: 2,
+                            otherCover: 6
+                        }
+                    },
+                    "Temperate Montane Grasslands": {
+                        "South Eastern Highlands": {
+                            treeCover: 1,
+                            shrubCover: 5,
+                            grassAndGrassLikeCover: 80,
+                            forbCover: 21,
+                            fernCover: 1,
+                            otherCover: 0
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -158,7 +341,18 @@ angular.module('BAMApp.controllers').controller('VegetationController', ["$scope
                 pct: [],
                 vegetationZones: [],
                 futureVegetationZones: []
-            }
+            },
+            inFocusVegetationZoneIndex: null,
+            inFocusFutureVegetationZoneIndex: null
+        },
+
+        setFocusedVegetationZone: function (index) {
+            this.model.inFocusVegetationZoneIndex = index
+            $scope.vc.composition.setCurrentComposition(index)
+        },
+
+        setFocusedFutureVegetationZone: function (index) {
+            this.model.inFocusFutureVegetationZoneIndex = index
         },
 
         createPctObject: function () {
@@ -207,6 +401,7 @@ angular.module('BAMApp.controllers').controller('VegetationController', ["$scope
 
         addVegetationZoneItem: function () {
             this.model.input.vegetationZones.push(this.createVegetationZoneItem())
+            $scope.vc.composition.addCompositionCalcResults();
         },
 
         addFutureVegetationZoneItem: function () {

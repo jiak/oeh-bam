@@ -51,16 +51,16 @@
                 <td>{{vegetationZoneItem.identifier}}</td>
                 <td>{{vegetationZoneItem.area}}</td>
                 <td>
-                    <button uib-popover-template="'Templates/composition.html'" popover-animation="true" popover-placement="bottom-right" type="button" class="btn btn-default">Composition</button>
+                    <button ng-click="vc.vegetationTab.setFocusedVegetationZone($index)" uib-popover-template="'Templates/composition.html'" popover-trigger="outsideClick" popover-animation="true" popover-placement="top-left" type="button" class="btn btn-default">Composition (CS)</button>
                 </td>
                 <td>
-                    <button uib-popover-template="'Templates/structure.html'" popover-animation="true" popover-placement="bottom-right" type="button" class="btn btn-default">Structure</button>
+                    <button ng-click="vc.vegetationTab.setFocusedVegetationZone($index)" uib-popover-template="'Templates/structure.html'" popover-trigger="outsideClick" popover-animation="true" popover-placement="top-left" type="button" class="btn btn-default">Structure (SS)</button>
                 </td>
                 <td>
-                    <button uib-popover-template="'Templates/function.html'" popover-animation="true" popover-placement="bottom-right" type="button" class="btn btn-default">Function</button>
+                    <button ng-click="vc.vegetationTab.setFocusedVegetationZone($index)" uib-popover-template="'Templates/function.html'" popover-trigger="outsideClick" popover-animation="true" popover-placement="top-left" type="button" class="btn btn-default">Function (FS)</button>
                 </td>
                 <td>
-                    <button uib-popover-template="'Templates/vis.html'" popover-animation="true" popover-placement="bottom-right" type="button" class="btn btn-default">VIS</button>
+                    <button ng-click="vc.vegetationTab.setFocusedVegetationZone($index)" uib-popover-template="'Templates/vis.html'" popover-trigger="outsideClick" popover-animation="true" popover-placement="top-left" type="button" class="btn btn-default">VIS</button>
                 </td>
             </tr>
             </tbody>
