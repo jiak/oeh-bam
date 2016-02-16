@@ -1,9 +1,9 @@
-<div ng-controller="SiteContextController as c" class="tabcontentdiv">
+<div ng-controller="SiteContextController as sc" class="tabcontentdiv">
 	<h4>General</h4>
 	<form>
 		<fieldset class="form-group">
 			<label for="ibra-sub-region">IBRA Sub-Region</label>
-			<select id="ibram-sub-region" class="form-control" ng-model="ibra-sub-region" ng-options="item.name for item in data.ibra track by item.id">
+			<select id="ibram-sub-region" class="form-control" ng-model="ibraSubRegion" ng-options="item.name for item in data.ibra track by item.id">
 			</select>
             <br/>
 			<label for="cover">Cover</label>

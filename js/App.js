@@ -7,19 +7,19 @@ var BAMApp = angular.module('BAMApp', ['ngRoute','BAMApp.controllers', 'BAMApp.d
 BAMApp.config( function ($routeProvider) {
     $routeProvider
         .when('/ApplicationDetails', {
-            templateUrl: 'Templates/ApplicationDetails.html',
+            templateUrl: 'Templates/applicationDetails.html',
             controller: 'ApplicationDetailsController'
         })
         .when('/SiteContext', {
-            templateUrl: 'Templates/SiteContext.html',
+            templateUrl: 'Templates/siteContext.html',
             controller:'SiteContextController'
         })
         .when('/Vegetation', {
-            templateUrl: 'Templates/Vegetation.html',
+            templateUrl: 'Templates/vegetation.html',
             controller: 'VegetationController'
         })
         .when('/Credits', {
-            templateUrl: 'Templates/Credits.html',
+            templateUrl: 'Templates/credits.html',
             controller:'CreditsController'
         })
 

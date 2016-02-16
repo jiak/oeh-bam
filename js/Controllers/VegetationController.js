@@ -70,7 +70,7 @@ angular.module('BAMApp.controllers').controller('VegetationController', ["$scope
 
         calculateDynamicWeightingScore: function (theObject, theObjectLower) {
             var sumOfBenchmarkScores = 0;
-            var benchmarks = this.model.benchmarks['Coastal Swamp Forests']['North Coast'];
+            var benchmarks = this.model.benchmarks[$scope.sc.model.ibraSubRegion]['North Coast'];
             for (var property in benchmarks) {
                 if (benchmarks.hasOwnProperty(property)) {
                     sumOfBenchmarkScores += benchmarks[property];
