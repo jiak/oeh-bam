@@ -1,33 +1,16 @@
+angular.module('BAMApp.controllers', []);
+angular.module('BAMApp.dataService', []);
 
-angular.module('BAMApp.controllers',[]);
-angular.module('BAMApp.dataService',[]);
+var BAMApp = angular.module('BAMApp', ['BAMApp.controllers', 'BAMApp.dataService', 'ngAnimate', 'ui.bootstrap'])
 
-var BAMApp = angular.module('BAMApp', ['ngRoute','BAMApp.controllers', 'BAMApp.dataService', 'ngAnimate', 'ui.bootstrap'])
-
-BAMApp.config( function ($routeProvider) {
-    $routeProvider
-        .when('/ApplicationDetails', {
-            templateUrl: 'Templates/ApplicationDetails.html',
-            controller: 'ApplicationDetailsController'
-        })
-        .when('/SiteContext', {
-            templateUrl: 'Templates/SiteContext.html',
-            controller:'SiteContextController'
-        })
-        .when('/Vegetation', {
-            templateUrl: 'Templates/vegetation.html',
-            controller: 'VegetationController'
-        })
-        .when('/Credits', {
-            templateUrl: 'Templates/Credits.html',
-            controller:'CreditsController'
-        })
-
-});
-
-String.prototype.toCamelCase = function() {
+String.prototype.toCamelCase = function () {
     return this
-        .replace(/\s(.)/g, function($1) { return $1.toUpperCase(); })
+        .replace(/\s(.)/g, function ($1) {
+            return $1.toUpperCase();
+        })
         .replace(/\s/g, '')
-        .replace(/^(.)/, function($1) { return $1.toLowerCase(); });
+        .replace(/^(.)/, function ($1) {
+            return $1.toLowerCase();
+        });
 }
+

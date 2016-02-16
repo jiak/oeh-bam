@@ -15,7 +15,7 @@
             </thead>
             <tbody>
             <tr data-ng-repeat="pctItem in vc.vegetationTab.model.input.pct">
-                <td><select class="form-control" ng-model="pctItem.formation" ng-options="ref.name for ref in vc.vegetationTab.model.referenceData.formations"></select></td>
+                <td><select class="form-control" ng-model="pctItem.formation" ng-options="ref.name for ref in vc.vegetationTab.model.referenceData.formation"></select></td>
                 <td><select class="form-control" ng-model="pctItem.keithClass" ng-options="ref.name for ref in pctItem.formation.keithClass"></select></td>
                 <td><select class="form-control" ng-model="pctItem.pct" ng-options="ref.name for ref in pctItem.keithClass.pct"></select></td>
                 <td>{{pctItem.pct.id}}</td>

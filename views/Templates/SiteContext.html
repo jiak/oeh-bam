@@ -3,7 +3,7 @@
 	<form>
 		<fieldset class="form-group">
 			<label for="ibra-sub-region">IBRA Sub-Region</label>
-			<select id="ibram-sub-region" class="form-control" ng-model="ibraSubRegion" ng-options="item.name for item in data.ibra track by item.id">
+			<select id="ibram-sub-region" class="form-control" ng-model="sc.siteContext.model.ibraSubRegion" ng-change="sc.siteContext.emitEvent()" ng-options="item.name for item in data.ibra track by item.name">
 			</select>
             <br/>
 			<label for="cover">Cover</label>

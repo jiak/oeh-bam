@@ -1,3 +1,75 @@
-<div>
-
+<div class="row">
+    <div class="col-md-6">
+        <h4>Zone Function Data</h4>
+    </div>
+    <div class="col-md-6">
+        <button ng-click="vc.function.addFunctionTransect()" class="btn btn-secondary pull-right">Add Transect</button>
+    </div>
+</div>
+<div class="row" style="padding-top: 30px">
+    <div class="col-md-12">
+        <table class="table">
+            <tr>
+                <th>Item</th>
+                <th>Tree</th>
+                <th>Shrub</th>
+                <th>Grass & <br/> Grass Like</th>
+                <th>Forb</th>
+                <th>Fern</th>
+                <th>Other</th>
+            </tr>
+            <tr data-ng-repeat="item in vc.function.model.functionCalcResults[vc.vegetationTab.model.inFocusVegetationZoneIndex].functionTransects">
+                <td>Transect {{$index}}</td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.tree" ng-blur="vc.function.updateCalcsFor('Tree', item.tree)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.shrub" ng-blur="vc.function.updateCalcsFor('Shrub', item.shrub)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.grassAndGrassLike" ng-blur="vc.function.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.forb" ng-blur="vc.function.updateCalcsFor('Forb', item.forb)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.fern" ng-blur="vc.function.updateCalcsFor('Fern', item.fern)"/></td>
+                <td><input class="form-control" size=3 type="number" ng-model="item.other" ng-blur="vc.function.updateCalcsFor('Other', item.other)"/></td>
+            </tr>
+            <tr>
+                <td>Benchmark</td>
+                <td>{{vc.function.model.benchmarks[vc.function.getKeithClass()][vc.function.model.ibraSubRegion].numberOfLargeTrees || "0"}}</td>
+                <td>{{vc.function.model.benchmarks[vc.function.getKeithClass()][vc.function.model.ibraSubRegion].litterCover || "0"}}</td>
+                <td>{{vc.function.model.benchmarks[vc.function.getKeithClass()][vc.function.model.ibraSubRegion].coarseWoodyDebris || "0"}}</td>
+                <td>{{vc.function.model.benchmarks[vc.function.getKeithClass()][vc.function.model.ibraSubRegion].stemSizeClasses || "0"}}</td>
+            </tr>
+            <tr>
+                <td>Observed Mean (x&#772;)</td>
+                <td>{{vc.function.model.currentFunction.observedMeanTree || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.observedMeanShrub || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.observedMeanGrassAndGrassLike || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.observedMeanForb || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.observedMeanFern || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.observedMeanOther || "0"}}</td>
+            </tr>
+            <tr>
+                <td>Unweighted Function Score (UCS<sub>i</sub>)</td>
+                <td>{{vc.function.model.currentFunction.unweightedTreeScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.unweightedShrubScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.unweightedGrassAndGrassLikeScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.unweightedForbScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.unweightedFernScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.unweightedOtherScore || "0"}}</td>
+            </tr>
+            <tr>
+                <td>Weighted Function Score (WCS<sub>i</sub>)</td>
+                <td>{{vc.function.model.currentFunction.weightedTreeScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.weightedShrubScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.weightedGrassAndGrassLikeScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.weightedForbScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.weightedFernScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.weightedOtherScore || "0"}}</td>
+            </tr>
+            <tr>
+                <td>Dynamic Weighting (w<sub>i</sub>)</td>
+                <td>{{vc.function.model.currentFunction.dynamicWeightingTreeScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.dynamicWeightingShrubScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.dynamicWeightingGrassAndGrassLikeScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.dynamicWeightingForbScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.dynamicWeightingFernScore || "0"}}</td>
+                <td>{{vc.function.model.currentFunction.dynamicWeightingOtherScore || "0"}}</td>
+            </tr>
+        </table>
+    </div>
 </div>

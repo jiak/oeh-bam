@@ -29,12 +29,12 @@
             </tr>
             <tr>
                 <td>Benchmark</td>
-                <td>{{vc.composition.model.benchmarks['Coastal Swamp Forests']['North Coast'].treeComposition || "0"}}</td>
-                <td>{{vc.composition.model.benchmarks['Coastal Swamp Forests']['North Coast'].shrubComposition || "0"}}</td>
-                <td>{{vc.composition.model.benchmarks['Coastal Swamp Forests']['North Coast'].grassAndGrassLikeComposition || "0"}}</td>
-                <td>{{vc.composition.model.benchmarks['Coastal Swamp Forests']['North Coast'].forbComposition || "0"}}</td>
-                <td>{{vc.composition.model.benchmarks['Coastal Swamp Forests']['North Coast'].fernComposition || "0"}}</td>
-                <td>{{vc.composition.model.benchmarks['Coastal Swamp Forests']['North Coast'].otherComposition || "0"}}</td>
+                <td>{{vc.composition.model.benchmarks[vc.composition.getKeithClass()][vc.composition.model.ibraSubRegion].treeComposition || "0"}}</td>
+                <td>{{vc.composition.model.benchmarks[vc.composition.getKeithClass()][vc.composition.model.ibraSubRegion].shrubComposition || "0"}}</td>
+                <td>{{vc.composition.model.benchmarks[vc.composition.getKeithClass()][vc.composition.model.ibraSubRegion].grassAndGrassLikeComposition || "0"}}</td>
+                <td>{{vc.composition.model.benchmarks[vc.composition.getKeithClass()][vc.composition.model.ibraSubRegion].forbComposition || "0"}}</td>
+                <td>{{vc.composition.model.benchmarks[vc.composition.getKeithClass()][vc.composition.model.ibraSubRegion].fernComposition || "0"}}</td>
+                <td>{{vc.composition.model.benchmarks[vc.composition.getKeithClass()][vc.composition.model.ibraSubRegion].otherComposition || "0"}}</td>
             </tr>
             <tr>
                 <td>Observed Mean (x&#772;)</td>
