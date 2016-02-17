@@ -1,3 +1,3 @@
-angular.module('BAMApp.controllers').controller('CreditsController', function ($scope, dataService) {
+bamApp.controller('creditsController', function ($scope, dataService) {
     $scope.Items = dataService;
 });

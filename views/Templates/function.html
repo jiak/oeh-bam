@@ -15,7 +15,6 @@
                 <th>Litter cover</th>
                 <th>Coarse woody derbis</th>
                 <th>Stem size classes present <br/> excluding <5cm and >50cm</th>
-                <th>Regeneration stems (stems <5cm DBH)</th>
             </tr>
             <tr data-ng-repeat="item in vc.function.model.functionCalcResults[vc.vegetationTab.model.inFocusVegetationZoneIndex].functionTransects">
                 <td>Transect {{$index}}</td>
@@ -23,12 +22,6 @@
                 <td><input class="form-control" size=3 type="number" ng-model="item.litterCover" ng-blur="vc.function.updateCalcsFor('LitterCover', item.litterCover)"/></td>
                 <td><input class="form-control" size=3 type="number" ng-model="item.coarseWoodyDebris" ng-blur="vc.function.updateCalcsFor('CoarseWoodyDebris', item.coarseWoodyDebris)"/></td>
                 <td><input class="form-control" size=3 type="number" ng-model="item.stemSizeClasses" ng-blur="vc.function.updateCalcsFor('StemSizeClasses', item.stemSizeClasses)"/></td>
-                <td>
-                    <select class="form-control" ng-model="item.regeneration">
-                        <option value="Present">Present</option>
-                        <option value="Absent">Absent</option>
-                    </select>
-                </td>
             </tr>
             <tr>
                 <td>Benchmark</td>
@@ -36,7 +29,6 @@
                 <td>{{vc.function.model.benchmarks[vc.function.getKeithClass()][vc.function.model.ibraSubRegion].litterCover || "0"}}</td>
                 <td>{{vc.function.model.benchmarks[vc.function.getKeithClass()][vc.function.model.ibraSubRegion].coarseWoodyDebris || "0"}}</td>
                 <td>{{vc.function.model.benchmarks[vc.function.getKeithClass()][vc.function.model.ibraSubRegion].stemSizeClasses || "0"}}</td>
-                <td>Regeneration Stems</td>
             </tr>
             <tr>
                 <td>Observed Mean (x&#772;)</td>
@@ -44,7 +36,6 @@
                 <td>{{vc.function.model.currentFunction.observedMeanLitterCover || "0"}}</td>
                 <td>{{vc.function.model.currentFunction.observedMeanCoarseWoodyDebris || "0"}}</td>
                 <td>{{vc.function.model.currentFunction.observedMeanStemSizeClasses || "0"}}</td>
-                <td>Regeneration Stems</td>
             </tr>
             <tr>
                 <td>Unweighted Function Score (UCS<sub>i</sub>)</td>
@@ -52,7 +43,6 @@
                 <td>{{vc.function.model.currentFunction.unweightedLitterCoverScore || "0"}}</td>
                 <td>{{vc.function.model.currentFunction.unweightedCoarseWoodyDebrisScore || "0"}}</td>
                 <td>{{vc.function.model.currentFunction.unweightedStemSizeClassesScore || "0"}}</td>
-                <td>Regeneration Stems</td>
             </tr>
             <tr>
                 <td>Weighted Function Score (WCS<sub>i</sub>)</td>
@@ -60,7 +50,6 @@
                 <td>{{vc.function.model.currentFunction.weightedLitterCoverScore || "0"}}</td>
                 <td>{{vc.function.model.currentFunction.weightedCoarseWoodyDebrisScore || "0"}}</td>
                 <td>{{vc.function.model.currentFunction.weightedStemSizeClassesScore || "0"}}</td>
-                <td>Regeneration Stems</td>
             </tr>
             <tr>
                 <td>Dynamic Weighting (w<sub>i</sub>)</td>
@@ -68,7 +57,6 @@
                 <td>{{vc.function.model.currentFunction.dynamicWeightingLitterCoverScore || "0"}}</td>
                 <td>{{vc.function.model.currentFunction.dynamicWeightingCoarseWoodyDebrisScore || "0"}}</td>
                 <td>{{vc.function.model.currentFunction.dynamicWeightingStemSizeClassesScore || "0"}}</td>
-                <td>Regeneration Stems</td>
             </tr>
         </table>
     </div>

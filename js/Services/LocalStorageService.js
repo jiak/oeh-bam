@@ -1,4 +1,4 @@
-angular.module('BAMApp.dataService').factory('localStorageService', [function() {
+bamApp.factory('localStorageService', function () {
     return {
 
         model: {
@@ -14,4 +14,4 @@ angular.module('BAMApp.dataService').factory('localStorageService', [function() 
         }
 
     }
-}])
+})

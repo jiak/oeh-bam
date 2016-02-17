@@ -1,10 +1,7 @@
-angular.module('BAMApp.controllers', []);
-angular.module('BAMApp.dataService', []);
+var bamApp = angular.module('bamApp', ['ngAnimate', 'ui.bootstrap'])
 
-var BAMApp = angular.module('BAMApp', ['BAMApp.controllers', 'BAMApp.dataService', 'ngAnimate', 'ui.bootstrap'])
-
-String.prototype.toCamelCase = function () {
-    return this
+bamApp.service("toCamelCase", function (str) {
+    return str
         .replace(/\s(.)/g, function ($1) {
             return $1.toUpperCase();
         })
@@ -12,5 +9,4 @@ String.prototype.toCamelCase = function () {
         .replace(/^(.)/, function ($1) {
             return $1.toLowerCase();
         });
-}
-
+})

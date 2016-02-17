@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="BAMApp">
+<html ng-app="bamApp">
 <head>
 
     <!-- angular js -->
@@ -10,17 +10,19 @@
     <!-- ui-bootstrap -->
     <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.1.2.js"></script>
 
+    <!-- bootbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+
     <!-- bootstrap -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
     <!-- application js -->
     <script src="../js/App.js"></script>
-    <script src="../js/Controllers/BamController.js"></script>
-    <script src="../js/Services/DataService.js"></script>
+    <script src="../js/Controllers/BAMController.js"></script>
+    <script src="../js/Services/referenceData.js"></script>
     <script src="../js/Services/LocalStorageService.js"></script>
-    <script src="../js/Controllers/BamController.js"></script>
     <script src="../js/Controllers/CreditsController.js"></script>
-    <script src="../js/Controllers/applicationDetailsController.js"></script>
+    <script src="../js/Controllers/ApplicationDetailsController.js"></script>
     <script src="../js/Controllers/SiteContextController.js"></script>
     <script src="../js/Controllers/VegetationController.js"></script>
 
@@ -76,7 +78,7 @@
         }
     </style>
 </head>
-<body ng-controller="BAMController">
+<body ng-controller="bamController">
 <div class="container" style="padding-bottom: 80px;">
     <div class="page-header">
         <h1>Biodiversity Assessment Methodology Demonstration Tool</h1>

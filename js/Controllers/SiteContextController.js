@@ -1,28 +1,4 @@
-//angular.module('BAMApp.controllers').controller('SiteContextController', ["$scope", "$rootScope", "dataService", "localStorageService", function ($scope, $rootScope, dataService, localStorageService) {
-//
-//    $scope.data = dataService.referenceData.siteContext
-//
-//    this.siteContext = {
-//
-//        model: {
-//            ibraSubRegion: null
-//        },
-//
-//        saveToStorage: function() {
-//            localStorageService.save("siteContext", this.model)
-//        },
-//
-//        emitEvent: function() {
-//            $rootScope.$broadcast('ibraSubRegionChangeEvent', this.model.ibraSubRegion.name);
-//        }
-//
-//    }
-//}]);
-//
-//
-
-
-angular.module('BAMApp.controllers').controller('SiteContextController',["$scope","dataService", "$rootScope", function ($scope, dataService, $rootScope) {
+bamApp.controller('siteContextController',["$scope","dataService", "$rootScope", function ($scope, dataService, $rootScope) {
     $scope.NumberOnly                                                      = /^[0-9]{1,7}(\.[0-9]+)?$/
     $scope.referenceData   = dataService.referenceData;
     $scope.Current = dataService.Current;
