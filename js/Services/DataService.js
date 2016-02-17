@@ -7,34 +7,7 @@ angular.module('BAMApp.dataService').service('dataService', function () {
 var Data =
 {
     Current: 0,
-
-    Items: [
-        {
-            Type: 'Development site',
-            ProposalId: '0059/2012/0309D',
-            ProposalVersion: '1',
-            ProposalName: 'Summer Beach Development',
-            MajorCatchmentArea: 'Northern Rivers',
-            StreetAddress: 'Hume Highway Summer Beach NSW 2888',
-        },
-        {
-            Type: 'Offset site',
-            ProposalId: '0080/2013/0524B',
-            ProposalVersion: '1',
-            ProposalName: 'Forest Drive Offset Site',
-            MajorCatchmentArea: 'Hunter/Central Rivers',
-            StreetAddress: 'Forest Drive Forest Town NSW 2999'
-        },
-        {
-            Type: 'Biocertification site',
-            ProposalId: '0112/2014/1452MP',
-            ProposalVersion: '1',
-            ProposalName: 'Beverly Hills Quarry Expansion',
-            MajorCatchmentArea: 'Hunter/Central Rivers',
-            StreetAddress: '1009 Forest Road Beverly Hills NSW 2209'
-        }
-
-    ],
+    
     functionBenchmarkData: {
         "Coastal Swamp Forests": {
             "NSW North Coast": {

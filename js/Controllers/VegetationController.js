@@ -133,132 +133,153 @@ angular.module('BAMApp.controllers').controller('VegetationController', ["$scope
         addCompositionTransect: function () {
             this.model.compositionCalcResults[$scope.vc.vegetationTab.model.inFocusVegetationZoneIndex].compositionTransects.push(this.createCompositionTransect())
         }
-    }
-
-    this.function = {
-
-        model: {
-            benchmarks: dataService.functionBenchmarkData,
-            functionCalcResults: [],
-            currentFunction: null,
-            ibraSubRegion: null
-        },
-
-        setCurrentFunction: function (index) {
-            this.model.currentFunction = this.model.functionCalcResults[index]
-        },
-
-        addFunctionCalcResults: function () {
-            this.model.functionCalcResults.push(this.createFunctionCalcResults())
-        },
-
-        createFunctionCalcResults: function () {
-            return {
-                functionTransects: [],
-                observedMeanNumberOfLargeNumberOfLargeTrees: null,
-                observedMeanLitterCover: null,
-                observedMeanCoarseWoodyDebris: null,
-                observedMeanStemSizeClassesPresent: null,
-                observedMeanRegenerationPresent: null,
-                unweightedNumberOfLargeNumberOfLargeTreesScore: null,
-                unweightedLitterCoverScore: null,
-                unweightedCoarseWoodyDebrisScore: null,
-                unweightedStemSizeClassesPresentScore: null,
-                unweightedRegenerationPresentScore: null,
-                weightedNumberOfLargeTreesScore: null,
-                weightedLitterCoverScore: null,
-                weightedCoarseWoodyDebrisScore: null,
-                weightedStemSizeClassesPresentScore: null,
-                weightedRegenerationPresentScore: null,
-                dynamicWeightingNumberOfLargeTreesScore: null,
-                dynamicWeightingLitterCoverScore: null,
-                dynamicWeightingCoarseWoodyDebrisScore: null,
-                dynamicWeightingStemSizeClassesPresentScore: null,
-                dynamicWeightingRegenerationPresentScore: null,
-                functionSubtotal: null
-            }
-        },
-
-        updateCalcsFor: function (theObject, observedValue) {
-            var theObjectLower = theObject.toCamelCase()
-            this.calculateObservedMean(theObject, theObjectLower)
-            this.calculateDynamicWeightingScore(theObject, theObjectLower)
-            this.calculateUnweightedFunctionScore(theObject, theObjectLower, observedValue)
-            this.calculateWeightedFunctionScore(theObject, theObjectLower)
-            this.calculateFunctionSubtotal()
-        },
-
-        calculateObservedMean: function (theObject, theObjectLower) {
-            var observedMean = 0;
-            this.model.currentFunction.functionTransects.forEach(function (element) {
-                eval(`observedMean += element.${theObjectLower}`)
-            })
-            eval(`this.model.currentFunction.observedMean${theObject} = observedMean / this.model.currentFunction.functionTransects.length`)
-        },
-
-        calculateWeightedFunctionScore: function (theObject, theObjectLower) {
-            eval(`this.model.currentFunction.weighted${theObject}Score = Math.round(this.model.currentFunction.unweighted${theObject}Score * this.model.currentFunction.dynamicWeighting${theObject}Score)`)
-        },
-
-        getKeithClass: function () {
-            var indexOfAssociatedPct = $scope.vc.vegetationTab.model.inFocusVegetationZoneIndex
-            var keithClass = $scope.vc.vegetationTab.model.input.pct[indexOfAssociatedPct].keithClass.name
-            return keithClass
-        },
-
-        calculateDynamicWeightingScore: function (theObject, theObjectLower) {
-            var sumOfBenchmarkScores = 0;
-            var benchmarks = this.model.benchmarks[this.getKeithClass()][this.model.ibraSubRegion];
-            for (var property in benchmarks) {
-                if (benchmarks.hasOwnProperty(property)) {
-                    sumOfBenchmarkScores += benchmarks[property];
-                }
-            }
-            eval(`this.model.currentFunction.dynamicWeighting${theObject}Score = (benchmarks.${theObjectLower}Function / sumOfBenchmarkScores).toFixed(2)`)
-        },
-
-        calculateUnweightedFunctionScore: function (theObject, theObjectLower, observedValue) {
-            var benchmarks = this.model.benchmarks[this.getKeithClass()][this.model.ibraSubRegion];
-            var returnValue = 0;
-            if (observedValue == 0) {
-                returnValue = 0;
-            } else {
-                if (observedValue > eval(`benchmarks.${theObjectLower}Function`)) {
-                    returnValue = (100);
-                } else {
-                    returnValue = (
-                        1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval(`benchmarks.${theObjectLower}Function`), 1.85))) * 100
-                    );
-                }
-            }
-            eval(`this.model.currentFunction.unweighted${theObject}Score = Math.round(returnValue)`)
-        },
-
-        calculateFunctionSubtotal: function () {
-            var total = 0
-            for (var property in this.model.currentFunction) {
-                if (this.model.currentFunction.hasOwnProperty(property) && (property == 'weightedNumberOfLargeTreesScore' || property == 'weightedLitterCoverScore' || property == 'weightedCoarseWoodyDebrisScore' || property == 'weightedStemSizeClassesPresentScore' || property == 'weightedRegenerationPresentScore')) {
-                    total += this.model.currentFunction[property]
-                }
-            }
-            this.model.currentFunction.functionSubtotal = total
-        },
-
-        createFunctionTransect: function () {
-            return {
-                numberOfLargeTrees: null,
-                shurb: null,
-                coarseWoodyDebris: null,
-                forb: null,
-                regenerationPresent: null
-            }
-        },
-
-        addFunctionTransect: function () {
-            this.model.functionCalcResults[$scope.vc.vegetationTab.model.inFocusVegetationZoneIndex].functionTransects.push(this.createFunctionTransect())
-        }
     },
 
+        this.function = {
+
+            model: {
+                benchmarks: dataService.functionBenchmarkData,
+                functionCalcResults: [],
+                currentFunction: null,
+                ibraSubRegion: null
+            },
+
+            setCurrentFunction: function (index) {
+                this.model.currentFunction = this.model.functionCalcResults[index]
+            },
+
+            addFunctionCalcResults: function () {
+                this.model.functionCalcResults.push(this.createFunctionCalcResults())
+            },
+
+            createFunctionCalcResults: function () {
+                return {
+                    functionTransects: [],
+                    observedMeanNumberOfLargeTrees: null,
+                    observedMeanLitterCover: null,
+                    observedMeanCoarseWoodyDebris: null,
+                    observedMeanStemSizeClasses: null,
+                    observedMeanRegenerationPresent: null,
+                    unweightedNumberOfLargeTreesScore: null,
+                    unweightedLitterCoverScore: null,
+                    unweightedCoarseWoodyDebrisScore: null,
+                    unweightedStemSizeClassesScore: null,
+                    unweightedRegenerationPresentScore: null,
+                    weightedNumberOfLargeTreesScore: null,
+                    weightedLitterCoverScore: null,
+                    weightedCoarseWoodyDebrisScore: null,
+                    weightedStemSizeClassesScore: null,
+                    weightedRegenerationPresentScore: null,
+                    dynamicWeightingNumberOfLargeTreesScore: null,
+                    dynamicWeightingLitterCoverScore: null,
+                    dynamicWeightingCoarseWoodyDebrisScore: null,
+                    dynamicWeightingStemSizeClassesScore: null,
+                    dynamicWeightingRegenerationPresentScore: null,
+                    functionSubtotal: null
+                }
+            },
+
+            updateCalcsFor: function (theObject, observedValue) {
+                var theObjectLower = theObject.toCamelCase()
+                this.calculateObservedMean(theObject, theObjectLower)
+                this.calculateDynamicWeightingScore(theObject, theObjectLower)
+                this.calculateUnweightedFunctionScore(theObject, theObjectLower, observedValue)
+                this.calculateWeightedFunctionScore(theObject, theObjectLower)
+                this.calculateFunctionSubtotal()
+            },
+
+            calculateObservedMean: function (theObject, theObjectLower) {
+                var observedMean = 0;
+                this.model.currentFunction.functionTransects.forEach(function (element) {
+                    eval(`observedMean += element.${theObjectLower}`)
+                })
+                eval(`this.model.currentFunction.observedMean${theObject} = observedMean / this.model.currentFunction.functionTransects.length`)
+            },
+
+            calculateWeightedFunctionScore: function (theObject, theObjectLower) {
+                eval(`this.model.currentFunction.weighted${theObject}Score = Math.round(this.model.currentFunction.unweighted${theObject}Score * this.model.currentFunction.dynamicWeighting${theObject}Score)`)
+            },
+
+            getKeithClass: function () {
+                var indexOfAssociatedPct = $scope.vc.vegetationTab.model.inFocusVegetationZoneIndex
+                var keithClass = $scope.vc.vegetationTab.model.input.pct[indexOfAssociatedPct].keithClass.name
+                return keithClass
+            },
+
+            calculateDynamicWeightingScore: function (theObject, theObjectLower) {
+                var sumOfBenchmarkScores = 0;
+                var benchmarks = this.model.benchmarks[this.getKeithClass()][this.model.ibraSubRegion];
+                for (var property in benchmarks) {
+                    if (benchmarks.hasOwnProperty(property)) {
+                        sumOfBenchmarkScores += benchmarks[property];
+                    }
+                }
+                eval(`this.model.currentFunction.dynamicWeighting${theObject}Score = (benchmarks.${theObjectLower} / sumOfBenchmarkScores).toFixed(2)`)
+            },
+
+            calculateUnweightedFunctionScore: function (theObject, theObjectLower, observedValue) {
+                var benchmarks = this.model.benchmarks[this.getKeithClass()][this.model.ibraSubRegion];
+                var returnValue = 0;
+                if (observedValue == 0) {
+                    returnValue = 0;
+                } else {
+                    if (observedValue > eval(`benchmarks.${theObjectLower}`)) {
+                        returnValue = (100);
+                    } else {
+                        if(theObject == 'NumberOfLargeTrees' || theObject == 'LitterCover') {
+                            returnValue = (
+                                1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval(`benchmarks.${theObjectLower}`), 1.85))) * 100
+                            );
+                        } else if (theObject == 'StemSizeClasses') {
+                            switch (observedValue) {
+                                case 1:
+                                    returnValue = 25;
+                                    break;
+                                case 2:
+                                    returnValue = 50;
+                                    break;
+                                case 3:
+                                    returnValue = 80;
+                                    break;
+                                case 4:
+                                    returnValue = 100;
+                            }
+                        } else if (theObject == 'regenerationPresent') {
+                            if (observedValue == "Absent") {
+                                returnValue = 0;
+                            } else {
+                                returnValue = 100;
+                            }
+                        }
+                    }
+                }
+                eval(`this.model.currentFunction.unweighted${theObject}Score = Math.round(returnValue)`)
+            },
+
+            calculateFunctionSubtotal: function () {
+                var total = 0
+                for (var property in this.model.currentFunction) {
+                    if (this.model.currentFunction.hasOwnProperty(property) && (property == 'weightedNumberOfLargeTreesScore' || property == 'weightedLitterCoverScore' || property == 'weightedCoarseWoodyDebrisScore' || property == 'weightedStemSizeClassesScore' || property == 'weightedRegenerationPresentScore')) {
+                        total += this.model.currentFunction[property]
+                    }
+                }
+                this.model.currentFunction.functionSubtotal = total
+            },
+
+            createFunctionTransect: function () {
+                return {
+                    numberOfLargeTrees: null,
+                    shurb: null,
+                    coarseWoodyDebris: null,
+                    forb: null,
+                    regenerationPresent: null
+                }
+            },
+
+            addFunctionTransect: function () {
+                this.model.functionCalcResults[$scope.vc.vegetationTab.model.inFocusVegetationZoneIndex].functionTransects.push(this.createFunctionTransect())
+            }
+        },
         this.structure = {
 
             model: {
