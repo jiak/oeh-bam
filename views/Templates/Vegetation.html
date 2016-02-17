@@ -11,6 +11,7 @@
                 <th>Associated TEC</th>
                 <th>PCT % Cleared</th>
                 <th>Threat Status Class</th>
+                <th>Action</th>
             </tr>
             </thead>
             <tbody>
@@ -22,10 +23,11 @@
                 <td><select class="form-control" ng-model="pctItem.tec" ng-options="ref.name for ref in pctItem.pct.tec"></select></td>
                 <td>{{pctItem.pct.percCleared}}</td>
                 <td>{{pctItem.pct.threatStatusClass}}</td>
+                <td><a href="#" ng-click="vc.vegetationTab.removePctObject($index)">Remove</a></td>
             </tr>
             </tbody>
         </table>
-        <button ng-click="vc.vegetationTab.addPctObject()" class="btn btn-secondary">Add another</button>
+        <button ng-click="vc.vegetationTab.addPctObject()" class="btn btn-secondary">Add PCT</button>
     </div>
     <div>
         <h4>Vegetation Zones (current)</h4>

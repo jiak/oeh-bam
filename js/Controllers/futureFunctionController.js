@@ -63,9 +63,7 @@ bamApp.controller('futureFunctionController', ["$scope", "$rootScope", "referenc
         },
 
         getKeithClass: function () {
-            var indexOfAssociatedPct = dataService.vegetationModel.inFocusFutureVegetationZoneIndex
-            var keithClass = $scope.vc.vegetationTab.model.input.pct[indexOfAssociatedPct].keithClass.name
-            return keithClass
+            return dataService.vegetationModel.input.pct[dataService.vegetationModel.inFocusFutureVegetationZoneIndex].keithClass.name
         },
 
         calculateDynamicWeightingScore: function (theObject, theObjectLower) {

@@ -62,6 +62,20 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             this.addFutureVegetationZoneItem()
         },
 
+        removePctObject: function (index) {
+            this.model.input.pct.splice(index, 1)
+            this.removeVegetationZoneItem(index)
+            this.removeFutureVegetationZoneItem(index)
+        },
+
+        removeVegetationZoneItem: function (index) {
+            this.model.input.vegetationZones.splice(index, 1)
+        },
+
+        removeFutureVegetationZoneItem: function (index) {
+            this.model.input.futureVegetationZones.splice(index, 1)
+        },
+
         addVegetationZoneItem: function () {
             this.model.input.vegetationZones.push(this.createVegetationZoneItem())
         },
@@ -73,5 +87,6 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
     }
 
 }]);
+
 
 
