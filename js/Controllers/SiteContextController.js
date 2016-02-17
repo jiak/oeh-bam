@@ -1,20 +1,23 @@
-bamApp.controller('siteContextController',["$scope","dataService", "$rootScope", function ($scope, dataService, $rootScope) {
-    $scope.NumberOnly                                                      = /^[0-9]{1,7}(\.[0-9]+)?$/
-    $scope.referenceData   = dataService.referenceData;
-    $scope.Current = dataService.Current;
+bamApp.controller('siteContextController', ["$scope", "referenceDataService", "$rootScope", "dataService", function ($scope, referenceDataService, $rootScope, dataService) {
+
+    $scope.dataService = dataService
+
+    $scope.NumberOnly = /^[0-9]{1,7}(\.[0-9]+)?$/
+    $scope.referenceData = referenceDataService;
+    $scope.Current = referenceDataService.Current;
     $scope.ibra;
     $scope.ibraSubRegion;
-    $scope.LandscapeFeatures =[{"feature": {},
-        "name": null}];
+    $scope.LandscapeFeatures = [{
+        "feature": {},
+        "name": null
+    }];
 
 
-    $scope.AddFeature = function ()
-    {
+    $scope.AddFeature = function () {
         var count = $scope.LandscapeFeatures.length;
 
         //validate the input
-        if ($scope.LandscapeFeatures[count-1].Name == '')
-        {
+        if ($scope.LandscapeFeatures[count - 1].Name == '') {
             return;
         }
 
@@ -32,15 +35,14 @@ bamApp.controller('siteContextController',["$scope","dataService", "$rootScope",
 
     };
 
-    $scope.emitEvent = function() {
-            $rootScope.$broadcast('ibraSubRegionChangeEvent', $scope.ibra.name);
+    $scope.emitEvent = function () {
+        $rootScope.$broadcast('ibraSubRegionChangeEvent', $scope.ibra.name);
     }
 
-    $scope.RemoveFeature = function ($index)
-    {
+    $scope.RemoveFeature = function ($index) {
         $scope.LandscapeFeatures.splice($index, 1);
         if ($scope.LandscapeFeatures.length == 0) {
-            $scope.LandscapeFeatures.push({"feature": {},"name": null});
+            $scope.LandscapeFeatures.push({"feature": {}, "name": null});
 
         }
         // if ($index == ($scope.LandscapeFeatures.length -1))

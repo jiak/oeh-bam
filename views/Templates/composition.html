@@ -1,77 +1,79 @@
-<div class="row">
-    <div class="col-md-6">
-        <h4>Zone Composition Data</h4>
+<div ng-controller="compositionController as cc">
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Zone Composition Data</h4>
+        </div>
+        <div class="col-md-6">
+            <button ng-click="cc.composition.addCompositionTransect()" class="btn btn-secondary pull-right">Add Transect</button>
+        </div>
     </div>
-    <div class="col-md-6">
-        <button ng-click="vc.composition.addCompositionTransect()" class="btn btn-secondary pull-right">Add Transect</button>
-    </div>
-</div>
-<div class="row" style="padding-top: 30px">
-    <div class="col-md-12">
-        <table class="table">
-            <tr>
-                <th>Item</th>
-                <th>Tree</th>
-                <th>Shrub</th>
-                <th>Grass & <br/> Grass Like</th>
-                <th>Forb</th>
-                <th>Fern</th>
-                <th>Other</th>
-            </tr>
-            <tr data-ng-repeat="item in vc.composition.model.compositionCalcResults[vc.vegetationTab.model.inFocusVegetationZoneIndex].compositionTransects">
-                <td>Transect {{$index}}</td>
-                <td><input class="form-control" size=3 type="number" ng-model="item.tree" ng-blur="vc.composition.updateCalcsFor('Tree', item.tree)"/></td>
-                <td><input class="form-control" size=3 type="number" ng-model="item.shrub" ng-blur="vc.composition.updateCalcsFor('Shrub', item.shrub)"/></td>
-                <td><input class="form-control" size=3 type="number" ng-model="item.grassAndGrassLike" ng-blur="vc.composition.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)"/></td>
-                <td><input class="form-control" size=3 type="number" ng-model="item.forb" ng-blur="vc.composition.updateCalcsFor('Forb', item.forb)"/></td>
-                <td><input class="form-control" size=3 type="number" ng-model="item.fern" ng-blur="vc.composition.updateCalcsFor('Fern', item.fern)"/></td>
-                <td><input class="form-control" size=3 type="number" ng-model="item.other" ng-blur="vc.composition.updateCalcsFor('Other', item.other)"/></td>
-            </tr>
-            <tr>
-                <td>Benchmark</td>
-                <td>{{vc.composition.model.benchmarks[vc.composition.getKeithClass()][vc.composition.model.ibraSubRegion].treeComposition || "0"}}</td>
-                <td>{{vc.composition.model.benchmarks[vc.composition.getKeithClass()][vc.composition.model.ibraSubRegion].shrubComposition || "0"}}</td>
-                <td>{{vc.composition.model.benchmarks[vc.composition.getKeithClass()][vc.composition.model.ibraSubRegion].grassAndGrassLikeComposition || "0"}}</td>
-                <td>{{vc.composition.model.benchmarks[vc.composition.getKeithClass()][vc.composition.model.ibraSubRegion].forbComposition || "0"}}</td>
-                <td>{{vc.composition.model.benchmarks[vc.composition.getKeithClass()][vc.composition.model.ibraSubRegion].fernComposition || "0"}}</td>
-                <td>{{vc.composition.model.benchmarks[vc.composition.getKeithClass()][vc.composition.model.ibraSubRegion].otherComposition || "0"}}</td>
-            </tr>
-            <tr>
-                <td>Observed Mean (x&#772;)</td>
-                <td>{{vc.composition.model.currentComposition.observedMeanTree || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.observedMeanShrub || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.observedMeanGrassAndGrassLike || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.observedMeanForb || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.observedMeanFern || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.observedMeanOther || "0"}}</td>
-            </tr>
-            <tr>
-                <td>Unweighted Composition Score (UCS<sub>i</sub>)</td>
-                <td>{{vc.composition.model.currentComposition.unweightedTreeScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.unweightedShrubScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.unweightedGrassAndGrassLikeScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.unweightedForbScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.unweightedFernScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.unweightedOtherScore || "0"}}</td>
-            </tr>
-            <tr>
-                <td>Weighted Composition Score (WCS<sub>i</sub>)</td>
-                <td>{{vc.composition.model.currentComposition.weightedTreeScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.weightedShrubScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.weightedGrassAndGrassLikeScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.weightedForbScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.weightedFernScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.weightedOtherScore || "0"}}</td>
-            </tr>
-            <tr>
-                <td>Dynamic Weighting (w<sub>i</sub>)</td>
-                <td>{{vc.composition.model.currentComposition.dynamicWeightingTreeScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.dynamicWeightingShrubScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.dynamicWeightingGrassAndGrassLikeScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.dynamicWeightingForbScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.dynamicWeightingFernScore || "0"}}</td>
-                <td>{{vc.composition.model.currentComposition.dynamicWeightingOtherScore || "0"}}</td>
-            </tr>
-        </table>
+    <div class="row" style="padding-top: 30px">
+        <div class="col-md-12">
+            <table class="table">
+                <tr>
+                    <th>Item</th>
+                    <th>Tree</th>
+                    <th>Shrub</th>
+                    <th>Grass & <br/> Grass Like</th>
+                    <th>Forb</th>
+                    <th>Fern</th>
+                    <th>Other</th>
+                </tr>
+                <tr ng-repeat="item in cc.composition.model.compositionCalcResults[cc.dataService.vegetationModel.inFocusVegetationZoneIndex].compositionTransects">
+                    <td>Transect {{$index}}</td>
+                    <td><input class="form-control" size=3 type="number" ng-model="item.tree" ng-blur="cc.composition.updateCalcsFor('Tree', item.tree)"/></td>
+                    <td><input class="form-control" size=3 type="number" ng-model="item.shrub" ng-blur="cc.composition.updateCalcsFor('Shrub', item.shrub)"/></td>
+                    <td><input class="form-control" size=3 type="number" ng-model="item.grassAndGrassLike" ng-blur="cc.composition.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)"/></td>
+                    <td><input class="form-control" size=3 type="number" ng-model="item.forb" ng-blur="cc.composition.updateCalcsFor('Forb', item.forb)"/></td>
+                    <td><input class="form-control" size=3 type="number" ng-model="item.fern" ng-blur="cc.composition.updateCalcsFor('Fern', item.fern)"/></td>
+                    <td><input class="form-control" size=3 type="number" ng-model="item.other" ng-blur="cc.composition.updateCalcsFor('Other', item.other)"/></td>
+                </tr>
+                <tr>
+                    <td>Benchmark</td>
+                    <td>{{cc.composition.model.benchmarks[cc.composition.getKeithClass()][cc.dataService.ibra].treeComposition || "0"}}</td>
+                    <td>{{cc.composition.model.benchmarks[cc.composition.getKeithClass()][cc.dataService.ibra].shrubComposition || "0"}}</td>
+                    <td>{{cc.composition.model.benchmarks[cc.composition.getKeithClass()][cc.dataService.ibra].grassAndGrassLikeComposition || "0"}}</td>
+                    <td>{{cc.composition.model.benchmarks[cc.composition.getKeithClass()][cc.dataService.ibra].forbComposition || "0"}}</td>
+                    <td>{{cc.composition.model.benchmarks[cc.composition.getKeithClass()][cc.dataService.ibra].fernComposition || "0"}}</td>
+                    <td>{{cc.composition.model.benchmarks[cc.composition.getKeithClass()][cc.dataService.ibra].otherComposition || "0"}}</td>
+                </tr>
+                <tr>
+                    <td>Observed Mean (x&#772;)</td>
+                    <td>{{cc.composition.getCurrentComposition().observedMeanTree || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().observedMeanShrub || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().observedMeanGrassAndGrassLike || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().observedMeanForb || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().observedMeanFern || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().observedMeanOther || "0"}}</td>
+                </tr>
+                <tr>
+                    <td>Unweighted Composition Score (UCS<sub>i</sub>)</td>
+                    <td>{{cc.composition.getCurrentComposition().unweightedTreeScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().unweightedShrubScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().unweightedGrassAndGrassLikeScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().unweightedForbScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().unweightedFernScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().unweightedOtherScore || "0"}}</td>
+                </tr>
+                <tr>
+                    <td>Weighted Composition Score (WCS<sub>i</sub>)</td>
+                    <td>{{cc.composition.getCurrentComposition().weightedTreeScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().weightedShrubScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().weightedGrassAndGrassLikeScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().weightedForbScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().weightedFernScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().weightedOtherScore || "0"}}</td>
+                </tr>
+                <tr>
+                    <td>Dynamic Weighting (w<sub>i</sub>)</td>
+                    <td>{{cc.composition.getCurrentComposition().dynamicWeightingTreeScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().dynamicWeightingShrubScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().dynamicWeightingGrassAndGrassLikeScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().dynamicWeightingForbScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().dynamicWeightingFernScore || "0"}}</td>
+                    <td>{{cc.composition.getCurrentComposition().dynamicWeightingOtherScore || "0"}}</td>
+                </tr>
+            </table>
+        </div>
     </div>
 </div>

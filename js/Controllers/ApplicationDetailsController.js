@@ -1,4 +1,7 @@
-bamApp.controller('applicationDetailsController',["$scope","dataService", function ($scope, dataService) {
-    $scope.referenceData = dataService.referenceData;
-    $scope.Current = dataService.Current;
+bamApp.controller('applicationDetailsController', ["$scope", "referenceDataService", "dataService", function ($scope, referenceDataService, dataService) {
+
+    this.applicationDetails = {
+        model: dataService.applicationDetailsModel
+    }
+
 }]);
