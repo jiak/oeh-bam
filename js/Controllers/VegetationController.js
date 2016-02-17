@@ -7,8 +7,11 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
         model: dataService.vegetationModel,
 
         setFocusedVegetationZone: function (index) {
-            this.model.inFocusFutureVegetationZoneIndex = index
             this.model.inFocusVegetationZoneIndex = index
+        },
+
+        setFocusedFutureVegetationZone: function (index) {
+            this.model.inFocusFutureVegetationZoneIndex = index
         },
 
         createPctObject: function () {
@@ -26,7 +29,9 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             return {
                 pctCode: null,
                 conditionClass: null,
-                identifier: null,
+                identifier: function () {
+                    return (this.pctCode != null && this.pctCode.pct.id != null && this.conditionClass != null) ? this.pctCode.pct.id + "_" + this.conditionClass : "..."
+                },
                 area: null,
                 composition: null,
                 structure: null,
@@ -39,7 +44,9 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             return {
                 typeCode: null,
                 conditionClass: null,
-                identifier: null,
+                identifier: function () {
+                    return (this.pctCode != null && this.pctCode.pct.id != null && this.conditionClass != null) ? this.pctCode.pct.id + "_" + this.conditionClass : "..."
+                },
                 area: null,
                 composition: null,
                 structure: null,

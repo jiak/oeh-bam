@@ -1,11 +1,6 @@
 bamApp.service('dataService', ["referenceDataService", function (referenceDataService) {
     return {
         ibra: null,
-        compositionModel: {
-            benchmarks: referenceDataService.compositionBenchmarkData,
-            compositionCalcResults: [],
-            currentComposition: null
-        },
         vegetationModel: {
             referenceData: referenceDataService.vegetation,
             input: {
@@ -29,6 +24,26 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
             benchmarks: referenceDataService.structureBenchmarkData,
             structureCalcResults: [],
             currentStructure: null
+        },
+        compositionModel: {
+            benchmarks: referenceDataService.compositionBenchmarkData,
+            compositionCalcResults: [],
+            currentComposition: null
+        },
+        futureFunctionModel: {
+            benchmarks: referenceDataService.functionBenchmarkData,
+            functionCalcResults: [],
+            currentFunction: null
+        },
+        futureStructureModel: {
+            benchmarks: referenceDataService.structureBenchmarkData,
+            structureCalcResults: [],
+            currentStructure: null
+        },
+        futureCompositionModel: {
+            benchmarks: referenceDataService.compositionBenchmarkData,
+            compositionCalcResults: [],
+            currentComposition: null
         },
     }
 }])
