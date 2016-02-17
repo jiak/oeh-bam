@@ -351,6 +351,13 @@ var Data =
         }
     },
     "referenceData": {
+        "applicationDetails": {
+            "applicationType": [
+                {"id": 0, "name": "Development"},
+                {"id": 1, "name": "Offset"},
+                {"id": 2, "name": "Biocertification"}
+            ]
+        },
         "vegetation": {
             "formation": [
                 {
