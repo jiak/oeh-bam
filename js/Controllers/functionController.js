@@ -83,7 +83,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         },
 
         calculateUnweightedFunctionScore: function (theObject, theObjectLower, observedValue) {
-            var benchmarks = this.model.benchmarks[this.getKeithClass()][dataService.ibra];
+            var benchmarks = this.model.benchmarks[this.getKeithClass()][dataService.ibra.name];
             var returnValue = 0;
             if (observedValue == 0) {
                 returnValue = 0;

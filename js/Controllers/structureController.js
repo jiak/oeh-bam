@@ -72,7 +72,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
 
         calculateDynamicWeightingScore: function (theObject, theObjectLower) {
             var sumOfBenchmarkScores = 0;
-            var benchmarks = this.model.benchmarks[this.getKeithClass()][dataService.ibra];
+            var benchmarks = this.model.benchmarks[this.getKeithClass()][dataService.ibra.name];
             for (var property in benchmarks) {
                 if (benchmarks.hasOwnProperty(property)) {
                     sumOfBenchmarkScores += benchmarks[property];
@@ -82,7 +82,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
         },
 
         calculateUnweightedStructureScore: function (theObject, theObjectLower, observedValue) {
-            var benchmarks = this.model.benchmarks[this.getKeithClass()][dataService.ibra];
+            var benchmarks = this.model.benchmarks[this.getKeithClass()][dataService.ibra.name];
             var returnValue = 0;
             if (observedValue == 0) {
                 returnValue = 0;

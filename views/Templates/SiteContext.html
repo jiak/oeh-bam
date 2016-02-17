@@ -3,10 +3,10 @@
         <fieldset class="form-group">
             <h4>Site Context</h4>
             <label for="ibra">IBRA</label>
-            <select id="ibra" class="form-control" ng-model="dataService.ibra" ng-options="Item.name as Item.name for Item in referenceData.siteContext.ibra">
+            <select id="ibra" class="form-control" ng-model="dataService.ibra" ng-options="Item as Item.name for Item in referenceData.siteContext.ibra">
             </select>
             <label for="sub-region">Sub Region</label>
-            <select id="sub-region" class="form-control" ng-model="ibraSubregion" ng-options="Item as Item.name for Item in ibra.ibraSubRegion" >
+            <select id="sub-region" class="form-control" ng-model="ibraSubregion" ng-options="Item as Item.name for Item in dataService.ibra.ibraSubRegion">
             </select>
             <label for="mitchell">Mitchell</label>
             <select id="mitchell" class="form-control" ng-model="mitchellLandscape" ng-options="Item as Item.name for Item in referenceData.siteContext.mitchellLandscape" >
