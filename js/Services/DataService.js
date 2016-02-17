@@ -4085,10 +4085,6 @@ var Data =
             ],
             "landscapeFeatures": [
                 {
-                    "id": 1,
-                    "name": "Name of IBRA bioregion"
-                },
-                {
                     "id": 2,
                     "name": "Name of river"
                 },
