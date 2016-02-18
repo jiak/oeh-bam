@@ -1,6 +1,5 @@
 bamApp.service('referenceDataService', function () {
     return {
-        Current: 0,
         functionBenchmarkData: {
             "Coastal Swamp Forests": {
                 "NSW North Coast": {

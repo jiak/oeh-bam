@@ -57,13 +57,13 @@ bamApp.controller('futureCompositionController', ["$scope", "$rootScope", "$uibM
         calculateObservedMean: function (theObject, theObjectLower) {
             var observedMean = 0;
             this.getCurrentComposition().compositionTransects.forEach(function (element) {
-                eval(`observedMean += element.${theObjectLower}`)
+                eval("observedMean += element." + theObjectLower + "")
             })
-            eval(`this.getCurrentComposition().observedMean${theObject} = observedMean / this.getCurrentComposition().compositionTransects.length`)
+            eval("this.getCurrentComposition().observedMean" + theObject + " = observedMean / this.getCurrentComposition().compositionTransects.length")
         },
 
         calculateWeightedCompositionScore: function (theObject, theObjectLower) {
-            eval(`this.getCurrentComposition().weighted${theObject}Score = Math.round(this.getCurrentComposition().unweighted${theObject}Score * this.getCurrentComposition().dynamicWeighting${theObject}Score)`)
+            eval("this.getCurrentComposition().weighted" + theObject + "Score = Math.round(this.getCurrentComposition().unweighted" + theObject + "Score * this.getCurrentComposition().dynamicWeighting" + theObject + "Score)")
         },
 
         getKeithClass: function () {
@@ -78,7 +78,7 @@ bamApp.controller('futureCompositionController', ["$scope", "$rootScope", "$uibM
                     sumOfBenchmarkScores += benchmarks[property];
                 }
             }
-            eval(`this.getCurrentComposition().dynamicWeighting${theObject}Score = (benchmarks.${theObjectLower}Composition / sumOfBenchmarkScores).toFixed(2)`)
+            eval("this.getCurrentComposition().dynamicWeighting" + theObject + "Score = (benchmarks." + theObjectLower + "Composition / sumOfBenchmarkScores).toFixed(2)")
         },
 
         calculateUnweightedCompositionScore: function (theObject, theObjectLower, observedValue) {
@@ -87,15 +87,15 @@ bamApp.controller('futureCompositionController', ["$scope", "$rootScope", "$uibM
             if (observedValue == 0) {
                 returnValue = 0;
             } else {
-                if (observedValue > eval(`benchmarks.${theObjectLower}Composition`)) {
+                if (observedValue > eval("benchmarks." + theObjectLower + "Composition")) {
                     returnValue = (100);
                 } else {
                     returnValue = (
-                        1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval(`benchmarks.${theObjectLower}Composition`), 1.85))) * 100
+                        1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Composition"), 1.85))) * 100
                     );
                 }
             }
-            eval(`this.getCurrentComposition().unweighted${theObject}Score = Math.round(returnValue)`)
+            eval("this.getCurrentComposition().unweighted" + theObject + "Score = Math.round(returnValue)")
         },
 
         calculateCompositionSubtotal: function () {

@@ -57,13 +57,13 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
         calculateObservedMean: function (theObject, theObjectLower) {
             var observedMean = 0;
             this.getCurrentStructure().structureTransects.forEach(function (element) {
-                eval(`observedMean += element.${theObjectLower}`)
+                eval("observedMean += element." + theObjectLower + "")
             })
-            eval(`this.getCurrentStructure().observedMean${theObject} = observedMean / this.getCurrentStructure().structureTransects.length`)
+            eval("this.getCurrentStructure().observedMean" + theObject + " = observedMean / this.getCurrentStructure().structureTransects.length")
         },
 
         calculateWeightedStructureScore: function (theObject, theObjectLower) {
-            eval(`this.getCurrentStructure().weighted${theObject}Score = Math.round(this.getCurrentStructure().unweighted${theObject}Score * this.getCurrentStructure().dynamicWeighting${theObject}Score)`)
+            eval("this.getCurrentStructure().weighted" + theObject + "Score = Math.round(this.getCurrentStructure().unweighted" + theObject + "Score * this.getCurrentStructure().dynamicWeighting" + theObject + "Score)")
         },
 
         getKeithClass: function () {
@@ -78,7 +78,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                     sumOfBenchmarkScores += benchmarks[property];
                 }
             }
-            eval(`this.getCurrentStructure().dynamicWeighting${theObject}Score = (benchmarks.${theObjectLower}Cover / sumOfBenchmarkScores).toFixed(2)`)
+            eval("this.getCurrentStructure().dynamicWeighting" + theObject + "Score = (benchmarks." + theObjectLower + "Cover / sumOfBenchmarkScores).toFixed(2)")
         },
 
         calculateUnweightedStructureScore: function (theObject, theObjectLower, observedValue) {
@@ -87,19 +87,19 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             if (observedValue == 0) {
                 returnValue = 0;
             } else {
-                if (observedValue > eval(`benchmarks.${theObjectLower}Cover`)) {
+                if (observedValue > eval("benchmarks." + theObjectLower + "Cover")) {
                     returnValue = (
                     (100 + 50) - (50 + ((100 - 50)
                     /
-                    (1 + Math.exp(-10 * ((observedValue / eval(`benchmarks.${theObjectLower}Cover`) - 1.5)))))))
+                    (1 + Math.exp(-10 * ((observedValue / eval("benchmarks." + theObjectLower + "Cover") - 1.5)))))))
                 } else {
                     returnValue = (
-                        1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval(`benchmarks.${theObjectLower}Cover`), 1.85))) * 100
+                        1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Cover"), 1.85))) * 100
                     );
-                    returnValue = (1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval(`benchmarks.${theObjectLower}Cover`), 1.85))) * 100);
+                    returnValue = (1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Cover"), 1.85))) * 100);
                 }
             }
-            eval(`this.getCurrentStructure().unweighted${theObject}Score = Math.round(returnValue)`)
+            eval("this.getCurrentStructure().unweighted" + theObject + "Score = Math.round(returnValue)")
         },
 
         calculateStructureSubtotal: function () {

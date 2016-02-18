@@ -53,13 +53,13 @@ bamApp.controller('futureFunctionController', ["$scope", "$rootScope", "referenc
         calculateObservedMean: function (theObject, theObjectLower) {
             var observedMean = 0;
             this.getCurrentFunction().functionTransects.forEach(function (element) {
-                eval(`observedMean += element.${theObjectLower}`)
+                eval("observedMean += element." + theObjectLower + "")
             })
-            eval(`this.getCurrentFunction().observedMean${theObject} = observedMean / this.getCurrentFunction().functionTransects.length`)
+            eval("this.getCurrentFunction().observedMean" + theObject + " = observedMean / this.getCurrentFunction().functionTransects.length")
         },
 
         calculateWeightedFunctionScore: function (theObject, theObjectLower) {
-            eval(`this.getCurrentFunction().weighted${theObject}Score = Math.round(this.getCurrentFunction().unweighted${theObject}Score * this.getCurrentFunction().dynamicWeighting${theObject}Score)`)
+            eval("this.getCurrentFunction().weighted" + theObject + "Score = Math.round(this.getCurrentFunction().unweighted" + theObject + "Score * this.getCurrentFunction().dynamicWeighting" + theObject + "Score)")
         },
 
         getKeithClass: function () {
@@ -77,7 +77,7 @@ bamApp.controller('futureFunctionController', ["$scope", "$rootScope", "referenc
             } else if (theObject == "StemSizeClasses") {
                 value = 0.15
             }
-            eval(`this.getCurrentFunction().dynamicWeighting${theObject}Score = ${value}`)
+            eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score = " + value + "")
         },
 
         calculateUnweightedFunctionScore: function (theObject, theObjectLower, observedValue) {
@@ -87,19 +87,19 @@ bamApp.controller('futureFunctionController', ["$scope", "$rootScope", "referenc
                 returnValue = 0;
             } else {
                 if (theObject == 'NumberOfLargeTrees' || theObject == 'LitterCover' || theObject == 'CoarseWoodyDebris') {
-                    if (observedValue > eval(`benchmarks.${theObjectLower}`)) {
+                    if (observedValue > eval("benchmarks." + theObjectLower + "")) {
                         if (theObject == 'LitterCover' || theObject == 'CoarseWoodyDebris') {
                             returnValue = (
                                 (100 + 50) - (50 + ((100 - 50)
                                 /
-                                (1 + Math.exp(-10 * ((observedValue / eval(`benchmarks.${theObjectLower}`)) - 1.5)))))
+                                (1 + Math.exp(-10 * ((observedValue / eval("benchmarks." + theObjectLower + "")) - 1.5)))))
                             );
                         } else {
                             returnValue = 100;
                         }
                     } else {
                         returnValue = (
-                            1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval(`benchmarks.${theObjectLower}`), 1.85))) * 100
+                            1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + ""), 1.85))) * 100
                         );
                     }
                 } else if (theObject == 'StemSizeClasses') {
@@ -124,7 +124,7 @@ bamApp.controller('futureFunctionController', ["$scope", "$rootScope", "referenc
                     }
                 }
             }
-            eval(`this.getCurrentFunction().unweighted${theObject}Score = Math.round(returnValue)`)
+            eval("this.getCurrentFunction().unweighted" + theObject + "Score = Math.round(returnValue)")
         },
 
         calculateFunctionSubtotal: function () {

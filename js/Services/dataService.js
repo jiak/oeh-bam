@@ -12,8 +12,9 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
             inFocusFutureVegetationZoneIndex: null
         },
         applicationDetailsModel: {
-            referenceData: referenceDataService,
-            current: referenceDataService.Current
+            referenceData: referenceDataService.applicationDetails,
+            current: null,
+            assessmentType: null
         },
         functionModel: {
             benchmarks: referenceDataService.functionBenchmarkData,
