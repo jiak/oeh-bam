@@ -1,25 +1,19 @@
-<div ng-controller="applicationDetailsController as adc">
+<form novalidate>
+    <div ng-controller="applicationDetailsController as adc">
 
-    <form>
         <fieldset class="form-group">
             <label for="AssessmentType">Assessment Type</label>
             <select id="AssessmentType" class="form-control" ng-model="adc.applicationDetails.model.assessmentType" ng-options="item as item.name for item in adc.applicationDetails.model.referenceData.applicationType track by item.name">
-
             </select>
             <label for="ProposalID">Proposal ID</label>
-            <input id="ProposalID" class="form-control" ng-model="adc.applicationDetails.model.proposalId" ></input>
-
+            <input id="ProposalID" class="form-control" ng-model="adc.applicationDetails.model.proposalId"></input>
             <label for="ProposalVersion">Proposal Version</label>
-            <input id="ProposalVersion" class="form-control" ng-model="adc.applicationDetails.model.proposalVersion" ></input>
-
+            <input id="ProposalVersion" class="form-control" ng-model="adc.applicationDetails.model.proposalVersion"></input>
             <label for="ProposalName">Proposal Name</label>
-            <input id="ProposalName" class="form-control" ng-model="adc.applicationDetails.model.proposalName" ></input>
-
+            <input id="ProposalName" class="form-control" ng-model="adc.applicationDetails.model.proposalName"></input>
             <label for="StreetAddress">Street Address</label>
-            <input id="StreetAddress" class="form-control" ng-model="adc.applicationDetails.model.streetAddress" ></input>
-
+            <input id="StreetAddress" class="form-control" ng-model="adc.applicationDetails.model.streetAddress"></input>
         </fieldset>
-    </form>
-
-</div>
+    </div>
+</form>
 

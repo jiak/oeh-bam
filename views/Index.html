@@ -3,290 +3,162 @@
 <html ng-app="bamApp" class="resp">
 
 <head>
-
     <!-- angular js -->
-
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
-
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-animate.js"></script>
-
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js"></script>
 
-
     <!-- ui-bootstrap -->
-
     <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.1.2.js"></script>
 
-
     <!-- bootbox -->
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
 
-
     <!-- bootstrap -->
-
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-
     <!-- application js -->
-
     <script src="../js/App.js"></script>
-
     <script src="../js/Services/dataService.js"></script>
-
     <script src="../js/Services/referenceDataService.js"></script>
-
     <script src="../js/Controllers/compositionController.js"></script>
-
     <script src="../js/Controllers/futureCompositionController.js"></script>
-
     <script src="../js/Controllers/futureStructureController.js"></script>
-
     <script src="../js/Controllers/futureFunctionController.js"></script>
-
     <script src="../js/Controllers/functionController.js"></script>
-
     <script src="../js/Controllers/structureController.js"></script>
-
     <script src="../js/Controllers/CreditsController.js"></script>
-
     <script src="../js/Controllers/ApplicationDetailsController.js"></script>
-
     <script src="../js/Controllers/SiteContextController.js"></script>
-
     <script src="../js/Controllers/VegetationController.js"></script>
 
-
     <!-- css -->
-
     <link href="http://d36paqt25bx4vd.cloudfront.net/Css/_Libs/oeh-font.css?" rel="stylesheet">
-
     <link href="http://d36paqt25bx4vd.cloudfront.net/Css/_Libs/oeh-libs.css?" rel="stylesheet">
-
     <link href="http://d36paqt25bx4vd.cloudfront.net/Css/_sitecore/sitecore-oeh-blessed1.min.css?" rel="stylesheet">
-
     <link href="http://d36paqt25bx4vd.cloudfront.net/Css/_sitecore/sitecore-oeh.min.css?" rel="stylesheet">
-
     <link href="http://d36paqt25bx4vd.cloudfront.net/Css/_sitecore/sitecore-oeh-print.css?" media="print" rel="stylesheet">
-
     <link rel="stylesheet" type="text/css" href="http://w.sharethis.com/button/css/buttons.ab966a004186897711de4a5ed256c924.css">
-
     <link href="http://www.environment.nsw.gov.au/css/decc/styles_v3.css?cb=10122015" rel="stylesheet"/>
-
     <link href="http://www.environment.nsw.gov.au/css/decc/modules.css?cb=10122015" rel="stylesheet"/>
-
     <link href="http://www.environment.nsw.gov.au/css/decc/jquery-ui-1.7.1/jquery-ui.css?cb=10122015" rel="stylesheet"/>
-
     <link href="http://www.environment.nsw.gov.au/css/decc/fontello/fontello.css?cb=10122015" rel="stylesheet"/>
 
     <!-- Font Awesome -->
-
     <link href="http://www.environment.nsw.gov.au/css/decc/secondary/font-awesome.min.css?cb=10122015" rel="stylesheet"/>
 
     <!-- Roboto is loaded from CDN in oeh-styles-common.css -->
-
     <!-- http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,700italic -->
-
-
     <!--[if lte IE 6]>
-
     <link rel="stylesheet" href="http://www.environment.nsw.gov.au/css/decc/ie6.css?cb=10122015" type="text/css"/>
-
     <![endif]-->
-
-
     <!--[if gte IE 5.5]>
-
     <link rel="stylesheet" href="http://www.environment.nsw.gov.au/css/decc/ie5.css?cb=10122015" type="text/css"/>
-
     <![endif]-->
 
 
     <!-- styles -->
-
-
     <!--[if IE]>
-
     <link rel="stylesheet" href="http://www.environment.nsw.gov.au/css/decc/ie_v2.css?cb=10122015" type="text/css"/>
-
     <![endif]-->
-
     <link href="http://www.environment.nsw.gov.au/css/decc/oeh-styles-common.css?cb=10122015" rel="stylesheet"/>
-
     <link href="http://www.environment.nsw.gov.au/css/decc/oeh-styles-responsive.css?cb=10122015" rel="stylesheet"/>
-
     <link href="http://www.environment.nsw.gov.au/css/decc/oeh-styles-unresponsive.css?cb=10122015" rel="stylesheet"/>
-
     <link href="http://www.environment.nsw.gov.au/css/decc/responsive/oeh-work.css?cb=10122015" rel="stylesheet"/>
 
-
     <!--[if lt IE 9]>
-
     <link href="http://www.environment.nsw.gov.au/css/decc/oeh-styles-ie.css?cb=10122015" rel="stylesheet"/>
-
     <![endif]-->
 
-
     <link rel="stylesheet" type="text/css" media="print" href="http://www.environment.nsw.gov.au/css/decc/print_v2.css?cb=10122015"/>
-
     <style type="text/css">
 
-
         /* tab alignment */
-
         .tab-content {
-
             margin-top: 9px;
-
         }
 
         #contentArea li.uib-tab > a {
-
             padding-top: 0px;
-
             padding-bottom: 0px;
-
         }
 
         html.resp .nav-tabs > li {
-
             margin-bottom: -6px;
-
         }
 
         #contentArea ul.nav.nav-tabs {
-
             margin-bottom: 4px;
-
         }
 
         li.uib-tab.ng-isolate-scope.active {
-
             margin-left: -18px;
-
         }
 
         .tabcontentdiv.ng-scope {
-
             margin-top: -10px;
-
         }
 
         .popover {
-
             max-width: 100%;
-
         }
 
         html.resp .nav-tabs > li.active > a, html.resp .nav-tabs > li.active > a:hover, html.resp .nav-tabs > li.active > a:focus {
-
             color: #5c5c5c;
-
             background-color: #ebebeb;
-
         }
 
         html.resp .form-control {
-
             margin-bottom: 10px;
-
         }
 
         .tabcontentdiv {
-
             border-style: solid;
-
             border-width: thin;
-
             border-top-style: none;
-
             padding: 20px;
-
             border-color: lightgrey;
-
         }
 
         #contentArea ul li {
-
             background: none;
-
         }
-
     </style>
-
 </head>
-
 <body>
-
 <div id="mainContainer02">
-
     <div id="contentArea">
-
         <h1>Biodiversity Assessment Methodology Demonstration Tool</h1>
-
         <div class="intro">
-
             <p>This is the introduction text to the Biodiversity Assessment Methodology Demonstration Tool</p>
-
         </div>
-
-
         <div class="container-fluid" style="padding: 20px">
-
             <div>
-
                 <div class="row">
-
                     <div class="col-md-12">
-
                         <uib-tabset>
-
                             <uib-tab active="true">
-
                                 <uib-tab-heading><h4>Application Details</h4></uib-tab-heading>
-
                                 <ng-include src="'Templates/ApplicationDetails.html'"></ng-include>
-
                             </uib-tab>
-
                             <uib-tab>
-
                                 <uib-tab-heading><h4>Site Context</h4></uib-tab-heading>
-
                                 <ng-include src="'Templates/SiteContext.html'"></ng-include>
-
                             </uib-tab>
-
                             <uib-tab>
-
                                 <uib-tab-heading><h4>Vegetation</h4></uib-tab-heading>
-
                                 <ng-include src="'Templates/Vegetation.html'"></ng-include>
-
                             </uib-tab>
-
                             <uib-tab>
-
                                 <uib-tab-heading><h4>Credits</h4></uib-tab-heading>
-
                                 <ng-include src="'Templates/Credits.html'"></ng-include>
-
                             </uib-tab>
-
                         </uib-tabset>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </div>
-
 </body>
-
 </html>

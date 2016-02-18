@@ -1,79 +1,81 @@
-<div ng-controller="futureStructureController as sc">
-    <div class="row">
-        <div class="col-md-6">
-            <h4>Zone Structure Data</h4>
+<form novalidate>
+    <div ng-controller="futureStructureController as sc">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Zone Structure Data</h4>
+            </div>
+            <div class="col-md-6">
+                <button ng-click="sc.structure.addStructureTransect()" class="btn btn-secondary pull-right">Add Transect</button>
+            </div>
         </div>
-        <div class="col-md-6">
-            <button ng-click="sc.structure.addStructureTransect()" class="btn btn-secondary pull-right">Add Transect</button>
+        <div class="row" style="padding-top: 30px">
+            <div class="col-md-12">
+                <table class="table">
+                    <tr>
+                        <th>Item</th>
+                        <th>Tree</th>
+                        <th>Shrub</th>
+                        <th>Grass & <br/> Grass Like</th>
+                        <th>Forb</th>
+                        <th>Fern</th>
+                        <th>Other</th>
+                    </tr>
+                    <tr ng-repeat="item in sc.structure.model.structureCalcResults[sc.dataService.vegetationModel.inFocusFutureVegetationZoneIndex].structureTransects">
+                        <td>Transect {{$index}}</td>
+                        <td><input class="form-control" size=3 type="number" ng-model="item.tree" ng-blur="sc.structure.updateCalcsFor('Tree', item.tree)"/></td>
+                        <td><input class="form-control" size=3 type="number" ng-model="item.shrub" ng-blur="sc.structure.updateCalcsFor('Shrub', item.shrub)"/></td>
+                        <td><input class="form-control" size=3 type="number" ng-model="item.grassAndGrassLike" ng-blur="sc.structure.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)"/></td>
+                        <td><input class="form-control" size=3 type="number" ng-model="item.forb" ng-blur="sc.structure.updateCalcsFor('Forb', item.forb)"/></td>
+                        <td><input class="form-control" size=3 type="number" ng-model="item.fern" ng-blur="sc.structure.updateCalcsFor('Fern', item.fern)"/></td>
+                        <td><input class="form-control" size=3 type="number" ng-model="item.other" ng-blur="sc.structure.updateCalcsFor('Other', item.other)"/></td>
+                    </tr>
+                    <tr>
+                        <td>Benchmark</td>
+                        <td>{{sc.structure.model.benchmarks[sc.structure.getKeithClass()][sc.dataService.ibra.name].treeCover || "0"}}</td>
+                        <td>{{sc.structure.model.benchmarks[sc.structure.getKeithClass()][sc.dataService.ibra.name].shrubCover || "0"}}</td>
+                        <td>{{sc.structure.model.benchmarks[sc.structure.getKeithClass()][sc.dataService.ibra.name].grassAndGrassLikeCover || "0"}}</td>
+                        <td>{{sc.structure.model.benchmarks[sc.structure.getKeithClass()][sc.dataService.ibra.name].forbCover || "0"}}</td>
+                        <td>{{sc.structure.model.benchmarks[sc.structure.getKeithClass()][sc.dataService.ibra.name].fernCover || "0"}}</td>
+                        <td>{{sc.structure.model.benchmarks[sc.structure.getKeithClass()][sc.dataService.ibra.name].otherCover || "0"}}</td>
+                    </tr>
+                    <tr>
+                        <td>Observed Mean (x&#772;)</td>
+                        <td>{{sc.structure.getCurrentStructure().observedMeanTree || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().observedMeanShrub || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().observedMeanGrassAndGrassLike || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().observedMeanForb || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().observedMeanFern || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().observedMeanOther || "0"}}</td>
+                    </tr>
+                    <tr>
+                        <td>Unweighted Structure Score (UCS<sub>i</sub>)</td>
+                        <td>{{sc.structure.getCurrentStructure().unweightedTreeScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().unweightedShrubScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().unweightedGrassAndGrassLikeScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().unweightedForbScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().unweightedFernScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().unweightedOtherScore || "0"}}</td>
+                    </tr>
+                    <tr>
+                        <td>Weighted Structure Score (WCS<sub>i</sub>)</td>
+                        <td>{{sc.structure.getCurrentStructure().weightedTreeScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().weightedShrubScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().weightedGrassAndGrassLikeScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().weightedForbScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().weightedFernScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().weightedOtherScore || "0"}}</td>
+                    </tr>
+                    <tr>
+                        <td>Dynamic Weighting (w<sub>i</sub>)</td>
+                        <td>{{sc.structure.getCurrentStructure().dynamicWeightingTreeScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().dynamicWeightingShrubScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().dynamicWeightingGrassAndGrassLikeScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().dynamicWeightingForbScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().dynamicWeightingFernScore || "0"}}</td>
+                        <td>{{sc.structure.getCurrentStructure().dynamicWeightingOtherScore || "0"}}</td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
-    <div class="row" style="padding-top: 30px">
-        <div class="col-md-12">
-            <table class="table">
-                <tr>
-                    <th>Item</th>
-                    <th>Tree</th>
-                    <th>Shrub</th>
-                    <th>Grass & <br/> Grass Like</th>
-                    <th>Forb</th>
-                    <th>Fern</th>
-                    <th>Other</th>
-                </tr>
-                <tr ng-repeat="item in sc.structure.model.structureCalcResults[sc.dataService.vegetationModel.inFocusFutureVegetationZoneIndex].structureTransects">
-                    <td>Transect {{$index}}</td>
-                    <td><input class="form-control" size=3 type="number" ng-model="item.tree" ng-blur="sc.structure.updateCalcsFor('Tree', item.tree)"/></td>
-                    <td><input class="form-control" size=3 type="number" ng-model="item.shrub" ng-blur="sc.structure.updateCalcsFor('Shrub', item.shrub)"/></td>
-                    <td><input class="form-control" size=3 type="number" ng-model="item.grassAndGrassLike" ng-blur="sc.structure.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)"/></td>
-                    <td><input class="form-control" size=3 type="number" ng-model="item.forb" ng-blur="sc.structure.updateCalcsFor('Forb', item.forb)"/></td>
-                    <td><input class="form-control" size=3 type="number" ng-model="item.fern" ng-blur="sc.structure.updateCalcsFor('Fern', item.fern)"/></td>
-                    <td><input class="form-control" size=3 type="number" ng-model="item.other" ng-blur="sc.structure.updateCalcsFor('Other', item.other)"/></td>
-                </tr>
-                <tr>
-                    <td>Benchmark</td>
-                    <td>{{sc.structure.model.benchmarks[sc.structure.getKeithClass()][sc.dataService.ibra.name].treeCover || "0"}}</td>
-                    <td>{{sc.structure.model.benchmarks[sc.structure.getKeithClass()][sc.dataService.ibra.name].shrubCover || "0"}}</td>
-                    <td>{{sc.structure.model.benchmarks[sc.structure.getKeithClass()][sc.dataService.ibra.name].grassAndGrassLikeCover || "0"}}</td>
-                    <td>{{sc.structure.model.benchmarks[sc.structure.getKeithClass()][sc.dataService.ibra.name].forbCover || "0"}}</td>
-                    <td>{{sc.structure.model.benchmarks[sc.structure.getKeithClass()][sc.dataService.ibra.name].fernCover || "0"}}</td>
-                    <td>{{sc.structure.model.benchmarks[sc.structure.getKeithClass()][sc.dataService.ibra.name].otherCover || "0"}}</td>
-                </tr>
-                <tr>
-                    <td>Observed Mean (x&#772;)</td>
-                    <td>{{sc.structure.getCurrentStructure().observedMeanTree || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().observedMeanShrub || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().observedMeanGrassAndGrassLike || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().observedMeanForb || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().observedMeanFern || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().observedMeanOther || "0"}}</td>
-                </tr>
-                <tr>
-                    <td>Unweighted Structure Score (UCS<sub>i</sub>)</td>
-                    <td>{{sc.structure.getCurrentStructure().unweightedTreeScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().unweightedShrubScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().unweightedGrassAndGrassLikeScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().unweightedForbScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().unweightedFernScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().unweightedOtherScore || "0"}}</td>
-                </tr>
-                <tr>
-                    <td>Weighted Structure Score (WCS<sub>i</sub>)</td>
-                    <td>{{sc.structure.getCurrentStructure().weightedTreeScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().weightedShrubScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().weightedGrassAndGrassLikeScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().weightedForbScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().weightedFernScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().weightedOtherScore || "0"}}</td>
-                </tr>
-                <tr>
-                    <td>Dynamic Weighting (w<sub>i</sub>)</td>
-                    <td>{{sc.structure.getCurrentStructure().dynamicWeightingTreeScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().dynamicWeightingShrubScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().dynamicWeightingGrassAndGrassLikeScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().dynamicWeightingForbScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().dynamicWeightingFernScore || "0"}}</td>
-                    <td>{{sc.structure.getCurrentStructure().dynamicWeightingOtherScore || "0"}}</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-</div>
+</form>
