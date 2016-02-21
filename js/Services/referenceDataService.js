@@ -6307,5 +6307,74 @@ bamApp.service('referenceDataService', function () {
                 }
             ]
         }
+        "habitat":{
+            "ecosystemCredit": {
+                "ibraSubRegion":
+                [
+                    {
+                        "id": 1,
+                        "name": "sub region 1",
+                        "threatendedSpecies": [
+                            {
+                                "id": 10561,
+                                "name": "Barking owl",
+                                "scientificName": "Ninox connivens",
+                                "habitatComponents": "Land within 100m of dry open eucalypt forest",
+                                "creditType": "EC",
+                                "pactchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "V",
+                                "sensitivity": "High",
+                                "offsetMultiplier": 1.0,
+                                "soiThreashold": 0,
+                                "unitOfMeasure": "Area",
+                                "pct": [
+                                    {
+                                        "id": 1,
+                                        "name": "pct 1"
+                                    }
+
+                                ]
+                            }
+                        ]
+                    }
+
+                ]
+            },
+
+            "speciesCredit": {
+                "ibraSubRegion": [
+                    {
+                        "id": 1,
+                        "name": "sub region 1",
+                        "threatendedSpecies": [
+                            {
+                                "id": 10561,
+                                "name": "Barking owl",
+                                "scientificName": "Ninox connivens",
+                                "habitatComponents": "Land within 100m of dry open eucalypt forest",
+                                "creditType": "EC",
+                                "pactchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "V",
+                                "sensitivity": "High",
+                                "offsetMultiplier": 1.0,
+                                "soiThreashold": 0,
+                                "unitOfMeasure": "Individual",
+                                "pct": [
+                                    {
+                                        "id": 1,
+                                        "name": "pct 1"
+                                    }
+
+                                ]
+                            }
+                        ]
+                    }
+
+                ]
+            }
+
+        }
     }
 })
