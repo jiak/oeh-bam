@@ -6306,7 +6306,7 @@ bamApp.service('referenceDataService', function () {
                     ]
                 }
             ]
-        }
+        },
         "habitat":{
             "ecosystemCredit": {
                 "ibraSubRegion":
