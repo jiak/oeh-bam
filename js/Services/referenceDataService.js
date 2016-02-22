@@ -6308,6 +6308,36 @@ bamApp.service('referenceDataService', function () {
             ]
         },
         "habitat":{
+
+            "sensitivityClass": [
+              {
+                "id":1,
+                "name": "Very High"
+              },
+              {
+                "id":2,
+                "name": "High"
+              },
+              {
+                "id":3,
+                "name": "Moderate"
+              },
+              {
+                "id":4,
+                "name": "Low"
+              }
+            ],
+
+            "optionClass":[
+              {
+                "id":1,
+                "name": "Yes"
+              },
+              {
+                "id":2,
+                "name": "No"
+              }
+            ],
             "ecosystemCredit": {
                 "ibraSubRegion":
                 [
@@ -6324,7 +6354,6 @@ bamApp.service('referenceDataService', function () {
                                 "pactchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "V",
-                                "sensitivity": "High",
                                 "offsetMultiplier": 1.0,
                                 "soiThreashold": 0,
                                 "unitOfMeasure": "Area",
@@ -6343,11 +6372,14 @@ bamApp.service('referenceDataService', function () {
             },
 
             "speciesCredit": {
-                "ibraSubRegion": [
+
+                "ibraSubRegion":
+                [
                     {
                         "id": 1,
                         "name": "sub region 1",
-                        "threatendedSpecies": [
+                        "threatendedSpecies":
+                        [
                             {
                                 "id": 10561,
                                 "name": "Barking owl",
@@ -6357,7 +6389,6 @@ bamApp.service('referenceDataService', function () {
                                 "pactchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "V",
-                                "sensitivity": "High",
                                 "offsetMultiplier": 1.0,
                                 "soiThreashold": 0,
                                 "unitOfMeasure": "Individual",

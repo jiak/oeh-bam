@@ -16,19 +16,27 @@
             <td>{{x.name}}</td>
             <td>{{x.scientificName}}</td>
             <td>{{x.habitatComponents}}</td>
-            <td>{{x.percentCover}}</td>
-            <td>{{x.sensitivity}}</td>
+            <td>
+              <select ng-model="predictedPresence" ng-options="item as item.name for item in model.referenceData.optionClass"  >
+              </select>
+            </td>
+            <td>
+              <select ng-if="predictedPresence.name=='Yes'" ng-model="sensitivity1" ng-options="item as item.name for item in model.referenceData.sensitivityClass"  >
+              </select>
+            </td>
         <tr>
       </tbody>
   </table>
 
   <h4>Candidate Threatened Species</h4>
-  <table class="table">
+  <table class="table"  ng-if="true">
       <thead>
       <tr>
           <th>Common Name</th>
           <th>Scientific Name</th>
+          <th>Geographic Limitations</th>
           <th>Habitat Components</th>
+          <th>Candidate</th>
           <th>Assess Required</th>
           <th>Presence</th>
           <th>UOM</th>
@@ -39,9 +47,19 @@
         <tr ng-repeat="x in model.referenceData.speciesCredit.ibraSubRegion[0].threatendedSpecies">
             <td>{{x.name}}</td>
             <td>{{x.scientificName}}</td>
-            <td>{{x.habitatComponents}}</td>
             <td></td>
-            <td>{{x.percentCover}}</td>
+            <td>{{x.habitatComponents}}</td>
+            <td>
+                <select ng-model="candidate" ng-options="item as item.name for item in model.referenceData.optionClass"  >
+            </td>
+            <td>
+                <select ng-if="candidate.name=='Yes'" ng-model="candidateAssessReqd" ng-options="item as item.name for item in model.referenceData.optionClass"  >
+            </td>
+            <td>
+              <select ng-if="candidateAssessReqd.name=='Yes'" ng-model="candidatePrensence" ng-options="item as item.name for item in model.referenceData.optionClass"  >
+              </select>
+            </td>
+
             <td>{{x.unitOfMeasure}}</td>
             <td></td>
         <tr>
@@ -68,7 +86,10 @@
             <td>{{x.scientificName}}</td>
             <td>{{x.threatStatus}}</td>
 
-            <td>{{x.sensitivity}}</td>
+            <td>
+              <select ng-model="sensitivity1" ng-options="item as item.name for item in model.referenceData.sensitivityClass"  >
+              </select>
+            </td>
             <td></td>
             <td>{{x.offsetMultiplier}}</td>
             <td>{{x.soiThreashold}}</td>
