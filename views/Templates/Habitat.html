@@ -1,101 +1,107 @@
 <div ng-controller="habitatController" class="tabcontentdiv">
 
-  <h4>Predicted Threatened Species</h4>
-  <table class="table">
-      <thead>
-        <tr>
-            <th>Common Name</th>
-            <th>Scientific Name</th>
-            <th>Habitat Components</th>
-            <th>Habitat Presence</th>
-            <th>Sensitivity Class</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr ng-repeat="x in model.referenceData.ecosystemCredit.ibraSubRegion[0].threatendedSpecies">
-            <td>{{x.name}}</td>
-            <td>{{x.scientificName}}</td>
-            <td>{{x.habitatComponents}}</td>
-            <td>
-              <select ng-model="model.inputs.ecosystemCredit[0].presence" ng-options="item as item.name for item in model.referenceData.optionClass"  >
-              </select>
-            </td>
-            <td>
-              <select ng-if="predictedPresence.name=='Yes'" ng-model="sensitivity1" ng-options="item as item.name for item in model.referenceData.sensitivityClass"  >
-              </select>
-            </td>
-        <tr>
-      </tbody>
-  </table>
+  <form>
+    <fieldset class="form-group">
+    <h4>Predicted Threatened Species</h4>
+      <table class="table">
+          <thead>
+            <tr>
+                <th>Common Name</th>
+                <th>Scientific Name</th>
+                <th>Habitat Components</th>
+                <th>Habitat Presence</th>
+                <th>Sensitivity Class</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="x in model.referenceData.ecosystemCredit.ibraSubRegion[0].threatendedSpecies">
+                <td>{{x.name}}</td>
+                <td>{{x.scientificName}}</td>
+                <td>{{x.habitatComponents}}</td>
+                <td>
+                  <select ng-model="predictedPresence" ng-options="item as item.name for item in model.referenceData.optionClass"  >
+                  </select>
+                </td>
+                <td>
+                  <select ng-if="predictedPresence.name=='Yes'" ng-model="sensitivity1" ng-options="item as item.name for item in model.referenceData.sensitivityClass"  >
+                  </select>
+                </td>
+            <tr>
+          </tbody>
+      </table>
+    </fieldset>
+  </form>
 
-  <h4>Candidate Threatened Species</h4>
-  <table class="table"  ng-if="true">
-      <thead>
-      <tr>
-          <th>Common Name</th>
-          <th>Scientific Name</th>
-          <th>Geographic Limitations</th>
-          <th>Habitat Components</th>
-          <th>Candidate</th>
-          <th>Assess Required</th>
-          <th>Presence</th>
-          <th>UOM</th>
-          <th>Value</th>
-      </tr>
-      </thead>
-      <tbody>
-        <tr ng-repeat="x in model.referenceData.speciesCredit.ibraSubRegion[0].threatendedSpecies">
-            <td>{{x.name}}</td>
-            <td>{{x.scientificName}}</td>
-            <td></td>
-            <td>{{x.habitatComponents}}</td>
-            <td>
-                <select ng-model="candidate" ng-options="item as item.name for item in model.referenceData.optionClass"  >
-            </td>
-            <td>
-                <select ng-if="candidate.name=='Yes'" ng-model="candidateAssessReqd" ng-options="item as item.name for item in model.referenceData.optionClass"  >
-            </td>
-            <td>
-              <select ng-if="candidateAssessReqd.name=='Yes'" ng-model="candidatePrensence" ng-options="item as item.name for item in model.referenceData.optionClass"  >
-              </select>
-            </td>
+  <form>
+    <fieldset class="form-group">
+      <h4>Candidate Threatened Species</h4>
+      <table class="table"  ng-if="true">
+          <thead>
+          <tr>
+              <th>Common Name</th>
+              <th>Scientific Name</th>
+              <th>Geographic Limitations</th>
+              <th>Habitat Components</th>
+              <th>Candidate</th>
+              <th>Assess Required</th>
+              <th>Presence</th>
+              <th>UOM</th>
+              <th>Value</th>
+          </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="x in model.referenceData.speciesCredit.ibraSubRegion[0].threatendedSpecies">
+                <td>{{x.name}}</td>
+                <td>{{x.scientificName}}</td>
+                <td></td>
+                <td>{{x.habitatComponents}}</td>
+                <td>
+                    <select ng-model="candidate" ng-options="item as item.name for item in model.referenceData.optionClass"  >
+                </td>
+                <td>
+                    <select ng-if="candidate.name=='Yes'" ng-model="candidateAssessReqd" ng-options="item as item.name for item in model.referenceData.optionClass"  >
+                </td>
+                <td>
+                  <select ng-if="candidateAssessReqd.name=='Yes'" ng-model="candidatePrensence" ng-options="item as item.name for item in model.referenceData.optionClass"  >
+                  </select>
+                </td>
 
-            <td>{{x.unitOfMeasure}}</td>
-            <td></td>
-        <tr>
-      </tbody>
-  </table>
+                <td><input ng-model="" type="number"></input></td>
+                <td><input ng-model="" type="number"></input></td>
+            <tr>
+          </tbody>
+      </table>
 
-  <h4>Assessment of Biodiversity Concern</h4>
-  <table class="table">
-      <thead>
-      <tr>
-          <th>Common Name</th>
-          <th>Scientific Name</th>
-          <th>Threat Status</th>
-          <th>Sensitivity</th>
-          <th>Biodiv. Concern</th>
-          <th>Offset Multiplier</th>
-          <th>SOI Threshold</th>
-          <th>SOI Select</th>
-      </tr>
-      </thead>
-      <tbody>
-        <tr ng-repeat="x in model.referenceData.speciesCredit.ibraSubRegion[0].threatendedSpecies">
-            <td>{{x.name}}</td>
-            <td>{{x.scientificName}}</td>
-            <td>{{x.threatStatus}}</td>
-
-            <td>
-              <select ng-model="sensitivity1" ng-options="item as item.name for item in model.referenceData.sensitivityClass"  >
-              </select>
-            </td>
-            <td></td>
-            <td>{{x.offsetMultiplier}}</td>
-            <td>{{x.soiThreashold}}</td>
-            <td></td>
-        <tr>
-      </tbody>
-  </table>
-
+      <h4>Assessment of Biodiversity Concern</h4>
+      <table class="table">
+          <thead>
+          <tr>
+              <th>Common Name</th>
+              <th>Scientific Name</th>
+              <th>Threat Status</th>
+              <th>Sensitivity</th>
+              <th>Biodiv. Concern</th>
+              <th>Offset Multiplier</th>
+              <th>SOII Threshold</th>
+              <th>SOII Select</th>
+          </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="x in model.referenceData.speciesCredit.ibraSubRegion[0].threatendedSpecies">
+                <td>{{x.name}}</td>
+                <td>{{x.scientificName}}</td>
+                <td>{{x.threatStatus}}</td>
+                <td>{{x.sensitivity}}</td>
+                <td>{{x.BiodivConcern}}</td>
+                <td>{{x.offsetMultiplier}}</td>
+                <td>{{x.soiThreashold}}</td>
+                <td>
+                  <select ng-model="" ng-options="item as item.name for item in model.referenceData.optionClass"  >
+                  </select>
+                </td>
+            <tr>
+          </tbody>
+      </table>
+    </fieldset>
+  </form>
 </div>

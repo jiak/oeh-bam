@@ -6338,6 +6338,7 @@ bamApp.service('referenceDataService', function () {
                 "name": "No"
               }
             ],
+
             "ecosystemCredit": {
                 "ibraSubRegion":
                 [
@@ -6388,9 +6389,11 @@ bamApp.service('referenceDataService', function () {
                                 "creditType": "EC",
                                 "pactchSize": "<5ha",
                                 "percentCover": "11-30%",
-                                "threatStatus": "V",
-                                "offsetMultiplier": 1.0,
-                                "soiThreashold": 0,
+                                "threatStatus": "Yes",
+                                "sensitivity":"Yes",
+                                "BiodivConcern":"Yes",
+                                "offsetMultiplier": "Yes",
+                                "soiThreashold": "Yes",
                                 "unitOfMeasure": "Individual",
                                 "pct": [
                                     {
