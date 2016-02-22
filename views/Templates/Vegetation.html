@@ -31,8 +31,11 @@
                     </td>
                     <td>{{pctItem.pct.id}}</td>
                     <td>{{pctItem.pct.percentCleared}}</td>
-                    <td><select class="form-control" ng-model="pctItem.tec" ng-options="ref.name for ref in pctItem.pct.tec"></select></td>
-                    <td>{{pctItem.tec.threatStatusClass}}</td>
+                    <td>
+                        <select class="form-control" ng-model="pctItem.tec" ng-options="ref.name for ref in pctItem.pct.tec"></select>
+                        <p>{{pctItem.tec.name}}</p>
+                    </td>
+                    <td>{{pctItem.tec.status}}</td>
                     <td><a href="#" ng-click="vc.vegetationTab.removePctObject($index)">Remove</a></td>
                 </tr>
                 </tbody>

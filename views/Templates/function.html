@@ -11,7 +11,7 @@
         </div>
         <div class="row" style="padding-top: 30px">
             <div class="col-md-12">
-                <table class="table">
+                <table class="table numericGrid">
                     <tr>
                         <th>Item</th>
                         <th>Number of large trees</th>
@@ -22,9 +22,9 @@
                     </tr>
                     <tr ng-repeat="item in fc.function.getApplicableCalcResults()[fc.function.model.inFocusVegetationZoneIndex].functionTransects">
                         <td>Transect {{$index + 1}}</td>
-                        <td><input class="form-control" size=3 type="number" min="0" ng-model="item.numberOfLargeTrees" ng-blur="fc.function.updateCalcsFor('NumberOfLargeTrees', item.numberOfLargeTrees)"/></td>
-                        <td><input class="form-control" size=3 type="number" min="0" ng-model="item.litterCover" ng-blur="fc.function.updateCalcsFor('LitterCover', item.litterCover)"/></td>
-                        <td><input class="form-control" size=3 type="number" min="0" ng-model="item.coarseWoodyDebris" ng-blur="fc.function.updateCalcsFor('CoarseWoodyDebris', item.coarseWoodyDebris)"/></td>
+                        <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="item.numberOfLargeTrees" ng-blur="fc.function.updateCalcsFor('NumberOfLargeTrees', item.numberOfLargeTrees)"/></td>
+                        <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="item.litterCover" ng-blur="fc.function.updateCalcsFor('LitterCover', item.litterCover)"/></td>
+                        <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="item.coarseWoodyDebris" ng-blur="fc.function.updateCalcsFor('CoarseWoodyDebris', item.coarseWoodyDebris)"/></td>
                         <td>
                             <select class="form-control" ng-model="item.stemSizeClasses" ng-blur="fc.function.updateCalcsFor('StemSizeClasses', item.stemSizeClasses)">
                                 <option value="1">0</option>
