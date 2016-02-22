@@ -17,7 +17,7 @@
             <td>{{x.scientificName}}</td>
             <td>{{x.habitatComponents}}</td>
             <td>
-              <select ng-model="predictedPresence" ng-options="item as item.name for item in model.referenceData.optionClass"  >
+              <select ng-model="model.inputs.ecosystemCredit[0].presence" ng-options="item as item.name for item in model.referenceData.optionClass"  >
               </select>
             </td>
             <td>
