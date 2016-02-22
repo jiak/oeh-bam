@@ -13,11 +13,11 @@
       </thead>
       <tbody>
         <tr ng-repeat="x in model.referenceData.ecosystemCredit.ibraSubRegion[0].threatendedSpecies">
-            <td> <input type="text"  /></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>{{x.name}}</td>
+            <td>{{x.scientificName}}</td>
+            <td>{{x.habitatComponents}}</td>
+            <td>{{x.percentCover}}</td>
+            <td>{{x.sensitivity}}</td>
         <tr>
       </tbody>
   </table>
@@ -36,7 +36,15 @@
       </tr>
       </thead>
       <tbody>
-
+        <tr ng-repeat="x in model.referenceData.speciesCredit.ibraSubRegion[0].threatendedSpecies">
+            <td>{{x.name}}</td>
+            <td>{{x.scientificName}}</td>
+            <td>{{x.habitatComponents}}</td>
+            <td></td>
+            <td>{{x.percentCover}}</td>
+            <td>{{x.unitOfMeasure}}</td>
+            <td></td>
+        <tr>
       </tbody>
   </table>
 
@@ -49,14 +57,23 @@
           <th>Threat Status</th>
           <th>Sensitivity</th>
           <th>Biodiv. Concern</th>
-
           <th>Offset Multiplier</th>
           <th>SOI Threshold</th>
           <th>SOI Select</th>
       </tr>
       </thead>
       <tbody>
+        <tr ng-repeat="x in model.referenceData.speciesCredit.ibraSubRegion[0].threatendedSpecies">
+            <td>{{x.name}}</td>
+            <td>{{x.scientificName}}</td>
+            <td>{{x.threatStatus}}</td>
 
+            <td>{{x.sensitivity}}</td>
+            <td></td>
+            <td>{{x.offsetMultiplier}}</td>
+            <td>{{x.soiThreashold}}</td>
+            <td></td>
+        <tr>
       </tbody>
   </table>
 
