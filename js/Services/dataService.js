@@ -1,6 +1,25 @@
 bamApp.service('dataService', ["referenceDataService", function (referenceDataService) {
     return {
         ibra: null,
+        locationModel: {
+            currentOrFuture: null,
+            inFocusVegetationZoneIndex: null,
+            input: {
+                locations: [],
+                futureLocations: []
+            },
+            createLocation: function() {
+                return {
+                    easting: null,
+                    northing: null,
+                    zone: null
+                }
+            },
+            setInputs: function(inFocusVegetationZoneIndex, currentOrFuture) {
+                this.inFocusVegetationZoneIndex = inFocusVegetationZoneIndex
+                this.currentOrFuture = currentOrFuture
+            }
+        },
         vegetationModel: {
             isPopupOpen: false,
             calcTypeToPopup: null,
@@ -141,11 +160,6 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
                     compositionSubtotal: null
                 }
             }
-        },
-        futureStructureModel: {
-            benchmarks: referenceDataService.structureBenchmarkData,
-            structureCalcResults: [],
-            currentStructure: null
-        },
+        }
     }
 }])

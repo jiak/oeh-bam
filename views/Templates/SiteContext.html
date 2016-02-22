@@ -6,11 +6,11 @@
                 <label for="ibra">IBRA</label>
                 <select ng-show="dataService.ibra == null" id="ibra" class="form-control" ng-model="dataService.ibra" ng-options="Item as Item.name for Item in referenceData.siteContext.ibra" ng-change="">
                 </select>
-                <p ng-show="dataService.ibra != null" title="Once set, IBRA value cannot be changed, you must refresh the page to reset the calculator">{{dataService.ibra.name}}</p>
+                <input class="form-control" value="{{dataService.ibra.name}}" readonly ng-show="dataService.ibra != null" title="Once set, IBRA value cannot be changed, you must refresh the page to reset the calculator"/>
                 <label for="sub-region">Sub Region</label>
                 <select ng-show="ibraSubregion == null" id="sub-region" class="form-control" ng-model="ibraSubregion" ng-options="Item as Item.name for Item in dataService.ibra.ibraSubRegion">
                 </select>
-                <p ng-show="ibraSubregion != null" title="Once set, Sub Region value cannot be changed, you must refresh the page to reset the calculator">{{ibraSubregion.name}}</p>
+                <input class="form-control" value="{{ibraSubregion.name}}" readonly ng-show="ibraSubregion != null" title="Once set, Sub Region value cannot be changed, you must refresh the page to reset the calculator"/>
                 <label for="mitchell">Mitchell</label>
                 <select id="mitchell" class="form-control" ng-model="mitchellLandscape" ng-options="Item as Item.name for Item in referenceData.siteContext.mitchellLandscape">
                 </select>

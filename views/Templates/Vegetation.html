@@ -49,14 +49,16 @@
                     <th>Condition Class</th>
                     <th>Identifier</th>
                     <th>Area</th>
+                    <th>Location</th>
                     <th>Composition</th>
                     <th>Structure</th>
                     <th>Function</th>
+                    <th>VIS</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr data-ng-repeat="vegetationZoneItem in vc.vegetationTab.model.input.vegetationZones">
-                    <td>{{$index}}</td>
+                    <td>{{$index + 1}}</td>
                     <td>
                         <select class="form-control" title="PCT codes are listed only if benchmark data is available for the current IBRA and Keith Class" ng-model="vegetationZoneItem.pctCode" ng-options="item.pct.id for item in vc.vegetationTab.getAvailablePct()" ng-change="vc.vegetationTab.populateKeithClassForZone(vegetationZoneItem)"></select>
                     </td>
@@ -69,7 +71,12 @@
                     </td>
                     <td>{{vegetationZoneItem.identifier()}}</td>
                     <td>
-                        <input type="number" class="form-control" ng-model="vegetationZoneItem.area"/>
+                        <input type="number" size="4" class="form-control" ng-model="vegetationZoneItem.area"/>
+                    </td>
+                    <td>
+                        <button ng-click="vc.vegetationTab.setCalcToDisplay($index, 'current', vegetationZoneItem.keithClass, 'location')" uib-popover-template="'Templates/location.html'" popover-trigger="none" popover-is-open="vc.vegetationTab.shouldThisPopupBeOpened('current', $index, 'location')" popover-animation="true" popover-placement="auto" type="button"
+                                class="btn btn-primary">Location
+                        </button>
                     </td>
                     <td>
                         <button ng-click="vc.vegetationTab.setCalcToDisplay($index, 'current', vegetationZoneItem.keithClass, 'composition')" uib-popover-template="'Templates/composition.html'" popover-trigger="none" popover-is-open="vc.vegetationTab.shouldThisPopupBeOpened('current', $index, 'composition')" popover-animation="true" popover-placement="auto" type="button"
@@ -83,6 +90,9 @@
                     </td>
                     <td>
                         <button ng-click="vc.vegetationTab.setCalcToDisplay($index, 'current', vegetationZoneItem.keithClass, 'function')" uib-popover-template="'Templates/function.html'" popover-animation="true" popover-placement="auto" popover-trigger="none" popover-is-open="vc.vegetationTab.shouldThisPopupBeOpened('current', $index, 'function')" type="button" class="btn btn-primary">{{vc.dataService.functionModel.functionCalcResults[$index].functionSubtotal || "0"}}</button>
+                    </td>
+                    <td>
+                        {{vc.vegetationTab.calculateGeomean($index, 'current')}}
                     </td>
                 </tr>
                 </tbody>
@@ -101,11 +111,13 @@
                     <th>Composition</th>
                     <th>Structure</th>
                     <th>Function</th>
+                    <th>VIS</th>
+                    <th>&#916; VIS</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr data-ng-repeat="vegetationZoneItem in vc.vegetationTab.model.input.vegetationZones">
-                    <td>{{$index}}</td>
+                    <td>{{$index + 1}}</td>
                     <td>{{vegetationZoneItem.pctCode.pct.id}}</td>
                     <td>{{vegetationZoneItem.conditionClass}}</td>
                     <td>{{vegetationZoneItem.identifier()}}</td>
@@ -122,6 +134,12 @@
                     </td>
                     <td>
                         <button ng-click="vc.vegetationTab.setCalcToDisplay($index, 'future', vegetationZoneItem.keithClass, 'function')" uib-popover-template="'Templates/function.html'" popover-animation="true" popover-placement="auto" popover-trigger="none" popover-is-open="vc.vegetationTab.shouldThisPopupBeOpened('future', $index, 'function')" type="button" class="btn btn-primary">{{vc.dataService.functionModel.futureFunctionCalcResults[$index].functionSubtotal || "0"}}</button>
+                    </td>
+                    <td>
+                        {{vc.vegetationTab.calculateGeomean($index, 'future')}}
+                    </td>
+                    <td>
+                        {{vc.vegetationTab.calculateGeomean($index, 'future') - vc.vegetationTab.calculateGeomean($index, 'current')}}
                     </td>
                 </tr>
                 </tbody>

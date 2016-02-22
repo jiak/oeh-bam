@@ -1,0 +1,30 @@
+<form novalidate>
+    <div ng-controller="locationController as lc">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Location</h4>
+            </div>
+            <div class="col-md-6">
+                <button ng-click="lc.location.close()" class="btn btn-primary pull-right">Close</button>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 30px">
+            <div class="col-md-12">
+                <table class="table">
+                    <tr>
+                        <th>Easting</th>
+                        <td><input class="form-control" ng-model="lc.location.getApplicableLocation()[lc.location.model.inFocusVegetationZoneIndex].easting"/></td>
+                    </tr>
+                    <tr>
+                        <th>Northing</th>
+                        <td><input class="form-control" ng-model="lc.location.getApplicableLocation()[lc.location.model.inFocusVegetationZoneIndex].northing"/></td>
+                    </tr>
+                    <tr>
+                        <th>Zone</th>
+                        <td><input class="form-control" ng-model="lc.location.getApplicableLocation()[lc.location.model.inFocusVegetationZoneIndex].zone"/></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</form>

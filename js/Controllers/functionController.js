@@ -42,12 +42,17 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         calculateObservedMean: function (theObject, theObjectLower) {
             var observedMean = 0;
             this.getCurrentFunction().functionTransects.forEach(function (element) {
-                eval("observedMean += element." + theObjectLower + "")
+                eval("observedMean += parseInt(element." + theObjectLower + ")")
             })
-            eval("this.getCurrentFunction().observedMean" + theObject + " = observedMean / this.getCurrentFunction().functionTransects.length")
+            eval("this.getCurrentFunction().observedMean" + theObject + " = (observedMean / this.getCurrentFunction().functionTransects.length).toFixed(2)")
         },
 
         calculateWeightedFunctionScore: function (theObject, theObjectLower) {
+            if(theObject == "RegenerationPresent") {
+                if(this.getBenchmark().regeneration == 'absent') {
+                    return;
+                }
+            }
             eval("this.getCurrentFunction().weighted" + theObject + "Score = Math.round(this.getCurrentFunction().unweighted" + theObject + "Score * this.getCurrentFunction().dynamicWeighting" + theObject + "Score)")
         },
 
@@ -60,6 +65,8 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             } else if (theObject == "CoarseWoodyDebris") {
                 value = 0.20
             } else if (theObject == "StemSizeClasses") {
+                value = 0.15
+            } else if (theObject == "RegenerationPresent") {
                 value = 0.15
             }
             eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score = " + value + "")
@@ -92,24 +99,24 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                         );
                     }
                 } else if (theObject == 'StemSizeClasses') {
-                    switch (observedValue) {
-                        case 1:
-                            returnValue = 25;
-                            break;
-                        case 2:
-                            returnValue = 50;
-                            break;
-                        case 3:
-                            returnValue = 80;
-                            break;
-                        case 4:
-                            returnValue = 100;
+                    if (observedValue > benchmarks.stemSizeClasses) {
+                        returnValue = (
+                            (100 + 50) - (50 + ((100 - 50)
+                            /
+                            (1 + Math.exp(-10 * ((observedValue / benchmarks.stemSizeClasses)) - 1.5))))
+                        )
+                    } else {
+                        returnValue = (
+                            1.01 * (1 - Math.exp(-4.4 * Math.pow(parseInt(observedValue) / benchmarks.stemSizeClasses, 1.85))) * 100
+                        )
                     }
                 } else if (theObject == 'RegenerationPresent') {
-                    if (observedValue == "Absent") {
+                    if (observedValue == "0") {
                         returnValue = 0;
                     } else {
-                        returnValue = 100;
+                        returnValue = (
+                            1.01 * (1 - Math.exp(-4.4 * Math.pow(parseInt(observedValue) / (benchmarks.regeneration == 'present' ? 1 : 0), 1.85))) * 100
+                        )
                     }
                 }
             }
@@ -129,9 +136,9 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         createFunctionTransect: function () {
             return {
                 numberOfLargeTrees: null,
-                shurb: null,
+                litterCover: null,
                 coarseWoodyDebris: null,
-                forb: null,
+                stemSizeClasses: null,
                 regenerationPresent: null
             }
         },

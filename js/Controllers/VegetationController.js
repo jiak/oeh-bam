@@ -6,6 +6,39 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
 
         model: dataService.vegetationModel,
 
+        calculateGeomean: function(index, currentOrFuture) {
+            var cs, ss, fs = 0
+            if(currentOrFuture == 'current') {
+                cs = dataService.compositionModel.compositionCalcResults[index].compositionSubtotal
+                ss = dataService.structureModel.structureCalcResults[index].structureSubtotal
+                fs = dataService.functionModel.functionCalcResults[index].functionSubtotal
+            } else {
+                cs = dataService.compositionModel.futureCompositionCalcResults[index].compositionSubtotal
+                ss = dataService.structureModel.futureStructureCalcResults[index].structureSubtotal
+                fs = dataService.functionModel.futureFunctionCalcResults[index].functionSubtotal
+            }
+            var sum = 1
+            var count = 0
+            if(cs > 0) {
+                sum *= cs
+                count++
+            }
+            if(ss > 0) {
+                sum *= ss
+                count++
+            }
+            if(fs > 0) {
+                sum *= fs
+                count++
+            }
+            if(sum > 0 && count > 0) {
+                return Math.pow(sum, 1/count).toFixed(1)
+            } else {
+                return 0
+            }
+
+        },
+
         addToZoneMap: function (vegetationZoneItem) {
             this.model.zoneMap.push(vegetationZoneItem.pctCode.pct.id + "_" + vegetationZoneItem.conditionClass)
         },
@@ -46,6 +79,7 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             dataService.compositionModel.setInputs(inFocusVegetationZoneIndex, currentOrFuture, keithClass)
             dataService.functionModel.setInputs(inFocusVegetationZoneIndex, currentOrFuture, keithClass)
             dataService.structureModel.setInputs(inFocusVegetationZoneIndex, currentOrFuture, keithClass)
+            dataService.locationModel.setInputs(inFocusVegetationZoneIndex, currentOrFuture)
         },
 
         setFocusedFutureVegetationZone: function (index) {
@@ -139,6 +173,7 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
                 dataService.structureModel.futureStructureCalcResults.push(dataService.structureModel.createStructureCalcResult())
                 dataService.functionModel.functionCalcResults.push(dataService.functionModel.createFunctionCalcResult())
                 dataService.functionModel.futureFunctionCalcResults.push(dataService.functionModel.createFunctionCalcResult())
+
             }
         },
     }

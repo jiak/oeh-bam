@@ -22,7 +22,7 @@
                         <th>Other</th>
                     </tr>
                     <tr ng-repeat="item in cc.composition.getApplicableCalcResults()[cc.composition.model.inFocusVegetationZoneIndex].compositionTransects">
-                        <td>Transect {{$index}}</td>
+                        <td>Transect {{$index + 1}}</td>
                         <td><input class="form-control numericInput" min="0" size=3 type="number" ng-model="item.tree" ng-blur="cc.composition.updateCalcsFor('Tree', item.tree)"/></td>
                         <td><input class="form-control numericInput" min="0" size=3 type="number" ng-model="item.shrub" ng-blur="cc.composition.updateCalcsFor('Shrub', item.shrub)"/></td>
                         <td><input class="form-control numericInput" min="0" size=3 type="number" ng-model="item.grassAndGrassLike" ng-blur="cc.composition.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)"/></td>

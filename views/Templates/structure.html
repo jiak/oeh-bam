@@ -22,7 +22,7 @@
                         <th>Other</th>
                     </tr>
                     <tr ng-repeat="item in sc.structure.getApplicableCalcResults()[sc.structure.model.inFocusVegetationZoneIndex].structureTransects">
-                        <td>Transect {{$index}}</td>
+                        <td>Transect {{$index + 1}}</td>
                         <td><input class="form-control" size=3 min="0" type="number" ng-model="item.tree" ng-blur="sc.structure.updateCalcsFor('Tree', item.tree)"/></td>
                         <td><input class="form-control" size=3 min="0" type="number" ng-model="item.shrub" ng-blur="sc.structure.updateCalcsFor('Shrub', item.shrub)"/></td>
                         <td><input class="form-control" size=3 min="0" type="number" ng-model="item.grassAndGrassLike" ng-blur="sc.structure.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)"/></td>

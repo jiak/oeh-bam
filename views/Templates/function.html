@@ -18,13 +18,28 @@
                         <th>Litter cover</th>
                         <th>Coarse woody derbis</th>
                         <th>Stem size classes present <br/> excluding <5cm and >50cm</th>
+                        <th>Regeneration stems <br/> stems <5cm DBH</th>
                     </tr>
                     <tr ng-repeat="item in fc.function.getApplicableCalcResults()[fc.function.model.inFocusVegetationZoneIndex].functionTransects">
-                        <td>Transect {{$index}}</td>
+                        <td>Transect {{$index + 1}}</td>
                         <td><input class="form-control" size=3 type="number" min="0" ng-model="item.numberOfLargeTrees" ng-blur="fc.function.updateCalcsFor('NumberOfLargeTrees', item.numberOfLargeTrees)"/></td>
                         <td><input class="form-control" size=3 type="number" min="0" ng-model="item.litterCover" ng-blur="fc.function.updateCalcsFor('LitterCover', item.litterCover)"/></td>
                         <td><input class="form-control" size=3 type="number" min="0" ng-model="item.coarseWoodyDebris" ng-blur="fc.function.updateCalcsFor('CoarseWoodyDebris', item.coarseWoodyDebris)"/></td>
-                        <td><input class="form-control" size=3 type="number" min="0" ng-model="item.stemSizeClasses" ng-blur="fc.function.updateCalcsFor('StemSizeClasses', item.stemSizeClasses)"/></td>
+                        <td>
+                            <select class="form-control" ng-model="item.stemSizeClasses" ng-blur="fc.function.updateCalcsFor('StemSizeClasses', item.stemSizeClasses)">
+                                <option value="1">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="form-control" ng-model="item.regenerationPresent" ng-blur="fc.function.updateCalcsFor('RegenerationPresent', item.regenerationPresent)">
+                                <option value="0">Absent</option>
+                                <option value="1">Present</option>
+                            </select>
+                        </td>
                     </tr>
                     <tr>
                         <td>Benchmark</td>
@@ -32,6 +47,7 @@
                         <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.ibra.name].litterCover || "0"}}</td>
                         <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.ibra.name].coarseWoodyDebris || "0"}}</td>
                         <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.ibra.name].stemSizeClasses || "0"}}</td>
+                        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.ibra.name].regeneration}}</td>
                     </tr>
                     <tr>
                         <td>Observed Mean (x&#772;)</td>
@@ -39,6 +55,7 @@
                         <td>{{fc.function.getCurrentFunction().observedMeanLitterCover || "0"}}</td>
                         <td>{{fc.function.getCurrentFunction().observedMeanCoarseWoodyDebris || "0"}}</td>
                         <td>{{fc.function.getCurrentFunction().observedMeanStemSizeClasses || "0"}}</td>
+                        <td>{{fc.function.getCurrentFunction().observedMeanRegenerationPresent || "0"}}</td>
                     </tr>
                     <tr>
                         <td>Unweighted Function Score (UCS<sub>i</sub>)</td>
@@ -46,6 +63,7 @@
                         <td>{{fc.function.getCurrentFunction().unweightedLitterCoverScore || "0"}}</td>
                         <td>{{fc.function.getCurrentFunction().unweightedCoarseWoodyDebrisScore || "0"}}</td>
                         <td>{{fc.function.getCurrentFunction().unweightedStemSizeClassesScore || "0"}}</td>
+                        <td>{{fc.function.getCurrentFunction().unweightedRegenerationPresentScore || "0"}}</td>
                     </tr>
                     <tr>
                         <td>Weighted Function Score (WCS<sub>i</sub>)</td>
@@ -53,6 +71,7 @@
                         <td>{{fc.function.getCurrentFunction().weightedLitterCoverScore || "0"}}</td>
                         <td>{{fc.function.getCurrentFunction().weightedCoarseWoodyDebrisScore || "0"}}</td>
                         <td>{{fc.function.getCurrentFunction().weightedStemSizeClassesScore || "0"}}</td>
+                        <td>{{fc.function.getCurrentFunction().weightedRegenerationPresentScore || "0"}}</td>
                     </tr>
                     <tr>
                         <td>Dynamic Weighting (w<sub>i</sub>)</td>
@@ -60,6 +79,7 @@
                         <td>{{fc.function.getCurrentFunction().dynamicWeightingLitterCoverScore || "0"}}</td>
                         <td>{{fc.function.getCurrentFunction().dynamicWeightingCoarseWoodyDebrisScore || "0"}}</td>
                         <td>{{fc.function.getCurrentFunction().dynamicWeightingStemSizeClassesScore || "0"}}</td>
+                        <td>{{fc.function.getCurrentFunction().dynamicWeightingRegenerationPresentScore || "0"}}</td>
                     </tr>
                 </table>
             </div>
