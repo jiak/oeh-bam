@@ -13,6 +13,7 @@ bamApp.controller('siteContextController', ["$scope", "referenceDataService", "$
     }];
 
 
+
     $scope.AddFeature = function () {
         var count = $scope.LandscapeFeatures.length;
 

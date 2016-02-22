@@ -2,10 +2,11 @@
     <div ng-controller="functionController as fc">
         <div class="row">
             <div class="col-md-6">
-                <h4>Zone Function Data</h4>
+                <h4>Zone Function Data (Subtotal: {{fc.function.getCurrentFunction().functionSubtotal || "0"}})</h4>
             </div>
             <div class="col-md-6">
-                <button ng-click="fc.function.addFunctionTransect()" class="btn btn-secondary pull-right">Add Transect</button>
+                <button ng-click="fc.function.close()" class="btn btn-primary pull-right">Close</button>
+                <button ng-show="fc.function.model.currentOrFuture == 'current'" ng-click="fc.function.addFunctionTransect()" class="btn btn-secondary pull-right">Add Transect</button>
             </div>
         </div>
         <div class="row" style="padding-top: 30px">
@@ -18,19 +19,19 @@
                         <th>Coarse woody derbis</th>
                         <th>Stem size classes present <br/> excluding <5cm and >50cm</th>
                     </tr>
-                    <tr ng-repeat="item in fc.function.model.functionCalcResults[fc.dataService.vegetationModel.inFocusVegetationZoneIndex].functionTransects">
+                    <tr ng-repeat="item in fc.function.getApplicableCalcResults()[fc.function.model.inFocusVegetationZoneIndex].functionTransects">
                         <td>Transect {{$index}}</td>
-                        <td><input class="form-control" size=3 type="number" ng-model="item.numberOfLargeTrees" ng-blur="fc.function.updateCalcsFor('NumberOfLargeTrees', item.numberOfLargeTrees)"/></td>
-                        <td><input class="form-control" size=3 type="number" ng-model="item.litterCover" ng-blur="fc.function.updateCalcsFor('LitterCover', item.litterCover)"/></td>
-                        <td><input class="form-control" size=3 type="number" ng-model="item.coarseWoodyDebris" ng-blur="fc.function.updateCalcsFor('CoarseWoodyDebris', item.coarseWoodyDebris)"/></td>
-                        <td><input class="form-control" size=3 type="number" ng-model="item.stemSizeClasses" ng-blur="fc.function.updateCalcsFor('StemSizeClasses', item.stemSizeClasses)"/></td>
+                        <td><input class="form-control" size=3 type="number" min="0" ng-model="item.numberOfLargeTrees" ng-blur="fc.function.updateCalcsFor('NumberOfLargeTrees', item.numberOfLargeTrees)"/></td>
+                        <td><input class="form-control" size=3 type="number" min="0" ng-model="item.litterCover" ng-blur="fc.function.updateCalcsFor('LitterCover', item.litterCover)"/></td>
+                        <td><input class="form-control" size=3 type="number" min="0" ng-model="item.coarseWoodyDebris" ng-blur="fc.function.updateCalcsFor('CoarseWoodyDebris', item.coarseWoodyDebris)"/></td>
+                        <td><input class="form-control" size=3 type="number" min="0" ng-model="item.stemSizeClasses" ng-blur="fc.function.updateCalcsFor('StemSizeClasses', item.stemSizeClasses)"/></td>
                     </tr>
                     <tr>
                         <td>Benchmark</td>
-                        <td>{{fc.function.model.benchmarks[fc.function.getKeithClass()][fc.dataService.ibra.name].numberOfLargeTrees || "0"}}</td>
-                        <td>{{fc.function.model.benchmarks[fc.function.getKeithClass()][fc.dataService.ibra.name].litterCover || "0"}}</td>
-                        <td>{{fc.function.model.benchmarks[fc.function.getKeithClass()][fc.dataService.ibra.name].coarseWoodyDebris || "0"}}</td>
-                        <td>{{fc.function.model.benchmarks[fc.function.getKeithClass()][fc.dataService.ibra.name].stemSizeClasses || "0"}}</td>
+                        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.ibra.name].numberOfLargeTrees || "0"}}</td>
+                        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.ibra.name].litterCover || "0"}}</td>
+                        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.ibra.name].coarseWoodyDebris || "0"}}</td>
+                        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.ibra.name].stemSizeClasses || "0"}}</td>
                     </tr>
                     <tr>
                         <td>Observed Mean (x&#772;)</td>

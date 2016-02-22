@@ -6,43 +6,28 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
 
         model: dataService.compositionModel,
 
-        getCurrentComposition: function() {
-            return this.model.compositionCalcResults[dataService.vegetationModel.inFocusVegetationZoneIndex]
+        close: function () {
+            dataService.vegetationModel.isPopupOpen = false
+        },
+
+        getApplicableCalcResults: function () {
+            if (this.model.currentOrFuture == 'current') {
+                return this.model.compositionCalcResults
+            } else {
+                return this.model.futureCompositionCalcResults
+            }
+        },
+
+        getCurrentComposition: function () {
+            return this.getApplicableCalcResults()[this.model.inFocusVegetationZoneIndex]
         },
 
         addCompositionCalcResults: function () {
-            this.model.compositionCalcResults.push(this.createCompositionCalcResults())
+            this.getApplicableCalcResults().push(this.createCompositionCalcResults())
         },
 
         createCompositionCalcResults: function () {
-            return {
-                compositionTransects: [],
-                observedMeanTree: null,
-                observedMeanShrub: null,
-                observedMeanGrassAndGrassLike: null,
-                observedMeanForb: null,
-                observedMeanFern: null,
-                observedMeanOther: null,
-                unweightedTreeScore: null,
-                unweightedShrubScore: null,
-                unweightedGrassAndGrassLikeScore: null,
-                unweightedForbScore: null,
-                unweightedFernScore: null,
-                unweightedOtherScore: null,
-                weightedTreeScore: null,
-                weightedShrubScore: null,
-                weightedGrassAndGrassLikeScore: null,
-                weightedForbScore: null,
-                weightedFernScore: null,
-                weightedOtherScore: null,
-                dynamicWeightingTreeScore: null,
-                dynamicWeightingShrubScore: null,
-                dynamicWeightingGrassAndGrassLikeScore: null,
-                dynamicWeightingForbScore: null,
-                dynamicWeightingFernScore: null,
-                dynamicWeightingOtherScore: null,
-                compositionSubtotal: null
-            }
+            return dataService.compositionModel.createCompositionCalcResult()
         },
 
         updateCalcsFor: function (theObject, observedValue) {
@@ -66,13 +51,13 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             eval("this.getCurrentComposition().weighted" + theObject + "Score = Math.round(this.getCurrentComposition().unweighted" + theObject + "Score * this.getCurrentComposition().dynamicWeighting" + theObject + "Score)")
         },
 
-        getKeithClass: function () {
-            return dataService.vegetationModel.input.pct[dataService.vegetationModel.inFocusVegetationZoneIndex].keithClass.name
+        getBenchmark: function () {
+            return this.model.benchmarks[this.model.keithClass][dataService.ibra.name]
         },
 
         calculateDynamicWeightingScore: function (theObject, theObjectLower) {
             var sumOfBenchmarkScores = 0;
-            var benchmarks = this.model.benchmarks[this.getKeithClass()][dataService.ibra.name];
+            var benchmarks = this.getBenchmark()
             for (var property in benchmarks) {
                 if (benchmarks.hasOwnProperty(property)) {
                     sumOfBenchmarkScores += benchmarks[property];
@@ -82,7 +67,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
         },
 
         calculateUnweightedCompositionScore: function (theObject, theObjectLower, observedValue) {
-            var benchmarks = this.model.benchmarks[this.getKeithClass()][dataService.ibra.name];
+            var benchmarks = this.model.benchmarks[this.model.keithClass][dataService.ibra.name];
             var returnValue = 0;
             if (observedValue == 0) {
                 returnValue = 0;
@@ -120,11 +105,15 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
         },
 
         addCompositionTransect: function () {
-            if(this.model.compositionCalcResults[dataService.vegetationModel.inFocusVegetationZoneIndex] == undefined) {
+            if (this.getCurrentComposition() == undefined) {
                 this.addCompositionCalcResults();
             }
-            this.model.compositionCalcResults[dataService.vegetationModel.inFocusVegetationZoneIndex].compositionTransects.push(this.createCompositionTransect())
+            this.getCurrentComposition().compositionTransects.push(this.createCompositionTransect())
         }
+    }
+
+    if(this.composition.getApplicableCalcResults()[this.composition.model.inFocusVegetationZoneIndex].compositionTransects.length == 0) {
+        this.composition.addCompositionTransect()
     }
 
 }]);

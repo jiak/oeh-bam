@@ -6,43 +6,28 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
 
         model: dataService.structureModel,
 
-        getCurrentStructure: function (index) {
-            return this.model.structureCalcResults[dataService.vegetationModel.inFocusVegetationZoneIndex]
+        close: function() {
+            dataService.vegetationModel.isPopupOpen = false
+        },
+
+        getApplicableCalcResults: function () {
+            if (this.model.currentOrFuture == 'current') {
+                return this.model.structureCalcResults
+            } else {
+                return this.model.futureStructureCalcResults
+            }
+        },
+
+        getCurrentStructure: function () {
+            return this.getApplicableCalcResults()[this.model.inFocusVegetationZoneIndex]
         },
 
         addStructureCalcResults: function () {
-            this.model.structureCalcResults.push(this.createStructureCalcResults())
+            this.getApplicableCalcResults().push(this.createStructureCalcResults())
         },
 
         createStructureCalcResults: function () {
-            return {
-                structureTransects: [],
-                observedMeanTree: null,
-                observedMeanShrub: null,
-                observedMeanGrassAndGrassLike: null,
-                observedMeanForb: null,
-                observedMeanFern: null,
-                observedMeanOther: null,
-                unweightedTreeScore: null,
-                unweightedShrubScore: null,
-                unweightedGrassAndGrassLikeScore: null,
-                unweightedForbScore: null,
-                unweightedFernScore: null,
-                unweightedOtherScore: null,
-                weightedTreeScore: null,
-                weightedShrubScore: null,
-                weightedGrassAndGrassLikeScore: null,
-                weightedForbScore: null,
-                weightedFernScore: null,
-                weightedOtherScore: null,
-                dynamicWeightingTreeScore: null,
-                dynamicWeightingShrubScore: null,
-                dynamicWeightingGrassAndGrassLikeScore: null,
-                dynamicWeightingForbScore: null,
-                dynamicWeightingFernScore: null,
-                dynamicWeightingOtherScore: null,
-                structureSubtotal: null
-            }
+            return dataService.structureModel.createStructureCalcResult()
         },
 
         updateCalcsFor: function (theObject, observedValue) {
@@ -52,6 +37,10 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             this.calculateUnweightedStructureScore(theObject, theObjectLower, observedValue)
             this.calculateWeightedStructureScore(theObject, theObjectLower)
             this.calculateStructureSubtotal()
+        },
+
+        getBenchmark: function () {
+            return this.model.benchmarks[this.model.keithClass][dataService.ibra.name]
         },
 
         calculateObservedMean: function (theObject, theObjectLower) {
@@ -66,13 +55,9 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             eval("this.getCurrentStructure().weighted" + theObject + "Score = Math.round(this.getCurrentStructure().unweighted" + theObject + "Score * this.getCurrentStructure().dynamicWeighting" + theObject + "Score)")
         },
 
-        getKeithClass: function () {
-            return dataService.vegetationModel.input.pct[dataService.vegetationModel.inFocusVegetationZoneIndex].keithClass.name
-        },
-
         calculateDynamicWeightingScore: function (theObject, theObjectLower) {
             var sumOfBenchmarkScores = 0;
-            var benchmarks = this.model.benchmarks[this.getKeithClass()][dataService.ibra.name];
+            var benchmarks = this.getBenchmark()
             for (var property in benchmarks) {
                 if (benchmarks.hasOwnProperty(property)) {
                     sumOfBenchmarkScores += benchmarks[property];
@@ -82,7 +67,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
         },
 
         calculateUnweightedStructureScore: function (theObject, theObjectLower, observedValue) {
-            var benchmarks = this.model.benchmarks[this.getKeithClass()][dataService.ibra.name];
+            var benchmarks = this.getBenchmark()
             var returnValue = 0;
             if (observedValue == 0) {
                 returnValue = 0;
@@ -124,10 +109,15 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
         },
 
         addStructureTransect: function () {
-            if(this.model.structureCalcResults[dataService.vegetationModel.inFocusVegetationZoneIndex] == undefined) {
+            if(this.getCurrentStructure() == undefined) {
                 this.addStructureCalcResults()
             }
-            this.model.structureCalcResults[dataService.vegetationModel.inFocusVegetationZoneIndex].structureTransects.push(this.createStructureTransect())
+            this.getCurrentStructure().structureTransects.push(this.createStructureTransect())
         }
     }
+
+    if(this.structure.getApplicableCalcResults()[this.structure.model.inFocusVegetationZoneIndex].structureTransects.length == 0) {
+        this.structure.addStructureTransect()
+    }
+
 }])

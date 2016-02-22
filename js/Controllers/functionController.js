@@ -6,39 +6,28 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
 
         model: dataService.functionModel,
 
-        getCurrentFunction: function() {
-            return this.model.functionCalcResults[dataService.vegetationModel.inFocusVegetationZoneIndex]
+        close: function() {
+            dataService.vegetationModel.isPopupOpen = false
+        },
+
+        getApplicableCalcResults: function () {
+            if (this.model.currentOrFuture == 'current') {
+                return this.model.functionCalcResults
+            } else {
+                return this.model.futureFunctionCalcResults
+            }
+        },
+
+        getCurrentFunction: function () {
+            return this.getApplicableCalcResults()[this.model.inFocusVegetationZoneIndex]
         },
 
         addFunctionCalcResults: function () {
-            this.model.functionCalcResults.push(this.createFunctionCalcResults())
+            this.getApplicableCalcResults().push(this.createFunctionCalcResults())
         },
 
         createFunctionCalcResults: function () {
-            return {
-                functionTransects: [],
-                observedMeanNumberOfLargeTrees: null,
-                observedMeanLitterCover: null,
-                observedMeanCoarseWoodyDebris: null,
-                observedMeanStemSizeClasses: null,
-                observedMeanRegenerationPresent: null,
-                unweightedNumberOfLargeTreesScore: null,
-                unweightedLitterCoverScore: null,
-                unweightedCoarseWoodyDebrisScore: null,
-                unweightedStemSizeClassesScore: null,
-                unweightedRegenerationPresentScore: null,
-                weightedNumberOfLargeTreesScore: null,
-                weightedLitterCoverScore: null,
-                weightedCoarseWoodyDebrisScore: null,
-                weightedStemSizeClassesScore: null,
-                weightedRegenerationPresentScore: null,
-                dynamicWeightingNumberOfLargeTreesScore: null,
-                dynamicWeightingLitterCoverScore: null,
-                dynamicWeightingCoarseWoodyDebrisScore: null,
-                dynamicWeightingStemSizeClassesScore: null,
-                dynamicWeightingRegenerationPresentScore: null,
-                functionSubtotal: null
-            }
+            return dataService.functionModel.createFunctionCalcResult()
         },
 
         updateCalcsFor: function (theObject, observedValue) {
@@ -62,10 +51,6 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             eval("this.getCurrentFunction().weighted" + theObject + "Score = Math.round(this.getCurrentFunction().unweighted" + theObject + "Score * this.getCurrentFunction().dynamicWeighting" + theObject + "Score)")
         },
 
-        getKeithClass: function () {
-            return dataService.vegetationModel.input.pct[dataService.vegetationModel.inFocusVegetationZoneIndex].keithClass.name
-        },
-
         calculateDynamicWeightingScore: function (theObject, theObjectLower) {
             var value = 0
             if (theObject == "NumberOfLargeTrees") {
@@ -80,8 +65,12 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score = " + value + "")
         },
 
+        getBenchmark: function () {
+            return this.model.benchmarks[this.model.keithClass][dataService.ibra.name]
+        },
+
         calculateUnweightedFunctionScore: function (theObject, theObjectLower, observedValue) {
-            var benchmarks = this.model.benchmarks[this.getKeithClass()][dataService.ibra.name];
+            var benchmarks = this.getBenchmark()
             var returnValue = 0;
             if (observedValue == 0) {
                 returnValue = 0;
@@ -148,11 +137,12 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         },
 
         addFunctionTransect: function () {
-            if(this.model.functionCalcResults[dataService.vegetationModel.inFocusVegetationZoneIndex] == undefined) {
-                this.addFunctionCalcResults()
-            }
-            this.model.functionCalcResults[dataService.vegetationModel.inFocusVegetationZoneIndex].functionTransects.push(this.createFunctionTransect())
+            this.getCurrentFunction().functionTransects.push(this.createFunctionTransect())
         }
+    }
+
+    if(this.function.getApplicableCalcResults()[this.function.model.inFocusVegetationZoneIndex].functionTransects.length == 0) {
+        this.function.addFunctionTransect()
     }
 
 }])
