@@ -57,33 +57,34 @@
                 <td>{{x.habitatComponents}}</td>
                 <td>
                     <select ng-model="model.input.speciesCredit[$index].candidate"
-                            ng-options="item as item.name for item in model.optionClass"  >
+                            ng-options="item as item.name for item in model.optionClass"  class="form-control">
                 </td>
                 <td>
                     <select ng-if="model.input.speciesCredit[$index].candidate.name=='Yes'"
                             ng-model="model.input.speciesCredit[$index].assessRequired"
-                            ng-options="item as item.name for item in model.optionClass"  >
+                            ng-options="item as item.name for item in model.optionClass"  class="form-control">
                 </td>
                 <td>
                   <select ng-if="model.input.speciesCredit[$index].assessRequired.name=='Yes'
                                 && model.input.speciesCredit[$index].candidate.name=='Yes'"
                           ng-model="model.input.speciesCredit[$index].presence"
-                          ng-options="item as item.name for item in model.optionClass"  >
+                          ng-options="item as item.name for item in model.optionClass"  class="form-control">
                   </select>
                 </td>
 
                 <td>
-                  <input ng-if="model.input.speciesCredit[$index].presence.name=='Yes'
+
+                  <div ng-if="model.input.speciesCredit[$index].presence.name=='Yes'
                                 && model.input.speciesCredit[$index].assessRequired.name=='Yes'
-                                && model.input.speciesCredit[$index].candidate.name=='Yes'"
-                  ng-model="model.input.speciesCredit[$index].UOM" type="number">
-                  </input>
+                                && model.input.speciesCredit[$index].candidate.name=='Yes'">
+                                {{x.unitOfMeasure}}
+                </div>
                 </td>
                 <td>
                   <input ng-if="model.input.speciesCredit[$index].presence.name=='Yes'
                                 && model.input.speciesCredit[$index].assessRequired.name=='Yes'
                                 && model.input.speciesCredit[$index].candidate.name=='Yes'"
-                  ng-model="model.input.speciesCredit[$index].value" type="number">
+                  ng-model="model.input.speciesCredit[$index].value" type="number" class="form-control">
                   </input>
                 </td>
             <tr>
@@ -114,7 +115,7 @@
                 <td>{{x.offsetMultiplier}}</td>
                 <td>{{x.soiThreashold}}</td>
                 <td>
-                  <select ng-model="model.input.speciesCredit[$index].SOISelected" ng-options="item as item.name for item in model.optionClass"  >
+                  <select ng-model="model.input.speciesCredit[$index].SOISelected" ng-options="item as item.name for item in model.optionClass"  class="form-control">
                   </select>
                 </td>
             <tr>
