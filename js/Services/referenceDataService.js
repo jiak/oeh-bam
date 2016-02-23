@@ -6306,6 +6306,130 @@ bamApp.service('referenceDataService', function () {
                     ]
                 }
             ]
+        },
+        "habitat":{
+
+            "sensitivityClass": [
+              {
+                "id":1,
+                "name": "Very High"
+              },
+              {
+                "id":2,
+                "name": "High"
+              },
+              {
+                "id":3,
+                "name": "Moderate"
+              },
+              {
+                "id":4,
+                "name": "Low"
+              }
+            ],
+
+            "optionClass":[
+              {
+                "id":1,
+                "name": "Yes"
+              },
+              {
+                "id":2,
+                "name": "No"
+              }
+            ],
+
+            "ecosystemCredit": {
+                "ibraSubRegion":
+                [
+                    {
+                        "id": 1,
+                        "name": "sub region 1",
+                        "threatendedSpecies": [
+                            {
+                                "id": 10561,
+                                "name": "Barking owl",
+                                "scientificName": "Ninox connivens",
+                                "habitatComponents": "Land within 100m of dry open eucalypt forest",
+                                "creditType": "EC",
+                                "pactchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": 1.0,
+                                "soiThreashold": 0,
+                                "unitOfMeasure": "Area",
+                                "pct": [
+                                    {
+                                        "id": 1,
+                                        "name": "pct 1"
+                                    }
+
+                                ]
+                            },
+                            {
+                                "id": 10562,
+                                "name": "Barking owl2",
+                                "scientificName": "Ninox connivens2",
+                                "habitatComponents": "Land within 100m of dry open eucalypt forest",
+                                "creditType": "EC",
+                                "pactchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": 1.0,
+                                "soiThreashold": 0,
+                                "unitOfMeasure": "Area",
+                                "pct": [
+                                    {
+                                        "id": 1,
+                                        "name": "pct 1"
+                                    }
+
+                                ]
+                            }
+
+                        ]
+                    }
+
+                ]
+            },
+
+            "speciesCredit": {
+
+                "ibraSubRegion":
+                [
+                    {
+                        "id": 1,
+                        "name": "sub region 1",
+                        "threatendedSpecies":
+                        [
+                            {
+                                "id": 10561,
+                                "name": "Barking owl",
+                                "scientificName": "Ninox connivens",
+                                "habitatComponents": "Land within 100m of dry open eucalypt forest",
+                                "creditType": "EC",
+                                "pactchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "Yes",
+                                "sensitivity":"Yes",
+                                "BiodivConcern":"Yes",
+                                "offsetMultiplier": "Yes",
+                                "soiThreashold": "Yes",
+                                "unitOfMeasure": "Individual",
+                                "pct": [
+                                    {
+                                        "id": 1,
+                                        "name": "pct 1"
+                                    }
+
+                                ]
+                            }
+                        ]
+                    }
+
+                ]
+            }
+
         }
     }
 })

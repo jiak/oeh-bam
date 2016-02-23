@@ -16,6 +16,11 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
             current: null,
             assessmentType: null
         },
+        habitatModel: {
+            referenceData: referenceDataService.habitat,
+            inputs:[]
+
+        },
         functionModel: {
             benchmarks: referenceDataService.functionBenchmarkData,
             functionCalcResults: [],
