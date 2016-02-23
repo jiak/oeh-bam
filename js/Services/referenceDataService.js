@@ -6365,7 +6365,28 @@ bamApp.service('referenceDataService', function () {
                                     }
 
                                 ]
+                            },
+                            {
+                                "id": 10562,
+                                "name": "Barking owl2",
+                                "scientificName": "Ninox connivens2",
+                                "habitatComponents": "Land within 100m of dry open eucalypt forest",
+                                "creditType": "EC",
+                                "pactchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": 1.0,
+                                "soiThreashold": 0,
+                                "unitOfMeasure": "Area",
+                                "pct": [
+                                    {
+                                        "id": 1,
+                                        "name": "pct 1"
+                                    }
+
+                                ]
                             }
+
                         ]
                     }
 
