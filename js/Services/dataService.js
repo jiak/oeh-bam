@@ -21,6 +21,11 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
             inputs:[]
 
         },
+        siteContextModel: {
+            referenceData: referenceDataService.siteContext,
+            inputs:{}
+
+        },
         functionModel: {
             benchmarks: referenceDataService.functionBenchmarkData,
             functionCalcResults: [],

@@ -3,18 +3,19 @@
         <fieldset class="form-group">
             <h4>Site Context</h4>
             <label for="ibra">IBRA</label>
-            <select id="ibra" class="form-control" ng-model="dataService.ibra" ng-options="Item as Item.name for Item in referenceData.siteContext.ibra">
+            <select id="ibra" class="form-control" ng-model="model.inputs.ibra" ng-options="item as item.name for item in model.refIbra">
             </select>
             <label for="sub-region">Sub Region</label>
-            <select id="sub-region" class="form-control" ng-model="ibraSubregion" ng-options="Item as Item.name for Item in dataService.ibra.ibraSubRegion">
+            <select id="sub-region" class="form-control" ng-model="model.inputs.subRegion" ng-options="item as item.name for item in model.inputs.ibra.ibraSubRegion">
             </select>
             <label for="mitchell">Mitchell</label>
-            <select id="mitchell" class="form-control" ng-model="mitchellLandscape" ng-options="Item as Item.name for Item in referenceData.siteContext.mitchellLandscape" >
+            <select id="mitchell" class="form-control" ng-model="model.inputs.mitchellLandscape" ng-options="item as item.name for item in model.refMitchellLandscape" >
             </select>
             <label for="cover">Cover</label>
-            <input id="cover" type="number" class="form-control" ng-model="Items[Current].SiteContext.Cover" ng-pattern="NumberOnly"/>
+            <select class="form-control" ng-model="model.inputs.cover" ng-options="item as item for item in model.vegetationCoverClass">
+            </select>
             <label for="patch-size">Patch Size</label>
-            <input id="patch-size" type="number" class="form-control" ng-model="Items[Current].SiteContext.PatchSize" ng-pattern="NumberOnly"/>
+            <input id="patch-size" type="number" class="form-control" ng-model="model.inputs.patchSize" ng-pattern="NumberOnly"/>
         </fieldset>
     </form>
     <form name="features">
@@ -29,21 +30,21 @@
                 </tr>
                 </thead>
                 <tbody >
-                <tr ng-repeat="x in LandscapeFeatures">
+                <tr ng-repeat="x in model.inputs.landscapeFeatures">
                     <td>
-                        <select id="landscape-features-type" class="form-control" ng-model="x.feature" ng-options="item as item.name for item in referenceData.siteContext.landscapeFeatures"  ng-change="">
+                        <select class="form-control" ng-model="x.feature" ng-options="item as item.name for item in model.refLandscapeFeatures">
                         </select>
                     </td>
                     <td>
                         <input class="form-control" type="text" ng-model="x.name" name="feature-name" required/>
                     </td>
-                    <td><a href="" ng-show="x.name!=''"  ng-click="RemoveFeature($index)">Remove</a></td>
+                    <td><a href="" ng-show="x.name!=''"  ng-click="model.inputs.RemoveFeature($index)">Remove</a></td>
                 </tr>
                 </tbody>
 
             </table>
 
-            <button class="btn pull-right btn-primary"  ng-click="AddFeature()">Add</button>
+            <button class="btn pull-right btn-primary"  ng-click="model.inputs.AddFeature()">Add</button>
         </fieldset>`
     </form>
 </div>
