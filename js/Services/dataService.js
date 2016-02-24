@@ -20,6 +20,16 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
                 this.currentOrFuture = currentOrFuture
             }
         },
+        offsetModel: {
+            isPopupOpen: false,
+            calcTypeToPopup: null,
+            referenceData: referenceDataService.vegetation,
+            zoneMap: [],
+            input: {
+                pct: [],
+                vegetationZones: []
+            }
+        },
         vegetationModel: {
             isPopupOpen: false,
             calcTypeToPopup: null,

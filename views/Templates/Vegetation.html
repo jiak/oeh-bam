@@ -26,7 +26,7 @@
                         <p>{{pctItem.keithClass.name}}</p>
                     </td>
                     <td>
-                        <select class="form-control" ng-change="vc.vegetationTab.ensureAvailabilityOfBenchmarkData($index)" ng-model="pctItem.pct" ng-options="ref.name for ref in pctItem.keithClass.pct" title="{{pctItem.pct.name}}"></select>
+                        <select class="form-control" ng-model="pctItem.pct" ng-options="ref.name for ref in pctItem.keithClass.pct" title="{{pctItem.pct.name}}"></select>
                         <p>{{pctItem.pct.name}}</p>
                     </td>
                     <td>{{pctItem.pct.id}}</td>

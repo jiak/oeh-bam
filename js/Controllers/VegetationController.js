@@ -175,7 +175,7 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
                 dataService.functionModel.futureFunctionCalcResults.push(dataService.functionModel.createFunctionCalcResult())
 
             }
-        },
+        }
     }
 }]);
 

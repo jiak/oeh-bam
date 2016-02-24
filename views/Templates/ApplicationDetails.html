@@ -3,8 +3,9 @@
 
         <fieldset class="form-group">
             <label for="AssessmentType">Assessment Type</label>
-            <select id="AssessmentType" class="form-control" ng-model="adc.applicationDetails.model.assessmentType" ng-options="item as item.name for item in adc.applicationDetails.model.referenceData.applicationType track by item.name">
+            <select id="AssessmentType" class="form-control" ng-show="adc.applicationDetails.model.assessmentType == null" ng-model="adc.applicationDetails.model.assessmentType" ng-options="item as item.name for item in adc.applicationDetails.model.referenceData.applicationType track by item.name">
             </select>
+            <input class="form-control" value="{{adc.applicationDetails.model.assessmentType.name}}" readonly ng-show="adc.applicationDetails.model.assessmentType != null" title="Once set, Assessment Type cannot be changed"/>
             <label for="ProposalID">Proposal ID</label>
             <input id="ProposalID" class="form-control" ng-model="adc.applicationDetails.model.proposalId"></input>
             <label for="ProposalVersion">Proposal Version</label>

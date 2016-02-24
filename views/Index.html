@@ -29,6 +29,8 @@
     <script src="../js/Controllers/SiteContextController.js"></script>
     <script src="../js/Controllers/VegetationController.js"></script>
     <script src="../js/Controllers/locationController.js"></script>
+    <script src="../js/Controllers/offsetController.js"></script>
+    <script src="../js/Controllers/indexController.js"></script>
 
     <!-- css -->
     <link href="http://d36paqt25bx4vd.cloudfront.net/Css/_Libs/oeh-font.css?" rel="stylesheet">
@@ -129,7 +131,7 @@
     </style>
 </head>
 <body>
-<div id="mainContainer02">
+<div id="mainContainer02" ng-controller="indexController as ic">
     <div id="contentArea">
         <h1>Biodiversity Assessment Methodology Demonstration Tool</h1>
         <div class="intro">
@@ -148,9 +150,13 @@
                                 <uib-tab-heading><h4>Site Context</h4></uib-tab-heading>
                                 <ng-include src="'Templates/SiteContext.html'"></ng-include>
                             </uib-tab>
-                            <uib-tab>
+                            <uib-tab ng-if="ic.index.showVegetationTab()">
                                 <uib-tab-heading><h4>Vegetation</h4></uib-tab-heading>
                                 <ng-include src="'Templates/Vegetation.html'"></ng-include>
+                            </uib-tab>
+                            <uib-tab ng-if="ic.index.showOffsetTab()">
+                                <uib-tab-heading><h4>Offset</h4></uib-tab-heading>
+                                <ng-include src="'Templates/offset.html'"></ng-include>
                             </uib-tab>
                             <uib-tab>
                                 <uib-tab-heading><h4>Credits</h4></uib-tab-heading>
