@@ -28,6 +28,7 @@
     <script src="../js/Controllers/ApplicationDetailsController.js"></script>
     <script src="../js/Controllers/SiteContextController.js"></script>
     <script src="../js/Controllers/VegetationController.js"></script>
+    <script src="../js/Controllers/HabitatController.js"></script>
     <script src="../js/Controllers/locationController.js"></script>
     <script src="../js/Controllers/offsetController.js"></script>
     <script src="../js/Controllers/indexController.js"></script>
@@ -140,6 +141,11 @@
         <div class="container-fluid" style="padding: 20px">
             <div>
                 <div class="row">
+                    <div class="col-md-1">
+                        <button onclick="location.reload()" class="btn btn-primary">Reset Calculator</button>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-md-12">
                         <uib-tabset>
                             <uib-tab active="true">
@@ -157,6 +163,10 @@
                             <uib-tab ng-if="ic.index.showOffsetTab()">
                                 <uib-tab-heading><h4>Offset</h4></uib-tab-heading>
                                 <ng-include src="'Templates/offset.html'"></ng-include>
+                            </uib-tab>
+                            <uib-tab>
+                                <uib-tab-heading><h4>Habitat Suitability</h4></uib-tab-heading>
+                                <ng-include src="'Templates/Habitat.html'"></ng-include>
                             </uib-tab>
                             <uib-tab>
                                 <uib-tab-heading><h4>Credits</h4></uib-tab-heading>
