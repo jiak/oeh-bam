@@ -14,16 +14,17 @@
             </tr>
           </thead>
           <tbody>
-            <tr ng-repeat="x in model.refEcoSystemCredit.threatendedSpecies">
-                <td>{{x.name}}</td>
-                <td>{{x.scientificName}}</td>
-                <td>{{x.habitatComponents}}</td>
+            <tr ng-repeat="x in model.inputs[model.current].ecoSystemCredit">
+
+                <td>{{x.threatendedSpecies.name}}</td>
+                <td>{{x.threatendedSpecies.scientificName}}</td>
+                <td>{{x.threatendedSpecies.habitatComponents}}</td>
                 <td>
-                  <select ng-model="model.input.ecoSystemCredit[$index].presence" class="form-control"  ng-options="item as item.name for item in model.optionClass"  >
+                  <select ng-model="model.inputs[model.current].ecoSystemCredit[$index].presence" class="form-control"  ng-options="item as item.name for item in model.referenceData.optionClass"  >
                   </select>
                 </td>
                 <td>
-                  <select ng-if="model.input.ecoSystemCredit[$index].presence.name=='Yes'" class="form-control"  ng-model="model.input.ecoSystemCredit[$index].sensitivity" ng-options="item as item.name for item in model.sensitivityClass"  >
+                  <select ng-if="model.inputs[model.current].ecoSystemCredit[$index].presence.name=='Yes'" class="form-control"  ng-model="model.inputs[model.current].ecoSystemCredit[$index].sensitivity" ng-options="item as item.name for item in model.referenceData.sensitivityClass"  >
                   </select>
                 </td>
             <tr>
@@ -50,41 +51,41 @@
           </tr>
           </thead>
           <tbody>
-            <tr ng-repeat="x in model.refSpeciesCredit.threatendedSpecies">
-                <td>{{x.name}}</td>
-                <td>{{x.scientificName}}</td>
-                <td></td>
-                <td>{{x.habitatComponents}}</td>
-                <td>
-                    <select ng-model="model.input.speciesCredit[$index].candidate"
-                            ng-options="item as item.name for item in model.optionClass"  class="form-control">
+            <tr ng-repeat="x in model.inputs[model.current].speciesCredit">
+                <td style="width: 10%">{{x.threatendedSpecies.name}}</td>
+                <td style="width: 10%">{{x.threatendedSpecies.scientificName}}</td>
+                <td style="width: 10%"></td>
+                <td style="width: 20%">{{x.threatendedSpecies.habitatComponents}}</td>
+                <td style="width: 10%">
+                    <select ng-model="model.inputs[model.current].speciesCredit[$index].candidate"
+                            ng-options="item as item.name for item in model.referenceData.optionClass"  class="form-control">
                 </td>
-                <td>
-                    <select ng-if="model.input.speciesCredit[$index].candidate.name=='Yes'"
-                            ng-model="model.input.speciesCredit[$index].assessRequired"
-                            ng-options="item as item.name for item in model.optionClass"  class="form-control">
+                <td style="width: 10%">
+                    <select ng-if="model.inputs[model.current].speciesCredit[$index].candidate.name=='Yes'"
+                            ng-model="model.inputs[model.current].speciesCredit[$index].assessRequired"
+                            ng-options="item as item.name for item in model.referenceData.optionClass"  class="form-control">
                 </td>
-                <td>
-                  <select ng-if="model.input.speciesCredit[$index].assessRequired.name=='Yes'
-                                && model.input.speciesCredit[$index].candidate.name=='Yes'"
-                          ng-model="model.input.speciesCredit[$index].presence"
-                          ng-options="item as item.name for item in model.optionClass"  class="form-control">
+                <td style="width: 10%">
+                  <select ng-if="model.inputs[model.current].speciesCredit[$index].assessRequired.name=='Yes'
+                                && model.inputs[model.current].speciesCredit[$index].candidate.name=='Yes'"
+                          ng-model="model.inputs[model.current].speciesCredit[$index].presence"
+                          ng-options="item as item.name for item in model.referenceData.optionClass"  class="form-control">
                   </select>
                 </td>
 
-                <td>
+                <td style="width: 10%">
 
-                  <div ng-if="model.input.speciesCredit[$index].presence.name=='Yes'
-                                && model.input.speciesCredit[$index].assessRequired.name=='Yes'
-                                && model.input.speciesCredit[$index].candidate.name=='Yes'" >
-                                {{x.unitOfMeasure}}
+                  <div ng-if="model.inputs[model.current].speciesCredit[$index].presence.name=='Yes'
+                                && model.inputs[model.current].speciesCredit[$index].assessRequired.name=='Yes'
+                                && model.inputs[model.current].speciesCredit[$index].candidate.name=='Yes'" >
+                                {{x.threatendedSpecies.unitOfMeasure}}
                               </div>
                 </td>
-                <td>
-                  <input ng-if="model.input.speciesCredit[$index].presence.name=='Yes'
-                                && model.input.speciesCredit[$index].assessRequired.name=='Yes'
-                                && model.input.speciesCredit[$index].candidate.name=='Yes'"
-                  ng-model="model.input.speciesCredit[$index].value" type="number" class="form-control">
+                <td style="width: 10%">
+                  <input ng-if="model.inputs[model.current].speciesCredit[$index].presence.name=='Yes'
+                                && model.inputs[model.current].speciesCredit[$index].assessRequired.name=='Yes'
+                                && model.inputs[model.current].speciesCredit[$index].candidate.name=='Yes'"
+                  ng-model="model.inputs[model.current].speciesCredit[$index].value" type="number" class="form-control">
                   </input>
                 </td>
             <tr>
@@ -106,16 +107,16 @@
           </tr>
           </thead>
           <tbody>
-            <tr ng-repeat="x in model.refSpeciesCredit.threatendedSpecies">
-                <td>{{x.name}}</td>
-                <td>{{x.scientificName}}</td>
-                <td>{{x.threatStatus}}</td>
-                <td>{{x.sensitivity}}</td>
-                <td>{{x.BiodivConcern}}</td>
-                <td>{{x.offsetMultiplier}}</td>
-                <td>{{x.soiThreashold}}</td>
-                <td>
-                  <select ng-model="model.input.speciesCredit[$index].SOISelected" ng-options="item as item.name for item in model.optionClass"  class="form-control">
+            <tr ng-repeat="x in model.inputs[model.current].speciesCredit">
+                <td style="width: 20%">{{x.threatendedSpecies.name}}</td>
+                <td style="width: 20%">{{x.threatendedSpecies.scientificName}}</td>
+                <td style="width: 10%">{{x.threatendedSpecies.threatStatus}}</td>
+                <td style="width: 10%">{{x.threatendedSpecies.sensitivity}}</td>
+                <td style="width: 10%">{{x.threatendedSpecies.BiodivConcern}}</td>
+                <td style="width: 10%">{{x.threatendedSpecies.offsetMultiplier}}</td>
+                <td style="width: 10%">{{x.threatendedSpecies.soiThreashold}}</td>
+                <td style="width: 10%">
+                  <select ng-model="model.inputs[model.current].speciesCredit[$index].SOISelected" ng-options="item as item.name for item in model.referenceData.optionClass"  class="form-control">
                   </select>
                 </td>
             <tr>
