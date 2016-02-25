@@ -2,7 +2,7 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
     return {
         ibra: null,
         locationModel: {
-            currentOrFuture: null,
+            calculatorMode: null,
             inFocusVegetationZoneIndex: null,
             input: {
                 locations: [],
@@ -15,9 +15,9 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
                     zone: null
                 }
             },
-            setInputs: function(inFocusVegetationZoneIndex, currentOrFuture) {
+            setInputs: function(inFocusVegetationZoneIndex, calculatorMode) {
                 this.inFocusVegetationZoneIndex = inFocusVegetationZoneIndex
-                this.currentOrFuture = currentOrFuture
+                this.calculatorMode = calculatorMode
             }
         },
         offsetModel: {
@@ -37,8 +37,7 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
             zoneMap: [],
             input: {
                 pct: [],
-                vegetationZones: [],
-                futureVegetationZones: []
+                vegetationZones: []
             }
         },
         applicationDetailsModel: {
@@ -49,18 +48,39 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
         functionModel: {
             benchmarks: referenceDataService.functionBenchmarkData,
             inFocusVegetationZoneIndex: null,
-            currentOrFuture: null,
+            calculatorMode: null,
             keithClass: null,
             functionCalcResults: [],
             futureFunctionCalcResults: [],
-            setInputs: function(inFocusVegetationZoneIndex, currentOrFuture, keithClass) {
+            offsetFutureWithoutManagementFunctionCalcResults: [],
+            setInputs: function(inFocusVegetationZoneIndex, calculatorMode, keithClass) {
                 this.inFocusVegetationZoneIndex = inFocusVegetationZoneIndex
-                this.currentOrFuture = currentOrFuture
+                this.calculatorMode = calculatorMode
                 this.keithClass = keithClass
             },
             createFunctionCalcResult: function() {
                 return {
                     functionTransects: [],
+                    managementTimeFrameTree: null,
+                    futureValueWithoutOffsetNumberOfLargeTrees: null,
+                    futureConditionWithoutOffsetTree: null,
+                    adjustedConditionWithoutOffsetTree: null,
+                    managementTimeFrameLitterCover: null,
+                    futureValueWithoutOffsetLitterCover: null,
+                    futureConditionWithoutOffsetLitterCover: null,
+                    adjustedConditionWithoutOffsetLitterCover: null,
+                    managementTimeFrameCoarseWoodyDebris: null,
+                    futureValueWithoutOffsetCoarseWoodyDebris: null,
+                    futureConditionWithoutOffsetCoarseWoodyDebris: null,
+                    adjustedConditionWithoutOffsetCoarseWoodyDebris: null,
+                    managementTimeFrameCoarseStemSizeClasses: null,
+                    futureValueWithoutOffsetStemSizeClasses: null,
+                    futureConditionWithoutOffsetStemSizeClasses: null,
+                    adjustedConditionWithoutOffsetStemSizeClasses: null,
+                    managementTimeFrameCoarseRegenerationPresent: null,
+                    futureValueWithoutOffsetRegenerationPresent: null,
+                    futureConditionWithoutOffsetRegenerationPresent: null,
+                    adjustedConditionWithoutOffsetRegenerationPresent: null,
                     observedMeanNumberOfLargeTrees: null,
                     observedMeanLitterCover: null,
                     observedMeanCoarseWoodyDebris: null,
@@ -88,18 +108,43 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
         structureModel: {
             benchmarks: referenceDataService.structureBenchmarkData,
             inFocusVegetationZoneIndex: null,
-            currentOrFuture: null,
+            calculatorMode: null,
             keithClass: null,
             structureCalcResults: [],
             futureStructureCalcResults: [],
-            setInputs: function(inFocusVegetationZoneIndex, currentOrFuture, keithClass) {
+            offsetFutureWithoutManagementStructureCalcResults: [],
+            setInputs: function(inFocusVegetationZoneIndex, calculatorMode, keithClass) {
                 this.inFocusVegetationZoneIndex = inFocusVegetationZoneIndex
-                this.currentOrFuture = currentOrFuture
+                this.calculatorMode = calculatorMode
                 this.keithClass = keithClass
             },
             createStructureCalcResult : function() {
                 return {
                     structureTransects: [],
+                    managementTimeFrameTree: null,
+                    futureValueWithoutOffsetTree: null,
+                    futureConditionWithoutOffsetTree: null,
+                    adjustedConditionWithoutOffsetTree: null,
+                    managementTimeFrameShrub: null,
+                    futureValueWithoutOffsetShrub: null,
+                    futureConditionWithoutOffsetShrub: null,
+                    adjustedConditionWithoutOffsetShrub: null,
+                    managementTimeFrameGrassAndGrassLike: null,
+                    futureValueWithoutOffsetGrassAndGrassLike: null,
+                    futureConditionWithoutOffsetGrassAndGrassLike: null,
+                    adjustedConditionWithoutOffsetGrassAndGrassLike: null,
+                    managementTimeFrameForb: null,
+                    futureValueWithoutOffsetForb: null,
+                    futureConditionWithoutOffsetForb: null,
+                    adjustedConditionWithoutOffsetForb: null,
+                    managementTimeFrameFern: null,
+                    futureValueWithoutOffsetFern: null,
+                    futureConditionWithoutOffsetFern: null,
+                    adjustedConditionWithoutOffsetFern: null,
+                    managementTimeFrameOther: null,
+                    futureValueWithoutOffsetOther: null,
+                    futureConditionWithoutOffsetOther: null,
+                    adjustedConditionWithoutOffsetOther: null,
                     observedMeanTree: null,
                     observedMeanShrub: null,
                     observedMeanGrassAndGrassLike: null,
@@ -131,18 +176,43 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
         compositionModel: {
             benchmarks: referenceDataService.compositionBenchmarkData,
             inFocusVegetationZoneIndex: null,
-            currentOrFuture: null,
+            calculatorMode: null,
             keithClass: null,
             compositionCalcResults: [],
             futureCompositionCalcResults: [],
-            setInputs: function(inFocusVegetationZoneIndex, currentOrFuture, keithClass) {
+            offsetFutureWithoutManagementCompositionCalcResults: [],
+            setInputs: function(inFocusVegetationZoneIndex, calculatorMode, keithClass) {
                 this.inFocusVegetationZoneIndex = inFocusVegetationZoneIndex
-                this.currentOrFuture = currentOrFuture
+                this.calculatorMode = calculatorMode
                 this.keithClass = keithClass
             },
             createCompositionCalcResult: function() {
                 return {
                     compositionTransects: [],
+                    managementTimeFrameTree: null,
+                    futureValueWithoutOffsetTree: null,
+                    futureConditionWithoutOffsetTree: null,
+                    adjustedConditionWithoutOffsetTree: null,
+                    managementTimeFrameShrub: null,
+                    futureValueWithoutOffsetShrub: null,
+                    futureConditionWithoutOffsetShrub: null,
+                    adjustedConditionWithoutOffsetShrub: null,
+                    managementTimeFrameGrassAndGrassLike: null,
+                    futureValueWithoutOffsetGrassAndGrassLike: null,
+                    futureConditionWithoutOffsetGrassAndGrassLike: null,
+                    adjustedConditionWithoutOffsetGrassAndGrassLike: null,
+                    managementTimeFrameForb: null,
+                    futureValueWithoutOffsetForb: null,
+                    futureConditionWithoutOffsetForb: null,
+                    adjustedConditionWithoutOffsetForb: null,
+                    managementTimeFrameFern: null,
+                    futureValueWithoutOffsetFern: null,
+                    futureConditionWithoutOffsetFern: null,
+                    adjustedConditionWithoutOffsetFern: null,
+                    managementTimeFrameOther: null,
+                    futureValueWithoutOffsetOther: null,
+                    futureConditionWithoutOffsetOther: null,
+                    adjustedConditionWithoutOffsetOther: null,
                     observedMeanTree: null,
                     observedMeanShrub: null,
                     observedMeanGrassAndGrassLike: null,

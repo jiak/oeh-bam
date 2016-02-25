@@ -1,0 +1,38 @@
+<table class="table numericGrid">
+    <tr>
+        <th>Rate Of Decline (% Annum)</th>
+        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.ibra.name].rateOfDeclineTree || "5.0"}}</td>
+        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.ibra.name].rateOfDeclineShrub || "5.0"}}</td>
+        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.ibra.name].rateOfDeclineGrassAndGrassLike || "5.0"}}</td>
+        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.ibra.name].rateOfDeclineForb || "5.0"}}</td>
+        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.ibra.name].rateOfDeclineFern || "5.0"}}</td>
+        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.ibra.name].rateOfDeclineOther || "5.0"}}</td>
+    </tr>
+    <tr>
+        <th>Future Value Without Offset</th>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetFern || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetOther || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Future Condition Without Offset</th>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetFern || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetOther || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Adjusted Condition Without Offset</th>
+        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetFern || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetOther || "0"}}</td>
+    </tr>
+</table>

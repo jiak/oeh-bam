@@ -68,8 +68,8 @@
                     <td>
                         <p ng-show="vegetationZoneItem.conditionClass != null">{{vegetationZoneItem.conditionClass}}</p>
                         <select ng-show="vegetationZoneItem.conditionClass == null" class="form-control" ng-model="vegetationZoneItem.conditionClass" ng-change="vc.vegetationTab.addToZoneMap(vegetationZoneItem)">
-                            <option value="Good" ng-if="vc.vegetationTab.model.zoneMap.indexOf(vegetationZoneItem.pctCode.pct.id + '_Good') == -1">Good</option>
-                            <option value="Low" ng-if="vc.vegetationTab.model.zoneMap.indexOf(vegetationZoneItem.pctCode.pct.id + '_Low') == -1">Low</option>
+                            <option value="Good" ng-show="vc.vegetationTab.model.zoneMap.indexOf(vegetationZoneItem.pctCode.pct.id + '_Good') == -1">Good</option>
+                            <option value="Low" ng-show="vc.vegetationTab.model.zoneMap.indexOf(vegetationZoneItem.pctCode.pct.id + '_Low') == -1">Low</option>
                         </select>
                     </td>
                     <td>{{vegetationZoneItem.identifier()}}</td>

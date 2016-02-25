@@ -1,0 +1,63 @@
+<table class="table numericGrid">
+    <tr ng-repeat="itemd in fc.function.getApplicableCalcResults()[fc.function.model.inFocusVegetationZoneIndex].functionTransects">
+        <th>Transect {{$index + 1}}</th>
+        <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="itemd.numberOfLargeTrees" ng-blur="fc.function.updateCalcsFor('NumberOfLargeTrees', itemd.numberOfLargeTrees)"/></td>
+        <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="itemd.litterCover" ng-blur="fc.function.updateCalcsFor('LitterCover', itemd.litterCover)"/></td>
+        <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="itemd.coarseWoodyDebris" ng-blur="fc.function.updateCalcsFor('CoarseWoodyDebris', itemd.coarseWoodyDebris)"/></td>
+        <td>
+            <select class="form-control" ng-model="itemd.stemSizeClasses" ng-blur="fc.function.updateCalcsFor('StemSizeClasses', itemd.stemSizeClasses)">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </td>
+        <td>
+            <select class="form-control" ng-model="itemd.regenerationPresent" ng-blur="fc.function.updateCalcsFor('RegenerationPresent', itemd.regenerationPresent)">
+                <option value="0">Absent</option>
+                <option value="1">Present</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <th>Benchmark</th>
+        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.ibra.name].numberOfLargeTrees || "0"}}</td>
+        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.ibra.name].litterCover || "0"}}</td>
+        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.ibra.name].coarseWoodyDebris || "0"}}</td>
+        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.ibra.name].stemSizeClasses || 0}}</td>
+        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.ibra.name].regeneration || 0}}</td>
+    </tr>
+    <tr>
+        <th>Observed Mean (x&#772;)</th>
+        <td>{{fc.function.getCurrentFunction().observedMeanNumberOfLargeTrees || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().observedMeanLitterCover || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().observedMeanCoarseWoodyDebris || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().observedMeanStemSizeClasses || 0}}</td>
+        <td>{{fc.function.getCurrentFunction().observedMeanRegenerationPresent || 0}}</td>
+    </tr>
+    <tr>
+        <th>Unweighted Function Score (UFS<sub>i</sub>)</td>
+        <td>{{fc.function.getCurrentFunction().unweightedNumberOfLargeTreesScore || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().unweightedLitterCoverScore || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().unweightedCoarseWoodyDebrisScore || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().unweightedStemSizeClassesScore || 0}}</td>
+        <td>{{fc.function.getCurrentFunction().unweightedRegenerationPresentScore || 0}}</td>
+    </tr>
+    <tr>
+        <th>Weighted Function Score (WFS<sub>i</sub>)</th>
+        <td>{{fc.function.getCurrentFunction().weightedNumberOfLargeTreesScore || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedLitterCoverScore || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedCoarseWoodyDebrisScore || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedStemSizeClassesScore || 0}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedRegenerationPresentScore || 0}}</td>
+    </tr>
+    <tr>
+        <th>Dynamic Weighting (w<sub>i</sub>)</th>
+        <td>{{fc.function.getCurrentFunction().dynamicWeightingNumberOfLargeTreesScore || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().dynamicWeightingLitterCoverScore || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().dynamicWeightingCoarseWoodyDebrisScore || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().dynamicWeightingStemSizeClassesScore || 0}}</td>
+        <td>{{fc.function.getCurrentFunction().dynamicWeightingRegenerationPresentScore || 0}}</td>
+    </tr>
+</table>

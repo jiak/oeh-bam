@@ -1,5 +1,7 @@
 bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataService", function ($scope, dataService, referenceDataService) {
 
+    this.dataService = dataService
+
     this.offset = {
 
         model: dataService.offsetModel,
@@ -37,29 +39,32 @@ bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataSe
             })
         },
 
-        setCalcToDisplay: function (inFocusVegetationZoneIndex, currentOrFuture, keithClass, calcType) {
+        setCalcToDisplay: function (inFocusVegetationZoneIndex, calculatorMode, keithClass, calcType) {
             this.model.isPopupOpen = true
             this.model.calcTypeToPopup = calcType
-            dataService.compositionModel.setInputs(inFocusVegetationZoneIndex, currentOrFuture, keithClass)
-            dataService.functionModel.setInputs(inFocusVegetationZoneIndex, currentOrFuture, keithClass)
-            dataService.structureModel.setInputs(inFocusVegetationZoneIndex, currentOrFuture, keithClass)
-            dataService.locationModel.setInputs(inFocusVegetationZoneIndex, currentOrFuture)
+            dataService.compositionModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
+            dataService.functionModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
+            dataService.structureModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
+            dataService.locationModel.setInputs(inFocusVegetationZoneIndex, calculatorMode)
         },
 
-        shouldThisPopupBeOpened: function (currentOrFuture, $index, calcType) {
-            return (this.model.isPopupOpen && calcType == this.model.calcTypeToPopup && $index == eval("dataService." + calcType + "Model.inFocusVegetationZoneIndex") && currentOrFuture == eval("dataService." + calcType + "Model.currentOrFuture")) ? true : false
+        shouldThisPopupBeOpened: function (calculatorMode, $index, calcType) {
+            return (this.model.isPopupOpen && calcType == this.model.calcTypeToPopup && $index == eval("dataService." + calcType + "Model.inFocusVegetationZoneIndex") && calculatorMode == eval("dataService." + calcType + "Model.calculatorMode")) ? true : false
         },
 
-        calculateGeomean: function(index, currentOrFuture) {
+        calculateGeomean: function(index, calculatorMode) {
             var cs, ss, fs = 0
-            if(currentOrFuture == 'current') {
+            if(calculatorMode == 'current') {
                 cs = dataService.compositionModel.compositionCalcResults[index].compositionSubtotal
                 ss = dataService.structureModel.structureCalcResults[index].structureSubtotal
                 fs = dataService.functionModel.functionCalcResults[index].functionSubtotal
-            } else {
+            } else if (calculatorMode == 'future') {
                 cs = dataService.compositionModel.futureCompositionCalcResults[index].compositionSubtotal
                 ss = dataService.structureModel.futureStructureCalcResults[index].structureSubtotal
                 fs = dataService.functionModel.futureFunctionCalcResults[index].functionSubtotal
+            } else if (calculatorMode == 'offsetFutureWithoutManagement') {
+                cs = dataService.compositionModel.offsetFutureWithoutManagementCompositionCalcResults[index].compositionSubtotal
+                ss = dataService.structureModel.offsetFutureWithoutManagementStructureCalcResults[index].structureSubtotal
             }
             var sum = 1
             var count = 0
@@ -112,8 +117,11 @@ bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataSe
             if (canAddMore) {
                 this.model.input.vegetationZones.push(this.createVegetationZoneItem())
                 dataService.compositionModel.compositionCalcResults.push(dataService.compositionModel.createCompositionCalcResult())
+                dataService.compositionModel.offsetFutureWithoutManagementCompositionCalcResults.push(dataService.compositionModel.createCompositionCalcResult())
                 dataService.structureModel.structureCalcResults.push(dataService.structureModel.createStructureCalcResult())
+                dataService.structureModel.offsetFutureWithoutManagementStructureCalcResults.push(dataService.structureModel.createStructureCalcResult())
                 dataService.functionModel.functionCalcResults.push(dataService.functionModel.createFunctionCalcResult())
+                dataService.functionModel.offsetFutureWithoutManagementFunctionCalcResults.push(dataService.functionModel.createFunctionCalcResult())
             }
         },
 

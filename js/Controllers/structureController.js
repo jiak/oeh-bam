@@ -6,15 +6,18 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
 
         model: dataService.structureModel,
 
-        close: function() {
+        close: function () {
             dataService.vegetationModel.isPopupOpen = false
+            dataService.offsetModel.isPopupOpen = false
         },
 
         getApplicableCalcResults: function () {
-            if (this.model.currentOrFuture == 'current') {
+            if (this.model.calculatorMode == 'current') {
                 return this.model.structureCalcResults
-            } else {
+            } else if (this.model.calculatorMode == 'future') {
                 return this.model.futureStructureCalcResults
+            } else if (this.model.calculatorMode == 'offsetFutureWithoutManagement') {
+                return this.model.offsetFutureWithoutManagementStructureCalcResults
             }
         },
 
@@ -32,11 +35,77 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
 
         updateCalcsFor: function (theObject, observedValue) {
             var theObjectLower = theObject.toCamelCase()
-            this.calculateObservedMean(theObject, theObjectLower)
-            this.calculateDynamicWeightingScore(theObject, theObjectLower)
-            this.calculateUnweightedStructureScore(theObject, theObjectLower, observedValue)
-            this.calculateWeightedStructureScore(theObject, theObjectLower)
-            this.calculateStructureSubtotal()
+            if (this.model.calculatorMode == 'current' || this.model.calculatorMode == 'future') {
+                this.calculateObservedMean(theObject, theObjectLower)
+                this.calculateDynamicWeightingScore(theObject, theObjectLower)
+                this.calculateUnweightedStructureScore(theObject, theObjectLower, observedValue)
+                this.calculateWeightedStructureScore(theObject, theObjectLower)
+                this.calculateStructureSubtotal()
+            } else if (this.model.calculatorMode == 'offsetFutureWithoutManagement') {
+                this.calculateFutureValueWithoutOffset(theObject, theObjectLower, observedValue)
+                this.calculateFutureConditionWithoutOffset(theObject, theObjectLower)
+                this.calculateAdjustedConditionWithoutOffset(theObject, theObjectLower)
+                this.calculateStructureOffsetSubtotal()
+            }
+        },
+
+        isOffsetMode: function () {
+            return this.model.calculatorMode == 'offsetFutureWithoutManagement'
+        },
+
+        isDevelopmentMode: function () {
+            return this.model.calculatorMode == 'current' || this.model.calculatorMode == 'future'
+        },
+
+        calculateAdjustedConditionWithoutOffset: function (theObject, theObjectLower) {
+            var result = 0
+            var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
+            var dynamicWeighting = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
+            //var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
+            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.ibra.name]." + theObjectLower + "Structure")
+            if (benchmark == 0) {
+                result = 0
+            } else {
+                result = (futureConditionWithoutOffset * dynamicWeighting).toFixed(2)
+                eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].adjustedConditionWithoutOffset" + theObject + " = " + result)
+            }
+        },
+
+        calculateFutureConditionWithoutOffset: function (theObject, theObjectLower) {
+            var result = 0
+            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.ibra.name]." + theObjectLower + "Cover")
+            if (benchmark == 0) {
+                result = 0
+            } else {
+                var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
+                if (futureValueWithoutOffset > benchmark) {
+                    result = ((100 + 50) - (50 + ((100 - 50) / (1 + Math.exp(-10 * ((futureValueWithoutOffset / benchmark) - 1.5))))))
+                } else {
+                    result = (1.01 * (1 - Math.exp((-4.4 * Math.pow(futureValueWithoutOffset / benchmark, 1.85)))) * 100)
+                }
+            }
+            eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject + " = " + result.toFixed(2))
+        },
+
+        calculateFutureValueWithoutOffset: function (theObject, theObjectLower, managementTimeFrame) {
+            var result = 0
+            var observedValue = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].observedMean" + theObject)
+            //var rateOfDecline = eval("this.model.benchmarks[this.model.keithClass][dataService.ibra.name].rateOfDecline" + theObject)
+            var rateOfDecline = 5.0
+            result = eval(observedValue + " * (Math.pow((1 - " + (rateOfDecline / 100) + "), " + managementTimeFrame + "))").toFixed(2)
+            eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject + " = " + result)
+        },
+
+        calculateObservedMean: function (theObject, theObjectLower) {
+            var observedMean = 0;
+            this.getCurrentStructure().structureTransects.forEach(function (element) {
+                eval("observedMean += element." + theObjectLower + "")
+            })
+            eval("this.getCurrentStructure().observedMean" + theObject + " = observedMean / this.getCurrentStructure().structureTransects.length")
+        },
+
+        calculateWeightedStructureScore: function (theObject, theObjectLower) {
+            eval("this.getCurrentStructure().weighted" + theObject + "Score = Math.round(this.getCurrentStructure().unweighted" + theObject + "Score * this.getCurrentStructure().dynamicWeighting" + theObject + "Score)")
         },
 
         getBenchmark: function () {
@@ -87,6 +156,18 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             eval("this.getCurrentStructure().unweighted" + theObject + "Score = Math.round(returnValue)")
         },
 
+        calculateStructureOffsetSubtotal: function () {
+            var total = 0
+            var c = this.getCurrentStructure()
+            total += c.adjustedConditionWithoutOffsetTree
+            total += c.adjustedConditionWithoutOffsetShrub
+            total += c.adjustedConditionWithoutOffsetGrassAndGrassLike
+            total += c.adjustedConditionWithoutOffsetForb
+            total += c.adjustedConditionWithoutOffsetFern
+            total += c.adjustedConditionWithoutOffsetOther
+            c.structureSubtotal = total.toFixed(0)
+        },
+
         calculateStructureSubtotal: function () {
             var total = 0
             for (var property in this.getCurrentStructure()) {
@@ -109,14 +190,14 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
         },
 
         addStructureTransect: function () {
-            if(this.getCurrentStructure() == undefined) {
+            if (this.getCurrentStructure() == undefined) {
                 this.addStructureCalcResults()
             }
             this.getCurrentStructure().structureTransects.push(this.createStructureTransect())
         }
     }
 
-    if(this.structure.getApplicableCalcResults()[this.structure.model.inFocusVegetationZoneIndex].structureTransects.length == 0) {
+    if (this.structure.getApplicableCalcResults()[this.structure.model.inFocusVegetationZoneIndex].structureTransects.length == 0) {
         this.structure.addStructureTransect()
     }
 

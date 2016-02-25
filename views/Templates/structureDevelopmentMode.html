@@ -1,0 +1,47 @@
+<table class="table numericGrid">
+    <tr>
+        <th>Benchmark</th>
+        <td>{{sc.structure.model.benchmarks[sc.structure.model.keithClass][sc.dataService.ibra.name].treeCover || "0"}}</td>
+        <td>{{sc.structure.model.benchmarks[sc.structure.model.keithClass][sc.dataService.ibra.name].shrubCover || "0"}}</td>
+        <td>{{sc.structure.model.benchmarks[sc.structure.model.keithClass][sc.dataService.ibra.name].grassAndGrassLikeCover || "0"}}</td>
+        <td>{{sc.structure.model.benchmarks[sc.structure.model.keithClass][sc.dataService.ibra.name].forbCover || "0"}}</td>
+        <td>{{sc.structure.model.benchmarks[sc.structure.model.keithClass][sc.dataService.ibra.name].fernCover || "0"}}</td>
+        <td>{{sc.structure.model.benchmarks[sc.structure.model.keithClass][sc.dataService.ibra.name].otherCover || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Observed Mean (x&#772;)</th>
+        <td>{{sc.structure.getCurrentStructure().observedMeanTree || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().observedMeanShrub || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().observedMeanGrassAndGrassLike || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().observedMeanForb || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().observedMeanFern || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().observedMeanOther || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Unweighted Structure Score (USS<sub>i</sub>)</td>
+        <td>{{sc.structure.getCurrentStructure().unweightedTreeScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().unweightedShrubScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().unweightedGrassAndGrassLikeScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().unweightedForbScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().unweightedFernScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().unweightedOtherScore || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Weighted Structure Score (WSS<sub>i</sub>)</th>
+        <td>{{sc.structure.getCurrentStructure().weightedTreeScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().weightedShrubScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().weightedGrassAndGrassLikeScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().weightedForbScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().weightedFernScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().weightedOtherScore || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Dynamic Weighting (w<sub>i</sub>)</th>
+        <td>{{sc.structure.getCurrentStructure().dynamicWeightingTreeScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().dynamicWeightingShrubScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().dynamicWeightingGrassAndGrassLikeScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().dynamicWeightingForbScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().dynamicWeightingFernScore || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().dynamicWeightingOtherScore || "0"}}</td>
+    </tr>
+</table>

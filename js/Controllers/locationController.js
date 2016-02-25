@@ -11,7 +11,7 @@ bamApp.controller('locationController', ["$scope", "$rootScope", "referenceDataS
         },
 
         getApplicableLocation: function () {
-            if (this.model.currentOrFuture == 'current') {
+            if (this.model.calculatorMode == 'current') {
                 return this.model.input.locations
             } else {
                 return this.model.input.futureLocations

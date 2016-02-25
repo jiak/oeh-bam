@@ -6,7 +6,7 @@
             </div>
             <div class="col-md-6">
                 <button ng-click="cc.composition.close()" class="btn btn-primary pull-right">Close</button>
-                <button ng-show="cc.composition.model.currentOrFuture == 'current'" ng-click="cc.composition.addCompositionTransect()" class="btn btn-secondary pull-right">Add Transect</button>
+                <button ng-show="cc.composition.model.calculatorMode == 'current'" ng-click="cc.composition.addCompositionTransect()" class="btn btn-secondary pull-right">Add Transect</button>
             </div>
         </div>
         <div class="row" style="padding-top: 30px">
@@ -22,7 +22,8 @@
                         <th>Other</th>
                     </tr>
                     <tr ng-repeat="item in cc.composition.getApplicableCalcResults()[cc.composition.model.inFocusVegetationZoneIndex].compositionTransects">
-                        <td>Transect {{$index + 1}}</td>
+                        <th ng-show="cc.composition.isDevelopmentMode()">Transect {{$index + 1}}</th>
+                        <th ng-show="cc.composition.isOffsetMode()">Management Timeframe (years)</th>
                         <td><input class="numericInput form-control" min="0" size=3 type="number" ng-model="item.tree" ng-blur="cc.composition.updateCalcsFor('Tree', item.tree)"/></td>
                         <td><input class="numericInput form-control" min="0" size=3 type="number" ng-model="item.shrub" ng-blur="cc.composition.updateCalcsFor('Shrub', item.shrub)"/></td>
                         <td><input class="numericInput form-control" min="0" size=3 type="number" ng-model="item.grassAndGrassLike" ng-blur="cc.composition.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)"/></td>
@@ -30,52 +31,9 @@
                         <td><input class="numericInput form-control" min="0" size=3 type="number" ng-model="item.fern" ng-blur="cc.composition.updateCalcsFor('Fern', item.fern)"/></td>
                         <td><input class="numericInput form-control" min="0" size=3 type="number" ng-model="item.other" ng-blur="cc.composition.updateCalcsFor('Other', item.other)"/></td>
                     </tr>
-                    <tr>
-                        <td>Benchmark</td>
-                        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.ibra.name].treeComposition || "0"}}</td>
-                        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.ibra.name].shrubComposition || "0"}}</td>
-                        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.ibra.name].grassAndGrassLikeComposition || "0"}}</td>
-                        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.ibra.name].forbComposition || "0"}}</td>
-                        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.ibra.name].fernComposition || "0"}}</td>
-                        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.ibra.name].otherComposition || "0"}}</td>
-                    </tr>
-                    <tr>
-                        <td>Observed Mean (x&#772;)</td>
-                        <td>{{cc.composition.getCurrentComposition().observedMeanTree || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().observedMeanShrub || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().observedMeanGrassAndGrassLike || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().observedMeanForb || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().observedMeanFern || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().observedMeanOther || "0"}}</td>
-                    </tr>
-                    <tr>
-                        <td>Unweighted Composition Score (UCS<sub>i</sub>)</td>
-                        <td>{{cc.composition.getCurrentComposition().unweightedTreeScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().unweightedShrubScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().unweightedGrassAndGrassLikeScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().unweightedForbScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().unweightedFernScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().unweightedOtherScore || "0"}}</td>
-                    </tr>
-                    <tr>
-                        <td>Weighted Composition Score (WCS<sub>i</sub>)</td>
-                        <td>{{cc.composition.getCurrentComposition().weightedTreeScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().weightedShrubScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().weightedGrassAndGrassLikeScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().weightedForbScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().weightedFernScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().weightedOtherScore || "0"}}</td>
-                    </tr>
-                    <tr>
-                        <td>Dynamic Weighting (w<sub>i</sub>)</td>
-                        <td>{{cc.composition.getCurrentComposition().dynamicWeightingTreeScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().dynamicWeightingShrubScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().dynamicWeightingGrassAndGrassLikeScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().dynamicWeightingForbScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().dynamicWeightingFernScore || "0"}}</td>
-                        <td>{{cc.composition.getCurrentComposition().dynamicWeightingOtherScore || "0"}}</td>
-                    </tr>
                 </table>
+                <div ng-show="cc.composition.isDevelopmentMode()" ng-include="'Templates/compositionDevelopmentMode.html'"/>
+                <div ng-show="cc.composition.isOffsetMode()" ng-include="'Templates/compositionOffsetMode.html'"/>
             </div>
         </div>
     </div>
