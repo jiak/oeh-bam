@@ -1,21 +1,27 @@
 <div ng-controller="siteContextController">
     <form>
         <fieldset class="form-group">
+
             <h4>Site Context</h4>
             <label for="ibra">IBRA</label>
             <select id="ibra" class="form-control" ng-model="model.inputs.ibra" ng-options="item as item.name for item in model.refIbra">
             </select>
+
             <label for="sub-region">Sub Region</label>
             <select id="sub-region" class="form-control" ng-model="model.inputs.subRegion" ng-options="item as item.name for item in model.inputs.ibra.ibraSubRegion">
             </select>
+
             <label for="mitchell">Mitchell</label>
             <select id="mitchell" class="form-control" ng-model="model.inputs.mitchellLandscape" ng-options="item as item.name for item in model.refMitchellLandscape" >
             </select>
+
             <label for="cover">Cover</label>
             <select class="form-control" ng-model="model.inputs.cover" ng-options="item as item for item in model.vegetationCoverClass">
             </select>
+
             <label for="patch-size">Patch Size</label>
             <input id="patch-size" type="number" class="form-control" ng-model="model.inputs.patchSize" ng-pattern="NumberOnly"/>
+
         </fieldset>
     </form>
     <form name="features">
@@ -23,23 +29,25 @@
             <h4>Landscape Features</h4>
             <table >
                 <thead>
-                <tr>
-                    <th>Feature</th>
-                    <th>Name</th>
-                    <th>Action</th>
-                </tr>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Name</th>
+                        <th>Action</th>
+                    </tr>
                 </thead>
                 <tbody >
-                <tr ng-repeat="x in model.inputs.landscapeFeatures">
-                    <td>
-                        <select class="form-control" ng-model="x.feature" ng-options="item as item.name for item in model.refLandscapeFeatures">
-                        </select>
-                    </td>
-                    <td>
-                        <input class="form-control" type="text" ng-model="x.name" name="feature-name" required/>
-                    </td>
-                    <td><a href="" ng-show="x.name!=''"  ng-click="model.inputs.RemoveFeature($index)">Remove</a></td>
-                </tr>
+                    <tr ng-repeat="x in model.inputs.landscapeFeatures">
+                        <td>
+                            <select class="form-control" ng-model="x.feature" ng-options="item as item.name for item in model.refLandscapeFeatures" required>
+                            </select>
+                        </td>
+                        <td>
+                            <input class="form-control" type="text" ng-model="x.name" name="feature-name"/>
+                        </td>
+                        <td>
+                            <a href="" ng-show="$index < (model.inputs.landscapeFeatures.length-1)"  ng-click="model.inputs.RemoveFeature($index)">Remove</a>
+                        </td>
+                    </tr>
                 </tbody>
 
             </table>

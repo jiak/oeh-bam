@@ -31,8 +31,8 @@ bamApp.controller('siteContextController', ["$scope", "referenceDataService", "$
 
           this.landscapeFeatures.push(
               {
-                  feature: this.landscapeFeatures.feature,
-                  name: this.landscapeFeatures.name
+                feature: this.landscapeFeatures.feature,
+                name: this.landscapeFeatures.name
               }
           );
 
@@ -43,15 +43,16 @@ bamApp.controller('siteContextController', ["$scope", "referenceDataService", "$
         },
         RemoveFeature: function($index)
         {
-          this.landscapeFeatures.splice($index, 1);
-          if (this.landscapeFeatures.length == 0) {
-              this.landscapeFeatures.push({"feature": {}, "name": ""});
-
-          }
           if ($index == (this.landscapeFeatures.length -1))
-              this.landscapeFeatures[$index].Name = '';
-          else
-              this.landscapeFeatures.splice($index, 1);
+          {
+              this.landscapeFeatures[$index].name = '';
+              this.landscapeFeatures[$index].feature = {};
+
+              return;
+          }
+
+          this.landscapeFeatures.splice($index, 1);
+          
         }
       },
     }
