@@ -4,11 +4,11 @@
 
             <h4>Site Context</h4>
             <label for="ibra">IBRA</label>
-            <select id="ibra" class="form-control" ng-model="model.inputs.ibra" ng-options="item as item.name for item in model.refIbra">
+            <select id="ibra" class="form-control" ng-model="model.inputs.ibra" ng-options="item as item.name for item in model.refIbra" ng-change="model.onSiteContextDataChange()">
             </select>
 
             <label for="sub-region">Sub Region</label>
-            <select id="sub-region" class="form-control" ng-model="model.inputs.subRegion" ng-options="item as item.name for item in model.inputs.ibra.ibraSubRegion">
+            <select id="sub-region" class="form-control" ng-model="model.inputs.subRegion" ng-options="item as item.name for item in model.inputs.ibra.ibraSubRegion" ng-change="model.onSiteContextDataChange()">
             </select>
 
             <label for="mitchell">Mitchell</label>

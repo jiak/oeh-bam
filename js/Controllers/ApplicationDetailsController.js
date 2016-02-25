@@ -4,4 +4,8 @@ bamApp.controller('applicationDetailsController', ["$scope", "referenceDataServi
         model: dataService.applicationDetailsModel
     }
 
+    $scope.model = {
+    	
+    }
+
 }]);

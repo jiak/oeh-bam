@@ -55,6 +55,12 @@ bamApp.controller('siteContextController', ["$scope", "referenceDataService", "$
           
         }
       },
+
+      onSiteContextDataChange: function()
+      { 
+        dataService.siteContextModel.notify(); 
+      }
+
     }
 
     if (dataService.siteContextModel.inputs.landscapeFeatures != null)
