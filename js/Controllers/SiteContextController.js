@@ -2,74 +2,68 @@ bamApp.controller('siteContextController', ["$scope", "referenceDataService", "$
 
     $scope.NumberOnly = /^[0-9]{1,7}(\.[0-9]+)?$/
     $scope.model =
-  	{
-      vegetationCoverClass: dataService.siteContextModel.referenceData.vegetationCoverClass,
-      patchSizeClass: dataService.siteContextModel.referenceData.patchSizeClass,
-      refMitchellLandscape: dataService.siteContextModel.referenceData.mitchellLandscape,
-      refLandscapeFeatures: dataService.siteContextModel.referenceData.landscapeFeatures,
-      refIbra: dataService.siteContextModel.referenceData.ibra,
-  		inputs:
-      {
-        ibra:null,
-        subRegion:null,
-        mitchellLandscape:null,
-        cover:null,
-        patchSize:null,
-        landscapeFeatures:[
-          {
-            "feature": {},
-            "name": ""
-          }
-        ],
-        AddFeature: function()
-        {
-          var count = this.landscapeFeatures.length;
+    {
+        vegetationCoverClass: dataService.siteContextModel.referenceData.vegetationCoverClass,
+        patchSizeClass: dataService.siteContextModel.referenceData.patchSizeClass,
+        refMitchellLandscape: dataService.siteContextModel.referenceData.mitchellLandscape,
+        refLandscapeFeatures: dataService.siteContextModel.referenceData.landscapeFeatures,
+        refIbra: dataService.siteContextModel.referenceData.ibra,
+        inputs: {
+            ibra: null,
+            subRegion: null,
+            mitchellLandscape: null,
+            cover: null,
+            patchSize: null,
+            landscapeFeatures: [
+                {
+                    "feature": {},
+                    "name": ""
+                }
+            ],
+            AddFeature: function () {
+                var count = this.landscapeFeatures.length;
 
-          //validate the input
-          if (this.landscapeFeatures[count - 1].name == '' || this.landscapeFeatures[count - 1].feature.name == null) {
-              return;
-          }
+                //validate the input
+                if (this.landscapeFeatures[count - 1].name == '' || this.landscapeFeatures[count - 1].feature.name == null) {
+                    return;
+                }
 
-          this.landscapeFeatures.push(
-              {
-                feature: this.landscapeFeatures.feature,
-                name: this.landscapeFeatures.name
-              }
-          );
+                this.landscapeFeatures.push(
+                    {
+                        feature: this.landscapeFeatures.feature,
+                        name: this.landscapeFeatures.name
+                    }
+                );
 
-          count++;
+                count++;
 
-          this.landscapeFeatures[count-1] = [{"feature": null, "name": ""}];
+                this.landscapeFeatures[count - 1] = [{"feature": null, "name": ""}];
 
+            },
+            RemoveFeature: function ($index) {
+                if ($index == (this.landscapeFeatures.length - 1)) {
+                    this.landscapeFeatures[$index].name = '';
+                    this.landscapeFeatures[$index].feature = {};
+
+                    return;
+                }
+
+                this.landscapeFeatures.splice($index, 1);
+
+            }
         },
-        RemoveFeature: function($index)
-        {
-          if ($index == (this.landscapeFeatures.length -1))
-          {
-              this.landscapeFeatures[$index].name = '';
-              this.landscapeFeatures[$index].feature = {};
 
-              return;
-          }
-
-          this.landscapeFeatures.splice($index, 1);
-          
+        onSiteContextDataChange: function () {
+            dataService.ibra = this.inputs.ibra
         }
-      },
-
-      onSiteContextDataChange: function()
-      { 
-        dataService.siteContextModel.notify(); 
-      }
 
     }
 
-    if (dataService.siteContextModel.inputs.landscapeFeatures != null)
-    {
-      $scope.model.inputs = dataService.siteContextModel.inputs;
+    if (dataService.siteContextModel.inputs.landscapeFeatures != null) {
+        $scope.model.inputs = dataService.siteContextModel.inputs;
     }
     else {
-      dataService.siteContextModel.inputs = $scope.model.inputs;
+        dataService.siteContextModel.inputs = $scope.model.inputs;
     }
 
     $scope.emitEvent = function () {
