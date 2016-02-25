@@ -16,11 +16,12 @@
             </select>
 
             <label for="cover">Cover</label>
-            <select class="form-control" ng-model="model.inputs.cover" ng-options="item as item for item in model.vegetationCoverClass">
+            <select class="form-control" ng-model="model.inputs.cover" ng-options="item as item for item in model.vegetationCoverClass" ng-change="model.onSiteContextDataChange()">
             </select>
 
             <label for="patch-size">Patch Size</label>
-            <input id="patch-size" type="number" class="form-control" ng-model="model.inputs.patchSize" ng-pattern="NumberOnly"/>
+            <select class="form-control" ng-model="model.inputs.patchSize" ng-options="item as item for item in model.patchSizeClass" ng-change="model.onSiteContextDataChange()">
+            </select>
 
         </fieldset>
     </form>

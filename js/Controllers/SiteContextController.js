@@ -4,6 +4,7 @@ bamApp.controller('siteContextController', ["$scope", "referenceDataService", "$
     $scope.model =
   	{
       vegetationCoverClass: dataService.siteContextModel.referenceData.vegetationCoverClass,
+      patchSizeClass: dataService.siteContextModel.referenceData.patchSizeClass,
       refMitchellLandscape: dataService.siteContextModel.referenceData.mitchellLandscape,
       refLandscapeFeatures: dataService.siteContextModel.referenceData.landscapeFeatures,
       refIbra: dataService.siteContextModel.referenceData.ibra,

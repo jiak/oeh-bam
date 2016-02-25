@@ -42,19 +42,37 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
                 }
             },
 
-            initEcoSystemCreditInput: function(input, subRegion)
-            {
-                if (subRegion == null)
-                    return;
 
-                for (var i = 0; i < subRegion.threatendedSpecies.length; i++)
+            initEcoSystemCreditInput: function(input)
+            {
+                for (var i = 0;i < this.referenceData.ecosystemCredit.ibraSubRegion.length; i++)
                 {
-                    input.ecoSystemCredit.push(this.createEcoSystemCreditInput());
+                    if (this.referenceData.ecosystemCredit.ibraSubRegion[i].id == input.key.ibraId)
+                    {
+                        //found subregion
+                        for (var j = 0; j < this.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies.length; j++ )
+                        {
+                            var patchSize = this.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].patchSize;
+                            var cover = this.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].percentCover;
+                            var inputPatchSize = this.formalizePatchSize(input.key.patchSize);
+                            var inputCover = this.formalizeCover(input.key.cover);
+
+                            //if any patchSize or cover is null, just ignore them
+                            if (
+                                    (((inputCover != null) ? inputCover:cover ) == cover)
+                                    &&
+                                    (((inputPatchSize != null) ? inputPatchSize:patchSize ) == patchSize)
+                                )
+                                input.ecoSystemCredit.push(this.createEcoSystemCreditInput(this.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j]));
+                        }
+                    }
                 }
+
             },
-            createSpeciesCreditInput: function()
+            createSpeciesCreditInput: function(threatendedSpecies)
             {
                 return {
+                    threatendedSpecies: threatendedSpecies,
                     candidate:null,
                     assessRequired:null,
                     presence:null,
@@ -64,26 +82,73 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
                 }
             },
 
+            formalizePatchSize:function (data)
+            {
+                if (data == null)
+                    return null;
+                if (data == "")
+                    return null;
+
+                return data.replace(" ", "");
+            },
+
+            formalizeCover:function (data)
+            {
+                if (data == null)
+                    return null;
+                if (data == "")
+                    return null;
+
+                return data.replace("<", "");
+            },
+
             initSpeciesCreditInput: function(input, subRegion)
             {
-                if (subRegion == null )
-                    return;
-
-                for (var i = 0; i < subRegion.threatendedSpecies.length; i++)
+                for (var i = 0;i < this.referenceData.speciesCredit.ibraSubRegion.length; i++)
                 {
-                    input.speciesCredit.push(this.createSpeciesCreditInput());
+                    if (this.referenceData.speciesCredit.ibraSubRegion[i].id == input.key.ibraId)
+                    {
+                        //found subregion
+                        for (var j = 0; j < this.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies.length; j++ )
+                        {
+                            var patchSize = this.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].patchSize;
+                            var cover = this.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].percentCover;
+                            var inputPatchSize = this.formalizePatchSize(input.key.patchSize);
+                            var inputCover = this.formalizeCover(input.key.cover);
+
+                            //if any patchSize or cover is null, just ignore them
+                            if (
+                                    (((inputCover != null) ? inputCover:cover ) == cover)
+                                    &&
+                                    (((inputPatchSize != null) ? inputPatchSize:patchSize ) == patchSize)
+                                )
+                                input.speciesCredit.push(this.createSpeciesCreditInput(this.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j]));
+                        }
+                    }
                 }
             },
 
-            createInput: function(id)
+            createInput: function(id, cover, patchSize)
             {
                 return{
-                    ibraId:id,
+                    key: {ibraId:id, cover:cover, patchSize: patchSize},
                     ecoSystemCredit:[],
                     speciesCredit:[]
 
                 }
             },
+
+            findInput: function(ibraId, cover, patchSize)
+            {
+                for (var i=0; i < this.inputs.length; i++)
+                {
+                    if (this.inputs[i].key.ibraId == ibraId && (this.inputs[i].key.patchSize == patchSize) && (this.inputs[i].key.cover ==cover))
+                        return i;
+                }
+
+                return null;
+            },
+
             update: function() {
                 this.current = null;
 
@@ -95,29 +160,25 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
 
                 var ibraId = this.parent.siteContextModel.inputs.subRegion.id;
 
-                var i = 0
+                this.current = this.findInput(this.parent.siteContextModel.inputs.subRegion.id, this.parent.siteContextModel.inputs.cover, this.parent.siteContextModel.inputs.patchSize);
 
-                for (i=0; i < this.inputs.length; i++)
-                {
-                    if (this.inputs[i].ibraId == ibraId)
-                    {
-                        this.current = i;
-                        return;
-                    }
-                }
+                //find input
+                if (this.current != null) 
+                    return;
 
-                var input = this.createInput(ibraId);
+                //if not found, create one
+                var input = this.createInput(ibraId, this.parent.siteContextModel.inputs.cover, this.parent.siteContextModel.inputs.patchSize);
 
 
-                this.initEcoSystemCreditInput(input, this.findEcosystemCreditBySubRegion(ibraId));
-                this.initSpeciesCreditInput(input, this.findspeciesCreditBySubRegion(ibraId));
+                this.initEcoSystemCreditInput(input);
+                this.initSpeciesCreditInput(input);
 
                 this.inputs.push(input);
                 this.current = this.inputs.length-1;
 
 
             },
-            findEcosystemCreditBySubRegion: function (ibraId)
+            findEcosystemCreditBySubRegion: function (input)
             {
                 for (var i = 0;i < this.referenceData.ecosystemCredit.ibraSubRegion.length; i++)
                 {
