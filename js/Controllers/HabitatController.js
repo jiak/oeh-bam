@@ -2,12 +2,11 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
     this.yes = "sdfljsdflskdjf"
 
-    //init
-    this.model = dataService.habitatModel
-
     this.dataService = dataService
 
     this.habitat = {
+
+        model: dataService.habitatModel,
 
         createEcoSystemCreditInput: function (threatendedSpecies) {
             return {
@@ -18,14 +17,14 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
         },
 
         initEcoSystemCreditInput: function (input) {
-            for (var i = 0; i < model.referenceData.ecosystemCredit.ibraSubRegion.length; i++) {
-                if (model.referenceData.ecosystemCredit.ibraSubRegion[i].id == input.key.ibraId) {
+            for (var i = 0; i < this.model.referenceData.ecosystemCredit.ibraSubRegion.length; i++) {
+                if (this.model.referenceData.ecosystemCredit.ibraSubRegion[i].id == input.key.ibraId) {
                     //found subregion
-                    for (var j = 0; j < model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies.length; j++) {
-                        var patchSize = model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].patchSize;
-                        var cover = model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].percentCover;
-                        var inputPatchSize = formalizePatchSize(input.key.patchSize);
-                        var inputCover = formalizeCover(input.key.cover);
+                    for (var j = 0; j < this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies.length; j++) {
+                        var patchSize = this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].patchSize;
+                        var cover = this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].percentCover;
+                        var inputPatchSize = this.formalizePatchSize(input.key.patchSize);
+                        var inputCover = this.formalizeCover(input.key.cover);
 
                         //if any patchSize or cover is null, just ignore them
                         if (
@@ -33,7 +32,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                             &&
                             (((inputPatchSize != null) ? inputPatchSize : patchSize ) == patchSize)
                         )
-                            input.ecoSystemCredit.push(this.createEcoSystemCreditInput(model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j]));
+                            input.ecoSystemCredit.push(this.createEcoSystemCreditInput(this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j]));
                     }
                 }
             }
@@ -70,12 +69,12 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
         },
 
         initSpeciesCreditInput: function (input, subRegion) {
-            for (var i = 0; i < model.referenceData.speciesCredit.ibraSubRegion.length; i++) {
-                if (model.referenceData.speciesCredit.ibraSubRegion[i].id == input.key.ibraId) {
+            for (var i = 0; i < this.model.referenceData.speciesCredit.ibraSubRegion.length; i++) {
+                if (this.model.referenceData.speciesCredit.ibraSubRegion[i].id == input.key.ibraId) {
                     //found subregion
-                    for (var j = 0; j < model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies.length; j++) {
-                        var patchSize = model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].patchSize;
-                        var cover = model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].percentCover;
+                    for (var j = 0; j < this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies.length; j++) {
+                        var patchSize = this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].patchSize;
+                        var cover = this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].percentCover;
                         var inputPatchSize = this.formalizePatchSize(input.key.patchSize);
                         var inputCover = this.formalizeCover(input.key.cover);
 
@@ -85,7 +84,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                             &&
                             (((inputPatchSize != null) ? inputPatchSize : patchSize ) == patchSize)
                         )
-                            input.speciesCredit.push(this.createSpeciesCreditInput(model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j]));
+                            input.speciesCredit.push(this.createSpeciesCreditInput(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j]));
                     }
                 }
             }
@@ -101,8 +100,8 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
         },
 
         findInput: function (ibraId, cover, patchSize) {
-            for (var i = 0; i < this.inputs.length; i++) {
-                if (this.inputs[i].key.ibraId == ibraId && (this.inputs[i].key.patchSize == patchSize) && (this.inputs[i].key.cover == cover))
+            for (var i = 0; i < this.model.inputs.length; i++) {
+                if (this.model.inputs[i].key.ibraId == ibraId && (this.model.inputs[i].key.patchSize == patchSize) && (this.model.inputs[i].key.cover == cover))
                     return i;
             }
 
@@ -110,7 +109,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
         },
 
         update: function () {
-            this.current = null;
+            this.model.current = null;
 
             if (dataService.siteContextModel.inputs.ibra == null)
                 return;
@@ -120,10 +119,10 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
             var ibraId = dataService.siteContextModel.inputs.subRegion.id;
 
-            this.current = this.findInput(dataService.siteContextModel.inputs.subRegion.id, dataService.siteContextModel.inputs.cover, dataService.siteContextModel.inputs.patchSize);
+            this.model.current = this.findInput(dataService.siteContextModel.inputs.subRegion.id, dataService.siteContextModel.inputs.cover, dataService.siteContextModel.inputs.patchSize);
 
             //find input
-            if (this.current != null)
+            if (this.model.current != null)
                 return;
 
             //if not found, create one
@@ -132,24 +131,24 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
             this.initEcoSystemCreditInput(input);
             this.initSpeciesCreditInput(input);
 
-            this.inputs.push(input);
-            this.current = this.inputs.length - 1;
+            this.model.inputs.push(input);
+            this.model.current = this.model.inputs.length - 1;
 
 
         },
         findEcosystemCreditBySubRegion: function (input) {
-            for (var i = 0; i < model.referenceData.ecosystemCredit.ibraSubRegion.length; i++) {
-                if (model.referenceData.ecosystemCredit.ibraSubRegion[i].id == ibraId) {
-                    return model.referenceData.ecosystemCredit.ibraSubRegion[i];
+            for (var i = 0; i < this.model.referenceData.ecosystemCredit.ibraSubRegion.length; i++) {
+                if (this.model.referenceData.ecosystemCredit.ibraSubRegion[i].id == ibraId) {
+                    return this.model.referenceData.ecosystemCredit.ibraSubRegion[i];
                 }
             }
             return null;
         },
 
         findspeciesCreditBySubRegion: function (ibraId) {
-            for (var i = 0; i < model.referenceData.speciesCredit.ibraSubRegion.length; i++) {
-                if (model.referenceData.speciesCredit.ibraSubRegion[i].id == ibraId) {
-                    return model.referenceData.speciesCredit.ibraSubRegion[i];
+            for (var i = 0; i < this.model.referenceData.speciesCredit.ibraSubRegion.length; i++) {
+                if (this.model.referenceData.speciesCredit.ibraSubRegion[i].id == ibraId) {
+                    return this.model.referenceData.speciesCredit.ibraSubRegion[i];
                 }
             }
 
