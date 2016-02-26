@@ -78,7 +78,8 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
                     presence:null,
                     UOM:null,
                     value: null,
-                    SOISelected: null
+                    SOISelected: null,
+                    enabledPrecense: false
                 }
             },
 
@@ -149,6 +150,30 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
                 return null;
             },
 
+            updatePresence: function(index){
+
+                if (this.inputs[this.current].speciesCredit[index].candidate == null)
+                {
+                    this.inputs[this.current].speciesCredit[index].enabledPrecense = false;
+                    return;
+                }
+                if (this.inputs[this.current].speciesCredit[index].assessRequired == null)
+                {
+                    this.inputs[this.current].speciesCredit[index].enabledPrecense = false;
+                    return;
+                }
+                if (this.inputs[this.current].speciesCredit[index].presence == null)
+                {
+                    this.inputs[this.current].speciesCredit[index].enabledPrecense = false;
+                    return;
+                }
+
+                this.inputs[this.current].speciesCredit[index].enabledPrecense = 
+                this.inputs[this.current].speciesCredit[index].candidate.name=="Yes" && 
+                this.inputs[this.current].speciesCredit[index].assessRequired.name=="Yes" && 
+                this.inputs[this.current].speciesCredit[index].presence.name=="Yes";
+
+            },
             update: function() {
                 this.current = null;
 
