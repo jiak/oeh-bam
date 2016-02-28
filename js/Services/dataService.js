@@ -1,5 +1,25 @@
 bamApp.service('dataService', ["referenceDataService", function (referenceDataService) {
     return {
+        siteContextModel: {
+            vegetationCoverClass: referenceDataService.siteContext.vegetationCoverClass,
+            patchSizeClass: referenceDataService.siteContext.patchSizeClass,
+            refMitchellLandscape: referenceDataService.siteContext.mitchellLandscape,
+            refLandscapeFeatures: referenceDataService.siteContext.landscapeFeatures,
+            refIbra: referenceDataService.siteContext.ibra,
+            inputs: {
+                ibra: null,
+                subRegion: null,
+                mitchellLandscape: null,
+                cover: null,
+                patchSize: null,
+                landscapeFeatures: [
+                    {
+                        "feature": {},
+                        "name": ""
+                    }
+                ]
+            }
+        },
         init: function () {
             for (var i in this) {
                 if (typeof this[i] == 'object') {
@@ -57,10 +77,6 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
             referenceData: referenceDataService.habitat,
             current: null,
             inputs: []
-        },
-        siteContextModel: {
-            referenceData: referenceDataService.siteContext,
-            inputs: {}
         },
         functionModel: {
             benchmarks: referenceDataService.functionBenchmarkData,

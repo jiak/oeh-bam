@@ -1,26 +1,24 @@
-<div ng-controller="siteContextController">
+<div ng-controller="siteContextController as scc">
     <form>
         <fieldset class="form-group">
-
             <h4>Site Context</h4>
             <label for="ibra">IBRA</label>
-            <select id="ibra" class="form-control" ng-model="model.inputs.ibra" ng-options="item as item.name for item in model.refIbra" ng-change="model.onSiteContextDataChange()">
+            <select id="ibra" class="form-control" ng-model="scc.siteContext.model.inputs.ibra" ng-options="item as item.name for item in scc.siteContext.model.refIbra">
             </select>
-
             <label for="sub-region">Sub Region</label>
-            <select id="sub-region" class="form-control" ng-model="model.inputs.subRegion" ng-options="item as item.name for item in model.inputs.ibra.ibraSubRegion" ng-change="model.onSiteContextDataChange()">
+            <select id="sub-region" class="form-control" ng-model="scc.siteContext.model.inputs.subRegion" ng-options="item as item.name for item in scc.siteContext.model.inputs.ibra.ibraSubRegion">
             </select>
 
             <label for="mitchell">Mitchell</label>
-            <select id="mitchell" class="form-control" ng-model="model.inputs.mitchellLandscape" ng-options="item as item.name for item in model.refMitchellLandscape" >
+            <select id="mitchell" class="form-control" ng-model="scc.siteContext.model.inputs.mitchellLandscape" ng-options="item as item.name for item in scc.siteContext.model.refMitchellLandscape">
             </select>
 
             <label for="cover">Cover</label>
-            <select class="form-control" ng-model="model.inputs.cover" ng-options="item as item for item in model.vegetationCoverClass" ng-change="model.onSiteContextDataChange()">
+            <select class="form-control" ng-model="scc.siteContext.model.inputs.cover" ng-options="item as item for item in scc.siteContext.model.vegetationCoverClass">
             </select>
 
             <label for="patch-size">Patch Size</label>
-            <select class="form-control" ng-model="model.inputs.patchSize" ng-options="item as item for item in model.patchSizeClass" ng-change="model.onSiteContextDataChange()">
+            <select class="form-control" ng-model="scc.siteContext.model.inputs.patchSize" ng-options="item as item for item in scc.siteContext.model.patchSizeClass">
             </select>
 
         </fieldset>
@@ -28,32 +26,33 @@
     <form name="features">
         <fieldset>
             <h4>Landscape Features</h4>
-            <table >
+            <table>
                 <thead>
-                    <tr>
-                        <th>Feature</th>
-                        <th>Name</th>
-                        <th>Action</th>
-                    </tr>
+                <tr>
+                    <th>Feature</th>
+                    <th>Name</th>
+                    <th>Action</th>
+                </tr>
                 </thead>
-                <tbody >
-                    <tr ng-repeat="x in model.inputs.landscapeFeatures">
-                        <td>
-                            <select class="form-control" ng-model="x.feature" ng-options="item as item.name for item in model.refLandscapeFeatures" required>
-                            </select>
-                        </td>
-                        <td>
-                            <input class="form-control" type="text" ng-model="x.name" name="feature-name"/>
-                        </td>
-                        <td>
-                            <a href="" ng-show="$index < (model.inputs.landscapeFeatures.length-1)"  ng-click="model.inputs.RemoveFeature($index)">Remove</a>
-                        </td>
-                    </tr>
+                <tbody>
+                <tr ng-repeat="x in scc.siteContext.model.inputs.landscapeFeatures">
+                    <td>
+                        <select class="form-control" ng-model="x.feature" ng-options="item as item.name for item in scc.siteContext.model.refLandscapeFeatures" required>
+                        </select>
+                    </td>
+                    <td>
+                        <input class="form-control" type="text" ng-model="x.name" name="feature-name"/>
+                    </td>
+                    <td>
+                        <a href="" ng-show="$index < (scc.siteContext.model.inputs.landscapeFeatures.length-1)" ng-click="scc.siteContext.removeFeature($index)">Remove</a>
+                    </td>
+                </tr>
                 </tbody>
 
             </table>
 
-            <button class="btn pull-right btn-primary"  ng-click="model.inputs.AddFeature()">Add</button>
-        </fieldset>`
+            <button class="btn pull-right btn-primary" ng-click="scc.siteContext.addFeature()">Add</button>
+        </fieldset>
+        `
     </form>
 </div>

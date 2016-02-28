@@ -18,7 +18,7 @@
                 <tbody>
                 <tr data-ng-repeat="pctItem in vc.vegetationTab.model.input.pct">
                     <td>
-                        <select ng-show="pctItem.formation == null" class="form-control" ng-model="pctItem.formation" ng-options="ref.name for ref in vc.vegetationTab.model.referenceData.formation" title="{{pctItem.formation.name}}"></select>
+                        <select ng-show="pctItem.formation == null" class="form-control" ng-model="pctItem.formation" ng-options="ref.name for ref in vc.vegetationTab.getApplicableFormations()" title="{{pctItem.formation.name}}"></select>
                         <p ng-show="pctItem.formation != null">{{pctItem.formation.name}}</p>
                     </td>
                     <td>

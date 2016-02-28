@@ -1,73 +1,34 @@
-bamApp.controller('siteContextController', ["$scope", "referenceDataService", "$rootScope", "dataService", function ($scope, referenceDataService, $rootScope, dataService) {
+bamApp.controller('siteContextController', ["$scope", "$rootScope", "dataService", function ($scope, $rootScope, dataService) {
 
-    $scope.NumberOnly = /^[0-9]{1,7}(\.[0-9]+)?$/
-    $scope.model =
-    {
-        vegetationCoverClass: dataService.siteContextModel.referenceData.vegetationCoverClass,
-        patchSizeClass: dataService.siteContextModel.referenceData.patchSizeClass,
-        refMitchellLandscape: dataService.siteContextModel.referenceData.mitchellLandscape,
-        refLandscapeFeatures: dataService.siteContextModel.referenceData.landscapeFeatures,
-        refIbra: dataService.siteContextModel.referenceData.ibra,
-        inputs: {
-            ibra: null,
-            subRegion: null,
-            mitchellLandscape: null,
-            cover: null,
-            patchSize: null,
-            landscapeFeatures: [
-                {
-                    "feature": {},
-                    "name": ""
-                }
-            ],
-            AddFeature: function () {
-                var count = this.landscapeFeatures.length;
+    this.siteContext = {
 
-                //validate the input
-                if (this.landscapeFeatures[count - 1].name == '' || this.landscapeFeatures[count - 1].feature.name == null) {
-                    return;
-                }
+        model: dataService.siteContextModel,
 
-                this.landscapeFeatures.push(
-                    {
-                        feature: this.landscapeFeatures.feature,
-                        name: this.landscapeFeatures.name
-                    }
-                );
-
-                count++;
-
-                this.landscapeFeatures[count - 1] = [{"feature": null, "name": ""}];
-
-            },
-            RemoveFeature: function ($index) {
-                if ($index == (this.landscapeFeatures.length - 1)) {
-                    this.landscapeFeatures[$index].name = '';
-                    this.landscapeFeatures[$index].feature = {};
-
-                    return;
-                }
-
-                this.landscapeFeatures.splice($index, 1);
-
+        addFeature: function () {
+            var count = this.model.inputs.landscapeFeatures.length;
+            //validate the input
+            if (this.model.inputs.landscapeFeatures[count - 1].name == '' || this.model.inputs.landscapeFeatures[count - 1].feature.name == null) {
+                return;
             }
+            this.model.inputs.landscapeFeatures.push({
+                    feature: this.model.inputs.landscapeFeatures.feature,
+                    name: this.model.inputs.landscapeFeatures.name
+                }
+            );
+            count++;
+            this.model.inputs.landscapeFeatures[count - 1] = [{"feature": null, "name": ""}];
+
         },
 
-        onSiteContextDataChange: function () {
-            dataService.ibra = this.inputs.ibra
-        }
+        removeFeature: function ($index) {
+            if ($index == (this.model.inputs.landscapeFeatures.length - 1)) {
+                this.model.inputs.landscapeFeatures[$index].name = '';
+                this.model.inputs.landscapeFeatures[$index].feature = {};
+                return;
+            }
+            this.model.inputs.landscapeFeatures.splice($index, 1);
+        },
 
-    }
-
-    if (dataService.siteContextModel.inputs.landscapeFeatures != null) {
-        $scope.model.inputs = dataService.siteContextModel.inputs;
-    }
-    else {
-        dataService.siteContextModel.inputs = $scope.model.inputs;
-    }
-
-    $scope.emitEvent = function () {
-        $rootScope.$broadcast('ibraSubRegionChangeEvent', $scope.model.inputs.ibra.name);
     }
 
 }]);

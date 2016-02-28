@@ -6,6 +6,10 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
 
         model: dataService.vegetationModel,
 
+        getApplicableFormations: function() {
+            vc.vegetationTab.model.referenceData.formation
+        },
+
         calculateGeomean: function(index, calculatorMode) {
             var cs, ss, fs = 0
             if(calculatorMode == 'current') {
@@ -172,7 +176,6 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
                 dataService.structureModel.futureStructureCalcResults.push(dataService.structureModel.createStructureCalcResult())
                 dataService.functionModel.functionCalcResults.push(dataService.functionModel.createFunctionCalcResult())
                 dataService.functionModel.futureFunctionCalcResults.push(dataService.functionModel.createFunctionCalcResult())
-
             }
         }
     }
