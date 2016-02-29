@@ -62,7 +62,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
             var dynamicWeighting = eval("this.model.compositionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
             //var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
-            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.ibra.name]." + theObjectLower + "Composition")
+            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Composition")
             if(benchmark == 0) {
                 result = 0
             } else {
@@ -77,7 +77,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             if(observedValue == 0) {
                 result = 0
             } else {
-                var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.ibra.name]." + theObjectLower + "Composition")
+                var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Composition")
                 if(observedValue > benchmark) {
                     result = 100
                 } else {
@@ -91,7 +91,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
         calculateFutureValueWithoutOffset: function (theObject, theObjectLower, managementTimeFrame) {
             var result = 0
             var observedValue = eval("this.model.compositionCalcResults[this.model.inFocusVegetationZoneIndex].observedMean" + theObject)
-            //var rateOfDecline = eval("this.model.benchmarks[this.model.keithClass][dataService.ibra.name].rateOfDecline" + theObject)
+            //var rateOfDecline = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].rateOfDecline" + theObject)
             var rateOfDecline = 5.0
             result = eval(observedValue + " * (Math.pow((1 - " + (rateOfDecline / 100) + "), " + managementTimeFrame + "))").toFixed(2)
             eval("this.model.offsetFutureWithoutManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject + " = " + result)
@@ -110,7 +110,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
         },
 
         getBenchmark: function () {
-            return this.model.benchmarks[this.model.keithClass][dataService.ibra.name]
+            return this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]
         },
 
         calculateDynamicWeightingScore: function (theObject, theObjectLower) {
@@ -125,7 +125,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
         },
 
         calculateUnweightedCompositionScore: function (theObject, theObjectLower, observedValue) {
-            var benchmarks = this.model.benchmarks[this.model.keithClass][dataService.ibra.name];
+            var benchmarks = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name];
             var returnValue = 0;
             if (observedValue == 0) {
                 returnValue = 0;

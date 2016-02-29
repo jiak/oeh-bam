@@ -6,13 +6,34 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
 
         model: dataService.vegetationModel,
 
-        getApplicableFormations: function() {
-            vc.vegetationTab.model.referenceData.formation
+        getKeithClassesForWhichBenchmarkDataIsAvailable: function (formation) {
+            availableKeithClasses = new Array();
+            if (formation != null) {
+                keithClasses = formation.keithClass
+                keithClasses.forEach(function (keithClass) {
+                    kcn = keithClass.name
+                    ibra = dataService.siteContextModel.inputs.ibra.name
+                    if (referenceDataService.compositionBenchmarkData[kcn][ibra] != undefined && referenceDataService.functionBenchmarkData[kcn][ibra] != undefined && referenceDataService.structureBenchmarkData[kcn][ibra] != undefined) {
+                        availableKeithClasses.push(keithClass)
+                    }
+                })
+            }
+            return availableKeithClasses
         },
 
-        calculateGeomean: function(index, calculatorMode) {
+        getAvailableFormationsForWhichBenchmarkDataIsAvailable: function () {
+            availableFormations = []
+            this.model.referenceData.formation.forEach(function (formation) {
+                if($scope.vc.vegetationTab.getKeithClassesForWhichBenchmarkDataIsAvailable(formation).length > 0) {
+                    availableFormations.push(formation)
+                }
+            })
+            return availableFormations
+        },
+
+        calculateGeomean: function (index, calculatorMode) {
             var cs, ss, fs = 0
-            if(calculatorMode == 'current') {
+            if (calculatorMode == 'current') {
                 cs = dataService.compositionModel.compositionCalcResults[index].compositionSubtotal
                 ss = dataService.structureModel.structureCalcResults[index].structureSubtotal
                 fs = dataService.functionModel.functionCalcResults[index].functionSubtotal
@@ -23,20 +44,20 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             }
             var sum = 1
             var count = 0
-            if(cs > 0) {
+            if (cs > 0) {
                 sum *= cs
                 count++
             }
-            if(ss > 0) {
+            if (ss > 0) {
                 sum *= ss
                 count++
             }
-            if(fs > 0) {
+            if (fs > 0) {
                 sum *= fs
                 count++
             }
-            if(sum > 0 && count > 0) {
-                return Math.pow(sum, 1/count).toFixed(1)
+            if (sum > 0 && count > 0) {
+                return Math.pow(sum, 1 / count).toFixed(1)
             } else {
                 return 0
             }
@@ -51,18 +72,6 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             return (this.model.zoneMap.indexOf(pctCode + "_Good") == -1 || this.model.zoneMap.indexOf(pctCode + "_Low") == -1) ? true : false
         },
 
-        getAvailablePct: function () {
-            var availablePcts = new Array()
-            this.model.input.pct.forEach(function (pctItem) {
-                if (pctItem.keithClass != undefined && pctItem.keithClass.name != undefined && pctItem.keithClass.name != null) {
-                    if (referenceDataService.compositionBenchmarkData[pctItem.keithClass.name][dataService.ibra.name] != undefined && referenceDataService.functionBenchmarkData[pctItem.keithClass.name][dataService.ibra.name] != undefined && referenceDataService.structureBenchmarkData[pctItem.keithClass.name][dataService.ibra.name] != undefined) {
-                        availablePcts.push(pctItem)
-                    }
-                }
-            })
-            return availablePcts
-        },
-
         close: function () {
             this.model.isPopupOpen = false
         },
@@ -72,8 +81,10 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
         },
 
         populateKeithClassForZone: function (vegetationZoneItem) {
-            this.getAvailablePct().filter(function (item) {
-                vegetationZoneItem.keithClass = item.keithClass.name
+            this.model.input.pct.forEach(function (pct) {
+                if (pct.pct.id == vegetationZoneItem.pctCode.pct.id) {
+                    vegetationZoneItem.keithClass = pct.keithClass.name
+                }
             })
         },
 
@@ -138,7 +149,8 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
         },
 
         removePctObject: function (index) {
-            this.model.input.pct.splice(index, 1)
+            pctArray = this.model.input.pct
+            pctArray.splice(index, 1)
         },
 
         addVegetationZone: function () {
@@ -147,25 +159,6 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             this.model.input.pct.forEach(function (item) {
                 if ($scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_Good") == -1 || $scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_Low") == -1) {
                     canAddMore = true
-                }
-            })
-            // before offering more zones, make sure we actually have benchmark data
-            this.getAvailablePct().forEach(function (item) {
-                if ($scope.vc.vegetationTab.shouldOfferPctCode(item.pct.id)) {
-                    // have we exhausted all possible condition class combinations for this pct id?
-                    if ($scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_Good") == -1 || $scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_Low") == -1) {
-                        canAddMore = true
-                        // do we have the reference data for it?
-                        if (referenceDataService.compositionBenchmarkData[item.keithClass.name][dataService.ibra.name] != undefined && referenceDataService.functionBenchmarkData[item.keithClass.name][dataService.ibra.name] != undefined && referenceDataService.structureBenchmarkData[item.keithClass.name][dataService.ibra.name] != undefined) {
-                            canAddMore = true
-                        } else {
-                            canAddMore = false
-                        }
-                    } else {
-                        canAddMore = false
-                    }
-                } else {
-                    canAddMore = false
                 }
             })
             if (canAddMore) {

@@ -6,6 +6,31 @@ bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataSe
 
         model: dataService.offsetModel,
 
+        getKeithClassesForWhichBenchmarkDataIsAvailable: function (formation) {
+            availableKeithClasses = new Array();
+            if (formation != null) {
+                keithClasses = formation.keithClass
+                keithClasses.forEach(function (keithClass) {
+                    kcn = keithClass.name
+                    ibra = dataService.siteContextModel.inputs.ibra.name
+                    if (referenceDataService.compositionBenchmarkData[kcn][ibra] != undefined && referenceDataService.functionBenchmarkData[kcn][ibra] != undefined && referenceDataService.structureBenchmarkData[kcn][ibra] != undefined) {
+                        availableKeithClasses.push(keithClass)
+                    }
+                })
+            }
+            return availableKeithClasses
+        },
+
+        getAvailableFormationsForWhichBenchmarkDataIsAvailable: function () {
+            availableFormations = []
+            this.model.referenceData.formation.forEach(function (formation) {
+                if ($scope.oc.offset.getKeithClassesForWhichBenchmarkDataIsAvailable(formation).length > 0) {
+                    availableFormations.push(formation)
+                }
+            })
+            return availableFormations
+        },
+
         addPctObject: function () {
             this.model.input.pct.push(this.createPctObject())
         },
@@ -21,21 +46,11 @@ bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataSe
             }
         },
 
-        getAvailablePct: function () {
-            var availablePcts = new Array()
-            this.model.input.pct.forEach(function (pctItem) {
-                if (pctItem.keithClass != undefined && pctItem.keithClass.name != undefined && pctItem.keithClass.name != null) {
-                    if (referenceDataService.compositionBenchmarkData[pctItem.keithClass.name][dataService.ibra.name] != undefined && referenceDataService.functionBenchmarkData[pctItem.keithClass.name][dataService.ibra.name] != undefined && referenceDataService.structureBenchmarkData[pctItem.keithClass.name][dataService.ibra.name] != undefined) {
-                        availablePcts.push(pctItem)
-                    }
-                }
-            })
-            return availablePcts
-        },
-
         populateKeithClassForZone: function (vegetationZoneItem) {
-            this.getAvailablePct().filter(function (item) {
-                vegetationZoneItem.keithClass = item.keithClass.name
+            this.model.input.pct.forEach(function (pct) {
+                if (pct.pct.id == vegetationZoneItem.pctCode.pct.id) {
+                    vegetationZoneItem.keithClass = pct.keithClass.name
+                }
             })
         },
 
@@ -52,9 +67,9 @@ bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataSe
             return (this.model.isPopupOpen && calcType == this.model.calcTypeToPopup && $index == eval("dataService." + calcType + "Model.inFocusVegetationZoneIndex") && calculatorMode == eval("dataService." + calcType + "Model.calculatorMode")) ? true : false
         },
 
-        calculateGeomean: function(index, calculatorMode) {
+        calculateGeomean: function (index, calculatorMode) {
             var cs, ss, fs = 0
-            if(calculatorMode == 'current') {
+            if (calculatorMode == 'current') {
                 cs = dataService.compositionModel.compositionCalcResults[index].compositionSubtotal
                 ss = dataService.structureModel.structureCalcResults[index].structureSubtotal
                 fs = dataService.functionModel.functionCalcResults[index].functionSubtotal
@@ -68,20 +83,20 @@ bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataSe
             }
             var sum = 1
             var count = 0
-            if(cs > 0) {
+            if (cs > 0) {
                 sum *= cs
                 count++
             }
-            if(ss > 0) {
+            if (ss > 0) {
                 sum *= ss
                 count++
             }
-            if(fs > 0) {
+            if (fs > 0) {
                 sum *= fs
                 count++
             }
-            if(sum > 0 && count > 0) {
-                return Math.pow(sum, 1/count).toFixed(1)
+            if (sum > 0 && count > 0) {
+                return Math.pow(sum, 1 / count).toFixed(1)
             } else {
                 return 0
             }
@@ -93,25 +108,6 @@ bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataSe
             this.model.input.pct.forEach(function (item) {
                 if ($scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Good") == -1 || $scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Low") == -1) {
                     canAddMore = true
-                }
-            })
-            // before offering more zones, make sure we actually have benchmark data
-            this.getAvailablePct().forEach(function (item) {
-                if ($scope.oc.offset.shouldOfferPctCode(item.pct.id)) {
-                    // have we exhausted all possible condition class combinations for this pct id?
-                    if ($scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Good") == -1 || $scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Low") == -1) {
-                        canAddMore = true
-                        // do we have the reference data for it?
-                        if (referenceDataService.compositionBenchmarkData[item.keithClass.name][dataService.ibra.name] != undefined && referenceDataService.functionBenchmarkData[item.keithClass.name][dataService.ibra.name] != undefined && referenceDataService.structureBenchmarkData[item.keithClass.name][dataService.ibra.name] != undefined) {
-                            canAddMore = true
-                        } else {
-                            canAddMore = false
-                        }
-                    } else {
-                        canAddMore = false
-                    }
-                } else {
-                    canAddMore = false
                 }
             })
             if (canAddMore) {

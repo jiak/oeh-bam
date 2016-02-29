@@ -18,11 +18,11 @@
                 <tbody>
                 <tr data-ng-repeat="pctItem in oc.offset.model.input.pct">
                     <td>
-                        <select ng-show="pctItem.formation == null" class="form-control" ng-model="pctItem.formation" ng-options="ref.name for ref in oc.offset.model.referenceData.formation" title="{{pctItem.formation.name}}"></select>
+                        <select ng-show="pctItem.formation == null" class="form-control" ng-model="pctItem.formation" ng-options="ref.name for ref in oc.offset.getAvailableFormationsForWhichBenchmarkDataIsAvailable()" title="{{pctItem.formation.name}}"></select>
                         <p ng-show="pctItem.formation != null">{{pctItem.formation.name}}</p>
                     </td>
                     <td>
-                        <select ng-show="pctItem.keithClass == null" class="form-control" ng-model="pctItem.keithClass" ng-options="ref.name for ref in pctItem.formation.keithClass" title="{{pctItem.keithClass.name}}"></select>
+                        <select ng-show="pctItem.keithClass == null" class="form-control" ng-model="pctItem.keithClass" ng-options="ref.name for ref in oc.offset.getKeithClassesForWhichBenchmarkDataIsAvailable(pctItem.formation)" title="{{pctItem.keithClass.name}}"></select>
                         <p ng-show="pctItem.keithClass != null">{{pctItem.keithClass.name}}</p>
                     </td>
                     <td>
@@ -63,7 +63,7 @@
                 <tr data-ng-repeat="vegetationZoneItem in oc.offset.model.input.vegetationZones">
                     <td>{{$index + 1}}</td>
                     <td>
-                        <select class="form-control" title="PCT codes are listed only if benchmark data is available for the current IBRA and Keith Class" ng-model="vegetationZoneItem.pctCode" ng-options="item.pct.id for item in oc.offset.getAvailablePct()" ng-change="oc.offset.populateKeithClassForZone(vegetationZoneItem)"></select>
+                        <select class="form-control" title="PCT codes are listed only if benchmark data is available for the current IBRA and Keith Class" ng-model="vegetationZoneItem.pctCode" ng-options="item.pct.id for item in oc.offset.model.input.pct" ng-change="oc.offset.populateKeithClassForZone(vegetationZoneItem)"></select>
                     </td>
                     <td>
                         <p ng-show="vegetationZoneItem.conditionClass != null">{{vegetationZoneItem.conditionClass}}</p>

@@ -62,7 +62,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
             var dynamicWeighting = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
             //var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
-            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.ibra.name]." + theObjectLower + "Structure")
+            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Structure")
             if (benchmark == 0) {
                 result = 0
             } else {
@@ -73,7 +73,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
 
         calculateFutureConditionWithoutOffset: function (theObject, theObjectLower) {
             var result = 0
-            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.ibra.name]." + theObjectLower + "Cover")
+            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Cover")
             if (benchmark == 0) {
                 result = 0
             } else {
@@ -90,7 +90,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
         calculateFutureValueWithoutOffset: function (theObject, theObjectLower, managementTimeFrame) {
             var result = 0
             var observedValue = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].observedMean" + theObject)
-            //var rateOfDecline = eval("this.model.benchmarks[this.model.keithClass][dataService.ibra.name].rateOfDecline" + theObject)
+            //var rateOfDecline = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].rateOfDecline" + theObject)
             var rateOfDecline = 5.0
             result = eval(observedValue + " * (Math.pow((1 - " + (rateOfDecline / 100) + "), " + managementTimeFrame + "))").toFixed(2)
             eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject + " = " + result)
@@ -109,7 +109,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
         },
 
         getBenchmark: function () {
-            return this.model.benchmarks[this.model.keithClass][dataService.ibra.name]
+            return this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]
         },
 
         calculateObservedMean: function (theObject, theObjectLower) {

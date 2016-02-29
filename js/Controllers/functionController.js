@@ -62,7 +62,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
             var dynamicWeighting = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
             //var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
-            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.ibra.name]." + theObjectLower + "Function")
+            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Function")
             if (benchmark == 0) {
                 result = 0
             } else {
@@ -74,9 +74,9 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         calculateFutureConditionWithoutOffset: function (theObject, theObjectLower) {
             var result = 0
             var observedValue = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].observedMean" + theObject)
-            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.ibra.name]." + theObjectLower)
+            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
             if (theObject == 'RegenerationPresent') {
-                benchmark = this.model.benchmarks[this.model.keithClass][dataService.ibra.name].regeneration == 'present' ? 1 : 0
+                benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration == 'present' ? 1 : 0
             }
             if (theObject == 'RegenerationPresent' || theObject == 'StemSizeClasses') {
                 if (benchmark == 0) {
@@ -103,7 +103,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         calculateFutureValueWithoutOffset: function (theObject, theObjectLower, managementTimeFrame) {
             var result = 0
             var observedValue = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].observedMean" + theObject)
-            //var rateOfDecline = eval("this.model.benchmarks[this.model.keithClass][dataService.ibra.name].rateOfDecline" + theObject)
+            //var rateOfDecline = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].rateOfDecline" + theObject)
             var rateOfDecline = 5.0
             result = eval(observedValue + " * (Math.pow((1 - " + (rateOfDecline / 100) + "), " + managementTimeFrame + "))").toFixed(2)
             eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject + " = " + result)
@@ -143,7 +143,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         },
 
         getBenchmark: function () {
-            return this.model.benchmarks[this.model.keithClass][dataService.ibra.name]
+            return this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]
         },
 
         calculateUnweightedFunctionScore: function (theObject, theObjectLower, observedValue) {

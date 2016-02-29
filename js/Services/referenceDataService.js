@@ -278,7 +278,7 @@ bamApp.service('referenceDataService', function () {
                     otherComposition: 6
                 }
             },
-            "Western Slopes Grassy Woodlands ()": {
+            "Western Slopes Grassy Woodlands": {
                 "Brigalow Belt South": {
                     treeComposition: 3,
                     shrubComposition: 5,
@@ -1294,7 +1294,7 @@ bamApp.service('referenceDataService', function () {
                 },
                 {
                     "id": 3,
-                    "name": "Dry Sclerophyll Forests (Shrub/grass sub-formation",
+                    "name": "Dry Sclerophyll Forests (Shrub/grass sub-formation)",
                     "type": "1",
                     "keithClass": [
                         {
@@ -1619,80 +1619,6 @@ bamApp.service('referenceDataService', function () {
                                         {"id": 97, "name": " Montane Peatlands and Swamps of the New England Tableland, NSW North Coast, Sydney Basin, South East Corner, South Eastern Highlands and Australian Alps Bioregions (Part) ", "status": "E"},
                                         {"id": 98, "name": " Carex Sedgeland of the New England Tableland, Nandewar, Brigalow Belt South and NSW North Coast Bioregions (Part) ", "status": "E"}
                                     ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": 6,
-                    "name": "Dry Sclerophyll Forests (Shrub/grass sub-formation)",
-                    "type": "1",
-                    "keithClass": [
-                        {
-                            "id": 1,
-                            "name": "Cumberland Dry Sclerophyll Forests",
-                            "pct": [
-                                {
-                                    "id": 724,
-                                    "name": "Broad-leaved Ironbark - Grey Box - Melaleuca decora grassy open forest on clay/gravel soils of the Cumberland Plain, Sydney Basin",
-                                    "description": "",
-                                    "percentCleared": 0,
-                                    "tec": [
-                                        {"id": 196, "name": " Shale Gravel Transition Forest in the Sydney Basin Bioregion  ", "status": ""},
-                                        {"id": 197, "name": " Cumberland Plain Shale Woodlands and Shale-Gravel Transition Forest (Equivalent) ", "status": "CE"}
-                                    ]
-                                },
-                                {
-                                    "id": 725,
-                                    "name": "Broad-leaved Ironbark - Melaleuca decora shrubby open forest on clay soils of the Cumberland Plain, Sydney Basin",
-                                    "description": "",
-                                    "percentCleared": 0,
-                                    "tec": [
-                                        {"id": 198, "name": " Cooks River/Castlereagh Ironbark Forest in the Sydney Basin Bioregion  ", "status": ""}
-                                    ]
-
-                                },
-                                {
-                                    "id": 1067,
-                                    "name": "Narrow-leaved Ironbark - Broad-leaved Ironbark - Grey Gum open forest of the edges of the Cumberland Plain, Sydney Basin",
-                                    "description": "",
-                                    "percentCleared": 0,
-                                    "tec": [
-                                        {"id": 199, "name": " Castlereagh Swamp Woodland Community  ", "status": ""}
-                                    ]
-                                },
-                                {
-                                    "id": 1395,
-                                    "name": "Narrow-leaved Ironbark - Forest Red Gum woodland on rocky slopes of the lower Burragorang Gorge, Sydney Basin",
-                                    "description": "",
-                                    "percentCleared": 0,
-                                    "tec": [
-                                        {"id": 200, "name": " Shale/Sandstone Transition Forest (Equivalent) ", "status": "E"},
-                                        {"id": 201, "name": " Shale/Sandstone Transition Forest (Equivalent) ", "status": "E"}
-                                    ]
-                                },
-                                {
-                                    "id": 1401,
-                                    "name": "Parramatta Red Gum woodland on moist alluvium of the Cumberland Plain, Sydney Basin",
-                                    "description": "",
-                                    "percentCleared": 0,
-                                    "tec": [
-                                        {"id": 202, "name": " White Box Yellow Box Blakelyâ€™s Red Gum Woodland (Equivalent) ", "status": "E"},
-                                        {"id": 203, "name": " White Box Yellow Box Blakelyâ€™s Red Gum Woodland (Equivalent) ", "status": "CE"}
-                                    ]
-
-                                },
-                                {
-                                    "id": 1281,
-                                    "name": "Turpentine - Grey Ironbark open forest on shale in the lower Blue Mountains, Sydney Basin",
-                                    "description": "",
-                                    "percentCleared": 0,
-                                    "tec": [
-                                        {"id": 204, "name": " Sydney Turpentine-Ironbark Forest  ", "status": ""},
-                                        {"id": 205, "name": " Turpentine-Ironbark Forest in the Sydney Basin Bioregion  ", "status": ""}
-                                    ]
-
                                 }
                             ]
                         }

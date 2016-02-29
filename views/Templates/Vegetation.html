@@ -12,17 +12,16 @@
                     <th>PCT % Cleared</th>
                     <th>Associated TEC</th>
                     <th>Threat Status Class</th>
-                    <th>Action</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr data-ng-repeat="pctItem in vc.vegetationTab.model.input.pct">
                     <td>
-                        <select ng-show="pctItem.formation == null" class="form-control" ng-model="pctItem.formation" ng-options="ref.name for ref in vc.vegetationTab.getApplicableFormations()" title="{{pctItem.formation.name}}"></select>
+                        <select ng-show="pctItem.formation == null" class="form-control" ng-model="pctItem.formation" ng-options="ref.name for ref in vc.vegetationTab.getAvailableFormationsForWhichBenchmarkDataIsAvailable()" title="{{pctItem.formation.name}}"></select>
                         <p ng-show="pctItem.formation != null">{{pctItem.formation.name}}</p>
                     </td>
                     <td>
-                        <select ng-show="pctItem.keithClass == null" class="form-control" ng-model="pctItem.keithClass" ng-options="ref.name for ref in pctItem.formation.keithClass" title="{{pctItem.keithClass.name}}"></select>
+                        <select ng-show="pctItem.keithClass == null" class="form-control" ng-model="pctItem.keithClass" ng-options="ref.name for ref in vc.vegetationTab.getKeithClassesForWhichBenchmarkDataIsAvailable(pctItem.formation)" title="{{pctItem.keithClass.name}}"></select>
                         <p ng-show="pctItem.keithClass != null">{{pctItem.keithClass.name}}</p>
                     </td>
                     <td>
@@ -36,7 +35,6 @@
                         <p ng-show="pctItem.tec != null">{{pctItem.tec.name}}</p>
                     </td>
                     <td>{{pctItem.tec.status}}</td>
-                    <td><a href="#" ng-click="vc.vegetationTab.removePctObject($index)">Remove</a></td>
                 </tr>
                 </tbody>
             </table>
@@ -63,7 +61,7 @@
                 <tr data-ng-repeat="vegetationZoneItem in vc.vegetationTab.model.input.vegetationZones">
                     <td>{{$index + 1}}</td>
                     <td>
-                        <select class="form-control" title="PCT codes are listed only if benchmark data is available for the current IBRA and Keith Class" ng-model="vegetationZoneItem.pctCode" ng-options="item.pct.id for item in vc.vegetationTab.getAvailablePct()" ng-change="vc.vegetationTab.populateKeithClassForZone(vegetationZoneItem)"></select>
+                        <select class="form-control" title="PCT codes are listed only if benchmark data is available for the current IBRA and Keith Class" ng-model="vegetationZoneItem.pctCode" ng-options="item.pct.id for item in vc.vegetationTab.model.input.pct" ng-change="vc.vegetationTab.populateKeithClassForZone(vegetationZoneItem)"></select>
                     </td>
                     <td>
                         <p ng-show="vegetationZoneItem.conditionClass != null">{{vegetationZoneItem.conditionClass}}</p>
