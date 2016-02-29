@@ -46,7 +46,8 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                 presence: null,
                 UOM: null,
                 value: null,
-                SOISelected: null
+                SOISelected: null,
+                enabledPrecense: false
             }
         },
 
@@ -106,6 +107,27 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
             }
 
             return null;
+        },
+
+        updatePresence: function (index) {
+            if (this.model.inputs[this.model.current].speciesCredit[index].candidate == null) {
+                this.model.inputs[this.model.current].speciesCredit[index].enabledPrecense = false;
+                return;
+            }
+            if (this.model.inputs[this.model.current].speciesCredit[index].assessRequired == null) {
+                this.model.inputs[this.model.current].speciesCredit[index].enabledPrecense = false;
+                return;
+            }
+            if (this.model.inputs[this.model.current].speciesCredit[index].presence == null) {
+                this.model.inputs[this.model.current].speciesCredit[index].enabledPrecense = false;
+                return;
+            }
+
+            this.model.inputs[this.model.current].speciesCredit[index].enabledPrecense =
+                this.model.inputs[this.model.current].speciesCredit[index].candidate.name == "Yes" &&
+                this.model.inputs[this.model.current].speciesCredit[index].assessRequired.name == "Yes" &&
+                this.model.inputs[this.model.current].speciesCredit[index].presence.name == "Yes";
+
         },
 
         update: function () {
