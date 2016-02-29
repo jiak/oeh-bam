@@ -21,8 +21,8 @@
                         <th>Regeneration stems <br/> stems <5cm DBH</th>
                     </tr>
                 </table>
-                <div ng-show="fc.function.isDevelopmentMode()" ng-include="'Templates/functionDevelopmentMode.html'"/>
-                <div ng-show="fc.function.isOffsetMode()" ng-include="'Templates/functionOffsetMode.html'"/>
+                <div ng-if="fc.function.isDevelopmentMode()" ng-include="'Templates/functionDevelopmentMode.html'"/>
+                <div ng-if="fc.function.isOffsetMode()" ng-include="'Templates/functionOffsetMode.html'"/>
             </div>
         </div>
     </div>

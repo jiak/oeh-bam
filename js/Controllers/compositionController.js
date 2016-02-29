@@ -88,12 +88,10 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             eval("this.model.offsetFutureWithoutManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject + " = " + result)
         },
 
-        calculateFutureValueWithoutOffset: function (theObject, theObjectLower, managementTimeFrame) {
+        calculateFutureValueWithoutOffset: function (theObject, theObjectLower, rateOfDecline) {
             var result = 0
             var observedValue = eval("this.model.compositionCalcResults[this.model.inFocusVegetationZoneIndex].observedMean" + theObject)
-            //var rateOfDecline = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].rateOfDecline" + theObject)
-            var rateOfDecline = 5.0
-            result = eval(observedValue + " * (Math.pow((1 - " + (rateOfDecline / 100) + "), " + managementTimeFrame + "))").toFixed(2)
+            result = eval(observedValue + " * (Math.pow((1 - " + (rateOfDecline / 100) + "), " + 20 + "))").toFixed(2)
             eval("this.model.offsetFutureWithoutManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject + " = " + result)
         },
 

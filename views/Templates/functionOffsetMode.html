@@ -1,19 +1,56 @@
 <table class="table numericGrid">
     <tr ng-repeat="item in fc.function.getApplicableCalcResults()[fc.function.model.inFocusVegetationZoneIndex].functionTransects">
         <th>Management Timeframe (years)</th>
-        <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="item.numberOfLargeTrees" ng-blur="fc.function.updateCalcsFor('NumberOfLargeTrees', item.numberOfLargeTrees)"/></td>
-        <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="item.litterCover" ng-blur="fc.function.updateCalcsFor('LitterCover', item.litterCover)"/></td>
-        <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="item.coarseWoodyDebris" ng-blur="fc.function.updateCalcsFor('CoarseWoodyDebris', item.coarseWoodyDebris)"/></td>
-        <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="item.stemSizeClasses1" ng-blur="fc.function.updateCalcsFor('StemSizeClasses', item.stemSizeClasses1)"/></td>
-        <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="item.regenerationPresent1" ng-blur="fc.function.updateCalcsFor('RegenerationPresent', item.regenerationPresent1)"/></td>
-    </tr>
-    <tr>
-        <th>Rate Of Decline (% Annum)</th>
-        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].rateOfDeclineNumberOfLargeTrees || "5.0"}}</td>
-        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].rateOfDeclineLitterCover || "5.0"}}</td>
-        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].rateOfDeclineCoarseWoodyDebris || "5.0"}}</td>
-        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].rateOfDeclineStemSizeClasses || "5.0"}}</td>
-        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].rateOfDeclineRegeneration || "5.0"}}</td>
+        <td>
+            <select class="form-control" ng-model="item.numberOfLargeTrees" ng-blur="fc.function.updateCalcsFor('NumberOfLargeTrees', item.numberOfLargeTrees)">
+                <option value="0.00">0.00%</option>
+                <option value="0.05">0.05%</option>
+                <option value="0.10">0.10%</option>
+                <option value="0.20">0.20%</option>
+                <option value="0.25">0.25%</option>
+                <option value="0.50">0.50%</option>
+            </select>
+        </td>
+        <td>
+            <select class="form-control" ng-model="item.litterCover" ng-blur="fc.function.updateCalcsFor('LitterCover', item.litterCover)">
+                <option value="0.00">0.00%</option>
+                <option value="0.05">0.05%</option>
+                <option value="0.10">0.10%</option>
+                <option value="0.20">0.20%</option>
+                <option value="0.25">0.25%</option>
+                <option value="0.50">0.50%</option>
+            </select>
+        </td>
+        <td>
+            <select class="form-control" ng-model="item.coarseWoodyDebris" ng-blur="fc.function.updateCalcsFor('CoarseWoodyDebris', item.coarseWoodyDebris)">
+                <option value="0.00">0.00%</option>
+                <option value="0.05">0.05%</option>
+                <option value="0.10">0.10%</option>
+                <option value="0.20">0.20%</option>
+                <option value="0.25">0.25%</option>
+                <option value="0.50">0.50%</option>
+            </select>
+        </td>
+        <td>
+            <select class="form-control" ng-model="item.stemSizeClasses1" ng-blur="fc.function.updateCalcsFor('StemSizeClasses', item.stemSizeClasses1)">
+                <option value="0.00">0.00%</option>
+                <option value="0.05">0.05%</option>
+                <option value="0.10">0.10%</option>
+                <option value="0.20">0.20%</option>
+                <option value="0.25">0.25%</option>
+                <option value="0.50">0.50%</option>
+            </select>
+        </td>
+        <td>
+            <select class="form-control" ng-model="item.regenerationPresent1" ng-blur="fc.function.updateCalcsFor('RegenerationPresent', item.regenerationPresent1)">
+                <option value="0.00">0.00%</option>
+                <option value="0.05">0.05%</option>
+                <option value="0.10">0.10%</option>
+                <option value="0.20">0.20%</option>
+                <option value="0.25">0.25%</option>
+                <option value="0.50">0.50%</option>
+            </select>
+        </td>
     </tr>
     <tr>
         <th>Future Value Without Offset</th>
