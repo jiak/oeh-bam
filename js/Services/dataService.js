@@ -1,6 +1,7 @@
 bamApp.service('dataService', ["referenceDataService", function (referenceDataService) {
     return {
         siteContextModel: {
+            confirmed: false,
             vegetationCoverClass: referenceDataService.siteContext.vegetationCoverClass,
             patchSizeClass: referenceDataService.siteContext.patchSizeClass,
             refMitchellLandscape: referenceDataService.siteContext.mitchellLandscape,
@@ -69,6 +70,7 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
             }
         },
         applicationDetailsModel: {
+            confirmed: false,
             referenceData: referenceDataService.applicationDetails,
             current: null,
             assessmentType: null

@@ -1,11 +1,19 @@
-<form novalidate>
-    <div ng-controller="applicationDetailsController as adc">
+<div ng-controller="applicationDetailsController as adc">
+<form ng-submit="adc.applicationDetails.model.confirmed = true">
 
         <fieldset class="form-group">
+            <div class="callout" ng-show="adc.applicationDetails.model.confirmed == false">
+                <h3>Tip!</h3>
+                <p>Choosing the <em>'Assessment Type'</em> is an important step. Once you click, <em>'Confirm to proceed to the next step'</em> this value will become read-only and it cannot be un-done. Please <a href="#" onclick="location.reload()">refresh</a> your browser and start again if you have selected incorrectly.</p>
+            </div>
+            <div class="callout" ng-show="adc.applicationDetails.model.confirmed == true">
+                <h3>Message!</h3>
+                <p>You have selected <em>'{{adc.applicationDetails.model.assessmentType.name}}'</em> as the <em>'Assessment Type'</em> so we now have enough information to proceed to the 'Site Context'. Please remember to <a href="#" onclick="location.reload()">refresh</a> your browser and start again if you have selected incorrectly.</p>
+            </div>
+
             <label for="AssessmentType">Assessment Type</label>
-            <select id="AssessmentType" class="form-control" ng-show="adc.applicationDetails.model.assessmentType == null" ng-model="adc.applicationDetails.model.assessmentType" ng-options="item as item.name for item in adc.applicationDetails.model.referenceData.applicationType track by item.name">
+            <select title="Once set, Assessment Type cannot be changed" id="AssessmentType" ng-disabled="adc.applicationDetails.model.confirmed == true" required class="form-control" ng-model="adc.applicationDetails.model.assessmentType" ng-options="item as item.name for item in adc.applicationDetails.model.referenceData.applicationType track by item.name">
             </select>
-            <input class="form-control" value="{{adc.applicationDetails.model.assessmentType.name}}" readonly ng-show="adc.applicationDetails.model.assessmentType != null" title="Once set, Assessment Type cannot be changed"/>
             <label for="ProposalID">Proposal ID</label>
             <input id="ProposalID" class="form-control" ng-model="adc.applicationDetails.model.proposalId"></input>
             <label for="ProposalVersion">Proposal Version</label>
@@ -14,7 +22,8 @@
             <input id="ProposalName" class="form-control" ng-model="adc.applicationDetails.model.proposalName"></input>
             <label for="StreetAddress">Street Address</label>
             <input id="StreetAddress" class="form-control" ng-model="adc.applicationDetails.model.streetAddress"></input>
-        </fieldset>
-    </div>
-</form>
+            <input ng-show="adc.applicationDetails.model.confirmed == false" type="submit" class="btn btn-secondary" value="Confirm to proceed to the next step"></input>
 
+        </fieldset>
+</form>
+</div>

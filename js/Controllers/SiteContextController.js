@@ -27,8 +27,10 @@ bamApp.controller('siteContextController', ["$scope", "$rootScope", "dataService
                 return;
             }
             this.model.inputs.landscapeFeatures.splice($index, 1);
-        },
+        }
 
     }
+
+    this.dataService = dataService;
 
 }]);
