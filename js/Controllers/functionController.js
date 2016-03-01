@@ -18,7 +18,26 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 return this.model.futureFunctionCalcResults
             } else if (this.model.calculatorMode == 'offsetFutureWithoutManagement') {
                 return this.model.offsetFutureWithoutManagementFunctionCalcResults
+            } else if (this.model.calculatorMode == 'offsetFutureWithManagement') {
+                return this.model.offsetFutureWithManagementFunctionCalcResults
+            } else if (this.model.calculatorMode == 'offsetFutureWithManagement') {
+                this.calculateCurrentValueWithAddedConstant(theObject, theObjectLower, observedValue)
             }
+        },
+
+        calculateCurrentValueWithAddedConstant: function(theObject, theObjectLower, observedValue) {
+            var result = 0
+            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Composition")
+            if(benchmark == 0) {
+                result = 0
+            } else {
+                if(observedValue == 0) {
+                    result = observedValue + (benchmark * 0.01)
+                } else {
+                    result = observedValue
+                }
+            }
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject + " = " + result)
         },
 
         getCurrentFunction: function () {
@@ -49,8 +68,16 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             }
         },
 
-        isOffsetMode: function () {
+        displayFutureWithManagement: function() {
+            return this.model.calculatorMode == 'offsetFutureWithManagement'
+        },
+
+        displayFutureWithoutManagement: function() {
             return this.model.calculatorMode == 'offsetFutureWithoutManagement'
+        },
+
+        isOffsetMode: function() {
+            return this.model.calculatorMode == 'offsetFutureWithoutManagement' || this.model.calculatorMode == 'offsetFutureWithManagement'
         },
 
         isDevelopmentMode: function () {

@@ -30,7 +30,7 @@
                         <td><input class="numericInput form-control" size=3 min="0" type="number" ng-model="item.fern" ng-blur="sc.structure.updateCalcsFor('Fern', item.fern)"/></td>
                         <td><input class="numericInput form-control" size=3 min="0" type="number" ng-model="item.other" ng-blur="sc.structure.updateCalcsFor('Other', item.other)"/></td>
                     </tr>
-                    <tr ng-if="sc.structure.isOffsetMode()" ng-repeat="item in sc.structure.getApplicableCalcResults()[sc.structure.model.inFocusVegetationZoneIndex].structureTransects">
+                    <tr ng-if="sc.structure.displayFutureWithoutManagement()" ng-repeat="item in sc.structure.getApplicableCalcResults()[sc.structure.model.inFocusVegetationZoneIndex].structureTransects">
                         <td>Rate Of Decline (% per annum)</td>
                         <td>
                             <select class="form-control" ng-model="item.tree" ng-blur="sc.structure.updateCalcsFor('Tree', item.tree)">
