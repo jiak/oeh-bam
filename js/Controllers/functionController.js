@@ -20,24 +20,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 return this.model.offsetFutureWithoutManagementFunctionCalcResults
             } else if (this.model.calculatorMode == 'offsetFutureWithManagement') {
                 return this.model.offsetFutureWithManagementFunctionCalcResults
-            } else if (this.model.calculatorMode == 'offsetFutureWithManagement') {
-                this.calculateCurrentValueWithAddedConstant(theObject, theObjectLower, observedValue)
             }
-        },
-
-        calculateCurrentValueWithAddedConstant: function(theObject, theObjectLower, observedValue) {
-            var result = 0
-            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Composition")
-            if(benchmark == 0) {
-                result = 0
-            } else {
-                if(observedValue == 0) {
-                    result = observedValue + (benchmark * 0.01)
-                } else {
-                    result = observedValue
-                }
-            }
-            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject + " = " + result)
         },
 
         getCurrentFunction: function () {
@@ -65,18 +48,201 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 this.calculateFutureConditionWithoutOffset(theObject, theObjectLower)
                 this.calculateAdjustedConditionWithoutOffset(theObject, theObjectLower)
                 this.calculateFunctionOffsetSubtotal()
+            } else if (this.model.calculatorMode == 'offsetFutureWithManagement') {
+                this.calculateCurrentValueWithAddedConstant(theObject, theObjectLower)
+                this.calculateFutureValueWithOffset(theObject, theObjectLower)
+                this.calculateFutureConditionWithOffset(theObject, theObjectLower)
+                this.calculateRawAvertedLoss(theObject, theObjectLower)
+                this.calculateRawRestorationGain(theObject, theObjectLower)
+                this.calculateRawTotalGain(theObject, theObjectLower)
+                this.calculateNbpv(theObject, theObjectLower)
+                this.calculateWeightedNbpv(theObject, theObjectLower)
+                this.calculateWeightedNoDiscount(theObject, theObjectLower)
+                this.calculateFunctionOffsetSubtotal()
             }
         },
 
-        displayFutureWithManagement: function() {
-            return this.model.calculatorMode == 'offsetFutureWithManagement'
+        calculateRawRestorationGain: function (theObject, theObjectLower) {
+            var c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            var result = 0
+            if (c11Benchmark == 0) {
+                result = 0
+            } else {
+                futureConditionWithOffset = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithOffset" + theObject)
+                rawCurrentCondition = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].unweighted" + theObject + "Score")
+                result = futureConditionWithOffset - rawCurrentCondition
+            }
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawRestorationGain" + theObject + " = " + result.toFixed(2))
         },
 
-        displayFutureWithoutManagement: function() {
+        calculateRawTotalGain: function (theObject, theObjectLower) {
+            var rawAvertedLoss = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawAvertedLoss" + theObject)
+            var rawRestorationGain = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawRestorationGain" + theObject)
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject + " = " + (rawAvertedLoss + rawRestorationGain).toFixed(2))
+        },
+
+        calculateNbpv: function (theObject, theObjectLower) {
+            var result = 0
+            var c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            var rawTotalGain = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject)
+            var discountRate = 3
+            var managementTimeFrame = 20
+            if (c11Benchmark == 0) {
+                result = 0
+            } else {
+                if (rawTotalGain == 0) {
+                    result = 0
+                } else {
+                    result = rawTotalGain / (Math.pow(1 + (discountRate / 100), managementTimeFrame))
+                }
+            }
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].nbpv" + theObject + " = " + result.toFixed(2))
+        },
+
+        calculateWeightedNbpv: function (theObject, theObjectLower) {
+            var c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            var result = 0
+            if (c11Benchmark == 0) {
+                result = 0
+            } else {
+                var nbpv1 = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].nbpv" + theObject)
+                var dynamicWeighting = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
+                result = nbpv1 * dynamicWeighting
+            }
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].weightedNbpv" + theObject + " = " + result.toFixed(2))
+        },
+
+        calculateWeightedNoDiscount: function (theObject, theObjectLower) {
+            var c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            var result = 0
+            if (c11Benchmark == 0) {
+                result = 0
+            } else {
+                var rawTotalGain = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject)
+                var dynamicWeighting = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score") / 0.85
+                result = rawTotalGain * dynamicWeighting
+            }
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].weightedNoDiscount" + theObject + " = " + result.toFixed(2))
+        },
+
+        calculateFutureConditionWithOffset: function (theObject, theObjectLower) {
+            var c11Benchmark = 0
+            if(theObject == 'RegenerationPresent') {
+                if(this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration == 'present') {
+                    c11Benchmark = 1
+                } else {
+                    c11Benchmark = 0
+                }
+            } else {
+                c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            }
+            var n11FutureValueWithOffset = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithOffset" + theObject)
+            var result = 0
+            if (c11Benchmark == 0) {
+                result = 0
+            } else {
+                if(theObject == 'RegenerationPresent') {
+                    result = (1.01 * (1 - Math.exp(-4.4*(n11FutureValueWithOffset / c11Benchmark), 1.85)) * 100)
+                } else {
+                    if (n11FutureValueWithOffset > c11Benchmark) {
+                        result = 100
+                    } else {
+                        result = (1.01 * (1 - Math.exp(-4.4 * Math.pow(n11FutureValueWithOffset / c11Benchmark, 1.85))) * 100)
+                    }
+                }
+            }
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithOffset" + theObject + " = " + result.toFixed(2))
+        },
+
+        calculateFutureValueWithOffset: function (theObject, theObjectLower) {
+            var result = 0
+            if (theObject == 'Tree') {
+                result = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
+            } else {
+                var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+                var supplimentaryPlanting = "Present"
+                var currentValueWithAddedConstant = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject)
+                var rValue = eval("this.model.rateOfIncrease." + theObjectLower)
+                var managementTimeFrame = 20
+                var benefitForPlanting = eval("this.model.benefitForPlanting." + theObjectLower)
+                var result = 0
+                if (benchmark == 0) {
+                    result = 0
+                } else {
+                    if (supplimentaryPlanting == 'Absent') {
+                        result = (benchmark * currentValueWithAddedConstant * Math.exp(rValue * 20)) / (benchmark + currentValueWithAddedConstant * (Math.exp(rValue * 20) - 1))
+                    } else {
+                        if (theObject == 'NumberOfLargeTrees') {
+                            result = this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffsetNumberOfLargeTrees
+                        } else if (theObject == 'LitterCover' || theObject == 'CoarseWoodyDebris') {
+                            //       ($C28      * ($M28                          + $C28      * 0.01) * EXP     (($H56   + $F56)               * $I28               )) / ($C28      + ($M28                          + $C28      * 0.01) * (EXP      (($H56   + $F56              ) * $I28               ) - 1))
+                            result = (benchmark * (currentValueWithAddedConstant + benchmark * 0.01) * Math.exp((rValue + benefitForPlanting) * managementTimeFrame)) / (benchmark + (currentValueWithAddedConstant + benchmark * 0.01) * (Math.exp ((rValue + benefitForPlanting) * managementTimeFrame) - 1))
+                        } else if (theObject == 'RegenerationPresent') {
+                            result = 1.0
+                        }
+                    }
+                }
+                eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithOffset" + theObject + " = " + result.toFixed(2))
+
+            }
+        },
+
+        calculateRawAvertedLoss: function (theObject, theObjectLower) {
+            var result = 0
+            var benchmark = 0
+            if(theObject == 'RegenerationPresent') {
+                if(this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration == 'present') {
+                    benchmark = 1
+                } else {
+                    benchmark = 0
+                }
+            } else {
+                benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            }
+            if (benchmark == 0) {
+                result = 0
+            } else {
+                var rawCurrentCondition = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].unweighted" + theObject + "Score")
+                var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
+                result = rawCurrentCondition - futureConditionWithoutOffset
+            }
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawAvertedLoss" + theObject + " = " + result.toFixed(2))
+        },
+
+        calculateCurrentValueWithAddedConstant: function (theObject, theObjectLower) {
+            var result = 0
+            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            var observedValue = parseInt(eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].observedMean" + theObject))
+            if (benchmark == 0) {
+                result = 0
+            } else {
+                if (observedValue == 0) {
+                    result = observedValue + (benchmark * 0.01)
+                } else {
+                    result = observedValue
+                }
+            }
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject + " = " + result.toFixed(2))
+        },
+
+        displayFutureWithManagement: function () {
+            if (this.model.calculatorMode == 'offsetFutureWithManagement') {
+                this.updateCalcsFor('NumberOfLargeTrees', -1)
+                this.updateCalcsFor('LitterCover', -1)
+                this.updateCalcsFor('CoarseWoodyDebris', -1)
+                this.updateCalcsFor('StemSizeClasses', -1)
+                this.updateCalcsFor('RegenerationPresent', -1)
+                return true;
+            } else {
+                return false
+            }
+        },
+
+        displayFutureWithoutManagement: function () {
             return this.model.calculatorMode == 'offsetFutureWithoutManagement'
         },
 
-        isOffsetMode: function() {
+        isOffsetMode: function () {
             return this.model.calculatorMode == 'offsetFutureWithoutManagement' || this.model.calculatorMode == 'offsetFutureWithManagement'
         },
 
@@ -89,7 +255,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
             var dynamicWeighting = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
             //var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
-            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Function")
+            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
             if (benchmark == 0) {
                 result = 0
             } else {
@@ -221,7 +387,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         calculateFunctionOffsetSubtotal: function () {
             var total = 0
             var c = this.getCurrentFunction()
-            total += c.adjustedConditionWithoutOffsetTree
+            total += c.adjustedConditionWithoutOffsetNumberOfLargeTrees
             total += c.adjustedConditionWithoutOffsetLitterCover
             total += c.adjustedConditionWithoutOffsetCoarseWoodyDebris
             total += c.adjustedConditionWithoutOffsetStemSizeClasses

@@ -1,0 +1,82 @@
+<table class="table numericGrid">
+    <tr>
+        <th>Item</th>
+        <th>Number of large trees</th>
+        <th>Litter cover</th>
+        <th>Coarse woody derbis</th>
+        <th>Stem size classes present <br/> excluding <5cm and >50cm</th>
+        <th>Regeneration stems <br/> stems <5cm DBH</th>
+    </tr>
+    <tr>
+        <th>Current Value With Added Constant</th>
+        <td>{{fc.function.getCurrentFunction().currentValueWithAddedConstantNumberOfLargeTrees || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().currentValueWithAddedConstantLitterCover || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().currentValueWithAddedConstantCoarseWoodyDebris || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().currentValueWithAddedConstantStemSizeClasses || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().currentValueWithAddedConstantRegenerationPresent || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Future Value With Offset</th>
+        <td>{{fc.function.getCurrentFunction().futureValueWithOffsetNumberOfLargeTrees || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().futureValueWithOffsetLitterCover || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().futureValueWithOffsetCoarseWoodyDebris || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().futureValueWithOffsetStemSizeClasses || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().futureValueWithOffsetRegenerationPresent || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Future Condition With Offset (unadjusted)</th>
+        <td>{{fc.function.getCurrentFunction().futureConditionWithOffsetNumberOfLargeTrees || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().futureConditionWithOffsetLitterCover || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().futureConditionWithOffsetCoarseWoodyDebris || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().futureConditionWithOffsetStemSizeClasses || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().futureConditionWithOffsetRegenerationPresent || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Raw Averted Loss</th>
+        <td>{{fc.function.getCurrentFunction().rawAvertedLossNumberOfLargeTrees || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().rawAvertedLossLitterCover || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().rawAvertedLossCoarseWoodyDebris || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().rawAvertedLossStemSizeClasses || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().rawAvertedLossRegenerationPresent || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Raw Restoration Gain</th>
+        <td>{{fc.function.getCurrentFunction().rawRestorationGainNumberOfLargeTrees || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().rawRestorationGainLitterCover || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().rawRestorationGainCoarseWoodyDebris || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().rawRestorationGainStemSizeClasses || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().rawRestorationGainRegenerationPresent || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Raw Total Gain</th>
+        <td>{{fc.function.getCurrentFunction().rawTotalGainNumberOfLargeTrees || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().rawTotalGainLitterCover || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().rawTotalGainCoarseWoodyDebris || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().rawTotalGainStemSizeClasses || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().rawTotalGainRegenerationPresent || "0"}}</td>
+    </tr>
+    <tr>
+        <th>NBPV</th>
+        <td>{{fc.function.getCurrentFunction().nbpvNumberOfLargeTrees || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().nbpvLitterCover || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().nbpvCoarseWoodyDebris || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().nbpvStemSizeClasses || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().nbpvRegenerationPresent || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Weighted NBPV</th>
+        <td>{{fc.function.getCurrentFunction().weightedNbpvNumberOfLargeTrees || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedNbpvLitterCover || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedNbpvCoarseWoodyDebris || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedNbpvStemSizeClasses || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedNbpvRegenerationPresent || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Weighted No Discount</th>
+        <td>{{fc.function.getCurrentFunction().weightedNoDiscountNumberOfLargeTrees || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedNoDiscountLitterCover || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedNoDiscountCoarseWoodyDebris || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedNoDiscountStemSizeClasses || "0"}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedNoDiscountRegenerationPresent || "0"}}</td>
+    </tr>
+</table>

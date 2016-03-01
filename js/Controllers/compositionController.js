@@ -59,6 +59,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                 this.calculateNbpv(theObject, theObjectLower)
                 this.calculateWeightedNbpv(theObject, theObjectLower)
                 this.calculateWeightedNoDiscount(theObject, theObjectLower)
+                this.calculateCompositionOffsetSubtotal()
             }
         },
 

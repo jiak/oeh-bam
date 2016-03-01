@@ -17089,6 +17089,30 @@ bamApp.service('referenceDataService', function () {
                 "grassAndGrassLikeRichness": 0.966,
                 "forbRichness": 0.966,
                 "fernRichness": 0.966
+            },
+            "function": {
+
+            }
+        },
+        "benefitForPlanting": {
+            "structure": {
+                "treeCover": 0,
+                "shrubCover": 0,
+                "grassAndGrassLikeCover": 0,
+                "forbCover": 0,
+                "fernCover": 0
+            },
+            "composition": {
+                "treeRichness": 0,
+                "shrubRichness": 0,
+                "grassAndGrassLikeRichness": 0,
+                "forbRichness": 0,
+                "fernRichness": 0
+            },
+            "function": {
+                "numberOfLargeTrees": 0,
+                "litterCover": 0.01,
+                "coarseWoodyDebris": 0
             }
         }
     }

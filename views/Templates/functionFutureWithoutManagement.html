@@ -1,4 +1,12 @@
 <table class="table numericGrid">
+    <tr>
+        <th>Item</th>
+        <th>Number of large trees</th>
+        <th>Litter cover</th>
+        <th>Coarse woody derbis</th>
+        <th>Stem size classes present <br/> excluding <5cm and >50cm</th>
+        <th>Regeneration stems <br/> stems <5cm DBH</th>
+    </tr>
     <tr ng-repeat="item in fc.function.getApplicableCalcResults()[fc.function.model.inFocusVegetationZoneIndex].functionTransects">
         <th>Management Timeframe (years)</th>
         <td>
