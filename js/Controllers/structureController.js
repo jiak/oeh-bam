@@ -76,6 +76,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 this.calculateNbpv(theObject, theObjectLower)
                 this.calculateWeightedNbpv(theObject, theObjectLower)
                 this.calculateWeightedNoDiscount(theObject, theObjectLower)
+                this.calculateStructureOffsetSubtotal()
             }
         },
 
