@@ -1,33 +1,13 @@
-<table ng-show="cc.composition.displayFutureWithoutManagement()" class="table numericGrid">
+<table class="table numericGrid">
     <tr>
-        <th>Future Value Without Offset</th>
-        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetTree || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetShrub || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetGrassAndGrassLike || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetForb || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetFern || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetOther || "0"}}</td>
+        <th>Item</th>
+        <th>Tree</th>
+        <th>Shrub</th>
+        <th>Grass & <br/> Grass Like</th>
+        <th>Forb</th>
+        <th>Fern</th>
+        <th>Other</th>
     </tr>
-    <tr>
-        <th>Future Condition Without Offset</th>
-        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetTree || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetShrub || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetGrassAndGrassLike || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetForb || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetFern || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetOther || "0"}}</td>
-    </tr>
-    <tr>
-        <th>Adjusted Condition Without Offset</th>
-        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetTree || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetShrub || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetGrassAndGrassLike || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetForb || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetFern || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetOther || "0"}}</td>
-    </tr>
-</table>
-<table ng-show="cc.composition.displayFutureWithManagement()" class="table numericGrid">
     <tr>
         <th>Current Value With Added Constant</th>
         <td>{{cc.composition.getCurrentComposition().currentValueWithAddedConstantTree || "0"}}</td>
@@ -102,7 +82,7 @@
     </tr>
     <tr>
         <th>Weighted No Discount</th>
-        <td>{{cc.composition.getCurrentComposition().weightedNoDiscount || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedNoDiscountTree || "0"}}</td>
         <td>{{cc.composition.getCurrentComposition().weightedNoDiscountShrub || "0"}}</td>
         <td>{{cc.composition.getCurrentComposition().weightedNoDiscountGrassAndGrassLike || "0"}}</td>
         <td>{{cc.composition.getCurrentComposition().weightedNoDiscountForb || "0"}}</td>

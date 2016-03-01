@@ -10,94 +10,9 @@
             </div>
         </div>
         <div class="row" style="padding-top: 30px">
-            <div class="col-md-12">
-                <table class="table numericGrid">
-                    <tr>
-                        <th>Item</th>
-                        <th>Tree</th>
-                        <th>Shrub</th>
-                        <th>Grass & <br/> Grass Like</th>
-                        <th>Forb</th>
-                        <th>Fern</th>
-                        <th>Other</th>
-                    </tr>
-                    <tr ng-if="sc.structure.isDevelopmentMode()" ng-repeat="item in sc.structure.getApplicableCalcResults()[sc.structure.model.inFocusVegetationZoneIndex].structureTransects">
-                        <td>Transect {{$index + 1}}</td>
-                        <td><input class="numericInput form-control" size=3 min="0" type="number" ng-model="item.tree" ng-blur="sc.structure.updateCalcsFor('Tree', item.tree)"/></td>
-                        <td><input class="numericInput form-control" size=3 min="0" type="number" ng-model="item.shrub" ng-blur="sc.structure.updateCalcsFor('Shrub', item.shrub)"/></td>
-                        <td><input class="numericInput form-control" size=3 min="0" type="number" ng-model="item.grassAndGrassLike" ng-blur="sc.structure.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)"/></td>
-                        <td><input class="numericInput form-control" size=3 min="0" type="number" ng-model="item.forb" ng-blur="sc.structure.updateCalcsFor('Forb', item.forb)"/></td>
-                        <td><input class="numericInput form-control" size=3 min="0" type="number" ng-model="item.fern" ng-blur="sc.structure.updateCalcsFor('Fern', item.fern)"/></td>
-                        <td><input class="numericInput form-control" size=3 min="0" type="number" ng-model="item.other" ng-blur="sc.structure.updateCalcsFor('Other', item.other)"/></td>
-                    </tr>
-                    <tr ng-if="sc.structure.displayFutureWithoutManagement()" ng-repeat="item in sc.structure.getApplicableCalcResults()[sc.structure.model.inFocusVegetationZoneIndex].structureTransects">
-                        <td>Rate Of Decline (% per annum)</td>
-                        <td>
-                            <select class="form-control" ng-model="item.tree" ng-blur="sc.structure.updateCalcsFor('Tree', item.tree)">
-                                <option value="0.00">0.00%</option>
-                                <option value="0.05">0.05%</option>
-                                <option value="0.10">0.10%</option>
-                                <option value="0.20">0.20%</option>
-                                <option value="0.25">0.25%</option>
-                                <option value="0.50">0.50%</option>
-                            </select>
-                        </td>
-                        <td>
-                            <select class="form-control" ng-model="item.shrub" ng-blur="sc.structure.updateCalcsFor('Shrub', item.shrub)">
-                                <option value="0.00">0.00%</option>
-                                <option value="0.05">0.05%</option>
-                                <option value="0.10">0.10%</option>
-                                <option value="0.20">0.20%</option>
-                                <option value="0.25">0.25%</option>
-                                <option value="0.50">0.50%</option>
-                            </select>
-                        </td>
-                        <td>
-                            <select class="form-control" ng-model="item.grassAndGrassLike" ng-blur="sc.structure.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)">
-                                <option value="0.00">0.00%</option>
-                                <option value="0.05">0.05%</option>
-                                <option value="0.10">0.10%</option>
-                                <option value="0.20">0.20%</option>
-                                <option value="0.25">0.25%</option>
-                                <option value="0.50">0.50%</option>
-                            </select>
-                        </td>
-                        <td>
-                            <select class="form-control" ng-model="item.forb" ng-blur="sc.structure.updateCalcsFor('Forb', item.forb)">
-                                <option value="0.00">0.00%</option>
-                                <option value="0.05">0.05%</option>
-                                <option value="0.10">0.10%</option>
-                                <option value="0.20">0.20%</option>
-                                <option value="0.25">0.25%</option>
-                                <option value="0.50">0.50%</option>
-                            </select>
-                        </td>
-                        <td>
-                            <select class="form-control" ng-model="item.fern" ng-blur="sc.structure.updateCalcsFor('Fern', item.fern)">
-                                <option value="0.00">0.00%</option>
-                                <option value="0.05">0.05%</option>
-                                <option value="0.10">0.10%</option>
-                                <option value="0.20">0.20%</option>
-                                <option value="0.25">0.25%</option>
-                                <option value="0.50">0.50%</option>
-                            </select>
-                        </td>
-                        <td>
-                            <select class="form-control" ng-model="item.other" ng-blur="sc.structure.updateCalcsFor('Other', item.other)">
-                                <option value="0.00">0.00%</option>
-                                <option value="0.05">0.05%</option>
-                                <option value="0.10">0.10%</option>
-                                <option value="0.20">0.20%</option>
-                                <option value="0.25">0.25%</option>
-                                <option value="0.50">0.50%</option>
-                            </select>
-                        </td>
-
-                    </tr>
-                </table>
-                <div ng-show="sc.structure.isDevelopmentMode()" ng-include="'Templates/structureDevelopmentMode.html'"/>
-                <div ng-show="sc.structure.isOffsetMode()" ng-include="'Templates/structureOffsetMode.html'"/>
-            </div>
+                <div class="col-md-12" ng-if="sc.structure.isDevelopmentMode()" ng-include="'Templates/structureDevelopmentMode.html'"/>
+                <div class="col-md-12" ng-if="sc.structure.displayFutureWithoutManagement()" ng-include="'Templates/structureFutureWithoutManagement.html'"/>
+                <div class="col-md-12" ng-if="sc.structure.displayFutureWithManagement()" ng-include="'Templates/structureFutureWithManagement.html'"/>
         </div>
     </div>
 </form>

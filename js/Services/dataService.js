@@ -120,6 +120,8 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
         },
         compositionModel: {
             benchmarks: referenceDataService.compositionBenchmarkData,
+            rateOfIncrease: referenceDataService.rateOfIncrease.composition,
+            restorationModifierForPlanting: referenceDataService.restorationModifierForPlanting.composition,
             inFocusVegetationZoneIndex: null,
             calculatorMode: null,
             keithClass: null,

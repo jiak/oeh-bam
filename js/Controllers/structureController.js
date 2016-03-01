@@ -57,6 +57,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             if (this.model.calculatorMode == 'current' || this.model.calculatorMode == 'future') {
                 this.calculateObservedMean(theObject, theObjectLower)
                 this.calculateDynamicWeightingScore(theObject, theObjectLower)
+                this.calculateDynamicWeightingScoreMinusOther(theObject, theObjectLower)
                 this.calculateUnweightedStructureScore(theObject, theObjectLower, observedValue)
                 this.calculateWeightedStructureScore(theObject, theObjectLower)
                 this.calculateStructureSubtotal()
@@ -70,7 +71,75 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 this.calculateFutureValueWithOffset(theObject, theObjectLower)
                 this.calculateFutureConditionWithOffset(theObject, theObjectLower)
                 this.calculateRawAvertedLoss(theObject, theObjectLower)
+                this.calculateRawRestorationGain(theObject, theObjectLower)
+                this.calculateRawTotalGain(theObject, theObjectLower)
+                this.calculateNbpv(theObject, theObjectLower)
+                this.calculateWeightedNbpv(theObject, theObjectLower)
+                this.calculateWeightedNoDiscount(theObject, theObjectLower)
             }
+        },
+
+        calculateRawRestorationGain: function (theObject, theObjectLower) {
+            var c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Cover")
+            var result = 0
+            if (c11Benchmark == 0) {
+                result = 0
+            } else {
+                futureConditionWithOffset = eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithOffset" + theObject)
+                rawCurrentCondition = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].unweighted" + theObject + "Score")
+                result = futureConditionWithOffset - rawCurrentCondition
+            }
+            eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawRestorationGain" + theObject + " = " + result.toFixed(2))
+        },
+
+        calculateRawTotalGain: function (theObject, theObjectLower) {
+            var rawAvertedLoss = eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawAvertedLoss" + theObject)
+            var rawRestorationGain = eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawRestorationGain" + theObject)
+            eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject + " = " + (rawAvertedLoss + rawRestorationGain).toFixed(2))
+        },
+
+        calculateNbpv: function (theObject, theObjectLower) {
+            var result = 0
+            var c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Cover")
+            var rawTotalGain = eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject)
+            var discountRate = 3
+            var managementTimeFrame = 20
+            if (c11Benchmark == 0) {
+                result = 0
+            } else {
+                if (rawTotalGain == 0) {
+                    result = 0
+                } else {
+                    result = rawTotalGain/(Math.pow(1 + (discountRate/100), managementTimeFrame))
+                }
+            }
+            eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].nbpv" + theObject + " = " + result.toFixed(2))
+        },
+
+        calculateWeightedNbpv: function (theObject, theObjectLower) {
+            var c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Cover")
+            var result = 0
+            if (c11Benchmark == 0) {
+                result = 0
+            } else {
+                var nbpv1 = eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].nbpv" + theObject)
+                var dynamicWeighting = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
+                result = nbpv1 * dynamicWeighting
+            }
+            eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].weightedNbpv" + theObject + " = " + result.toFixed(2))
+        },
+
+        calculateWeightedNoDiscount: function (theObject, theObjectLower) {
+            var c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Cover")
+            var result = 0
+            if (c11Benchmark == 0) {
+                result = 0
+            } else {
+                var rawTotalGain = eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject)
+                var dynamicWeightingMinusOther = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeightingMinusOther" + theObject + "Score")
+                result = rawTotalGain * dynamicWeightingMinusOther
+            }
+            eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].weightedNoDiscount" + theObject + " = " + result.toFixed(2))
         },
 
         calculateFutureConditionWithOffset: function (theObject, theObjectLower) {
@@ -117,7 +186,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             } else {
                 var rawCurrentCondition = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].unweighted" + theObject + "Score")
                 var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
-                result = futureConditionWithoutOffset - rawCurrentCondition
+                result = rawCurrentCondition - futureConditionWithoutOffset
             }
             eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawAvertedLoss" + theObject + " = " + result.toFixed(2))
         },
@@ -238,6 +307,17 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 }
             }
             eval("this.getCurrentStructure().dynamicWeighting" + theObject + "Score = (benchmarks." + theObjectLower + "Cover / sumOfBenchmarkScores).toFixed(2)")
+        },
+
+        calculateDynamicWeightingScoreMinusOther: function (theObject, theObjectLower) {
+            var sumOfBenchmarkScores = 0;
+            var benchmarks = this.getBenchmark()
+            for (var property in benchmarks) {
+                if (benchmarks.hasOwnProperty(property) && property.indexOf("Other") == -1) {
+                    sumOfBenchmarkScores += benchmarks[property];
+                }
+            }
+            eval("this.getCurrentStructure().dynamicWeightingMinusOther" + theObject + "Score = (benchmarks." + theObjectLower + "Cover / sumOfBenchmarkScores).toFixed(2)")
         },
 
         calculateUnweightedStructureScore: function (theObject, theObjectLower, observedValue) {

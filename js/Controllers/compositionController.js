@@ -82,7 +82,6 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
         },
 
         calculateNbpv: function (theObject, theObjectLower) {
-            // =IF($C11=0,"",IF($R11=0,0,($R11/(1+$D$6)^$I11)))
             var result = 0
             var c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Composition")
             var rawTotalGain = eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject)
@@ -94,10 +93,10 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                 if (rawTotalGain == 0) {
                     result = 0
                 } else {
-                    result = Math.pow((rawTotalGain / (1 + discountRate)), managementTimeFrame)
+                    result = rawTotalGain/(Math.pow(1 + (discountRate/100), managementTimeFrame))
                 }
             }
-            eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject + " = " + result.toFixed(2))
+            eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].nbpv" + theObject + " = " + result.toFixed(2))
         },
 
         calculateWeightedNbpv: function (theObject, theObjectLower) {
@@ -106,11 +105,11 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             if (c11Benchmark == 0) {
                 result = 0
             } else {
-                var nbpv = eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject)
+                var nbpv1 = eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].nbpv" + theObject)
                 var dynamicWeighting = eval("this.model.compositionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
-                result = nbpv * dynamicWeighting
+                result = nbpv1 * dynamicWeighting
             }
-            eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].weightedNpbv" + theObject + " = " + result.toFixed(2))
+            eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].weightedNbpv" + theObject + " = " + result.toFixed(2))
         },
 
         calculateWeightedNoDiscount: function (theObject, theObjectLower) {
@@ -134,9 +133,9 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                 result = 0
             } else {
                 if (n11FutureValueWithOffset > c11Benchmark) {
-                    result = ((100 + 50) - (50 + (100 - 50) / (1 + Math.exp(-10 * ((n11FutureValueWithOffset / c11Benchmark) - 1.5)))))
+                    result = 100
                 } else {
-                    result = Math.pow(1.01 * (1 - Math.exp(-4.4 * (n11FutureValueWithOffset / c11Benchmark))), 1.85) * 100
+                    result = (1.01*(1-Math.exp(-4.4*Math.pow(n11FutureValueWithOffset/c11Benchmark, 1.85)))*100)
                 }
             }
             eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithOffset" + theObject + " = " + result.toFixed(2))
@@ -144,19 +143,29 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
 
         calculateFutureValueWithOffset: function (theObject, theObjectLower) {
             var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Composition")
-            var highThreadWeedCover = true
+            var supplimentaryPlanting = "Present"
             var currentValueWithAddedConstant = eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject)
-            var rValue = 0.5
+            var rValue = eval("this.model.rateOfIncrease." + theObjectLower + "Richness")
             var managementTimeFrame = 20
-            var restorationModifier = 0.966
+            var numberOfSpeciesPlanted = 5
+            var restorationModifier = eval("this.model.restorationModifierForPlanting." + theObjectLower + "Richness")
             var result = 0
             if (benchmark == 0) {
                 result = 0
             } else {
-                if (!highThreadWeedCover) {
+                if (supplimentaryPlanting == 'Absent') {
                     result = (benchmark * currentValueWithAddedConstant * Math.exp(rValue * 20)) / (benchmark + currentValueWithAddedConstant * (Math.exp(rValue * 20) - 1))
                 } else {
-                    result = (benchmark * (currentValueWithAddedConstant + (benchmark * 0.2) * restorationModifier) * Math.exp((rValue) * managementTimeFrame)) / (benchmark + (currentValueWithAddedConstant + (benchmark * 0.2) * restorationModifier) * (Math.exp((rValue) * managementTimeFrame) - 1))
+                    // (             $I47        *'FRONT END'!$C19      *0.75)+  ($C19     *($M19)                         *EXP(     ($H47)  * $I19))               / ($C19+       ($M19)                       *(EXP(       ($H47)*$I19)               -1))
+                    var someVal = 0.75
+                    if(theObject == 'GrassAndGrassLike') {
+                        someVal = 0.33
+                    } else if (theObject == 'Forb') {
+                        someVal = 0.2
+                    } else if (theObject == 'Fern') {
+                        someVal = 0.2
+                    }
+                    result = (restorationModifier*numberOfSpeciesPlanted*someVal) + (benchmark*(currentValueWithAddedConstant)*Math.exp((rValue)*managementTimeFrame)) / (benchmark+(currentValueWithAddedConstant)*(Math.exp((rValue)*managementTimeFrame)-1))
                 }
             }
             eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithOffset" + theObject + " = " + result.toFixed(2))
@@ -170,7 +179,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             } else {
                 var rawCurrentCondition = eval("this.model.compositionCalcResults[this.model.inFocusVegetationZoneIndex].unweighted" + theObject + "Score")
                 var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
-                result = futureConditionWithoutOffset - rawCurrentCondition
+                result = rawCurrentCondition - futureConditionWithoutOffset
             }
             eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].rawAvertedLoss" + theObject + " = " + result.toFixed(2))
         },
