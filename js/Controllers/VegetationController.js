@@ -2,6 +2,10 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
 
     this.dataService = dataService
 
+    $rootScope.$on(dataService.events.siteContextUpdateEvent, function(event, body) {
+        $scope.vc.vegetationTab.addPctObject()
+    })
+
     this.vegetationTab = {
 
         model: dataService.vegetationModel,

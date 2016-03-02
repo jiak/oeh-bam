@@ -1,6 +1,5 @@
 <div ng-controller="siteContextController as scc">
-    <form ng-submit="scc.siteContext.model.confirmed = true">
-
+    <form ng-submit="scc.siteContext.submit()">
         <div class="callout" ng-show="scc.siteContext.model.confirmed == false">
             <h3>Tip!</h3>
             <p>Choosing the <em>'IBRA Region and Sub Region'</em> is an important step. Once you click, <em>'Confirm to proceed to the next step'</em> these values will become read-only and cannot be un-done. Please <a href="#" onclick="location.reload()">refresh</a> your browser and start again if you have selected incorrectly.</p>
@@ -9,7 +8,6 @@
             <h3>Message!</h3>
             <p>You have selected <em>'{{scc.siteContext.model.inputs.ibra.name}}'</em> as the <em>'IBRA Region'</em> and <em>'{{scc.siteContext.model.inputs.subRegion.name}}'</em> as the <em>'IBRA Sub Region'</em> so we now have enough information to proceed to the proceed. Please remember to <a href="#" onclick="location.reload()">refresh</a> your browser and start again if you have selected incorrectly.</p>
         </div>
-
         <fieldset class="form-group">
             <label for="ibra">IBRA</label>
             <select ng-disabled="scc.siteContext.model.confirmed == true" required id="ibra" class="form-control" ng-model="scc.siteContext.model.inputs.ibra" ng-options="item as item.name for item in scc.siteContext.model.refIbra">
@@ -17,21 +15,16 @@
             <label for="sub-region">Sub Region</label>
             <select ng-disabled="scc.siteContext.model.confirmed == true" required id="sub-region" class="form-control" ng-model="scc.siteContext.model.inputs.subRegion" ng-options="item as item.name for item in scc.siteContext.model.inputs.ibra.ibraSubRegion">
             </select>
-
             <label for="mitchell" ng-if="scc.dataService.applicationDetailsModel.assessmentType.id != 3">Mitchell</label>
             <select id="mitchell" ng-if="scc.dataService.applicationDetailsModel.assessmentType.id != 3" class="form-control" ng-model="scc.siteContext.model.inputs.mitchellLandscape" ng-options="item as item.name for item in scc.siteContext.model.refMitchellLandscape">
             </select>
-
             <label for="cover">Cover</label>
             <select id="cover" class="form-control" ng-model="scc.siteContext.model.inputs.cover" ng-options="item as item for item in scc.siteContext.model.vegetationCoverClass">
             </select>
-
             <label for="patch-size">Patch Size</label>
             <select id="patch-size" class="form-control" ng-model="scc.siteContext.model.inputs.patchSize" ng-options="item as item for item in scc.siteContext.model.patchSizeClass">
             </select>
-
         </fieldset>
-
         <fieldset ng-if="scc.dataService.applicationDetailsModel.assessmentType.id != 3">
             <h4>Landscape Features</h4>
             <table>
@@ -56,11 +49,9 @@
                     </td>
                 </tr>
                 </tbody>
-
             </table>
-
             <button class="btn pull-right btn-primary" ng-click="scc.siteContext.addFeature()">Add</button>
         </fieldset>
-        <input ng-show="scc.siteContext.model.confirmed == false" type="submit" class="btn btn-secondary" value="Confirm to proceed to the next step"></input>
+        <input ng-show="scc.siteContext.model.confirmed == false" type="submit" class="btn btn-secondary" value="Confirm to proceed to the next step"/>
     </form>
 </div>
