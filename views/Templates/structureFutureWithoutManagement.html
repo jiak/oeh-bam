@@ -51,16 +51,6 @@
                 <option value="0.50">0.50%</option>
             </select>
         </td>
-        <td>
-            <select class="form-control" ng-model="item.other" ng-blur="sc.structure.updateCalcsFor('Other', item.other)">
-                <option value="0.00">0.00%</option>
-                <option value="0.05">0.05%</option>
-                <option value="0.10">0.10%</option>
-                <option value="0.20">0.20%</option>
-                <option value="0.25">0.25%</option>
-                <option value="0.50">0.50%</option>
-            </select>
-        </td>
     </tr>
     <tr>
         <th>Future Value Without Offset</th>
@@ -69,7 +59,6 @@
         <td>{{sc.structure.getCurrentStructure().futureValueWithoutOffsetGrassAndGrassLike || "0"}}</td>
         <td>{{sc.structure.getCurrentStructure().futureValueWithoutOffsetForb || "0"}}</td>
         <td>{{sc.structure.getCurrentStructure().futureValueWithoutOffsetFern || "0"}}</td>
-        <td>{{sc.structure.getCurrentStructure().futureValueWithoutOffsetOther || "0"}}</td>
     </tr>
     <tr>
         <th>Future Condition Without Offset</th>
@@ -78,7 +67,6 @@
         <td>{{sc.structure.getCurrentStructure().futureConditionWithoutOffsetGrassAndGrassLike || "0"}}</td>
         <td>{{sc.structure.getCurrentStructure().futureConditionWithoutOffsetForb || "0"}}</td>
         <td>{{sc.structure.getCurrentStructure().futureConditionWithoutOffsetFern || "0"}}</td>
-        <td>{{sc.structure.getCurrentStructure().futureConditionWithoutOffsetOther || "0"}}</td>
     </tr>
     <tr>
         <th>Adjusted Condition Without Offset</th>
@@ -87,6 +75,5 @@
         <td>{{sc.structure.getCurrentStructure().adjustedConditionWithoutOffsetGrassAndGrassLike || "0"}}</td>
         <td>{{sc.structure.getCurrentStructure().adjustedConditionWithoutOffsetForb || "0"}}</td>
         <td>{{sc.structure.getCurrentStructure().adjustedConditionWithoutOffsetFern || "0"}}</td>
-        <td>{{sc.structure.getCurrentStructure().adjustedConditionWithoutOffsetOther || "0"}}</td>
     </tr>
 </table>

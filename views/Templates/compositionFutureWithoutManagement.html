@@ -51,16 +51,6 @@
                 <option value="0.50">0.50%</option>
             </select>
         </td>
-        <td>
-            <select class="form-control" ng-model="item.other" ng-blur="cc.composition.updateCalcsFor('Other', item.other)">
-                <option value="0.00">0.00%</option>
-                <option value="0.05">0.05%</option>
-                <option value="0.10">0.10%</option>
-                <option value="0.20">0.20%</option>
-                <option value="0.25">0.25%</option>
-                <option value="0.50">0.50%</option>
-            </select>
-        </td>
     </tr>
     <tr>
         <th>Future Value Without Offset</th>
@@ -69,7 +59,6 @@
         <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetGrassAndGrassLike || "0"}}</td>
         <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetForb || "0"}}</td>
         <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetFern || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetOther || "0"}}</td>
     </tr>
     <tr>
         <th>Future Condition Without Offset</th>
@@ -78,7 +67,6 @@
         <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetGrassAndGrassLike || "0"}}</td>
         <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetForb || "0"}}</td>
         <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetFern || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetOther || "0"}}</td>
     </tr>
     <tr>
         <th>Adjusted Condition Without Offset</th>
@@ -87,6 +75,5 @@
         <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetGrassAndGrassLike || "0"}}</td>
         <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetForb || "0"}}</td>
         <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetFern || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetOther || "0"}}</td>
     </tr>
 </table>

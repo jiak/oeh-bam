@@ -73,7 +73,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                 this.calculateWeightedNoDiscount(theObject, theObjectLower)
                 this.calculateJohnCalc1(theObject, theObjectLower)
                 this.calculateJohnCalc2(theObject, theObjectLower)
-                this.calculateCompositionOffsetSubtotal()
+                this.calculateCompositionOffsetSubtotalForFutureWithManagement()
             }
         },
 
@@ -158,11 +158,15 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
 
         calculateFutureValueWithOffset: function (theObject, theObjectLower) {
             var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Composition")
-            var supplimentaryPlanting = "Present"
+            var supplimentaryPlanting = "Absent"
+            var numberOfSpeciesPlanted = 0
+            if(theObject == 'Tree' || theObject == 'Shrub') {
+                supplimentaryPlanting = "Present"
+                numberOfSpeciesPlanted = 5
+            }
             var currentValueWithAddedConstant = eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject)
             var rValue = eval("this.model.rateOfIncrease." + theObjectLower + "Richness")
             var managementTimeFrame = 20
-            var numberOfSpeciesPlanted = 5
             var restorationModifier = eval("this.model.restorationModifierForPlanting." + theObjectLower + "Richness")
             var result = 0
             if (benchmark == 0) {
@@ -221,7 +225,6 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                 this.updateCalcsFor('Fern', -1)
                 this.updateCalcsFor('Forb', -1)
                 this.updateCalcsFor('GrassAndGrassLike', -1)
-                this.updateCalcsFor('Other', -1)
                 return true;
             } else {
                 return false
@@ -333,6 +336,17 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             eval("this.getCurrentComposition().unweighted" + theObject + "Score = Math.round(returnValue)")
         },
 
+        calculateCompositionOffsetSubtotalForFutureWithManagement: function () {
+            var total = 0
+            var c = this.getCurrentComposition()
+            total += c.johnCalc2Tree
+            total += c.johnCalc2Shrub
+            total += c.johnCalc2GrassAndGrassLike
+            total += c.johnCalc2Forb
+            total += c.johnCalc2Fern
+            c.compositionSubtotal = total.toFixed(0)
+        },
+
         calculateCompositionOffsetSubtotal: function () {
             var total = 0
             var c = this.getCurrentComposition()
@@ -341,7 +355,6 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             total += c.adjustedConditionWithoutOffsetGrassAndGrassLike
             total += c.adjustedConditionWithoutOffsetForb
             total += c.adjustedConditionWithoutOffsetFern
-            total += c.adjustedConditionWithoutOffsetOther
             c.compositionSubtotal = total.toFixed(0)
         },
 
@@ -352,7 +365,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                     total += this.getCurrentComposition()[property]
                 }
             }
-            this.getCurrentComposition().compositionSubtotal = total
+            this.getCurrentComposition().compositionSubtotal = total.toFixed(0)
         },
 
         createCompositionTransect: function () {

@@ -88,7 +88,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 this.calculateWeightedNoDiscount(theObject, theObjectLower)
                 this.calculateJohnCalc1(theObject, theObjectLower)
                 this.calculateJohnCalc2(theObject, theObjectLower)
-                this.calculateStructureOffsetSubtotal()
+                this.calculateStructureOffsetSubtotalForFutureWithManagement()
             }
         },
 
@@ -233,7 +233,6 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 this.updateCalcsFor('Fern', -1)
                 this.updateCalcsFor('Forb', -1)
                 this.updateCalcsFor('GrassAndGrassLike', -1)
-                this.updateCalcsFor('Other', -1)
                 return true;
             } else {
                 return false
@@ -360,6 +359,17 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             eval("this.getCurrentStructure().unweighted" + theObject + "Score = Math.round(returnValue)")
         },
 
+        calculateStructureOffsetSubtotalForFutureWithManagement: function () {
+            var total = 0
+            var c = this.getCurrentStructure()
+            total += c.johnCalc2Tree
+            total += c.johnCalc2Shrub
+            total += c.johnCalc2GrassAndGrassLike
+            total += c.johnCalc2Forb
+            total += c.johnCalc2Fern
+            c.structureSubtotal = total.toFixed(0)
+        },
+
         calculateStructureOffsetSubtotal: function () {
             var total = 0
             var c = this.getCurrentStructure()
@@ -368,7 +378,6 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             total += c.adjustedConditionWithoutOffsetGrassAndGrassLike
             total += c.adjustedConditionWithoutOffsetForb
             total += c.adjustedConditionWithoutOffsetFern
-            total += c.adjustedConditionWithoutOffsetOther
             c.structureSubtotal = total.toFixed(0)
         },
 
@@ -379,7 +388,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                     total += this.getCurrentStructure()[property]
                 }
             }
-            this.getCurrentStructure().structureSubtotal = total
+            this.getCurrentStructure().structureSubtotal = total.toFixed(0)
         },
 
         createStructureTransect: function () {

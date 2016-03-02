@@ -101,7 +101,7 @@ bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataSe
                 count++
             }
             if (sum > 0 && count > 0) {
-                return Math.pow(sum, 1 / count).toFixed(1)
+                return Math.pow(sum, 1 / count).toFixed(0)
             } else {
                 return 0
             }

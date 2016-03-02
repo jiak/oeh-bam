@@ -72,12 +72,17 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 this.calculateWeightedNoDiscount(theObject, theObjectLower)
                 this.calculateJohnCalc1(theObject, theObjectLower)
                 this.calculateJohnCalc2(theObject, theObjectLower)
-                this.calculateFunctionOffsetSubtotal()
+                this.calculateFunctionOffsetSubtotalForFutureWithManagement()
             }
         },
 
         calculateRawRestorationGain: function (theObject, theObjectLower) {
-            var c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            var c11Benchmark
+            if(theObject == 'RegenerationPresent') {
+                c11Benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
+            } else {
+                c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            }
             var result = 0
             if (c11Benchmark == 0) {
                 result = 0
@@ -97,7 +102,12 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
 
         calculateNbpv: function (theObject, theObjectLower) {
             var result = 0
-            var c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            var c11Benchmark
+            if(theObject == 'RegenerationPresent') {
+                c11Benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
+            } else {
+                c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            }
             var rawTotalGain = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject)
             var discountRate = 3
             var managementTimeFrame = 20
@@ -114,7 +124,12 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         },
 
         calculateWeightedNbpv: function (theObject, theObjectLower) {
-            var c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            var c11Benchmark
+            if(theObject == 'RegenerationPresent') {
+                c11Benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
+            } else {
+                c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            }
             var result = 0
             if (c11Benchmark == 0) {
                 result = 0
@@ -127,7 +142,12 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         },
 
         calculateWeightedNoDiscount: function (theObject, theObjectLower) {
-            var c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            var c11Benchmark
+            if(theObject == 'RegenerationPresent') {
+                c11Benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
+            } else {
+                c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            }
             var result = 0
             if (c11Benchmark == 0) {
                 result = 0
@@ -170,11 +190,11 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
 
         calculateFutureValueWithOffset: function (theObject, theObjectLower) {
             var result = 0
-            if (theObject == 'Tree') {
+            if (theObject == 'NumberOfLargeTrees') {
                 result = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
-            } else {
+            } else if (theObject == 'LitterCover' || theObject == 'CoarseWoodyDebris') {
                 var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
-                var supplimentaryPlanting = "Present"
+                var supplimentaryPlanting = "Absent"
                 var currentValueWithAddedConstant = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject)
                 var rValue = eval("this.model.rateOfIncrease." + theObjectLower)
                 var managementTimeFrame = 20
@@ -186,19 +206,13 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                     if (supplimentaryPlanting == 'Absent') {
                         result = (benchmark * currentValueWithAddedConstant * Math.exp(rValue * 20)) / (benchmark + currentValueWithAddedConstant * (Math.exp(rValue * 20) - 1))
                     } else {
-                        if (theObject == 'NumberOfLargeTrees') {
-                            result = this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffsetNumberOfLargeTrees
-                        } else if (theObject == 'LitterCover' || theObject == 'CoarseWoodyDebris') {
-                            //       ($C28      * ($M28                          + $C28      * 0.01) * EXP     (($H56   + $F56)               * $I28               )) / ($C28      + ($M28                          + $C28      * 0.01) * (EXP      (($H56   + $F56              ) * $I28               ) - 1))
-                            result = (benchmark * (currentValueWithAddedConstant + benchmark * 0.01) * Math.exp((rValue + benefitForPlanting) * managementTimeFrame)) / (benchmark + (currentValueWithAddedConstant + benchmark * 0.01) * (Math.exp((rValue + benefitForPlanting) * managementTimeFrame) - 1))
-                        } else if (theObject == 'RegenerationPresent') {
-                            result = 1.0
-                        }
+                        result = (benchmark * (currentValueWithAddedConstant + benchmark * 0.01) * Math.exp((rValue + benefitForPlanting) * managementTimeFrame)) / (benchmark + (currentValueWithAddedConstant + benchmark * 0.01) * (Math.exp((rValue + benefitForPlanting) * managementTimeFrame) - 1))
                     }
                 }
-                eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithOffset" + theObject + " = " + result.toFixed(2))
-
+            } else if (theObject == 'RegenerationPresent') {
+                result = 1.0
             }
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithOffset" + theObject + " = " + result.toFixed(2))
         },
 
         calculateRawAvertedLoss: function (theObject, theObjectLower) {
@@ -225,7 +239,12 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
 
         calculateCurrentValueWithAddedConstant: function (theObject, theObjectLower) {
             var result = 0
-            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            var benchmark
+            if(theObject == 'RegenerationPresent') {
+                benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
+            } else {
+                benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            }
             var observedValue = parseInt(eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].observedMean" + theObject))
             if (benchmark == 0) {
                 result = 0
@@ -244,7 +263,6 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 this.updateCalcsFor('NumberOfLargeTrees', -1)
                 this.updateCalcsFor('LitterCover', -1)
                 this.updateCalcsFor('CoarseWoodyDebris', -1)
-                this.updateCalcsFor('StemSizeClasses', -1)
                 this.updateCalcsFor('RegenerationPresent', -1)
                 return true;
             } else {
@@ -269,7 +287,12 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
             var dynamicWeighting = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
             //var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
-            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            var benchmark
+            if(theObject == 'RegenerationPresent') {
+                benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
+            } else {
+                benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            }
             if (benchmark == 0) {
                 result = 0
             } else {
@@ -398,13 +421,22 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             eval("this.getCurrentFunction().unweighted" + theObject + "Score = Math.round(returnValue)")
         },
 
+        calculateFunctionOffsetSubtotalForFutureWithManagement: function () {
+            var total = 0
+            var c = this.getCurrentFunction()
+            total += c.johnCalc2NumberOfLargeTrees
+            total += c.johnCalc2LitterCover
+            total += c.johnCalc2CoarseWoodyDebris
+            total += c.johnCalc2RegenerationPresent
+            c.functionSubtotal = total.toFixed(0)
+        },
+
         calculateFunctionOffsetSubtotal: function () {
             var total = 0
             var c = this.getCurrentFunction()
             total += c.adjustedConditionWithoutOffsetNumberOfLargeTrees
             total += c.adjustedConditionWithoutOffsetLitterCover
             total += c.adjustedConditionWithoutOffsetCoarseWoodyDebris
-            total += c.adjustedConditionWithoutOffsetStemSizeClasses
             total += c.adjustedConditionWithoutOffsetRegenerationPresent
             c.functionSubtotal = total.toFixed(0)
         },
@@ -412,11 +444,11 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         calculateFunctionSubtotal: function () {
             var total = 0
             for (var property in this.getCurrentFunction()) {
-                if (this.getCurrentFunction().hasOwnProperty(property) && (property == 'weightedNumberOfLargeTreesScore' || property == 'weightedLitterCoverScore' || property == 'weightedCoarseWoodyDebrisScore' || property == 'weightedStemSizeClassesScore' || property == 'weightedRegenerationPresentScore')) {
+                if (this.getCurrentFunction().hasOwnProperty(property) && (property == 'weightedNumberOfLargeTreesScore' || property == 'weightedLitterCoverScore' || property == 'weightedCoarseWoodyDebrisScore' || property == 'weightedRegenerationPresentScore')) {
                     total += this.getCurrentFunction()[property]
                 }
             }
-            this.getCurrentFunction().functionSubtotal = total
+            this.getCurrentFunction().functionSubtotal = total.toFixed(0)
         },
 
         createFunctionTransect: function () {
