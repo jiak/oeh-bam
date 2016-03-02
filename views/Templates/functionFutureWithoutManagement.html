@@ -1,4 +1,11 @@
 <table class="table numericGrid">
+    <tr>
+        <th>Item</th>
+        <th>Number of large trees</th>
+        <th>Litter cover</th>
+        <th>Coarse woody derbis</th>
+        <th>Regeneration stems <br/> stems <5cm DBH</th>
+    </tr>
     <tr ng-repeat="item in fc.function.getApplicableCalcResults()[fc.function.model.inFocusVegetationZoneIndex].functionTransects">
         <th>Management Timeframe (years)</th>
         <td>
@@ -32,16 +39,6 @@
             </select>
         </td>
         <td>
-            <select class="form-control" ng-model="item.stemSizeClasses1" ng-blur="fc.function.updateCalcsFor('StemSizeClasses', item.stemSizeClasses1)">
-                <option value="0.00">0.00%</option>
-                <option value="0.05">0.05%</option>
-                <option value="0.10">0.10%</option>
-                <option value="0.20">0.20%</option>
-                <option value="0.25">0.25%</option>
-                <option value="0.50">0.50%</option>
-            </select>
-        </td>
-        <td>
             <select class="form-control" ng-model="item.regenerationPresent1" ng-blur="fc.function.updateCalcsFor('RegenerationPresent', item.regenerationPresent1)">
                 <option value="0.00">0.00%</option>
                 <option value="0.05">0.05%</option>
@@ -57,7 +54,6 @@
         <td>{{fc.function.getCurrentFunction().futureValueWithoutOffsetNumberOfLargeTrees || "0"}}</td>
         <td>{{fc.function.getCurrentFunction().futureValueWithoutOffsetLitterCover || "0"}}</td>
         <td>{{fc.function.getCurrentFunction().futureValueWithoutOffsetCoarseWoodyDebris || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().futureValueWithoutOffsetStemSizeClasses || "0"}}</td>
         <td>{{fc.function.getCurrentFunction().futureValueWithoutOffsetRegenerationPresent || "0"}}</td>
     </tr>
     <tr>
@@ -65,7 +61,6 @@
         <td>{{fc.function.getCurrentFunction().futureConditionWithoutOffsetNumberOfLargeTrees || "0"}}</td>
         <td>{{fc.function.getCurrentFunction().futureConditionWithoutOffsetLitterCover || "0"}}</td>
         <td>{{fc.function.getCurrentFunction().futureConditionWithoutOffsetCoarseWoodyDebris || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().futureConditionWithoutOffsetStemSizeClasses || "0"}}</td>
         <td>{{fc.function.getCurrentFunction().futureConditionWithoutOffsetRegenerationPresent || "0"}}</td>
     </tr>
     <tr>
@@ -73,7 +68,6 @@
         <td>{{fc.function.getCurrentFunction().adjustedConditionWithoutOffsetNumberOfLargeTrees || "0"}}</td>
         <td>{{fc.function.getCurrentFunction().adjustedConditionWithoutOffsetLitterCover || "0"}}</td>
         <td>{{fc.function.getCurrentFunction().adjustedConditionWithoutOffsetCoarseWoodyDebris || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().adjustedConditionWithoutOffsetStemSizeClasses || "0"}}</td>
         <td>{{fc.function.getCurrentFunction().adjustedConditionWithoutOffsetRegenerationPresent || "0"}}</td>
     </tr>
 </table>

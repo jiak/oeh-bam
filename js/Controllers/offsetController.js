@@ -80,6 +80,11 @@ bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataSe
             } else if (calculatorMode == 'offsetFutureWithoutManagement') {
                 cs = dataService.compositionModel.offsetFutureWithoutManagementCompositionCalcResults[index].compositionSubtotal
                 ss = dataService.structureModel.offsetFutureWithoutManagementStructureCalcResults[index].structureSubtotal
+                fs = dataService.functionModel.offsetFutureWithoutManagementFunctionCalcResults[index].functionSubtotal
+            } else if (calculatorMode == 'offsetFutureWithManagement') {
+                cs = dataService.compositionModel.offsetFutureWithManagementCompositionCalcResults[index].compositionSubtotal
+                ss = dataService.structureModel.offsetFutureWithManagementStructureCalcResults[index].structureSubtotal
+                fs = dataService.functionModel.offsetFutureWithManagementFunctionCalcResults[index].functionSubtotal
             }
             var sum = 1
             var count = 0
@@ -96,7 +101,7 @@ bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataSe
                 count++
             }
             if (sum > 0 && count > 0) {
-                return Math.pow(sum, 1 / count).toFixed(1)
+                return Math.pow(sum, 1 / count).toFixed(0)
             } else {
                 return 0
             }
@@ -114,10 +119,13 @@ bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataSe
                 this.model.input.vegetationZones.push(this.createVegetationZoneItem())
                 dataService.compositionModel.compositionCalcResults.push(dataService.compositionModel.createCompositionCalcResult())
                 dataService.compositionModel.offsetFutureWithoutManagementCompositionCalcResults.push(dataService.compositionModel.createCompositionCalcResult())
+                dataService.compositionModel.offsetFutureWithManagementCompositionCalcResults.push(dataService.compositionModel.createCompositionCalcResult())
                 dataService.structureModel.structureCalcResults.push(dataService.structureModel.createStructureCalcResult())
                 dataService.structureModel.offsetFutureWithoutManagementStructureCalcResults.push(dataService.structureModel.createStructureCalcResult())
+                dataService.structureModel.offsetFutureWithManagementStructureCalcResults.push(dataService.structureModel.createStructureCalcResult())
                 dataService.functionModel.functionCalcResults.push(dataService.functionModel.createFunctionCalcResult())
                 dataService.functionModel.offsetFutureWithoutManagementFunctionCalcResults.push(dataService.functionModel.createFunctionCalcResult())
+                dataService.functionModel.offsetFutureWithManagementFunctionCalcResults.push(dataService.functionModel.createFunctionCalcResult())
             }
         },
 

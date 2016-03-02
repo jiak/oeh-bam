@@ -10,20 +10,9 @@
             </div>
         </div>
         <div class="row" style="padding-top: 30px">
-            <div class="col-md-12">
-                <table class="table numericGrid">
-                    <tr>
-                        <th>Item</th>
-                        <th>Number of large trees</th>
-                        <th>Litter cover</th>
-                        <th>Total length of fallen logs(m)</th>
-                        <th>Stem size classes present <br/> excluding <5cm and >50cm</th>
-                        <th>Regeneration stems <br/> stems <5cm DBH</th>
-                    </tr>
-                </table>
-                <div ng-if="fc.function.isDevelopmentMode()" ng-include="'Templates/functionDevelopmentMode.html'"/>
-                <div ng-if="fc.function.isOffsetMode()" ng-include="'Templates/functionOffsetMode.html'"/>
-            </div>
+            <div class="col-md-12" ng-if="fc.function.isDevelopmentMode()" ng-include="'Templates/functionDevelopmentMode.html'"/>
+            <div class="col-md-12" ng-if="fc.function.displayFutureWithoutManagement()" ng-include="'Templates/functionFutureWithoutManagement.html'"/>
+            <div class="col-md-12" ng-if="fc.function.displayFutureWithManagement()" ng-include="'Templates/functionFutureWithManagement.html'"/>
         </div>
     </div>
 </form>

@@ -1,0 +1,79 @@
+<table class="table numericGrid">
+    <tr ng-repeat="item in cc.composition.getApplicableCalcResults()[cc.composition.model.inFocusVegetationZoneIndex].compositionTransects">
+        <th>Rate Of Decline (% per annum)</th>
+        <td>
+            <select class="form-control" ng-model="item.tree" ng-blur="cc.composition.updateCalcsFor('Tree', item.tree)">
+                <option value="0.00">0.00%</option>
+                <option value="0.05">0.05%</option>
+                <option value="0.10">0.10%</option>
+                <option value="0.20">0.20%</option>
+                <option value="0.25">0.25%</option>
+                <option value="0.50">0.50%</option>
+            </select>
+        </td>
+        <td>
+            <select class="form-control" ng-model="item.shrub" ng-blur="cc.composition.updateCalcsFor('Shrub', item.shrub)">
+                <option value="0.00">0.00%</option>
+                <option value="0.05">0.05%</option>
+                <option value="0.10">0.10%</option>
+                <option value="0.20">0.20%</option>
+                <option value="0.25">0.25%</option>
+                <option value="0.50">0.50%</option>
+            </select>
+        </td>
+        <td>
+            <select class="form-control" ng-model="item.grassAndGrassLike" ng-blur="cc.composition.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)">
+                <option value="0.00">0.00%</option>
+                <option value="0.05">0.05%</option>
+                <option value="0.10">0.10%</option>
+                <option value="0.20">0.20%</option>
+                <option value="0.25">0.25%</option>
+                <option value="0.50">0.50%</option>
+            </select>
+        </td>
+        <td>
+            <select class="form-control" ng-model="item.forb" ng-blur="cc.composition.updateCalcsFor('Forb', item.forb)">
+                <option value="0.00">0.00%</option>
+                <option value="0.05">0.05%</option>
+                <option value="0.10">0.10%</option>
+                <option value="0.20">0.20%</option>
+                <option value="0.25">0.25%</option>
+                <option value="0.50">0.50%</option>
+            </select>
+        </td>
+        <td>
+            <select class="form-control" ng-model="item.fern" ng-blur="cc.composition.updateCalcsFor('Fern', item.fern)">
+                <option value="0.00">0.00%</option>
+                <option value="0.05">0.05%</option>
+                <option value="0.10">0.10%</option>
+                <option value="0.20">0.20%</option>
+                <option value="0.25">0.25%</option>
+                <option value="0.50">0.50%</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <th>Future Value Without Offset</th>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Future Condition Without Offset</th>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Adjusted Condition Without Offset</th>
+        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetFern || "0"}}</td>
+    </tr>
+</table>

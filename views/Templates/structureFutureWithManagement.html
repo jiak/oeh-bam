@@ -1,0 +1,98 @@
+<table class="table numericGrid">
+    <tr>
+        <th>Item</th>
+        <th>Tree</th>
+        <th>Shrub</th>
+        <th>Grass & <br/> Grass Like</th>
+        <th>Forb</th>
+        <th>Fern</th>
+    </tr>
+    <tr>
+        <th>Current Value With Added Constant</th>
+        <td>{{sc.structure.getCurrentStructure().currentValueWithAddedConstantTree || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().currentValueWithAddedConstantShrub || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().currentValueWithAddedConstantGrassAndGrassLike || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().currentValueWithAddedConstantForb || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().currentValueWithAddedConstantFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Future Value With Offset</th>
+        <td>{{sc.structure.getCurrentStructure().futureValueWithOffsetTree || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().futureValueWithOffsetShrub || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().futureValueWithOffsetGrassAndGrassLike || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().futureValueWithOffsetForb || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().futureValueWithOffsetFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Future Condition With Offset (unadjusted)</th>
+        <td>{{sc.structure.getCurrentStructure().futureConditionWithOffsetTree || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().futureConditionWithOffsetShrub || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().futureConditionWithOffsetGrassAndGrassLike || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().futureConditionWithOffsetForb || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().futureConditionWithOffsetFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Raw Averted Loss</th>
+        <td>{{sc.structure.getCurrentStructure().rawAvertedLossTree || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().rawAvertedLossShrub || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().rawAvertedLossGrassAndGrassLike || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().rawAvertedLossForb || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().rawAvertedLossFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Raw Restoration Gain</th>
+        <td>{{sc.structure.getCurrentStructure().rawRestorationGainTree || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().rawRestorationGainShrub || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().rawRestorationGainGrassAndGrassLike || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().rawRestorationGainForb || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().rawRestorationGainFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Raw Total Gain</th>
+        <td>{{sc.structure.getCurrentStructure().rawTotalGainTree || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().rawTotalGainShrub || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().rawTotalGainGrassAndGrassLike || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().rawTotalGainForb || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().rawTotalGainFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>NBPV</th>
+        <td>{{sc.structure.getCurrentStructure().nbpvTree || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().nbpvShrub || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().nbpvGrassAndGrassLike || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().nbpvForb || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().nbpvFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Weighted NBPV</th>
+        <td>{{sc.structure.getCurrentStructure().weightedNbpvTree || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().weightedNbpvShrub || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().weightedNbpvGrassAndGrassLike || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().weightedNbpvForb || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().weightedNbpvFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Weighted No Discount</th>
+        <td>{{sc.structure.getCurrentStructure().weightedNoDiscountTree || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().weightedNoDiscountShrub || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().weightedNoDiscountGrassAndGrassLike || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().weightedNoDiscountForb || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().weightedNoDiscountFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>John Calc 1</th>
+        <td>{{sc.structure.getCurrentStructure().johnCalc1Tree || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().johnCalc1Shrub || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().johnCalc1GrassAndGrassLike || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().johnCalc1Forb || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().johnCalc1Fern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>John Calc 2</th>
+        <td>{{sc.structure.getCurrentStructure().johnCalc2Tree || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().johnCalc2Shrub || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().johnCalc2GrassAndGrassLike || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().johnCalc2Forb || "0"}}</td>
+        <td>{{sc.structure.getCurrentStructure().johnCalc2Fern || "0"}}</td>
+    </tr>
+</table>

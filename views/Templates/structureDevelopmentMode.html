@@ -1,5 +1,23 @@
 <table class="table numericGrid">
     <tr>
+        <th>Item</th>
+        <th>Tree</th>
+        <th>Shrub</th>
+        <th>Grass & <br/> Grass Like</th>
+        <th>Forb</th>
+        <th>Fern</th>
+        <th>Other</th>
+    </tr>
+    <tr ng-if="sc.structure.isDevelopmentMode()" ng-repeat="item in sc.structure.getApplicableCalcResults()[sc.structure.model.inFocusVegetationZoneIndex].structureTransects">
+        <td>Transect {{$index + 1}}</td>
+        <td><input class="numericInput form-control" size=3 min="0" type="number" ng-model="item.tree" ng-blur="sc.structure.updateCalcsFor('Tree', item.tree)"/></td>
+        <td><input class="numericInput form-control" size=3 min="0" type="number" ng-model="item.shrub" ng-blur="sc.structure.updateCalcsFor('Shrub', item.shrub)"/></td>
+        <td><input class="numericInput form-control" size=3 min="0" type="number" ng-model="item.grassAndGrassLike" ng-blur="sc.structure.updateCalcsFor('GrassAndGrassLike', item.grassAndGrassLike)"/></td>
+        <td><input class="numericInput form-control" size=3 min="0" type="number" ng-model="item.forb" ng-blur="sc.structure.updateCalcsFor('Forb', item.forb)"/></td>
+        <td><input class="numericInput form-control" size=3 min="0" type="number" ng-model="item.fern" ng-blur="sc.structure.updateCalcsFor('Fern', item.fern)"/></td>
+        <td><input class="numericInput form-control" size=3 min="0" type="number" ng-model="item.other" ng-blur="sc.structure.updateCalcsFor('Other', item.other)"/></td>
+    </tr>
+    <tr>
         <th>Benchmark</th>
         <td>{{sc.structure.model.benchmarks[sc.structure.model.keithClass][sc.dataService.siteContextModel.inputs.ibra.name].treeCover || "0"}}</td>
         <td>{{sc.structure.model.benchmarks[sc.structure.model.keithClass][sc.dataService.siteContextModel.inputs.ibra.name].shrubCover || "0"}}</td>
@@ -18,7 +36,8 @@
         <td>{{sc.structure.getCurrentStructure().observedMeanOther || "0"}}</td>
     </tr>
     <tr>
-        <th>Unweighted Structure Score (USS<sub>i</sub>)</td>
+        <th>Unweighted Structure Score (USS<sub>i</sub>)
+        </td>
         <td>{{sc.structure.getCurrentStructure().unweightedTreeScore || "0"}}</td>
         <td>{{sc.structure.getCurrentStructure().unweightedShrubScore || "0"}}</td>
         <td>{{sc.structure.getCurrentStructure().unweightedGrassAndGrassLikeScore || "0"}}</td>

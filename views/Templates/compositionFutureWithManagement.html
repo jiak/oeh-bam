@@ -1,0 +1,98 @@
+<table class="table numericGrid">
+    <tr>
+        <th>Item</th>
+        <th>Tree</th>
+        <th>Shrub</th>
+        <th>Grass & <br/> Grass Like</th>
+        <th>Forb</th>
+        <th>Fern</th>
+    </tr>
+    <tr>
+        <th>Current Value With Added Constant</th>
+        <td>{{cc.composition.getCurrentComposition().currentValueWithAddedConstantTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().currentValueWithAddedConstantShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().currentValueWithAddedConstantGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().currentValueWithAddedConstantForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().currentValueWithAddedConstantFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Future Value With Offset</th>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithOffsetTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithOffsetShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithOffsetGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithOffsetForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureValueWithOffsetFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Future Condition With Offset (unadjusted)</th>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithOffsetTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithOffsetShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithOffsetGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithOffsetForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().futureConditionWithOffsetFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Raw Averted Loss</th>
+        <td>{{cc.composition.getCurrentComposition().rawAvertedLossTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().rawAvertedLossShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().rawAvertedLossGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().rawAvertedLossForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().rawAvertedLossFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Raw Restoration Gain</th>
+        <td>{{cc.composition.getCurrentComposition().rawRestorationGainTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().rawRestorationGainShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().rawRestorationGainGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().rawRestorationGainForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().rawRestorationGainFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Raw Total Gain</th>
+        <td>{{cc.composition.getCurrentComposition().rawTotalGainTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().rawTotalGainShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().rawTotalGainGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().rawTotalGainForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().rawTotalGainFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>NBPV</th>
+        <td>{{cc.composition.getCurrentComposition().nbpvTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().nbpvShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().nbpvGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().nbpvForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().nbpvFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Weighted NBPV</th>
+        <td>{{cc.composition.getCurrentComposition().weightedNbpvTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedNbpvShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedNbpvGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedNbpvForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedNbpvFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>Weighted No Discount</th>
+        <td>{{cc.composition.getCurrentComposition().weightedNoDiscountTree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedNoDiscountShrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedNoDiscountGrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedNoDiscountForb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedNoDiscountFern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>John Calc 1</th>
+        <td>{{cc.composition.getCurrentComposition().johnCalc1Tree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().johnCalc1Shrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().johnCalc1GrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().johnCalc1Forb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().johnCalc1Fern || "0"}}</td>
+    </tr>
+    <tr>
+        <th>John Calc 2</th>
+        <td>{{cc.composition.getCurrentComposition().johnCalc2Tree || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().johnCalc2Shrub || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().johnCalc2GrassAndGrassLike || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().johnCalc2Forb || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().johnCalc2Fern || "0"}}</td>
+    </tr>
+</table>

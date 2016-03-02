@@ -10738,6 +10738,69 @@ bamApp.service('referenceDataService', function () {
                     }
                 ]
             }
+        },
+        "rateOfIncrease": {
+            "structure": {
+                "treeCover": 0.196,
+                "shrubCover": 0.222,
+                "grassAndGrassLikeCover": 0.249,
+                "forbCover": 0.160,
+                "fernCover": 0.160
+            },
+            "composition": {
+                "treeRichness": 0.044,
+                "shrubRichness": 0.035,
+                "grassAndGrassLikeRichness": 0.044,
+                "forbRichness": 0.018,
+                "fernRichness": 0.018
+            },
+            "function": {
+                "numberOfLargeTrees": 0.030,
+                "litterCover": 0.410,
+                "coarseWoodyDebris": 0.250
+            }
+        },
+        "restorationModifierForPlanting": {
+            "structure": {
+                "treeCover": 0.966,
+                "shrubCover": 0.966,
+                "grassAndGrassLikeCover": 0.966,
+                "forbCover": 0.966,
+                "fernCover": 0.966,
+                "otherCover": 0
+            },
+            "composition": {
+                "treeRichness": 0.966,
+                "shrubRichness": 0.966,
+                "grassAndGrassLikeRichness": 0.966,
+                "forbRichness": 0.966,
+                "fernRichness": 0.966,
+                "otherRichness": 0
+            },
+            "function": {
+
+            }
+        },
+        "benefitForPlanting": {
+            "structure": {
+                "treeCover": 0,
+                "shrubCover": 0,
+                "grassAndGrassLikeCover": 0,
+                "forbCover": 0,
+                "fernCover": 0
+            },
+            "composition": {
+                "treeRichness": 0,
+                "shrubRichness": 0,
+                "grassAndGrassLikeRichness": 0,
+                "forbRichness": 0,
+                "fernRichness": 0
+            },
+            "function": {
+                "numberOfLargeTrees": 0,
+                "litterCover": 0.01,
+                "coarseWoodyDebris": 0
+            }
         }
     }
 })
