@@ -5,6 +5,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
     this.dataService = dataService
 
     this.habitat = {
+        applicationType: dataService.applicationDetailsModel.assessmentType,
 
         model: dataService.habitatModel,
 
@@ -25,6 +26,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                         var cover = this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].percentCover;
                         var inputPatchSize = this.formalizePatchSize(input.key.patchSize);
                         var inputCover = this.formalizeCover(input.key.cover);
+
 
                         //if any patchSize or cover is null, just ignore them
                         if (
@@ -126,7 +128,8 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
             this.model.inputs[this.model.current].speciesCredit[index].enabledPrecense =
                 this.model.inputs[this.model.current].speciesCredit[index].candidate.name == "Yes" &&
                 this.model.inputs[this.model.current].speciesCredit[index].assessRequired.name == "Yes" &&
-                this.model.inputs[this.model.current].speciesCredit[index].presence.name == "Yes";
+                this.model.inputs[this.model.current].speciesCredit[index].presence.name == "Yes" &&
+                (this.model.inputs[this.model.current].speciesCredit[index].threatendedSpecies.sensitivity == "Very high" || dataService.applicationDetailsModel.assessmentType.id !=3);
 
         },
 

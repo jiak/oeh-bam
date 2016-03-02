@@ -14,16 +14,16 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr ng-repeat="x in hc.habitat.model.inputs[hc.habitat.model.current].ecoSystemCredit">
+                <tr ng-repeat="x in hc.habitat.model.inputs[hc.habitat.model.current].ecosystemCredit">
                     <td>{{x.threatendedSpecies.name}}</td>
                     <td>{{x.threatendedSpecies.scientificName}}</td>
                     <td>{{x.threatendedSpecies.habitatComponents}}</td>
                     <td>
-                        <select ng-model="hc.habitat.model.inputs[hc.habitat.model.current].ecoSystemCredit[$index].presence" class="form-control" ng-options="item as item.name for item in hc.habitat.model.referenceData.optionClass">
+                        <select ng-model="hc.habitat.model.inputs[hc.habitat.model.current].ecosystemCredit[$index].presence" class="form-control" ng-options="item as item.name for item in hc.habitat.model.referenceData.optionClass">
                         </select>
                     </td>
                     <td>
-                        <select ng-if="hc.habitat.model.inputs[hc.habitat.model.current].ecoSystemCredit[$index].presence.name=='Yes'" class="form-control" ng-model="hc.habitat.model.inputs[hc.habitat.model.current].ecoSystemCredit[$index].sensitivity" ng-options="item as item.name for item in hc.habitat.model.referenceData.sensitivityClass">
+                        <select ng-if="hc.habitat.model.inputs[hc.habitat.model.current].ecosystemCredit[$index].presence.name=='Yes'" class="form-control" ng-model="hc.habitat.model.inputs[hc.habitat.model.current].ecoSystemCredit[$index].sensitivity" ng-options="item as item.name for item in hc.habitat.model.referenceData.sensitivityClass">
                         </select>
                     </td>
                 <tr>
@@ -42,6 +42,7 @@
                     <th>Scientific Name</th>
                     <th>Geographic Limitations</th>
                     <th>Habitat Components</th>
+                    <th>Sensitivity</th>
                     <th>Candidate</th>
                     <th>Assess Required</th>
                     <th>Presence</th>
@@ -53,8 +54,9 @@
                 <tr ng-repeat="x in hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit">
                     <td style="width: 10%">{{x.threatendedSpecies.name}}</td>
                     <td style="width: 10%">{{x.threatendedSpecies.scientificName}}</td>
-                    <td style="width: 10%"></td>
+                    <td style="width: 10%">{{x.threatendedSpecies.geographicCondition}}</td>
                     <td style="width: 20%">{{x.threatendedSpecies.habitatComponents}}</td>
+                    <td>{{x.threatendedSpecies.sensitivity}}</td>
                     <td style="width: 10%">
                         <select ng-model="hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].candidate"
                                 ng-options="item as item.name for item in hc.habitat.model.referenceData.optionClass" class="form-control"
@@ -95,7 +97,6 @@
                 <tr>
                 </tbody>
             </table>
-
             <h4>Assessment of Biodiversity Concern</h4>
             <table class="table">
                 <thead>
@@ -103,7 +104,6 @@
                     <th>Common Name</th>
                     <th>Scientific Name</th>
                     <th>Threat Status</th>
-                    <th>Sensitivity</th>
                     <th>Biodiv. Concern</th>
                     <th>Offset Multiplier</th>
                     <th>SOII Threshold</th>
@@ -111,12 +111,12 @@
                 </tr>
                 </thead>
                 <tbody>
+
                 <tr ng-repeat="x in hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit">
                     <td ng-if="x.enabledPrecense" style="width: 20%">{{x.threatendedSpecies.name}}</td>
                     <td ng-if="x.enabledPrecense" style="width: 20%">{{x.threatendedSpecies.scientificName}}</td>
                     <td ng-if="x.enabledPrecense" style="width: 10%">{{x.threatendedSpecies.threatStatus}}</td>
-                    <td ng-if="x.enabledPrecense" style="width: 10%">{{x.threatendedSpecies.sensitivity}}</td>
-                    <td ng-if="x.enabledPrecense" style="width: 10%">{{x.threatendedSpecies.BiodivConcern}}</td>
+                    <td ng-if="x.enabledPrecense" style="width: 10%">{{hc.dataService.habitatModel.referenceData.biodiversityConcern[x.threatendedSpecies.threatStatus][x.threatendedSpecies.sensitivity]}}</td>
                     <td ng-if="x.enabledPrecense" style="width: 10%">{{x.threatendedSpecies.offsetMultiplier}}</td>
                     <td ng-if="x.enabledPrecense" style="width: 10%">{{x.threatendedSpecies.soiThreashold}}</td>
                     <td ng-if="x.enabledPrecense" style="width: 10%">

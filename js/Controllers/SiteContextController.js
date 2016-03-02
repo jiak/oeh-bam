@@ -33,4 +33,5 @@ bamApp.controller('siteContextController', ["$scope", "$rootScope", "dataService
 
     this.dataService = dataService;
 
+
 }]);

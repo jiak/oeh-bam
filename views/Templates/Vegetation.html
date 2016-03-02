@@ -1,5 +1,12 @@
 <form novalidate>
+
+
     <div ng-controller="vegetationController as vc" class="tabcontentdiv">
+        <div class="callout" ng-if="vc.dataService.applicationDetailsModel.assessmentType.id == 3">
+            <h3>Information!</h3>
+            <p>As you have selected  <em>'{{vc.dataService.applicationDetailsModel.assessmentType.name}}'</em> as your <em>'Assessment Type'</em>, you will only need to identify the dominant Plant Community Type on the site.</p>
+        </div>
+
         <div>
             <h4>Plant Community Types &amp; Ecological Communities</h4>
             <table class="table">
@@ -25,7 +32,7 @@
                         <p ng-show="pctItem.keithClass != null">{{pctItem.keithClass.name}}</p>
                     </td>
                     <td>
-                        <select ng-show="pctItem.pct == null" class="form-control" ng-model="pctItem.pct" ng-options="ref.name for ref in pctItem.keithClass.pct" title="{{pctItem.pct.name}}"></select>
+                        <select ng-show="pctItem.pct == null" class="form-control" ng-model="pctItem.pct" ng-options="ref.name for ref in pctItem.keithClass.pct | orderBy: 'name'" title="{{pctItem.pct.name}}"></select>
                         <p ng-show="pctItem.pct != null">{{pctItem.pct.name}}</p>
                     </td>
                     <td>{{pctItem.pct.id}}</td>
@@ -38,10 +45,10 @@
                 </tr>
                 </tbody>
             </table>
-            <button ng-click="vc.vegetationTab.addPctObject()" class="btn btn-secondary">Add PCT</button>
+            <button ng-if="vc.dataService.applicationDetailsModel.assessmentType.id !=3 || (vc.dataService.applicationDetailsModel.assessmentType.id == 3 && vc.vegetationTab.model.input.pct.length ==0)" ng-click="vc.vegetationTab.addPctObject()" class="btn btn-secondary">Add PCT</button>
         </div>
         <div>
-            <h4>Vegetation Zones (current)</h4>
+            <h4>Vegetation Zones (Assess current vegetation integrity score)</h4>
             <table class="table">
                 <thead>
                 <tr>
@@ -54,7 +61,7 @@
                     <th>Composition</th>
                     <th>Structure</th>
                     <th>Function</th>
-                    <th>VIS</th>
+                    <th>Current Vegetation Integrity (VIS) Score</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -100,7 +107,7 @@
             </table>
         </div>
         <div>
-            <h4>Vegetation Zones (future)</h4>
+            <h4>Vegetation Zones (Assess future vegetation integrity score)</h4>
             <table class="table">
                 <thead>
                 <tr>

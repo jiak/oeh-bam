@@ -18,8 +18,8 @@
             <select ng-disabled="scc.siteContext.model.confirmed == true" required id="sub-region" class="form-control" ng-model="scc.siteContext.model.inputs.subRegion" ng-options="item as item.name for item in scc.siteContext.model.inputs.ibra.ibraSubRegion">
             </select>
 
-            <label for="mitchell">Mitchell</label>
-            <select id="mitchell" class="form-control" ng-model="scc.siteContext.model.inputs.mitchellLandscape" ng-options="item as item.name for item in scc.siteContext.model.refMitchellLandscape">
+            <label for="mitchell" ng-if="scc.dataService.applicationDetailsModel.assessmentType.id != 3">Mitchell</label>
+            <select id="mitchell" ng-if="scc.dataService.applicationDetailsModel.assessmentType.id != 3" class="form-control" ng-model="scc.siteContext.model.inputs.mitchellLandscape" ng-options="item as item.name for item in scc.siteContext.model.refMitchellLandscape">
             </select>
 
             <label for="cover">Cover</label>
@@ -31,11 +31,8 @@
             </select>
 
         </fieldset>
-<!--
-    </form>
-    <form name="features">
-    -->
-        <fieldset>
+
+        <fieldset ng-if="scc.dataService.applicationDetailsModel.assessmentType.id != 3">
             <h4>Landscape Features</h4>
             <table>
                 <thead>
