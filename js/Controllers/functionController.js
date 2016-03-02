@@ -23,6 +23,18 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             }
         },
 
+        calculateJohnCalc1: function (theObject, theObjectLower) {
+            var rawRestorationGain = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawRestorationGain" + theObject)
+            var rawCurrentCondition = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].unweighted" + theObject + "Score")
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].johnCalc1" + theObject + " = " + (rawCurrentCondition + rawRestorationGain).toFixed(2))
+        },
+
+        calculateJohnCalc2: function (theObject, theObjectLower) {
+            var johnCalc1 = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].johnCalc1" + theObject)
+            var dynamicWeighting = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].johnCalc2" + theObject + " = " + (johnCalc1 * dynamicWeighting).toFixed(2))
+        },
+
         getCurrentFunction: function () {
             return this.getApplicableCalcResults()[this.model.inFocusVegetationZoneIndex]
         },
@@ -58,6 +70,8 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 this.calculateNbpv(theObject, theObjectLower)
                 this.calculateWeightedNbpv(theObject, theObjectLower)
                 this.calculateWeightedNoDiscount(theObject, theObjectLower)
+                this.calculateJohnCalc1(theObject, theObjectLower)
+                this.calculateJohnCalc2(theObject, theObjectLower)
                 this.calculateFunctionOffsetSubtotal()
             }
         },
@@ -127,8 +141,8 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
 
         calculateFutureConditionWithOffset: function (theObject, theObjectLower) {
             var c11Benchmark = 0
-            if(theObject == 'RegenerationPresent') {
-                if(this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration == 'present') {
+            if (theObject == 'RegenerationPresent') {
+                if (this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration == 'present') {
                     c11Benchmark = 1
                 } else {
                     c11Benchmark = 0
@@ -141,8 +155,8 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             if (c11Benchmark == 0) {
                 result = 0
             } else {
-                if(theObject == 'RegenerationPresent') {
-                    result = (1.01 * (1 - Math.exp(-4.4*(n11FutureValueWithOffset / c11Benchmark), 1.85)) * 100)
+                if (theObject == 'RegenerationPresent') {
+                    result = (1.01 * (1 - Math.exp(-4.4 * (n11FutureValueWithOffset / c11Benchmark), 1.85)) * 100)
                 } else {
                     if (n11FutureValueWithOffset > c11Benchmark) {
                         result = 100
@@ -176,7 +190,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                             result = this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffsetNumberOfLargeTrees
                         } else if (theObject == 'LitterCover' || theObject == 'CoarseWoodyDebris') {
                             //       ($C28      * ($M28                          + $C28      * 0.01) * EXP     (($H56   + $F56)               * $I28               )) / ($C28      + ($M28                          + $C28      * 0.01) * (EXP      (($H56   + $F56              ) * $I28               ) - 1))
-                            result = (benchmark * (currentValueWithAddedConstant + benchmark * 0.01) * Math.exp((rValue + benefitForPlanting) * managementTimeFrame)) / (benchmark + (currentValueWithAddedConstant + benchmark * 0.01) * (Math.exp ((rValue + benefitForPlanting) * managementTimeFrame) - 1))
+                            result = (benchmark * (currentValueWithAddedConstant + benchmark * 0.01) * Math.exp((rValue + benefitForPlanting) * managementTimeFrame)) / (benchmark + (currentValueWithAddedConstant + benchmark * 0.01) * (Math.exp((rValue + benefitForPlanting) * managementTimeFrame) - 1))
                         } else if (theObject == 'RegenerationPresent') {
                             result = 1.0
                         }
@@ -190,8 +204,8 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         calculateRawAvertedLoss: function (theObject, theObjectLower) {
             var result = 0
             var benchmark = 0
-            if(theObject == 'RegenerationPresent') {
-                if(this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration == 'present') {
+            if (theObject == 'RegenerationPresent') {
+                if (this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration == 'present') {
                     benchmark = 1
                 } else {
                     benchmark = 0

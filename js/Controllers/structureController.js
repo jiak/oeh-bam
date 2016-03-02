@@ -20,9 +20,19 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 return this.model.offsetFutureWithoutManagementStructureCalcResults
             } else if (this.model.calculatorMode == 'offsetFutureWithManagement') {
                 return this.model.offsetFutureWithManagementStructureCalcResults
-            } else if (this.model.calculatorMode == 'offsetFutureWithManagement') {
-                this.calculateCurrentValueWithAddedConstant(theObject, theObjectLower, observedValue)
             }
+        },
+
+        calculateJohnCalc1: function(theObject, theObjectLower) {
+            var rawRestorationGain = eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawRestorationGain" + theObject)
+            var rawCurrentCondition = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].unweighted" + theObject + "Score")
+            eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].johnCalc1" + theObject + " = " + (rawCurrentCondition + rawRestorationGain).toFixed(2))
+        },
+
+        calculateJohnCalc2: function(theObject, theObjectLower) {
+            var johnCalc1 = eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].johnCalc1" + theObject)
+            var dynamicWeightingMinusOther = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeightingMinusOther" + theObject + "Score")
+            eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].johnCalc2" + theObject + " = " + (johnCalc1 * dynamicWeightingMinusOther).toFixed(2))
         },
 
         calculateCurrentValueWithAddedConstant: function(theObject, theObjectLower, observedValue) {
@@ -76,6 +86,8 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 this.calculateNbpv(theObject, theObjectLower)
                 this.calculateWeightedNbpv(theObject, theObjectLower)
                 this.calculateWeightedNoDiscount(theObject, theObjectLower)
+                this.calculateJohnCalc1(theObject, theObjectLower)
+                this.calculateJohnCalc2(theObject, theObjectLower)
                 this.calculateStructureOffsetSubtotal()
             }
         },
@@ -173,7 +185,13 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 if (!highThreadWeedCover) {
                     result = (benchmark * currentValueWithAddedConstant * Math.exp(rValue * 20)) / (benchmark + currentValueWithAddedConstant * (Math.exp(rValue * 20) - 1))
                 } else {
-                    result = (benchmark * (currentValueWithAddedConstant + (benchmark * 0.2) * restorationModifier) * Math.exp((rValue) * managementTimeFrame)) / (benchmark + (currentValueWithAddedConstant + (benchmark * 0.2) * restorationModifier) * (Math.exp((rValue) * managementTimeFrame) - 1))
+                    var someVal = 0.2
+                    if(theObject == 'GrassAndGrassLike') {
+                        someVal = 0.1
+                    } else if (theObject == 'Forb' || theObject == 'Fern') {
+                        someVal = 0.05
+                    }
+                    result = (benchmark * (currentValueWithAddedConstant + (benchmark * someVal) * restorationModifier) * Math.exp((rValue) * managementTimeFrame)) / (benchmark + (currentValueWithAddedConstant + (benchmark * 0.2) * restorationModifier) * (Math.exp((rValue) * managementTimeFrame) - 1))
                 }
             }
             eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithOffset" + theObject + " = " + result.toFixed(2))
