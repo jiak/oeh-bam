@@ -7,6 +7,17 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
     })
 
     this.habitat = {
+        streamlineSensitivityCheck: function(species) {
+          if (dataService.applicationDetailsModel.assessmentType.id !=3) {
+              return true;
+          } else {
+              if (species.sensitivity == "Very high") {
+                  return true;
+              } else {
+                  return false;
+              }
+          }
+        },
 
         applicationType: dataService.applicationDetailsModel.assessmentType,
 
