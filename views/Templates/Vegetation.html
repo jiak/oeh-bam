@@ -49,7 +49,7 @@
         </div>
         <div>
             <h4>Vegetation Zones (Assess current vegetation integrity score)</h4>
-            <table class="table">
+            <table class="table doalign">
                 <thead>
                 <tr>
                     <th>Number</th>
@@ -62,6 +62,7 @@
                     <th>Structure</th>
                     <th>Function</th>
                     <th>Current Vegetation Integrity (VIS) Score</th>
+                    <th>&nbsp;</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -102,13 +103,14 @@
                     <td>
                         {{vc.vegetationTab.calculateGeomean($index, 'current')}}
                     </td>
+                    <td>&nbsp;</td>
                 </tr>
                 </tbody>
             </table>
         </div>
         <div>
             <h4>Vegetation Zones (Assess future vegetation integrity score)</h4>
-            <table class="table">
+            <table class="table doalign">
                 <thead>
                 <tr>
                     <th>Number</th>

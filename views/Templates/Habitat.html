@@ -52,24 +52,24 @@
                 </thead>
                 <tbody>
                 <tr ng-repeat="x in hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit">
-                    <td style="width: 10%">{{x.threatendedSpecies.name}}</td>
-                    <td style="width: 10%">{{x.threatendedSpecies.scientificName}}</td>
-                    <td style="width: 10%">{{x.threatendedSpecies.geographicCondition}}</td>
-                    <td style="width: 20%">{{x.threatendedSpecies.habitatComponents}}</td>
-                    <td>{{x.threatendedSpecies.sensitivity}}</td>
-                    <td style="width: 10%">
+                    <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 10%">{{x.threatendedSpecies.name}}</td>
+                    <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 10%">{{x.threatendedSpecies.scientificName}}</td>
+                    <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 10%">{{x.threatendedSpecies.geographicCondition}}</td>
+                    <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 20%">{{x.threatendedSpecies.habitatComponents}}</td>
+                    <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)">{{x.threatendedSpecies.sensitivity}}</td>
+                    <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 10%">
                         <select ng-model="hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].candidate"
                                 ng-options="item as item.name for item in hc.habitat.model.referenceData.optionClass" class="form-control"
                                 ng-change="hc.habitat.updatePresence($index)"/>
                     </td>
-                    <td style="width: 10%">
+                    <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 10%">
                         <select ng-if="hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].candidate.name=='Yes'"
                                 ng-model="hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].assessRequired"
                                 ng-options="item as item.name for item in hc.habitat.model.referenceData.optionClass"
                                 ng-change="hc.habitat.updatePresence($index)"
                                 class="form-control"/>
                     </td>
-                    <td style="width: 10%">
+                    <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 10%">
                         <select ng-if="hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].assessRequired.name=='Yes'
                                 && hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].candidate.name=='Yes'"
                                 ng-model="hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].presence"
@@ -79,7 +79,7 @@
                         </select>
                     </td>
 
-                    <td style="width: 10%">
+                    <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 10%">
 
                         <div ng-if="hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].presence.name=='Yes'
                                 && hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].assessRequired.name=='Yes'
@@ -87,7 +87,7 @@
                             {{x.threatendedSpecies.unitOfMeasure}}
                         </div>
                     </td>
-                    <td style="width: 10%">
+                    <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 10%">
                         <input ng-if="hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].presence.name=='Yes'
                                 && hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].assessRequired.name=='Yes'
                                 && hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].candidate.name=='Yes'"

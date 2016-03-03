@@ -63,7 +63,7 @@ bamApp.service('referenceDataService', function () {
                     coarseWoodyDebris: 43,
                     stemSizeClasses: 4,
                     regeneration: "present"
-                },
+                }
             },
             "Western Slopes Grassy Woodlands": {
                 "Brigalow Belt South": {
@@ -77,13 +77,15 @@ bamApp.service('referenceDataService', function () {
                     numberOfLargeTrees: 5,
                     litterCover: 40,
                     coarseWoodyDebris: 48,
-                    stemSizeClasses: 4
+                    stemSizeClasses: 4,
+                    regeneration: "present"
                 },
                 "Sydney Basin": {
                     numberOfLargeTrees: 5,
                     litterCover: 40,
                     coarseWoodyDebris: 48,
-                    stemSizeClasses: 4
+                    stemSizeClasses: 4,
+                    regeneration: "present"
                 }
             },
             "Temperate Montane Grasslands": {
@@ -91,81 +93,82 @@ bamApp.service('referenceDataService', function () {
                     numberOfLargeTrees: 0,
                     litterCover: 0,
                     coarseWoodyDebris: 0,
-                    stemSizeClasses: 0
+                    stemSizeClasses: 0,
+                    regeneration: "absent"
                 }
             }
         },
         structureBenchmarkData: {
             "Coastal Swamp Forests": {
                 "NSW North Coast": {
-                    treeCover: 51,
-                    shrubCover: 26,
-                    grassAndGrassLikeCover: 59,
+                    treeCover: 60,
+                    shrubCover: 32,
+                    grassAndGrassLikeCover: 72,
                     forbCover: 10,
-                    fernCover: 7,
-                    otherCover: 7
-                },
-                "South East Queensland": {
-                    treeCover: 53,
-                    shrubCover: 17,
-                    grassAndGrassLikeCover: 42,
-                    forbCover: 8,
-                    fernCover: 8,
+                    fernCover: 10,
                     otherCover: 10
                 },
-                "Sydney Basin": {
-                    treeCover: 21,
-                    shrubCover: 35,
-                    grassAndGrassLikeCover: 71,
-                    forbCover: 10,
-                    fernCover: 6,
-                    otherCover: 6
+                "South East Queensland": {
+                    treeCover: 61,
+                    shrubCover: 21,
+                    grassAndGrassLikeCover: 59,
+                    forbCover: 3,
+                    fernCover: 12,
+                    otherCover: 11
                 },
+                "Sydney Basin": {
+                    treeCover: 31,
+                    shrubCover: 43,
+                    grassAndGrassLikeCover: 84,
+                    forbCover: 3,
+                    fernCover: 10,
+                    otherCover: 2
+                }
             },
             "Coastal Valley Grassy Woodlands": {
                 "SE Corner": {
-                    treeCover: 21,
-                    shrubCover: 20,
-                    grassAndGrassLikeCover: 40,
-                    forbCover: 13,
-                    fernCover: 2,
-                    otherCover: 5
+                    treeCover: 31,
+                    shrubCover: 30,
+                    grassAndGrassLikeCover: 44,
+                    forbCover: 5,
+                    fernCover: 1,
+                    otherCover: 2
                 },
                 "Sydney Basin": {
-                    treeCover: 24,
-                    shrubCover: 21,
-                    grassAndGrassLikeCover: 39,
-                    forbCover: 20,
-                    fernCover: 2,
-                    otherCover: 5
+                    treeCover: 31,
+                    shrubCover: 22,
+                    grassAndGrassLikeCover: 36,
+                    forbCover: 5,
+                    fernCover: 1,
+                    otherCover: 1
                 }
             },
             "Cumberland Dry Sclerophyll Forests": {
                 "Sydney Basin": {
-                    treeCover: 16,
-                    shrubCover: 18,
-                    grassAndGrassLikeCover: 27,
-                    forbCover: 16,
-                    fernCover: 2,
-                    otherCover: 5
+                    treeCover: 22,
+                    shrubCover: 12,
+                    grassAndGrassLikeCover: 24,
+                    forbCover: 3,
+                    fernCover: 1,
+                    otherCover: 1
                 }
             },
             "Hunter-Macleay Dry Sclerophyll Forests": {
                 "NSW North Coast": {
-                    treeCover: 39,
-                    shrubCover: 27,
-                    grassAndGrassLikeCover: 58,
-                    forbCover: 24,
-                    fernCover: 2,
-                    otherCover: 8
+                    treeCover: 57,
+                    shrubCover: 31,
+                    grassAndGrassLikeCover: 63,
+                    forbCover: 8,
+                    fernCover: 1,
+                    otherCover: 3
                 },
                 "Sydney Basin": {
-                    treeCover: 29,
-                    shrubCover: 29,
-                    grassAndGrassLikeCover: 41,
-                    forbCover: 17,
-                    fernCover: 2,
-                    otherCover: 6
+                    treeCover: 41,
+                    shrubCover: 33,
+                    grassAndGrassLikeCover: 48,
+                    forbCover: 3,
+                    fernCover: 1,
+                    otherCover: 2
                 }
             },
             "Western Slopes Grassy Woodlands": {
@@ -173,25 +176,25 @@ bamApp.service('referenceDataService', function () {
                     treeCover: 34,
                     shrubCover: 12,
                     grassAndGrassLikeCover: 66,
-                    forbCover: 21,
+                    forbCover: 20,
                     fernCover: 1,
-                    otherCover: 3
+                    otherCover: 4
                 },
                 "Nandewar": {
-                    treeCover: 30,
-                    shrubCover: 6,
-                    grassAndGrassLikeCover: 55,
-                    forbCover: 19,
+                    treeCover: 31,
+                    shrubCover: 10,
+                    grassAndGrassLikeCover: 56,
+                    forbCover: 15,
                     fernCover: 1,
                     otherCover: 3
                 },
                 "Sydney Basin": {
-                    treeCover: 32,
-                    shrubCover: 29,
-                    grassAndGrassLikeCover: 28,
-                    forbCover: 25,
-                    fernCover: 2,
-                    otherCover: 6
+                    treeCover: 46,
+                    shrubCover: 36,
+                    grassAndGrassLikeCover: 34,
+                    forbCover: 15,
+                    fernCover: 1,
+                    otherCover: 2
                 }
             },
             "Temperate Montane Grasslands": {
@@ -199,7 +202,7 @@ bamApp.service('referenceDataService', function () {
                     treeCover: 1,
                     shrubCover: 5,
                     grassAndGrassLikeCover: 80,
-                    forbCover: 21,
+                    forbCover: 20,
                     fernCover: 1,
                     otherCover: 0
                 }
@@ -213,7 +216,7 @@ bamApp.service('referenceDataService', function () {
                     grassAndGrassLikeComposition: 10,
                     forbComposition: 8,
                     fernComposition: 2,
-                    otherComposition: 5,
+                    otherComposition: 5
                 },
                 "South East Queensland": {
                     treeComposition: 8,
@@ -239,7 +242,7 @@ bamApp.service('referenceDataService', function () {
                     grassAndGrassLikeComposition: 13,
                     forbComposition: 16,
                     fernComposition: 3,
-                    otherComposition: 6,
+                    otherComposition: 6
                 },
                 "Sydney Basin": {
                     treeComposition: 5,
@@ -248,7 +251,7 @@ bamApp.service('referenceDataService', function () {
                     forbComposition: 17,
                     fernComposition: 2,
                     otherComposition: 5
-                },
+                }
             },
             "Cumberland Dry Sclerophyll Forests": {
                 "Sydney Basin": {
