@@ -4873,6 +4873,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -4897,6 +4898,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -4908,13 +4910,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -4939,6 +4942,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -4950,13 +4954,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -4981,6 +4986,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -4992,13 +4998,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5023,6 +5030,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5034,13 +5042,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5065,6 +5074,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5076,13 +5086,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5107,6 +5118,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5118,13 +5130,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5142,13 +5155,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5166,13 +5180,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5197,6 +5212,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5208,13 +5224,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5239,6 +5256,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5250,13 +5268,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5281,6 +5300,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5305,6 +5325,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5329,6 +5350,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5353,6 +5375,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5377,6 +5400,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5388,13 +5412,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5419,6 +5444,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5430,13 +5456,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5461,6 +5488,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5472,13 +5500,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5503,6 +5532,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5527,6 +5557,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5551,6 +5582,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5575,6 +5607,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5599,6 +5632,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5623,6 +5657,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5647,6 +5682,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5671,6 +5707,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5682,13 +5719,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5713,6 +5751,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5724,13 +5763,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5755,6 +5795,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5766,13 +5807,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5797,6 +5839,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5821,6 +5864,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5845,6 +5889,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5856,13 +5901,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5887,6 +5933,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5898,13 +5945,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5929,6 +5977,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5940,13 +5989,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5971,6 +6021,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -5982,13 +6033,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6013,6 +6065,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6024,13 +6077,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6055,6 +6109,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6079,6 +6134,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6090,13 +6146,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6121,6 +6178,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6132,13 +6190,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6163,6 +6222,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6174,13 +6234,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6205,6 +6266,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6216,13 +6278,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6247,6 +6310,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6258,13 +6322,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6289,6 +6354,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6300,13 +6366,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6331,6 +6398,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6342,13 +6410,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6373,6 +6442,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6384,13 +6454,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6415,6 +6486,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6426,13 +6498,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6457,6 +6530,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6468,13 +6542,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6499,6 +6574,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6510,13 +6586,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6541,6 +6618,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6552,13 +6630,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6583,6 +6662,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6594,13 +6674,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6625,6 +6706,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6649,6 +6731,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6660,13 +6743,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6691,6 +6775,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6715,6 +6800,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6726,13 +6812,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6757,6 +6844,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6768,13 +6856,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6799,6 +6888,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6823,6 +6913,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6834,13 +6925,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6865,6 +6957,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6876,13 +6969,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6907,6 +7001,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6918,13 +7013,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6949,6 +7045,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6960,13 +7057,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -6991,6 +7089,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7015,6 +7114,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7039,6 +7139,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7050,13 +7151,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7078,13 +7180,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7109,6 +7212,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7120,13 +7224,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7138,13 +7243,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7163,6 +7269,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7181,6 +7288,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7192,13 +7300,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7216,13 +7325,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7234,13 +7344,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7259,6 +7370,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7276,13 +7388,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7294,13 +7407,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7319,6 +7433,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7336,13 +7451,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7361,6 +7477,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7372,13 +7489,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7390,13 +7508,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7415,6 +7534,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7433,6 +7553,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7444,13 +7565,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7468,13 +7590,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7493,6 +7616,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7504,13 +7628,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7522,13 +7647,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7547,6 +7673,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7565,6 +7692,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7576,13 +7704,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7600,13 +7729,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7625,6 +7755,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7636,13 +7767,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7654,13 +7786,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7679,6 +7812,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7690,13 +7824,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7714,13 +7849,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7739,6 +7875,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7750,13 +7887,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7768,13 +7906,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7793,6 +7932,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7804,13 +7944,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7828,13 +7969,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7852,13 +7994,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7870,13 +8013,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7895,6 +8039,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7906,13 +8051,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7937,6 +8083,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7948,13 +8095,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -7966,13 +8114,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -7991,6 +8140,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8002,13 +8152,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8033,6 +8184,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8044,13 +8196,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8062,13 +8215,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8087,6 +8241,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8105,6 +8260,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8116,13 +8272,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8147,6 +8304,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8158,13 +8316,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8176,13 +8335,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8201,6 +8361,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8219,6 +8380,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8230,13 +8392,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8261,6 +8424,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8279,6 +8443,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8297,6 +8462,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8308,13 +8474,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8333,6 +8500,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8344,13 +8512,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8375,6 +8544,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8393,6 +8563,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8404,13 +8575,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8429,6 +8601,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8440,13 +8613,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8471,6 +8645,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8482,13 +8657,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8507,6 +8683,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8525,6 +8702,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8536,13 +8714,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8561,6 +8740,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8572,13 +8752,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8603,6 +8784,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8621,6 +8803,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8639,6 +8822,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8650,13 +8834,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8675,6 +8860,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8686,13 +8872,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8717,6 +8904,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8735,6 +8923,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8746,13 +8935,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8771,6 +8961,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8782,13 +8973,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8813,6 +9005,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8831,6 +9024,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8849,6 +9043,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8867,6 +9062,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8878,13 +9074,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8903,6 +9100,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8914,13 +9112,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8945,6 +9144,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -8963,6 +9163,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8981,6 +9182,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -8999,6 +9201,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9010,13 +9213,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9035,6 +9239,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -9046,13 +9251,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9077,6 +9283,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9088,13 +9295,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9113,6 +9321,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -9124,13 +9333,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9155,6 +9365,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9166,13 +9377,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -9191,6 +9403,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9202,13 +9415,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9227,6 +9441,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -9238,13 +9453,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9269,6 +9485,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9287,6 +9504,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9298,13 +9516,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9323,6 +9542,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -9334,13 +9554,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9365,6 +9586,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9376,13 +9598,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9401,6 +9624,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -9412,13 +9636,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9443,6 +9668,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9461,6 +9687,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9472,13 +9699,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9490,13 +9718,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9521,6 +9750,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9539,6 +9769,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9550,13 +9781,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9568,13 +9800,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9599,6 +9832,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9610,13 +9844,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -9635,6 +9870,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9646,13 +9882,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9664,13 +9901,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9688,13 +9926,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9713,6 +9952,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9724,13 +9964,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9742,13 +9983,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9766,13 +10008,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9791,6 +10034,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9809,6 +10053,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -9827,6 +10072,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9838,13 +10084,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9863,6 +10110,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -9874,13 +10122,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9905,6 +10154,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9923,6 +10173,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -9941,6 +10192,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -9959,6 +10211,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9977,6 +10230,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -9995,6 +10249,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10006,13 +10261,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10031,6 +10287,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -10042,13 +10299,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10073,6 +10331,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -10091,6 +10350,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10109,6 +10369,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10120,13 +10381,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10145,6 +10407,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -10156,13 +10419,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10187,6 +10451,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10198,13 +10463,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10223,6 +10489,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -10234,13 +10501,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10265,6 +10533,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -10283,6 +10552,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10301,6 +10571,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10312,13 +10583,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10343,6 +10615,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "N of Batemans Bay",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10361,6 +10634,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10379,6 +10653,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10390,13 +10665,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10415,6 +10691,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -10426,13 +10703,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10457,6 +10735,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "north of Batemans Bay",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10475,6 +10754,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -10493,6 +10773,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10511,6 +10792,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10522,13 +10804,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10547,6 +10830,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -10558,13 +10842,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10589,6 +10874,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10607,6 +10893,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10618,13 +10905,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10643,6 +10931,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -10654,13 +10943,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10685,6 +10975,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10703,6 +10994,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10714,13 +11006,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10739,6 +11032,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -10750,13 +11044,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10781,6 +11076,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10792,13 +11088,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -10817,6 +11114,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10828,13 +11126,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10853,6 +11152,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -10864,13 +11164,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10895,6 +11196,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10913,6 +11215,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -10931,6 +11234,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10942,13 +11246,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -10967,6 +11272,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -10978,13 +11284,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11009,6 +11316,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11027,6 +11335,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11045,6 +11354,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11056,13 +11366,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11081,6 +11392,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11092,13 +11404,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11116,13 +11429,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11141,6 +11455,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11152,13 +11467,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11177,6 +11493,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11188,13 +11505,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11219,6 +11537,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11237,6 +11556,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11255,6 +11575,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11273,6 +11594,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11291,6 +11613,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11302,13 +11625,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11327,6 +11651,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11338,13 +11663,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11369,6 +11695,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11380,13 +11707,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11405,6 +11733,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11423,6 +11752,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11441,6 +11771,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11459,6 +11790,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11477,6 +11809,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11495,6 +11828,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11513,6 +11847,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11524,13 +11859,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11542,13 +11878,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11573,6 +11910,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11591,6 +11929,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11609,6 +11948,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11627,6 +11967,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11645,6 +11986,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11663,6 +12005,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11681,6 +12024,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11692,13 +12036,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11710,13 +12055,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11741,6 +12087,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11759,6 +12106,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11777,6 +12125,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11795,6 +12144,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11813,6 +12163,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11831,6 +12182,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11849,6 +12201,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11867,6 +12220,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11878,13 +12232,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11903,6 +12258,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11914,13 +12270,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11945,6 +12302,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11963,6 +12321,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -11981,6 +12340,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -11999,6 +12359,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12017,6 +12378,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12035,6 +12397,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12053,6 +12416,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12071,6 +12435,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12082,13 +12447,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12100,13 +12466,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12131,6 +12498,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12149,6 +12517,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12167,6 +12536,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12185,6 +12555,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12203,6 +12574,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12221,6 +12593,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12239,6 +12612,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12250,13 +12624,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12275,6 +12650,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12286,13 +12662,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12317,6 +12694,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12335,6 +12713,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12353,6 +12732,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12371,6 +12751,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12389,6 +12770,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12407,6 +12789,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12425,6 +12808,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12443,6 +12827,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12454,13 +12839,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12472,13 +12858,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12503,6 +12890,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12521,6 +12909,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12539,6 +12928,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12557,6 +12947,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12575,6 +12966,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12593,6 +12985,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12611,6 +13004,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12629,6 +13023,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12647,6 +13042,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12658,13 +13054,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12676,13 +13073,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12707,6 +13105,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12725,6 +13124,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12743,6 +13143,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12761,6 +13162,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12779,6 +13181,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12797,6 +13200,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12815,6 +13219,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12826,13 +13231,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12857,6 +13263,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12875,6 +13282,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12893,6 +13301,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12911,6 +13320,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12922,13 +13332,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12940,13 +13351,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -12971,6 +13383,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -12989,6 +13402,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13007,6 +13421,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "eastern third of sub_CMA",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -13025,6 +13440,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13043,6 +13459,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13054,13 +13471,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13072,13 +13490,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13103,6 +13522,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -13121,6 +13541,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13139,6 +13560,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -13157,6 +13579,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13175,6 +13598,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13186,13 +13610,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13211,6 +13636,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -13222,13 +13648,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13246,13 +13673,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "west of Dalton",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13264,13 +13692,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13289,6 +13718,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13300,13 +13730,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13325,6 +13756,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -13343,6 +13775,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -13354,13 +13787,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13385,6 +13819,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -13396,13 +13831,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13421,6 +13857,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13432,13 +13869,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13457,6 +13895,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13475,6 +13914,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13486,13 +13926,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13511,6 +13952,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -13522,13 +13964,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13553,6 +13996,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -13571,6 +14015,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13582,13 +14027,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13607,6 +14053,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13618,13 +14065,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13636,13 +14084,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13667,6 +14116,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -13678,13 +14128,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "south of Grabben Gullen",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13696,13 +14147,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13721,6 +14173,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13732,13 +14185,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13757,6 +14211,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -13768,13 +14223,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13792,13 +14248,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13817,6 +14274,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13828,13 +14286,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13853,6 +14312,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13871,6 +14331,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13882,13 +14343,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13900,13 +14362,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13924,13 +14387,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13949,6 +14413,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13960,13 +14425,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -13985,6 +14451,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14003,6 +14470,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14014,13 +14482,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14039,6 +14508,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -14050,13 +14520,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14074,13 +14545,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14099,6 +14571,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14110,13 +14583,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14128,13 +14602,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14152,13 +14627,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14177,6 +14653,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14195,6 +14672,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14206,13 +14684,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14224,13 +14703,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14248,13 +14728,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14266,13 +14747,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14291,6 +14773,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "Kosciuszko National Park",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -14302,13 +14785,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14326,13 +14810,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14351,6 +14836,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14362,13 +14848,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14387,6 +14874,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -14398,13 +14886,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14422,13 +14911,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14440,13 +14930,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14465,6 +14956,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "Lake Bathurst area",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -14483,6 +14975,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14494,13 +14987,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "V",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14519,6 +15013,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -14537,6 +15032,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -14555,6 +15051,7 @@ bamApp.service('referenceDataService', function () {
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "flora",
                                 "pct": [
 
                                 ]
@@ -14566,13 +15063,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "Natural temperate grasslands",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "E",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
@@ -14584,13 +15082,14 @@ bamApp.service('referenceDataService', function () {
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "<=10%",
                                 "threatStatus": "CE",
                                 "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
+                                "speciesType": "fauna",
                                 "pct": [
 
                                 ]
