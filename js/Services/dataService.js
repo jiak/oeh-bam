@@ -11,6 +11,16 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
                 }
             }
         },
+        indexModel: {
+            tabControl: {
+                tab1: true,
+                tab2: false,
+                tab3: false,
+                tab4: false,
+                tab5: false,
+                tab6: false
+            }
+        },
         siteContextModel: {
             confirmed: false,
             vegetationCoverClass: referenceDataService.siteContext.vegetationCoverClass,

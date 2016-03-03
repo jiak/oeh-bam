@@ -4856,8 +4856,8 @@ bamApp.service('referenceDataService', function () {
             "ecosystemCredit": {
                 "ibraSubRegion": [
                     {
-                        "id": "BBS22",
-                        "name": "Northern Outwash",
+                        "id": "BBS20",
+                        "name": "Moonie-Barwon Interfluve",
                         "threatendedSpecies": [
                             {
                                 "id": "10207",
@@ -4868,9 +4868,33 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "BBS21",
+                        "name": "Northern Basalts",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -4886,9 +4910,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -4902,6 +4926,24 @@ bamApp.service('referenceDataService', function () {
                         "name": "Pilliga Outwash",
                         "threatendedSpecies": [
                             {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
                                 "id": "10455",
                                 "name": "Swift parrot",
                                 "scientificName": "Prasophyllum petilum",
@@ -4910,9 +4952,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -4926,24 +4968,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Pilliga",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -4952,9 +4976,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -4970,9 +4994,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -4986,24 +5010,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Liverpool Plains",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -5012,9 +5018,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -5030,9 +5036,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -5046,24 +5052,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Liverpool Range",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -5072,9 +5060,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -5090,9 +5078,75 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "BBS27",
+                        "name": "Talbragar Valley",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NAN01",
+                        "name": "Nandewar Northern Complex",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -5106,42 +5160,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Inverell Basalts",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
-                                "id": "10207",
-                                "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": ">25ha",
-                                "percentCover": "31-70%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Moderate",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10455",
                                 "name": "Swift parrot",
                                 "scientificName": "Prasophyllum petilum",
@@ -5150,9 +5168,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -5166,24 +5184,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Kaputar",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -5192,9 +5192,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -5210,11 +5210,617 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NAN04",
+                        "name": "Peel",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC01",
+                        "name": "Washpool",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC02",
+                        "name": "Cataract",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC03",
+                        "name": "Dalmorton",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC04",
+                        "name": "Chaelundi",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC05",
+                        "name": "Yuraygir",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC06",
+                        "name": "Coffs Coast and Escarpment",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC07",
+                        "name": "Macleay Hastings",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC08",
+                        "name": "Carrai Plateau",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC09",
+                        "name": "Macleay Gorges",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC10",
+                        "name": "Upper Manning",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC11",
+                        "name": "Comboyne Plateau",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC12",
+                        "name": "Mummel Escarpment",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC13",
+                        "name": "Barrington",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC14",
+                        "name": "Tomalla",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC15",
+                        "name": "Ellerston",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC16",
+                        "name": "Upper Hunter",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC17",
+                        "name": "Karuah Manning",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC18",
+                        "name": "Rocky River Gorge",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC19",
+                        "name": "Guy Fawkes",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
                                 "pct": [
 
                                 ]
@@ -5226,24 +5832,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "East Gippsland Lowlands",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -5252,9 +5840,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -5270,9 +5858,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -5286,24 +5874,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "South East Coastal Ranges",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -5312,9 +5882,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -5330,9 +5900,135 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEC03",
+                        "name": "Bateman",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEQ03",
+                        "name": "Burringbar-Conondale Ranges",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEQ10",
+                        "name": "Scenic Rim",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -5346,19 +6042,19 @@ bamApp.service('referenceDataService', function () {
                         "name": "Woodenbong",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
                                 "habitatComponents": "",
                                 "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
-                                "sensitivity": "Low",
+                                "sensitivity": "Moderate",
                                 "pct": [
 
                                 ]
@@ -5370,24 +6066,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Clarence Sandstones",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -5396,9 +6074,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -5414,9 +6092,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -5430,24 +6108,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Clarence Lowlands",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -5456,9 +6116,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -5474,9 +6134,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -5490,24 +6150,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Kerrabee",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -5516,9 +6158,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -5534,9 +6176,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -5550,24 +6192,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Hunter",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -5576,69 +6200,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Moderate",
-                                "pct": [
-
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "SYB04",
-                        "name": "Wollemi",
-                        "threatendedSpecies": [
-                            {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "north of Batemans Bay",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
-                                "id": "10207",
-                                "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": ">25ha",
-                                "percentCover": "31-70%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -5654,9 +6218,51 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SYB04",
+                        "name": "Wollemi",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -5670,24 +6276,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Yengo",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -5696,9 +6284,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -5714,9 +6302,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -5730,24 +6318,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Wyong",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -5756,51 +6326,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Moderate",
-                                "pct": [
-
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "SYB07",
-                        "name": "Pittwater",
-                        "threatendedSpecies": [
-                            {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
-                                "id": "10207",
-                                "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": ">25ha",
-                                "percentCover": "31-70%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -5816,9 +6344,51 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SYB07",
+                        "name": "Pittwater",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -5832,24 +6402,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Cumberland",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -5858,9 +6410,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -5876,9 +6428,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -5892,24 +6444,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Burragorang",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -5918,9 +6452,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -5936,9 +6470,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -5952,24 +6486,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Sydney Cataract",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -5978,9 +6494,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -5996,9 +6512,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -6012,24 +6528,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Moss Vale",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -6038,9 +6536,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -6056,9 +6554,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -6080,9 +6578,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -6098,9 +6596,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -6114,19 +6612,19 @@ bamApp.service('referenceDataService', function () {
                         "name": "Ettrema",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
                                 "habitatComponents": "",
                                 "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
-                                "sensitivity": "Low",
+                                "sensitivity": "Moderate",
                                 "pct": [
 
                                 ]
@@ -6134,27 +6632,9 @@ bamApp.service('referenceDataService', function () {
                         ]
                     },
                     {
-                        "id": "SEH07",
-                        "name": "Bungonia",
+                        "id": "SYB14",
+                        "name": "Jervis",
                         "threatendedSpecies": [
-                            {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
@@ -6164,9 +6644,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -6182,9 +6662,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -6194,23 +6674,47 @@ bamApp.service('referenceDataService', function () {
                         ]
                     },
                     {
-                        "id": "SEH08",
-                        "name": "Kanangra",
+                        "id": "SEH06",
+                        "name": "Murrumbateman",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
                                 "habitatComponents": "",
                                 "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
-                                "sensitivity": "Low",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEH07",
+                        "name": "Bungonia",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
                                 "pct": [
 
                                 ]
@@ -6224,9 +6728,51 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEH08",
+                        "name": "Kanangra",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -6240,24 +6786,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Crookwell",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -6266,9 +6794,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -6290,9 +6818,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -6308,9 +6836,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -6324,24 +6852,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Bathurst",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -6350,9 +6860,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -6368,9 +6878,51 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEH12",
+                        "name": "Orange",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10455",
+                                "name": "Swift parrot",
+                                "scientificName": "Prasophyllum petilum",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -6384,6 +6936,24 @@ bamApp.service('referenceDataService', function () {
                         "name": "Hill End",
                         "threatendedSpecies": [
                             {
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
+                                "habitatComponents": "",
+                                "creditType": "EC",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "area",
+                                "sensitivity": "Moderate",
+                                "pct": [
+
+                                ]
+                            },
+                            {
                                 "id": "10455",
                                 "name": "Swift parrot",
                                 "scientificName": "Prasophyllum petilum",
@@ -6392,9 +6962,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -6408,23 +6978,29 @@ bamApp.service('referenceDataService', function () {
                         "name": "Bondo",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
+                                "id": "10207",
+                                "name": "Spotted-tailed quoll",
+                                "scientificName": "Delma impar",
                                 "habitatComponents": "",
                                 "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "patchSize": ">25ha",
+                                "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
-                                "sensitivity": "Low",
+                                "sensitivity": "Moderate",
                                 "pct": [
 
                                 ]
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEH15",
+                        "name": "Kybeyan-Gourock",
+                        "threatendedSpecies": [
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
@@ -6434,29 +7010,11 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "pct": [
-
-                                ]
-                            },
-                            {
-                                "id": "10455",
-                                "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
                                 "pct": [
 
                                 ]
@@ -6468,24 +7026,6 @@ bamApp.service('referenceDataService', function () {
                         "name": "Monaro",
                         "threatendedSpecies": [
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (foraging habitat)",
-                                "scientificName": "Cryptostylis hunteriana",
-                                "habitatComponents": "",
-                                "creditType": "EC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "area",
-                                "sensitivity": "Low",
-                                "pct": [
-
-                                ]
-                            },
-                            {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
                                 "scientificName": "Delma impar",
@@ -6494,9 +7034,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
                                 "pct": [
@@ -6512,9 +7052,9 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
                                 "pct": [
@@ -6528,9 +7068,51 @@ bamApp.service('referenceDataService', function () {
             "speciesCredit": {
                 "ibraSubRegion": [
                     {
+                        "id": "BBS20",
+                        "name": "Moonie-Barwon Interfluve",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "id": "BBS21",
                         "name": "Northern Basalts",
                         "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
@@ -6540,12 +7122,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -6556,12 +7140,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10815",
@@ -6572,12 +7176,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -6594,19 +7218,15 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
-                            }
-                        ]
-                    },
-                    {
-                        "id": "BBS23",
-                        "name": "Pilliga Outwash",
-                        "threatendedSpecies": [
+                                "pct": [
+
+                                ]
+                            },
                             {
                                 "id": "10616",
                                 "name": "Koala",
@@ -6616,44 +7236,92 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10666",
-                                "name": "Tarengo leek orchid",
-                                "scientificName": "Astrotricha crassifolia",
-                                "habitatComponents": "forb-rich grassy groundlayer",
+                                "id": "10815",
+                                "name": "Tylophora linearis",
+                                "scientificName": "",
+                                "habitatComponents": "",
                                 "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
-                                "sensitivity": "Low",
-                                "pct": []
-                            },
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "BBS23",
+                        "name": "Pilliga Outwash",
+                        "threatendedSpecies": [
                             {
-                                "id": "10738",
-                                "name": "Monaro golden daisy",
-                                "scientificName": "Diuris tricolor",
+                                "id": "10221",
+                                "name": "Bluegrass",
+                                "scientificName": "Climacteris picumnus victoriae",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "11-30%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
-                                "sensitivity": "Low",
-                                "pct": []
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10815",
+                                "name": "Tylophora linearis",
+                                "scientificName": "",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -6661,6 +7329,24 @@ bamApp.service('referenceDataService', function () {
                         "id": "BBS24",
                         "name": "Pilliga",
                         "threatendedSpecies": [
+                            {
+                                "id": "10061",
+                                "name": "Pink-tailed legless lizard",
+                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "habitatComponents": "land containing surface rocks (embedded or loose)",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
                             {
                                 "id": "10157",
                                 "name": "Large-eared Pied-bat (breeding habitat)",
@@ -6670,44 +7356,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10187",
-                                "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "3 individuals",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10211",
-                                "name": "Striped legless lizard",
-                                "scientificName": "Mixophyes balbus",
-                                "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Low",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10221",
@@ -6718,92 +7374,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10246",
-                                "name": "Creeping Hop-bush",
-                                "scientificName": "Stagonopleura guttata",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Individual",
-                                "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10246",
-                                "name": "Creeping Hop-bush",
-                                "scientificName": "Stagonopleura guttata",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "Lake Bathurst area",
-                                "unitOfMeasure": "Individual",
-                                "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10246",
-                                "name": "Creeping Hop-bush",
-                                "scientificName": "Stagonopleura guttata",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "the Cooma-Monaro Shire south of Michelago",
-                                "unitOfMeasure": "Individual",
-                                "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10483",
-                                "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
-                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10536",
-                                "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
-                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "31-70%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -6814,12 +7392,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10802",
@@ -6830,12 +7410,50 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10815",
+                                "name": "Tylophora linearis",
+                                "scientificName": "",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -6852,12 +7470,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10157",
@@ -6868,28 +7488,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10483",
-                                "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
-                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "id": "10221",
+                                "name": "Bluegrass",
+                                "scientificName": "Climacteris picumnus victoriae",
+                                "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -6900,12 +7524,50 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10815",
+                                "name": "Tylophora linearis",
+                                "scientificName": "",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -6916,12 +7578,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -6938,12 +7602,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10157",
@@ -6954,108 +7620,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10187",
-                                "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "id": "10221",
+                                "name": "Bluegrass",
+                                "scientificName": "Climacteris picumnus victoriae",
                                 "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "3 individuals",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10211",
-                                "name": "Striped legless lizard",
-                                "scientificName": "Mixophyes balbus",
-                                "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Low",
-                                "pct": []
-                            },
-                            {
-                                "id": "10373",
-                                "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10483",
-                                "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
-                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10536",
-                                "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
-                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "31-70%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10538",
-                                "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
-                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -7066,28 +7656,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10799",
-                                "name": "Black-eyed susan",
-                                "scientificName": "Dichanthium setosum",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Individual",
-                                "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10802",
@@ -7098,28 +7674,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10815",
-                                "name": "Tylophora linearis",
-                                "scientificName": "",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -7130,18 +7692,134 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
                     {
                         "id": "BBS27",
                         "name": "Talbragar Valley",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10061",
+                                "name": "Pink-tailed legless lizard",
+                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "habitatComponents": "land containing surface rocks (embedded or loose)",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10221",
+                                "name": "Bluegrass",
+                                "scientificName": "Climacteris picumnus victoriae",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10815",
+                                "name": "Tylophora linearis",
+                                "scientificName": "",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "BBS28",
+                        "name": "Narrandool",
                         "threatendedSpecies": [
                             {
                                 "id": "10616",
@@ -7152,12 +7830,56 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NAN01",
+                        "name": "Nandewar Northern Complex",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10221",
+                                "name": "Bluegrass",
+                                "scientificName": "Climacteris picumnus victoriae",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10802",
@@ -7168,12 +7890,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -7190,12 +7932,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10221",
@@ -7206,12 +7950,50 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -7222,12 +8004,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -7244,12 +8028,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10221",
+                                "name": "Bluegrass",
+                                "scientificName": "Climacteris picumnus victoriae",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -7260,12 +8064,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10802",
@@ -7276,12 +8082,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10815",
@@ -7292,12 +8100,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -7306,20 +8134,40 @@ bamApp.service('referenceDataService', function () {
                         "name": "Peel",
                         "threatendedSpecies": [
                             {
-                                "id": "10061",
-                                "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
-                                "habitatComponents": "land containing surface rocks (embedded or loose)",
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10221",
+                                "name": "Bluegrass",
+                                "scientificName": "Climacteris picumnus victoriae",
+                                "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
-                                "sensitivity": "Moderate ",
-                                "pct": []
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -7330,12 +8178,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10802",
@@ -7346,28 +8196,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10802",
-                                "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
-                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "Kosciuszko National Park",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10815",
@@ -7378,12 +8214,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -7394,67 +8232,21 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
                     {
-                        "id": "SEC01",
-                        "name": "East Gippsland Lowlands",
+                        "id": "NNC01",
+                        "name": "Washpool",
                         "threatendedSpecies": [
-                            {
-                                "id": "10006",
-                                "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10074",
-                                "name": "Thick-leaf Star-hair",
-                                "scientificName": "Neophema pulchella",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (breeding habitat)",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Individual",
-                                "sensitivity": "High",
-                                "pct": []
-                            },
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
@@ -7464,194 +8256,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10373",
-                                "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10483",
-                                "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
-                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10538",
-                                "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
-                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10595",
-                                "name": "Hairy geebung",
-                                "scientificName": "Melanodryas cucullata cucullata",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10616",
-                                "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10841",
-                                "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "CE",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            }
-                        ]
-                    },
-                    {
-                        "id": "SEC02",
-                        "name": "South East Coastal Ranges",
-                        "threatendedSpecies": [
-                            {
-                                "id": "10006",
-                                "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (breeding habitat)",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Individual",
-                                "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10187",
-                                "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "3 individuals",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10373",
-                                "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10483",
-                                "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
-                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10536",
@@ -7662,98 +8274,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10592",
-                                "name": "Bargo geebung",
-                                "scientificName": "Ninox connivens",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10593",
-                                "name": "Mittagong geebung",
-                                "scientificName": "Rutidosis leiolepis",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10595",
-                                "name": "Hairy geebung",
-                                "scientificName": "Melanodryas cucullata cucullata",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10616",
-                                "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Moderate ",
-                                "pct": []
-                            }
-                        ]
-                    },
-                    {
-                        "id": "SEC03",
-                        "name": "Bateman",
-                        "threatendedSpecies": [
-                            {
-                                "id": "10536",
-                                "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
-                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "31-70%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10538",
@@ -7764,28 +8292,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10595",
-                                "name": "Hairy geebung",
-                                "scientificName": "Melanodryas cucullata cucullata",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -7796,50 +8310,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
-                            }
-                        ]
-                    },
-                    {
-                        "id": "SEQ11",
-                        "name": "Woodenbong",
-                        "threatendedSpecies": [
-                            {
-                                "id": "10006",
-                                "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (breeding habitat)",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Individual",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -7850,18 +8346,1340 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
                     {
-                        "id": "SEQ12",
-                        "name": "Clarence Sandstones",
+                        "id": "NNC02",
+                        "name": "Cataract",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC03",
+                        "name": "Dalmorton",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10221",
+                                "name": "Bluegrass",
+                                "scientificName": "Climacteris picumnus victoriae",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC04",
+                        "name": "Chaelundi",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC05",
+                        "name": "Yuraygir",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC06",
+                        "name": "Coffs Coast and Escarpment",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC07",
+                        "name": "Macleay Hastings",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10187",
+                                "name": "Leafless tongue orchid",
+                                "scientificName": "Glossopsitta pusilla",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "3 individuals",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC08",
+                        "name": "Carrai Plateau",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC09",
+                        "name": "Macleay Gorges",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10221",
+                                "name": "Bluegrass",
+                                "scientificName": "Climacteris picumnus victoriae",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC10",
+                        "name": "Upper Manning",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC11",
+                        "name": "Comboyne Plateau",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC12",
+                        "name": "Mummel Escarpment",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC13",
+                        "name": "Barrington",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC14",
+                        "name": "Tomalla",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10221",
+                                "name": "Bluegrass",
+                                "scientificName": "Climacteris picumnus victoriae",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC15",
+                        "name": "Ellerston",
                         "threatendedSpecies": [
                             {
                                 "id": "10061",
@@ -7872,12 +9690,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10157",
@@ -7888,12 +9708,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -7904,12 +9744,1250 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC16",
+                        "name": "Upper Hunter",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10061",
+                                "name": "Pink-tailed legless lizard",
+                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "habitatComponents": "land containing surface rocks (embedded or loose)",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10373",
+                                "name": "Small-flower grevillea",
+                                "scientificName": "Tyto tenebricosa",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10799",
+                                "name": "Black-eyed susan",
+                                "scientificName": "Dichanthium setosum",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC17",
+                        "name": "Karuah Manning",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10187",
+                                "name": "Leafless tongue orchid",
+                                "scientificName": "Glossopsitta pusilla",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "3 individuals",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10373",
+                                "name": "Small-flower grevillea",
+                                "scientificName": "Tyto tenebricosa",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10799",
+                                "name": "Black-eyed susan",
+                                "scientificName": "Dichanthium setosum",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC18",
+                        "name": "Rocky River Gorge",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10187",
+                                "name": "Leafless tongue orchid",
+                                "scientificName": "Glossopsitta pusilla",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "3 individuals",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "NNC19",
+                        "name": "Guy Fawkes",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEC01",
+                        "name": "East Gippsland Lowlands",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10187",
+                                "name": "Leafless tongue orchid",
+                                "scientificName": "Glossopsitta pusilla",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "3 individuals",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEC02",
+                        "name": "South East Coastal Ranges",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "N of Batemans Bay",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEC03",
+                        "name": "Bateman",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "north of Batemans Bay",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10187",
+                                "name": "Leafless tongue orchid",
+                                "scientificName": "Glossopsitta pusilla",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "3 individuals",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEQ03",
+                        "name": "Burringbar-Conondale Ranges",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEQ10",
+                        "name": "Scenic Rim",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEQ11",
+                        "name": "Woodenbong",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10221",
+                                "name": "Bluegrass",
+                                "scientificName": "Climacteris picumnus victoriae",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEQ12",
+                        "name": "Clarence Sandstones",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10187",
+                                "name": "Leafless tongue orchid",
+                                "scientificName": "Glossopsitta pusilla",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "3 individuals",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -7926,12 +11004,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10483",
@@ -7942,12 +11022,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10538",
@@ -7958,12 +11040,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -7974,12 +11058,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10802",
@@ -7990,12 +11076,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -8006,12 +11094,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -8028,12 +11118,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10157",
@@ -8044,44 +11136,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10373",
-                                "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10483",
-                                "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
-                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -8092,296 +11154,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10841",
-                                "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "CE",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            }
-                        ]
-                    },
-                    {
-                        "id": "SYB02",
-                        "name": "Hunter",
-                        "threatendedSpecies": [
-                            {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (breeding habitat)",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Individual",
-                                "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10536",
-                                "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
-                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "31-70%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10538",
-                                "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
-                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10616",
-                                "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10841",
-                                "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "CE",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            }
-                        ]
-                    },
-                    {
-                        "id": "SYB04",
-                        "name": "Wollemi",
-                        "threatendedSpecies": [
-                            {
-                                "id": "10061",
-                                "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
-                                "habitatComponents": "land containing surface rocks (embedded or loose)",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10061",
-                                "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
-                                "habitatComponents": "land containing surface rocks (embedded or loose)",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "west of Dalton",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (breeding habitat)",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Individual",
-                                "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (breeding habitat)",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "north of Batemans Bay",
-                                "unitOfMeasure": "Individual",
-                                "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10187",
-                                "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "3 individuals",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10211",
-                                "name": "Striped legless lizard",
-                                "scientificName": "Mixophyes balbus",
-                                "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Low",
-                                "pct": []
-                            },
-                            {
-                                "id": "10221",
-                                "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10483",
-                                "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
-                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10536",
-                                "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
-                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "31-70%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10616",
-                                "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10802",
-                                "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
-                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10815",
@@ -8392,12 +11172,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -8408,19 +11190,39 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
                     {
-                        "id": "SYB05",
-                        "name": "Yengo",
+                        "id": "SYB02",
+                        "name": "Hunter",
                         "threatendedSpecies": [
+                            {
+                                "id": "10006",
+                                "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+                                "scientificName": "Dodonaea procumbens",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
                             {
                                 "id": "10157",
                                 "name": "Large-eared Pied-bat (breeding habitat)",
@@ -8430,44 +11232,50 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10211",
-                                "name": "Striped legless lizard",
-                                "scientificName": "Mixophyes balbus",
-                                "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Low",
-                                "pct": []
-                            },
-                            {
-                                "id": "10221",
-                                "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "id": "10187",
+                                "name": "Leafless tongue orchid",
+                                "scientificName": "Glossopsitta pusilla",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "3 individuals",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10373",
+                                "name": "Small-flower grevillea",
+                                "scientificName": "Tyto tenebricosa",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10483",
@@ -8478,44 +11286,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10536",
-                                "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
-                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "31-70%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10538",
-                                "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
-                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -8526,28 +11304,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10802",
-                                "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
-                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "id": "10799",
+                                "name": "Black-eyed susan",
+                                "scientificName": "Dichanthium setosum",
+                                "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "High",
-                                "pct": []
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -8558,12 +11340,386 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SYB04",
+                        "name": "Wollemi",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10006",
+                                "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+                                "scientificName": "Dodonaea procumbens",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10061",
+                                "name": "Pink-tailed legless lizard",
+                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "habitatComponents": "land containing surface rocks (embedded or loose)",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10074",
+                                "name": "Thick-leaf Star-hair",
+                                "scientificName": "Neophema pulchella",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10373",
+                                "name": "Small-flower grevillea",
+                                "scientificName": "Tyto tenebricosa",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10595",
+                                "name": "Hairy geebung",
+                                "scientificName": "Melanodryas cucullata cucullata",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SYB05",
+                        "name": "Yengo",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10006",
+                                "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+                                "scientificName": "Dodonaea procumbens",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10373",
+                                "name": "Small-flower grevillea",
+                                "scientificName": "Tyto tenebricosa",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10595",
+                                "name": "Hairy geebung",
+                                "scientificName": "Melanodryas cucullata cucullata",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -8580,28 +11736,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10061",
-                                "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
-                                "habitatComponents": "land containing surface rocks (embedded or loose)",
+                                "id": "10074",
+                                "name": "Thick-leaf Star-hair",
+                                "scientificName": "Neophema pulchella",
+                                "habitatComponents": "",
                                 "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "patchSize": "",
+                                "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
-                                "sensitivity": "Moderate ",
-                                "pct": []
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10157",
@@ -8612,12 +11772,104 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10187",
+                                "name": "Leafless tongue orchid",
+                                "scientificName": "Glossopsitta pusilla",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "3 individuals",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10373",
+                                "name": "Small-flower grevillea",
+                                "scientificName": "Tyto tenebricosa",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10538",
+                                "name": "Giant barred frog",
+                                "scientificName": "Petalura gigantea",
+                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -8628,44 +11880,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10666",
-                                "name": "Tarengo leek orchid",
-                                "scientificName": "Astrotricha crassifolia",
-                                "habitatComponents": "forb-rich grassy groundlayer",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Low",
-                                "pct": []
-                            },
-                            {
-                                "id": "10802",
-                                "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
-                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "id": "10799",
+                                "name": "Black-eyed susan",
+                                "scientificName": "Dichanthium setosum",
+                                "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "High",
-                                "pct": []
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -8676,12 +11916,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -8698,12 +11940,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10074",
+                                "name": "Thick-leaf Star-hair",
+                                "scientificName": "Neophema pulchella",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10157",
@@ -8714,12 +11976,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10187",
@@ -8730,28 +11994,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10187",
-                                "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "id": "10373",
+                                "name": "Small-flower grevillea",
+                                "scientificName": "Tyto tenebricosa",
                                 "habitatComponents": "",
                                 "creditType": "SC",
-                                "patchSize": "<5ha",
+                                "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "3 individuals",
-                                "geographicCondition": "eastern third of sub_CMA",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10483",
@@ -8762,28 +12030,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10536",
-                                "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
-                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "31-70%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10538",
@@ -8794,12 +12048,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10595",
+                                "name": "Hairy geebung",
+                                "scientificName": "Melanodryas cucullata cucullata",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -8810,28 +12084,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10802",
-                                "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
-                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -8842,12 +12102,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -8856,6 +12118,24 @@ bamApp.service('referenceDataService', function () {
                         "name": "Cumberland",
                         "threatendedSpecies": [
                             {
+                                "id": "10006",
+                                "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+                                "scientificName": "Dodonaea procumbens",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
                                 "id": "10157",
                                 "name": "Large-eared Pied-bat (breeding habitat)",
                                 "scientificName": "Chalinolobus dwyeri",
@@ -8864,28 +12144,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10187",
-                                "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "id": "10373",
+                                "name": "Small-flower grevillea",
+                                "scientificName": "Tyto tenebricosa",
                                 "habitatComponents": "",
                                 "creditType": "SC",
-                                "patchSize": "<5ha",
+                                "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "3 individuals",
-                                "geographicCondition": "",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10483",
@@ -8896,12 +12180,200 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10592",
+                                "name": "Bargo geebung",
+                                "scientificName": "Ninox connivens",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10593",
+                                "name": "Mittagong geebung",
+                                "scientificName": "Rutidosis leiolepis",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10595",
+                                "name": "Hairy geebung",
+                                "scientificName": "Melanodryas cucullata cucullata",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SYB09",
+                        "name": "Burragorang",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10006",
+                                "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+                                "scientificName": "Dodonaea procumbens",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10373",
+                                "name": "Small-flower grevillea",
+                                "scientificName": "Tyto tenebricosa",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10536",
@@ -8912,28 +12384,68 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10538",
-                                "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
-                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
+                                "id": "10592",
+                                "name": "Bargo geebung",
+                                "scientificName": "Ninox connivens",
+                                "habitatComponents": "",
                                 "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
+                                "patchSize": "",
+                                "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10593",
+                                "name": "Mittagong geebung",
+                                "scientificName": "Rutidosis leiolepis",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10595",
+                                "name": "Hairy geebung",
+                                "scientificName": "Melanodryas cucullata cucullata",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -8944,28 +12456,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10802",
-                                "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
-                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -8976,146 +12474,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
-                            }
-                        ]
-                    },
-                    {
-                        "id": "SYB09",
-                        "name": "Burragorang",
-                        "threatendedSpecies": [
-                            {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (breeding habitat)",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Individual",
-                                "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10221",
-                                "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10538",
-                                "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
-                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10616",
-                                "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10799",
-                                "name": "Black-eyed susan",
-                                "scientificName": "Dichanthium setosum",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Individual",
-                                "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10802",
-                                "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
-                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10815",
-                                "name": "Tylophora linearis",
-                                "scientificName": "",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10841",
-                                "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "CE",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -9132,12 +12498,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10074",
+                                "name": "Thick-leaf Star-hair",
+                                "scientificName": "Neophema pulchella",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10157",
@@ -9148,12 +12534,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10187",
@@ -9164,146 +12552,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10483",
-                                "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
-                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10536",
-                                "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
-                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "31-70%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10538",
-                                "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
-                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10616",
-                                "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10802",
-                                "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
-                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10841",
-                                "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "CE",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            }
-                        ]
-                    },
-                    {
-                        "id": "SYB11",
-                        "name": "Moss Vale",
-                        "threatendedSpecies": [
-                            {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (breeding habitat)",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Individual",
-                                "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10187",
-                                "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "3 individuals",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10373",
@@ -9314,12 +12570,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10483",
@@ -9330,12 +12588,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10536",
@@ -9346,28 +12606,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10538",
-                                "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
-                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10592",
@@ -9378,28 +12624,50 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10802",
-                                "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
-                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "id": "10595",
+                                "name": "Hairy geebung",
+                                "scientificName": "Melanodryas cucullata cucullata",
+                                "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
-                                "sensitivity": "High",
-                                "pct": []
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -9410,19 +12678,75 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
                     {
-                        "id": "SYB12",
-                        "name": "Illawarra",
+                        "id": "SYB11",
+                        "name": "Moss Vale",
                         "threatendedSpecies": [
+                            {
+                                "id": "10006",
+                                "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+                                "scientificName": "Dodonaea procumbens",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10187",
+                                "name": "Leafless tongue orchid",
+                                "scientificName": "Glossopsitta pusilla",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "3 individuals",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
                             {
                                 "id": "10373",
                                 "name": "Small-flower grevillea",
@@ -9432,12 +12756,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10483",
@@ -9448,12 +12774,182 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10593",
+                                "name": "Mittagong geebung",
+                                "scientificName": "Rutidosis leiolepis",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SYB12",
+                        "name": "Illawarra",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10187",
+                                "name": "Leafless tongue orchid",
+                                "scientificName": "Glossopsitta pusilla",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "3 individuals",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -9470,12 +12966,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10157",
@@ -9486,12 +12984,86 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10187",
+                                "name": "Leafless tongue orchid",
+                                "scientificName": "Glossopsitta pusilla",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "3 individuals",
+                                "geographicCondition": "eastern third of sub_CMA",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -9502,12 +13074,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -9524,60 +13098,86 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10592",
-                                "name": "Bargo geebung",
-                                "scientificName": "Ninox connivens",
-                                "habitatComponents": "",
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10593",
-                                "name": "Mittagong geebung",
-                                "scientificName": "Rutidosis leiolepis",
+                                "id": "10187",
+                                "name": "Leafless tongue orchid",
+                                "scientificName": "Glossopsitta pusilla",
                                 "habitatComponents": "",
                                 "creditType": "SC",
-                                "patchSize": "",
+                                "patchSize": "<5ha",
                                 "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "3 individuals",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10595",
-                                "name": "Hairy geebung",
-                                "scientificName": "Melanodryas cucullata cucullata",
-                                "habitatComponents": "",
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -9588,12 +13188,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10802",
@@ -9604,12 +13206,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -9620,12 +13224,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -9633,22 +13239,6 @@ bamApp.service('referenceDataService', function () {
                         "id": "SEH06",
                         "name": "Murrumbateman",
                         "threatendedSpecies": [
-                            {
-                                "id": "10006",
-                                "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
@@ -9658,12 +13248,50 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "west of Dalton",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10211",
+                                "name": "Striped legless lizard",
+                                "scientificName": "Mixophyes balbus",
+                                "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -9674,12 +13302,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10666",
+                                "name": "Tarengo leek orchid",
+                                "scientificName": "Astrotricha crassifolia",
+                                "habitatComponents": "forb-rich grassy groundlayer",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10802",
@@ -9690,12 +13338,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -9706,12 +13356,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -9728,163 +13380,33 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10074",
-                                "name": "Thick-leaf Star-hair",
-                                "scientificName": "Neophema pulchella",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (breeding habitat)",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Individual",
-                                "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10187",
-                                "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "3 individuals",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10221",
-                                "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
-                                "habitatComponents": "",
+                                "id": "10061",
+                                "name": "Pink-tailed legless lizard",
+                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10373",
-                                "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10483",
-                                "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
-                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10536",
-                                "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
-                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "31-70%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10616",
-                                "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "5-25ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
-                            {
-                                "id": "10841",
-                                "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "CE",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            }
-                        ]
-                    },
-                    {
-                        "id": "SEH08",
-                        "name": "Kanangra",
-                        "threatendedSpecies": [
                             {
                                 "id": "10157",
                                 "name": "Large-eared Pied-bat (breeding habitat)",
@@ -9894,12 +13416,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10211",
@@ -9910,12 +13434,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10536",
@@ -9926,28 +13470,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10538",
-                                "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
-                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -9958,12 +13488,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10802",
@@ -9974,12 +13506,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -9990,18 +13524,20 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
                     {
-                        "id": "SEH09",
-                        "name": "Crookwell",
+                        "id": "SEH08",
+                        "name": "Kanangra",
                         "threatendedSpecies": [
                             {
                                 "id": "10074",
@@ -10012,12 +13548,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10157",
@@ -10028,12 +13566,50 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10211",
+                                "name": "Striped legless lizard",
+                                "scientificName": "Mixophyes balbus",
+                                "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -10044,44 +13620,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10802",
-                                "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
-                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10815",
-                                "name": "Tylophora linearis",
-                                "scientificName": "",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -10092,12 +13638,146 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEH09",
+                        "name": "Crookwell",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10006",
+                                "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+                                "scientificName": "Dodonaea procumbens",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10061",
+                                "name": "Pink-tailed legless lizard",
+                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "habitatComponents": "land containing surface rocks (embedded or loose)",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "south of Grabben Gullen",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10211",
+                                "name": "Striped legless lizard",
+                                "scientificName": "Mixophyes balbus",
+                                "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -10114,12 +13794,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "south of Grabben Gullen",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10211",
@@ -10130,28 +13830,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "pct": []
-                            },
-                            {
-                                "id": "10221",
-                                "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10483",
@@ -10162,12 +13848,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -10178,28 +13884,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10802",
-                                "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
-                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -10210,12 +13902,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -10223,6 +13917,24 @@ bamApp.service('referenceDataService', function () {
                         "id": "SEH11",
                         "name": "Bathurst",
                         "threatendedSpecies": [
+                            {
+                                "id": "10061",
+                                "name": "Pink-tailed legless lizard",
+                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "habitatComponents": "land containing surface rocks (embedded or loose)",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
                             {
                                 "id": "10157",
                                 "name": "Large-eared Pied-bat (breeding habitat)",
@@ -10232,28 +13944,68 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10221",
-                                "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
-                                "habitatComponents": "",
+                                "id": "10211",
+                                "name": "Striped legless lizard",
+                                "scientificName": "Mixophyes balbus",
+                                "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10483",
+                                "name": "Green and golden bell frog",
+                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -10264,12 +14016,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10802",
@@ -10280,12 +14034,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -10296,12 +14052,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -10318,12 +14076,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10157",
+                                "name": "Large-eared Pied-bat (breeding habitat)",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -10334,44 +14112,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
-                            },
-                            {
-                                "id": "10802",
-                                "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
-                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10815",
-                                "name": "Tylophora linearis",
-                                "scientificName": "",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -10382,18 +14130,20 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
                     {
-                        "id": "SEH14",
-                        "name": "Bondo",
+                        "id": "SEH13",
+                        "name": "Hill End",
                         "threatendedSpecies": [
                             {
                                 "id": "10061",
@@ -10404,12 +14154,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10157",
@@ -10420,28 +14172,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "pct": []
-                            },
-                            {
-                                "id": "10211",
-                                "name": "Striped legless lizard",
-                                "scientificName": "Mixophyes balbus",
-                                "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Low",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10483",
@@ -10452,28 +14190,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10536",
-                                "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
-                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "31-70%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -10484,12 +14208,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -10500,12 +14226,188 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEH14",
+                        "name": "Bondo",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10211",
+                                "name": "Striped legless lizard",
+                                "scientificName": "Mixophyes balbus",
+                                "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "Kosciuszko National Park",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SEH15",
+                        "name": "Kybeyan-Gourock",
+                        "threatendedSpecies": [
+                            {
+                                "id": "10211",
+                                "name": "Striped legless lizard",
+                                "scientificName": "Mixophyes balbus",
+                                "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10536",
+                                "name": "Stuttering frog",
+                                "scientificName": "Lathamus discolor",
+                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "31-70%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "0",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10616",
+                                "name": "Koala",
+                                "scientificName": "Chalinolobus dwyeri",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "5-25ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10841",
+                                "name": "Regent honeyeater",
+                                "scientificName": "Varanus rosenbergi",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "CE",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "to be confirmed - breeding locations",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Very high",
+                                "pct": [
+
+                                ]
                             }
                         ]
                     },
@@ -10514,52 +14416,22 @@ bamApp.service('referenceDataService', function () {
                         "name": "Monaro",
                         "threatendedSpecies": [
                             {
-                                "id": "10006",
-                                "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
-                                "habitatComponents": "",
+                                "id": "10061",
+                                "name": "Pink-tailed legless lizard",
+                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10074",
-                                "name": "Thick-leaf Star-hair",
-                                "scientificName": "Neophema pulchella",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10157",
-                                "name": "Large-eared Pied-bat (breeding habitat)",
-                                "scientificName": "Chalinolobus dwyeri",
-                                "habitatComponents": "land containing escarpments, cliffs, caves, deep crevices, old mine shafts or tunnels",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Individual",
-                                "sensitivity": "High",
-                                "pct": []
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10211",
@@ -10570,44 +14442,32 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
-                                "id": "10221",
-                                "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "id": "10246",
+                                "name": "Creeping Hop-bush",
+                                "scientificName": "Stagonopleura guttata",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "percentCover": "11-30%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10373",
-                                "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "geographicCondition": "Lake Bathurst area",
+                                "unitOfMeasure": "Individual",
+                                "sensitivity": "Moderate ",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10483",
@@ -10618,92 +14478,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10536",
-                                "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
-                                "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "31-70%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10538",
-                                "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
-                                "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
-                                "creditType": "SC",
-                                "patchSize": "<5ha",
-                                "percentCover": "11-30%",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10592",
-                                "name": "Bargo geebung",
-                                "scientificName": "Ninox connivens",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10593",
-                                "name": "Mittagong geebung",
-                                "scientificName": "Rutidosis leiolepis",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
-                            },
-                            {
-                                "id": "10595",
-                                "name": "Hairy geebung",
-                                "scientificName": "Melanodryas cucullata cucullata",
-                                "habitatComponents": "",
-                                "creditType": "SC",
-                                "patchSize": "",
-                                "percentCover": "",
-                                "threatStatus": "E",
-                                "offsetMultiplier":  1,
-                                "soiThreashold": "0",
-                                "geographicCondition": "",
-                                "unitOfMeasure": "Area",
-                                "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10616",
@@ -10714,12 +14496,86 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "5-25ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "pct": []
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10666",
+                                "name": "Tarengo leek orchid",
+                                "scientificName": "Astrotricha crassifolia",
+                                "habitatComponents": "forb-rich grassy groundlayer",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10738",
+                                "name": "Monaro golden daisy",
+                                "scientificName": "Diuris tricolor",
+                                "habitatComponents": "",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "11-30%",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "Low",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10802",
+                                "name": "Austral Toadflex",
+                                "scientificName": "Persoonia bargoensis",
+                                "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
+                                "creditType": "SC",
+                                "patchSize": "",
+                                "percentCover": "",
+                                "threatStatus": "V",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
+                            },
+                            {
+                                "id": "10817",
+                                "name": "Grassland earless dragon",
+                                "scientificName": "Scoteanax rueppellii",
+                                "habitatComponents": "Natural temperate grasslands",
+                                "creditType": "SC",
+                                "patchSize": "<5ha",
+                                "percentCover": "\u00e2\u2030\u00a410%",
+                                "threatStatus": "E",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
+                                "geographicCondition": "-",
+                                "unitOfMeasure": "Area",
+                                "sensitivity": "High",
+                                "pct": [
+
+                                ]
                             },
                             {
                                 "id": "10841",
@@ -10730,12 +14586,14 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "<5ha",
                                 "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier":  1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
-                                "geographicCondition": "",
+                                "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "pct": []
+                                "pct": [
+
+                                ]
                             }
                         ]
                     }
