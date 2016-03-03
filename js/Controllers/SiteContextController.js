@@ -31,6 +31,11 @@ bamApp.controller('siteContextController', ["$scope", "$rootScope", "dataService
 
         submit: function() {
             this.model.confirmed = true
+            if(dataService.applicationDetailsModel.assessmentType.id != 3) {
+                dataService.indexModel.tabControl.tab3 = true;
+            } else {
+                dataService.indexModel.tabControl.tab4 = true;
+            }
             var body = dataService.events.createSiteContextUpdateEvent(this.model.inputs.ibra, this.model.inputs.subRegion, this.model.inputs.cover, this.model.inputs.patchSize)
             $rootScope.$emit(dataService.events.siteContextUpdateEvent, body)
         }

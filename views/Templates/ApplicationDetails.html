@@ -1,5 +1,5 @@
 <div ng-controller="applicationDetailsController as adc">
-<form ng-submit="adc.applicationDetails.model.confirmed = true">
+<form ng-submit="adc.applicationDetails.submit()">
 
         <fieldset class="form-group">
             <div class="callout" ng-show="adc.applicationDetails.model.confirmed == false">

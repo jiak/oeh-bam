@@ -12,6 +12,6 @@ bamApp.controller('indexController', ["$scope", "dataService", function ($scope,
 
     }
     this.dataService = dataService;
-
+    dataService.indexModel.tabControl.tab1 = true;
 
 }])
