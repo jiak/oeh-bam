@@ -1,5 +1,81 @@
 <form novalidate>
-    <div ng-controller="creditsController" class="tabcontentdiv">
-        <div>Credits</div>
+    <div ng-controller="creditsController as crc" class="tabcontentdiv">
+        <div>
+            <h4>Impact Thresholds</h4>
+        </div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Entity</th>
+                <th>CECC/EEC</th>
+                <th>Common Name</th>
+                <th>Scientific Name</th>
+                <th>Impact Threshold</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="impactThreshold in crc.credits.model.impactThresholds">
+                    <td>{{impactThreshold.entity}}</td>
+                    <td>{{impactThreshold.ceccEec}}</td>
+                    <td>{{impactThreshold.commonName}}</td>
+                    <td>{{impactThreshold.scientificName}}</td>
+                    <td>{{impactThreshold.impactThresholds}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <h4>Ecosystem Credits for Plant Communities Types, Ecological Communities &amp; Threatened Species Habitat</h4>
+        </div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Zone</th>
+                <th>Identifier</th>
+                <th>PCT Name</th>
+                <th>VI Loss</th>
+                <th>Area</th>
+                <th>OM</th>
+                <th>Ecosystem Credits</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="ecoCredit in crc.credits.model.ecoCredits">
+                <td>{{ecoCredit.zone}}</td>
+                <td>{{ecoCredit.identifier}}</td>
+                <td>{{ecoCredit.pctName}}</td>
+                <td>{{ecoCredit.viLoss}}</td>
+                <td>{{ecoCredit.area}}</td>
+                <td>{{ecoCredit.om}}</td>
+                <td>{{crc.credits.calculateEcosystemCredits(ecoCredit)}}</td>
+            </tr>
+            </tbody>
+        </table>
+        <div>
+            <h4>Species Credits for Threatened Species</h4>
+        </div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Type</th>
+                <th>Common Name</th>
+                <th>Scientific Name</th>
+                <th>HC</th>
+                <th>Area (HL)</th>
+                <th>OM</th>
+                <th>Species Credit</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="speciesCredit in crc.credits.model.speciesCredit">
+                <td>{{speciesCredit.type}}</td>
+                <td>{{speciesCredit.commonName}}</td>
+                <td>{{speciesCredit.scientificName}}</td>
+                <td>{{speciesCredit.hc}}</td>
+                <td>{{speciesCredit.area}}</td>
+                <td>{{speciesCredit.om}}</td>
+                <td>{{crc.credits.calculateSpeciesCredit(speciesCredit)}}</td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 </form>

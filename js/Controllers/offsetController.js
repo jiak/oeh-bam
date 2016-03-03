@@ -1,4 +1,4 @@
-bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataService", function ($scope, dataService, referenceDataService) {
+bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "referenceDataService", function ($rootScope, $scope, dataService, referenceDataService) {
 
     this.dataService = dataService
 
@@ -61,6 +61,8 @@ bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataSe
             dataService.functionModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
             dataService.structureModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
             dataService.locationModel.setInputs(inFocusVegetationZoneIndex, calculatorMode)
+            var body = dataService.events.createVegetationZoneUpdateEvent(this.model.input.vegetationZones, this.model.input.pct)
+            $rootScope.$emit(dataService.events.vegetationZoneUpdateEvent, body)
         },
 
         shouldThisPopupBeOpened: function (calculatorMode, $index, calcType) {
@@ -101,7 +103,9 @@ bamApp.controller('offsetController', ["$scope", "dataService", "referenceDataSe
                 count++
             }
             if (sum > 0 && count > 0) {
-                return Math.pow(sum, 1 / count).toFixed(0)
+                var result = Math.pow(sum, 1 / count).toFixed(0)
+                eval("this.model.input.vegetationZones[index]." + calculatorMode + "Vis = " + result)
+                return result
             } else {
                 return 0
             }

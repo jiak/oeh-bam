@@ -2,7 +2,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
     this.dataService = dataService
 
-    $rootScope.$on(dataService.events.siteContextUpdateEvent, function(event, body) {
+    $rootScope.$on(dataService.events.siteContextUpdateEvent, function (event, body) {
         $scope.hc.habitat.update(body.ibra, body.subRegion, body.cover, body.patchSize)
     })
 
@@ -22,6 +22,11 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
         applicationType: dataService.applicationDetailsModel.assessmentType,
 
         model: dataService.habitatModel,
+
+        emitHabitatUpdateEvent: function () {
+            var body = dataService.events.createHabitatUpdateEvent(this.model.inputs[this.model.current].speciesCredit, this.model.inputs[this.model.current].ecosystemCredit)
+            $rootScope.$emit(dataService.events.habitatUpdateEvent, body)
+        },
 
         createEcoSystemCreditInput: function (threatendedSpecies) {
             return {
@@ -143,7 +148,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                 this.model.inputs[this.model.current].speciesCredit[index].candidate.name == "Yes" &&
                 this.model.inputs[this.model.current].speciesCredit[index].assessRequired.name == "Yes" &&
                 this.model.inputs[this.model.current].speciesCredit[index].presence.name == "Yes" &&
-                (this.model.inputs[this.model.current].speciesCredit[index].threatendedSpecies.sensitivity == "Very high" || dataService.applicationDetailsModel.assessmentType.id !=3);
+                (this.model.inputs[this.model.current].speciesCredit[index].threatendedSpecies.sensitivity == "Very high" || dataService.applicationDetailsModel.assessmentType.id != 3);
 
         },
 
