@@ -27,6 +27,12 @@ bamApp.controller('siteContextController', ["$scope", "$rootScope", "dataService
                 return;
             }
             this.model.inputs.landscapeFeatures.splice($index, 1);
+        },
+
+        submit: function() {
+            this.model.confirmed = true
+            var body = dataService.events.createSiteContextUpdateEvent(this.model.inputs.ibra, this.model.inputs.subRegion, this.model.inputs.cover, this.model.inputs.patchSize)
+            $rootScope.$emit(dataService.events.siteContextUpdateEvent, body)
         }
 
     }

@@ -1,5 +1,16 @@
 bamApp.service('dataService', ["referenceDataService", function (referenceDataService) {
     return {
+        events: {
+            siteContextUpdateEvent: "siteContextUpdateEvent",
+            createSiteContextUpdateEvent: function(ibra, subRegion, cover, patchSize) {
+                return {
+                    ibra: ibra,
+                    subRegion: subRegion,
+                    cover: cover,
+                    patchSize: patchSize
+                }
+            }
+        },
         siteContextModel: {
             confirmed: false,
             vegetationCoverClass: referenceDataService.siteContext.vegetationCoverClass,

@@ -1,8 +1,10 @@
 angular.module('bamApp').controller('habitatController', ["$scope", "referenceDataService", "$rootScope", "dataService", function ($scope, referenceDataService, $rootScope, dataService) {
 
-    this.yes = "sdfljsdflskdjf"
-
     this.dataService = dataService
+
+    $rootScope.$on(dataService.events.siteContextUpdateEvent, function(event, body) {
+        $scope.hc.habitat.update(body.ibra, body.subRegion, body.cover, body.patchSize)
+    })
 
     this.habitat = {
         streamlineSensitivityCheck: function(species) {
@@ -16,6 +18,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
               }
           }
         },
+
         applicationType: dataService.applicationDetailsModel.assessmentType,
 
         model: dataService.habitatModel,
@@ -144,32 +147,30 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
         },
 
-        update: function () {
+        update: function (ibra, subRegion, cover, patchSize) {
             this.model.current = null;
-
-            if (dataService.siteContextModel.inputs.ibra == null)
+            if (ibra == null)
                 return;
 
-            if (dataService.siteContextModel.inputs.subRegion == null)
+            if (subRegion == null)
                 return;
 
-            var ibraId = dataService.siteContextModel.inputs.subRegion.id;
+            var ibraId = subRegion.id;
 
-            this.model.current = this.findInput(dataService.siteContextModel.inputs.subRegion.id, dataService.siteContextModel.inputs.cover, dataService.siteContextModel.inputs.patchSize);
+            this.model.current = this.findInput(ibraId, cover, patchSize);
 
             //find input
             if (this.model.current != null)
                 return;
 
             //if not found, create one
-            var input = this.createInput(ibraId, dataService.siteContextModel.inputs.cover, dataService.siteContextModel.inputs.patchSize);
+            var input = this.createInput(ibraId, cover, patchSize);
 
             this.initEcoSystemCreditInput(input);
             this.initSpeciesCreditInput(input);
 
             this.model.inputs.push(input);
             this.model.current = this.model.inputs.length - 1;
-
 
         },
         findEcosystemCreditBySubRegion: function (input) {
