@@ -23,14 +23,16 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
             console.log(predictedThreatenedSpecies)
             this.model.speciesCredit = []
             candidateThreatenedSpecies.forEach(function(candidateThreatenedSpecies, index) {
-                var entry = {};
-                entry.type = 'type'
-                entry.commonName = candidateThreatenedSpecies.threatendedSpecies.name
-                entry.scientificName = candidateThreatenedSpecies.threatendedSpecies.scientificName
-                entry.hc = candidateThreatenedSpecies.threatendedSpecies.habitatComponents
-                entry.area = candidateThreatenedSpecies.value
-                entry.om = candidateThreatenedSpecies.threatendedSpecies.offsetMultiplier
-                $scope.crc.credits.model.speciesCredit.push(entry)
+                if(candidateThreatenedSpecies.assessRequired.name == 'Yes') {
+                    var entry = {};
+                    entry.type = 'type'
+                    entry.commonName = candidateThreatenedSpecies.threatendedSpecies.name
+                    entry.scientificName = candidateThreatenedSpecies.threatendedSpecies.scientificName
+                    entry.hc = candidateThreatenedSpecies.threatendedSpecies.habitatComponents
+                    entry.area = candidateThreatenedSpecies.value
+                    entry.om = candidateThreatenedSpecies.threatendedSpecies.offsetMultiplier
+                    $scope.crc.credits.model.speciesCredit.push(entry)
+                }
             })
         },
 
