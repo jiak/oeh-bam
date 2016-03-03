@@ -2,12 +2,26 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
     return {
         events: {
             siteContextUpdateEvent: "siteContextUpdateEvent",
-            createSiteContextUpdateEvent: function(ibra, subRegion, cover, patchSize) {
+            createSiteContextUpdateEvent: function (ibra, subRegion, cover, patchSize) {
                 return {
                     ibra: ibra,
                     subRegion: subRegion,
                     cover: cover,
                     patchSize: patchSize
+                }
+            },
+            vegetationZoneUpdateEvent: "vegetationZoneUpdateEvent",
+            createVegetationZoneUpdateEvent: function (vegetationZones, pct) {
+                return {
+                    vegetationZones: vegetationZones,
+                    pcts: pct
+                }
+            },
+            habitatUpdateEvent: "habitatUpdateEvent",
+            createHabitatUpdateEvent: function (candidateThreatenedSpecies, predictedThreatenedSpecies) {
+                return {
+                    candidateThreatenedSpecies: candidateThreatenedSpecies,
+                    predictedThreatenedSpecies: predictedThreatenedSpecies
                 }
             }
         },

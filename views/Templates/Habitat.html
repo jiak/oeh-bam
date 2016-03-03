@@ -30,7 +30,6 @@
             </table>
         </fieldset>
     </form>
-
     <form>
         <fieldset class="form-group">
             <h4>Candidate Threatened Species</h4>
@@ -90,7 +89,8 @@
                         <input ng-if="hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].presence.name=='Yes'
                                 && hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].assessRequired.name=='Yes'
                                 && hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].candidate.name=='Yes'"
-                               ng-model="hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].value" type="number" class="form-control">
+                               ng-model="hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].value" type="number" class="form-control"
+                               ng-blur="hc.habitat.emitHabitatUpdateEvent()">
                         </input>
                     </td>
                 <tr>

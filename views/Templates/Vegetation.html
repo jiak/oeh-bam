@@ -1,12 +1,9 @@
 <form novalidate>
-
-
     <div ng-controller="vegetationController as vc" class="tabcontentdiv">
         <div class="callout" ng-if="vc.dataService.applicationDetailsModel.assessmentType.id == 3">
             <h3>Information!</h3>
             <p>As you have selected  <em>'{{vc.dataService.applicationDetailsModel.assessmentType.name}}'</em> as your <em>'Assessment Type'</em>, you will only need to identify the dominant Plant Community Type on the site.</p>
         </div>
-
         <div>
             <h4>Plant Community Types &amp; Ecological Communities</h4>
             <table class="table">
@@ -57,7 +54,6 @@
                     <th>Condition Class</th>
                     <th>Identifier</th>
                     <th>Area</th>
-                    <th>Location</th>
                     <th>Composition</th>
                     <th>Structure</th>
                     <th>Function</th>
@@ -80,11 +76,6 @@
                     <td>{{vegetationZoneItem.identifier()}}</td>
                     <td>
                         <input type="number" size="4" class="form-control" ng-model="vegetationZoneItem.area"/>
-                    </td>
-                    <td>
-                        <button ng-click="vc.vegetationTab.setCalcToDisplay($index, 'current', vegetationZoneItem.keithClass, 'location')" uib-popover-template="'Templates/location.html'" popover-trigger="none" popover-is-open="vc.vegetationTab.shouldThisPopupBeOpened('current', $index, 'location')" popover-animation="true" popover-placement="auto" type="button"
-                                class="btn btn-primary"><i class="fa fa-map-marker"></i>
-                        </button>
                     </td>
                     <td>
                         <button ng-click="vc.vegetationTab.setCalcToDisplay($index, 'current', vegetationZoneItem.keithClass, 'composition')" uib-popover-template="'Templates/composition.html'" popover-trigger="none" popover-is-open="vc.vegetationTab.shouldThisPopupBeOpened('current', $index, 'composition')" popover-animation="true" popover-placement="auto" type="button"

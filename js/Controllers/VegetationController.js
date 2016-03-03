@@ -61,7 +61,9 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
                 count++
             }
             if (sum > 0 && count > 0) {
-                return Math.pow(sum, 1 / count).toFixed(1)
+                result = Math.pow(sum, 1 / count).toFixed(1)
+                eval("this.model.input.vegetationZones[index]." + calculatorMode + "Vis = " + result)
+                return result
             } else {
                 return 0
             }
@@ -99,6 +101,8 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             dataService.functionModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
             dataService.structureModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
             dataService.locationModel.setInputs(inFocusVegetationZoneIndex, calculatorMode)
+            var body = dataService.events.createVegetationZoneUpdateEvent(this.model.input.vegetationZones, this.model.input.pct)
+            $rootScope.$emit(dataService.events.vegetationZoneUpdateEvent, body)
         },
 
         setFocusedFutureVegetationZone: function (index) {
