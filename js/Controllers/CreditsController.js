@@ -49,13 +49,13 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
             candidateThreatenedSpecies.forEach(function (candidateThreatenedSpecies, index) {
                 if (candidateThreatenedSpecies.assessRequired != null && candidateThreatenedSpecies.assessRequired.name == 'Yes') {
                     var entry = {};
-                    entry.type = candidateThreatenedSpecies.speciesType
+                    entry.type = candidateThreatenedSpecies.threatendedSpecies.speciesType
                     entry.commonName = candidateThreatenedSpecies.threatendedSpecies.name
                     entry.scientificName = candidateThreatenedSpecies.threatendedSpecies.scientificName
                     entry.hc = candidateThreatenedSpecies.threatendedSpecies.habitatComponents
                     entry.area = candidateThreatenedSpecies.value
                     entry.om = candidateThreatenedSpecies.threatendedSpecies.offsetMultiplier
-                    entry.uom = candidateThreatenedSpecies.UOM
+                    entry.uom = candidateThreatenedSpecies.threatendedSpecies.unitOfMeasure
                     $scope.crc.credits.model.speciesCredit.push(entry)
                 }
             })
@@ -98,14 +98,13 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
                 if (speciesCredit.type == 'flora') {
                     deltaVis = 1;
                     if(speciesCredit.uom == 'Area') {
-                        deltaVis = speciesCredit.vegZone.offsetFutureWithManagement - speciesCredit.vegZone.current
+                        deltaVis = speciesCredit.vegZone.offsetFutureWithManagementVis - speciesCredit.vegZone.current
                     } else if(speciesCredit.uom == 'Individual') {
-                        deltaVis = speciesCredit.vegZone.offsetFutureWithoutManagement - speciesCredit.vegZone.current
+                        deltaVis = speciesCredit.vegZone.offsetFutureWithoutManagementVis - speciesCredit.vegZone.current
                     }
                     return speciesCredit.area * deltaVis
                 } else if (speciesCredit.type == 'fauna') {
-                    viOfVegZone = 10
-                    return viOfVegZone * speciesCredit.area
+                    return speciesCredit.currentVis * speciesCredit.area
                 }
             }
         }
