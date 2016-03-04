@@ -45,7 +45,6 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
         },
 
         updateSpeciesCredits: function (candidateThreatenedSpecies, predictedThreatenedSpecies) {
-            this.model.speciesCredit = []
             candidateThreatenedSpecies.forEach(function (candidateThreatenedSpecies, index) {
                 if (candidateThreatenedSpecies.assessRequired != null && candidateThreatenedSpecies.assessRequired.name == 'Yes') {
                     var entry = {};
@@ -56,7 +55,14 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
                     entry.area = candidateThreatenedSpecies.value
                     entry.om = candidateThreatenedSpecies.threatendedSpecies.offsetMultiplier
                     entry.uom = candidateThreatenedSpecies.threatendedSpecies.unitOfMeasure
-                    $scope.crc.credits.model.speciesCredit.push(entry)
+                    isAlreadyPresent = $scope.crc.credits.model.speciesCredit.filter(function(item) {
+                        if(item.type == entry.type && item.commonName == entry.commonName && item.scientificName == entry.scientificName) {
+                            return true
+                        }
+                    }).length
+                    if(!isAlreadyPresent) {
+                        $scope.crc.credits.model.speciesCredit.push(entry)
+                    }
                 }
             })
         },
