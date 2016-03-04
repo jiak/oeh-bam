@@ -98,13 +98,13 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
                 if (speciesCredit.type == 'flora') {
                     deltaVis = 1;
                     if(speciesCredit.uom == 'Area') {
-                        deltaVis = speciesCredit.vegZone.offsetFutureWithManagementVis - speciesCredit.vegZone.current
+                        deltaVis = speciesCredit.vegZone.offsetFutureWithManagementVis - speciesCredit.vegZone.currentVis
                     } else if(speciesCredit.uom == 'Individual') {
-                        deltaVis = speciesCredit.vegZone.offsetFutureWithoutManagementVis - speciesCredit.vegZone.current
+                        deltaVis = speciesCredit.vegZone.offsetFutureWithoutManagementVis - speciesCredit.vegZone.currentVis
                     }
                     return speciesCredit.area * deltaVis
                 } else if (speciesCredit.type == 'fauna') {
-                    return speciesCredit.currentVis * speciesCredit.area
+                    return speciesCredit.vegZone.currentVis * speciesCredit.area
                 }
             }
         }
