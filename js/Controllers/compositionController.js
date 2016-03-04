@@ -164,9 +164,10 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                 supplimentaryPlanting = "Present"
             }
             var currentValueWithAddedConstant = eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject)
-            rValue = calculationService.getCompositionRValue(theObject, dataService.offsetModel.input.vegetationZones[this.model.inFocusVegetationZoneIndex].offsetFutureWithManagementVis)
+            viScore = dataService.offsetModel.input.vegetationZones[this.model.inFocusVegetationZoneIndex].offsetFutureWithManagementVis
+            rValue = calculationService.getCompositionRValue(theObject, viScore)
             var managementTimeFrame = 20
-            var restorationModifier = eval("this.model.restorationModifierForPlanting." + theObjectLower + "Richness")
+            restorationModifier = calculationService.getRestorationModifierForPlanting(viScore)
             var result = 0
             if (benchmark == 0) {
                 result = 0

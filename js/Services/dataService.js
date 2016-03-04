@@ -123,9 +123,6 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
         },
         functionModel: {
             benchmarks: referenceDataService.functionBenchmarkData,
-            rValue: referenceDataService.rValue.function,
-            restorationModifierForPlanting: referenceDataService.restorationModifierForPlanting.function,
-            benefitForPlanting: referenceDataService.benefitForPlanting.function,
             inFocusVegetationZoneIndex: null,
             calculatorMode: null,
             keithClass: null,
@@ -146,8 +143,6 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
         },
         structureModel: {
             benchmarks: referenceDataService.structureBenchmarkData,
-            rValue: referenceDataService.rValue.structure,
-            restorationModifierForPlanting: referenceDataService.restorationModifierForPlanting.structure,
             inFocusVegetationZoneIndex: null,
             calculatorMode: null,
             keithClass: null,
@@ -168,8 +163,6 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
         },
         compositionModel: {
             benchmarks: referenceDataService.compositionBenchmarkData,
-            rValue: referenceDataService.rValue.composition,
-            restorationModifierForPlanting: referenceDataService.restorationModifierForPlanting.composition,
             inFocusVegetationZoneIndex: null,
             calculatorMode: null,
             keithClass: null,

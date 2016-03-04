@@ -1,5 +1,8 @@
 bamApp.service('calculationService', [function () {
     return {
+        getRestorationModifierForPlanting: function(viScore) {
+            return (1/(1+Math.exp((1+4*(10/100))-viScore/(15+(4*10/100)))))
+        },
         getStructureRValue: function(type, viScore) {
             if(type == 'Tree') {
                 randomConstant = 30
