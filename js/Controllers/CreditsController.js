@@ -89,7 +89,7 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
         calculateSpeciesCredit: function (speciesCredit) {
             if (this.model.assessmentType.name == 'Development') {
                 if (speciesCredit.type == 'flora') {
-                    return speciesCredit.area * this.model.highestOm
+                    return speciesCredit.area * speciesCredit.om
                 } else if (speciesCredit.type == 'fauna') {
                     viOfVegZone = speciesCredit.vegZone.futureVis
                     return viOfVegZone * speciesCredit.area * speciesCredit.om
