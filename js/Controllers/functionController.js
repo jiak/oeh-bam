@@ -196,7 +196,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
                 var supplimentaryPlanting = "Absent"
                 var currentValueWithAddedConstant = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject)
-                var rValue = eval("this.model.rateOfIncrease." + theObjectLower)
+                rValue = calculationService.getFunctionRValue(theObject, dataService.offsetModel.input.vegetationZones[this.model.inFocusVegetationZoneIndex].offsetFutureWithManagementVis)
                 var managementTimeFrame = 20
                 var benefitForPlanting = eval("this.model.benefitForPlanting." + theObjectLower)
                 var result = 0

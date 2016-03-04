@@ -45,7 +45,7 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
         },
 
         updateSpeciesCredits: function (candidateThreatenedSpecies, predictedThreatenedSpecies) {
-            this.model.speciesCredit = []
+            //this.model.speciesCredit = []
             candidateThreatenedSpecies.forEach(function (candidateThreatenedSpecies, index) {
                 if (candidateThreatenedSpecies.assessRequired != null && candidateThreatenedSpecies.assessRequired.name == 'Yes') {
                     var entry = {};
@@ -87,24 +87,26 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
         },
 
         calculateSpeciesCredit: function (speciesCredit) {
-            if (this.model.assessmentType.name == 'Development') {
-                if (speciesCredit.type == 'flora') {
-                    return speciesCredit.area * speciesCredit.om
-                } else if (speciesCredit.type == 'fauna') {
-                    viOfVegZone = speciesCredit.vegZone.futureVis
-                    return viOfVegZone * speciesCredit.area * speciesCredit.om
-                }
-            } else if (this.model.assessmentType.name == 'Offset') {
-                if (speciesCredit.type == 'flora') {
-                    deltaVis = 1;
-                    if(speciesCredit.uom == 'Area') {
-                        deltaVis = speciesCredit.vegZone.offsetFutureWithManagementVis - speciesCredit.vegZone.currentVis
-                    } else if(speciesCredit.uom == 'Individual') {
-                        deltaVis = speciesCredit.vegZone.offsetFutureWithoutManagementVis - speciesCredit.vegZone.currentVis
+            if (speciesCredit.vegZone != undefined) {
+                if (this.model.assessmentType.name == 'Development') {
+                    if (speciesCredit.type == 'flora') {
+                        return speciesCredit.area * speciesCredit.om
+                    } else if (speciesCredit.type == 'fauna') {
+                        viOfVegZone = speciesCredit.vegZone.futureVis
+                        return viOfVegZone * speciesCredit.area * speciesCredit.om
                     }
-                    return speciesCredit.area * deltaVis
-                } else if (speciesCredit.type == 'fauna') {
-                    return speciesCredit.vegZone.currentVis * speciesCredit.area
+                } else if (this.model.assessmentType.name == 'Offset') {
+                    if (speciesCredit.type == 'flora') {
+                        deltaVis = 1;
+                        if (speciesCredit.uom == 'Area') {
+                            deltaVis = speciesCredit.vegZone.offsetFutureWithManagementVis - speciesCredit.vegZone.currentVis
+                        } else if (speciesCredit.uom == 'Individual') {
+                            deltaVis = speciesCredit.vegZone.offsetFutureWithoutManagementVis - speciesCredit.vegZone.currentVis
+                        }
+                        return speciesCredit.area * deltaVis
+                    } else if (speciesCredit.type == 'fauna') {
+                        return speciesCredit.vegZone.currentVis * speciesCredit.area
+                    }
                 }
             }
         }

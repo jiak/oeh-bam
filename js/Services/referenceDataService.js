@@ -15099,7 +15099,28 @@ bamApp.service('referenceDataService', function () {
                 ]
             }
         },
-        "rateOfIncrease": {
+        "medianRateOfIncrease": {
+            "structure": {
+                "treeCover": 0.085,
+                "shrubCover": 0.085,
+                "grassAndGrassLikeCover": 0.125,
+                "forbCover": 0.08,
+                "fernCover": 0.06
+            },
+            "composition": {
+                "treeRichness": 0.05,
+                "shrubRichness": 0.04,
+                "grassAndGrassLikeRichness": 0.1,
+                "forbRichness": 0.09,
+                "fernRichness": 0.04
+            },
+            "function": {
+                "numberOfLargeTrees": 0.01,
+                "litterCover": 0.15,
+                "coarseWoodyDebris": 0.08
+            }
+        },
+        "rValue": {
             "structure": {
                 "treeCover": 0.196,
                 "shrubCover": 0.222,
@@ -15158,7 +15179,7 @@ bamApp.service('referenceDataService', function () {
             },
             "function": {
                 "numberOfLargeTrees": 0,
-                "litterCover": 0.01,
+                "litterCover": 0,
                 "coarseWoodyDebris": 0
             }
         }

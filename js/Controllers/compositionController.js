@@ -1,4 +1,4 @@
-bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal", "dataService", function ($scope, $rootScope, $uibModal, dataService) {
+bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal", "dataService", "calculationService", function ($scope, $rootScope, $uibModal, dataService, calculationService) {
 
     this.dataService = dataService
 
@@ -159,13 +159,12 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
         calculateFutureValueWithOffset: function (theObject, theObjectLower) {
             var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Composition")
             var supplimentaryPlanting = "Absent"
-            var numberOfSpeciesPlanted = 0
+            var numberOfSpeciesPlanted = 0.75 * benchmark
             if(theObject == 'Tree' || theObject == 'Shrub') {
                 supplimentaryPlanting = "Present"
-                numberOfSpeciesPlanted = 5
             }
             var currentValueWithAddedConstant = eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject)
-            var rValue = eval("this.model.rateOfIncrease." + theObjectLower + "Richness")
+            rValue = calculationService.getCompositionRValue(theObject, dataService.offsetModel.input.vegetationZones[this.model.inFocusVegetationZoneIndex].offsetFutureWithManagementVis)
             var managementTimeFrame = 20
             var restorationModifier = eval("this.model.restorationModifierForPlanting." + theObjectLower + "Richness")
             var result = 0
