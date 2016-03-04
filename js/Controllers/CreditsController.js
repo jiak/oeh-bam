@@ -45,7 +45,7 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
         },
 
         updateSpeciesCredits: function (candidateThreatenedSpecies, predictedThreatenedSpecies) {
-            //this.model.speciesCredit = []
+            this.model.speciesCredit = []
             candidateThreatenedSpecies.forEach(function (candidateThreatenedSpecies, index) {
                 if (candidateThreatenedSpecies.assessRequired != null && candidateThreatenedSpecies.assessRequired.name == 'Yes') {
                     var entry = {};
