@@ -4,6 +4,7 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
 
     $rootScope.$on(dataService.events.vegetationZoneUpdateEvent, function (event, body) {
         $scope.crc.credits.updateEcoSystemsCreditsRequiredForVegetation(body.vegetationZones, body.pcts)
+        $scope.crc.credits.model.vegetationZones = body.vegetationZones
         var highestOm = 1
         body.pcts.forEach(function (pct) {
             if (pct.tec.offsetMutliplier > highestOm) {
@@ -39,7 +40,8 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
             speciesCredit: [],
             impactThresholds: [],
             assessmentType: null,
-            highestOm: null
+            highestOm: null,
+            vegetationZones: null
         },
 
         updateSpeciesCredits: function (candidateThreatenedSpecies, predictedThreatenedSpecies) {

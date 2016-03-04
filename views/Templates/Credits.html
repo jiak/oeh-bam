@@ -59,6 +59,7 @@
                 <th>Type</th>
                 <th>Common Name</th>
                 <th>Scientific Name</th>
+                <th>Vegetation Zone</th>
                 <th>HC</th>
                 <th>Area (HL)</th>
                 <th>OM</th>
@@ -70,6 +71,9 @@
                 <td>{{speciesCredit.type}}</td>
                 <td>{{speciesCredit.commonName}}</td>
                 <td>{{speciesCredit.scientificName}}</td>
+                <td>
+                    <select class="form-control" ng-model="speciesCredit.vegZone" ng-options="vegZone.identifier() for vegZone in crc.credits.model.vegetationZones"></select>
+                </td>
                 <td>{{speciesCredit.hc}}</td>
                 <td>{{speciesCredit.area}}</td>
                 <td>{{crc.credits.model.highestOm}}</td>
