@@ -60,14 +60,14 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
                 sum *= fs
                 count++
             }
+            result = 0
             if (sum > 0 && count > 0) {
-                result = Math.pow(sum, 1 / count).toFixed(1)
-                eval("this.model.input.vegetationZones[index]." + calculatorMode + "Vis = " + result)
-                return result
+                result = Math.pow(sum, 1 / count).toFixed(0)
             } else {
-                return 0
+                result = 0
             }
-
+            eval("this.model.input.vegetationZones[index]." + calculatorMode + "Vis = " + result)
+            return result
         },
 
         addToZoneMap: function (vegetationZoneItem) {

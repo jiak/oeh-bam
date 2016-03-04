@@ -175,9 +175,9 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Cover")
             var highThreadWeedCover = true
             var currentValueWithAddedConstant = eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject)
-            var rValue = 0.5
+            var rValue = eval("this.model.rateOfIncrease." + theObjectLower + "Cover")
             var managementTimeFrame = 20
-            var restorationModifier = 0.966
+            var restorationModifier = eval("this.model.restorationModifierForPlanting." + theObjectLower + "Cover")
             var result = 0
             if (benchmark == 0) {
                 result = 0

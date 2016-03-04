@@ -2,12 +2,34 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
 
     this.dataService = dataService
 
-    $rootScope.$on(dataService.events.vegetationZoneUpdateEvent, function(event, body) {
+    $rootScope.$on(dataService.events.vegetationZoneUpdateEvent, function (event, body) {
         $scope.crc.credits.updateEcoSystemsCreditsRequiredForVegetation(body.vegetationZones, body.pcts)
+        var highestOm = 1
+        body.pcts.forEach(function (pct) {
+            if (pct.tec.offsetMutliplier > highestOm) {
+                highestOm = pct.tec.offsetMutliplier
+            }
+        })
+        $scope.crc.credits.model.highestOm = highestOm
     })
 
-    $rootScope.$on(dataService.events.habitatUpdateEvent, function(event, body) {
+    $rootScope.$on(dataService.events.habitatUpdateEvent, function (event, body) {
         $scope.crc.credits.updateSpeciesCredits(body.candidateThreatenedSpecies)
+        if ($scope.crc.credits.model.assessmentType != null && $scope.crc.credits.model.assessmentType != undefined && $scope.crc.credits.model.assessmentType.name == 'Development') {
+            var highestOm = 1
+            body.candidateThreatenedSpecies.forEach(function (cts) {
+                if (cts.threatendedSpecies.offsetMultiplier > highestOm) {
+                    highestOm = cts.threatendedSpecies.offsetMultiplier
+                }
+            })
+            if (highestOm > $scope.crc.credits.model.highestOm) {
+                $scope.crc.credits.model.highestOm = highestOm
+            }
+        }
+    })
+
+    $rootScope.$on(dataService.events.applicationDetailsUpdateEvent, function (event, body) {
+        $scope.crc.credits.model.assessmentType = body.assessmentType
     })
 
     this.credits = {
@@ -15,17 +37,17 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
         model: {
             ecoCredits: [],
             speciesCredit: [],
-            impactThresholds: []
+            impactThresholds: [],
+            assessmentType: null,
+            highestOm: null
         },
 
-        updateSpeciesCredits: function(candidateThreatenedSpecies, predictedThreatenedSpecies) {
-            console.log(candidateThreatenedSpecies)
-            console.log(predictedThreatenedSpecies)
+        updateSpeciesCredits: function (candidateThreatenedSpecies, predictedThreatenedSpecies) {
             this.model.speciesCredit = []
-            candidateThreatenedSpecies.forEach(function(candidateThreatenedSpecies, index) {
-                if(candidateThreatenedSpecies.assessRequired.name == 'Yes') {
+            candidateThreatenedSpecies.forEach(function (candidateThreatenedSpecies, index) {
+                if (candidateThreatenedSpecies.assessRequired != null && candidateThreatenedSpecies.assessRequired.name == 'Yes') {
                     var entry = {};
-                    entry.type = 'type'
+                    entry.type = candidateThreatenedSpecies.speciesType
                     entry.commonName = candidateThreatenedSpecies.threatendedSpecies.name
                     entry.scientificName = candidateThreatenedSpecies.threatendedSpecies.scientificName
                     entry.hc = candidateThreatenedSpecies.threatendedSpecies.habitatComponents
@@ -36,29 +58,51 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
             })
         },
 
-        updateEcoSystemsCreditsRequiredForVegetation: function(vegetationZones, pcts) {
-            console.log(vegetationZones)
-            console.log(pcts)
+        updateEcoSystemsCreditsRequiredForVegetation: function (vegetationZones, pcts) {
             this.model.ecoCredits = []
-            vegetationZones.forEach(function(vegZone, index) {
+            vegetationZones.forEach(function (vegZone, index) {
                 var ecoCreditEntry = {}
                 ecoCreditEntry.zone = index + 1
                 ecoCreditEntry.identifier = vegZone.identifier()
                 ecoCreditEntry.pctName = vegZone.pctCode.pct.name
-                ecoCreditEntry.viLoss = vegZone.offsetFutureWithoutManagementVis - vegZone.currentVis
+                if ($scope.crc.credits.model.assessmentType.name == 'Offset') {
+                    ecoCreditEntry.viLoss = vegZone.offsetFutureWithManagementVis - vegZone.currentVis
+                } else {
+                    ecoCreditEntry.viLoss = vegZone.futureVis - vegZone.currentVis
+                }
                 ecoCreditEntry.area = vegZone.area
-                ecoCreditEntry.om = 1
                 $scope.crc.credits.model.ecoCredits.push(ecoCreditEntry)
             })
         },
 
-        calculateEcosystemCredits: function(ecoCredit) {
-            return ecoCredit.area * ecoCredit.viLoss * 0.25
+        calculateEcosystemCredits: function (ecoCredit) {
+            if (this.model.assessmentType.name == 'Development') {
+                return ecoCredit.area * ecoCredit.viLoss * this.model.highestOm * 0.25
+            } else {
+                return ecoCredit.area * ecoCredit.viLoss * 0.25
+            }
+
         },
 
-        calculateSpeciesCredit: function(speciesCredit) {
-            return speciesCredit.area * speciesCredit.om * 0.25
+        calculateSpeciesCredit: function (speciesCredit) {
+            if (this.model.assessmentType.name == 'Development') {
+                if (speciesCredit.type == 'flora') {
+                    return speciesCredit.area * this.model.highestOm
+                } else if (speciesCredit.type == 'fauna') {
+                    // TODO: work out a way to extract VI
+                    viOfVegZone = 10
+                    return viOfVegZone * speciesCredit.area * speciesCredit.om
+                }
+            } else if (this.model.assessmentType.name == 'Offset') {
+                if (speciesCredit.type == 'flora') {
+                    // TODO: find out IR
+                    ir = 1
+                    return speciesCredit.area * ir
+                } else if (speciesCredit.type == 'fauna') {
+                    viOfVegZone = 10
+                    return viOfVegZone * speciesCredit.area
+                }
+            }
         }
-
     }
 }]);

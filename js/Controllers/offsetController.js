@@ -102,13 +102,14 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
                 sum *= fs
                 count++
             }
+            result = 0
             if (sum > 0 && count > 0) {
-                var result = Math.pow(sum, 1 / count).toFixed(0)
-                eval("this.model.input.vegetationZones[index]." + calculatorMode + "Vis = " + result)
-                return result
+                result = Math.pow(sum, 1 / count).toFixed(0)
             } else {
-                return 0
+                result = 0
             }
+            eval("this.model.input.vegetationZones[index]." + calculatorMode + "Vis = " + result)
+            return result
         },
 
         addVegetationZone: function () {

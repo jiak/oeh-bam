@@ -23,6 +23,12 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
                     candidateThreatenedSpecies: candidateThreatenedSpecies,
                     predictedThreatenedSpecies: predictedThreatenedSpecies
                 }
+            },
+            applicationDetailsUpdateEvent: "applicationDetailsUpdateEvent",
+            createApplicationDetailsUpdateEvent: function(assessmentType) {
+                return {
+                    assessmentType: assessmentType
+                }
             }
         },
         siteContextModel: {
