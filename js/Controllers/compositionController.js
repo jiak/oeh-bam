@@ -329,7 +329,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                     returnValue = (100);
                 } else {
                     returnValue = (
-                        1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Composition"), 1.85))) * 100
+                        1.01 * (1 - Math.exp(-5.0 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Composition"), 2.50))) * 100
                     );
                 }
             }

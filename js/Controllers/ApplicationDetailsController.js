@@ -9,6 +9,7 @@ bamApp.controller('applicationDetailsController', ["$scope", "$rootScope", "refe
         submit: function () {
             this.model.confirmed = true
             var body = dataService.events.createApplicationDetailsUpdateEvent(this.model.assessmentType)
+            dataService.indexModel.tabControl.tab2 = true;
             $rootScope.$emit(dataService.events.applicationDetailsUpdateEvent, body)
         }
     }

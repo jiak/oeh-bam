@@ -53,7 +53,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                             &&
                             (((inputPatchSize != null) ? inputPatchSize : patchSize ) == patchSize)
                         )
-                            input.ecoSystemCredit.push(this.createEcoSystemCreditInput(this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j]));
+                            input.ecosystemCredit.push(this.createEcoSystemCreditInput(this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j]));
                     }
                 }
             }
@@ -115,7 +115,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
         createInput: function (id, cover, patchSize) {
             return {
                 key: {ibraId: id, cover: cover, patchSize: patchSize},
-                ecoSystemCredit: [],
+                ecosystemCredit: [],
                 speciesCredit: []
 
             }
