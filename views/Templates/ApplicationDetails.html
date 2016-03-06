@@ -15,9 +15,9 @@
             <select title="Once set, Assessment Type cannot be changed" id="AssessmentType" ng-disabled="adc.applicationDetails.model.confirmed == true" required class="form-control" ng-model="adc.applicationDetails.model.assessmentType" ng-options="item as item.name for item in adc.applicationDetails.model.referenceData.applicationType track by item.name">
             </select>
             <label for="ProposalID">Proposal ID</label>
-            <input id="ProposalID" class="form-control" ng-model="adc.applicationDetails.model.proposalId"/>
+            <input ng-disabled="true" id="ProposalID" class="form-control" ng-model="adc.applicationDetails.model.proposalId"/>
             <label for="ProposalVersion">Proposal Version</label>
-            <input id="ProposalVersion" class="form-control" ng-model="adc.applicationDetails.model.proposalVersion"/>
+            <input ng-disabled="true" id="ProposalVersion" class="form-control" ng-model="adc.applicationDetails.model.proposalVersion"/>
             <label for="ProposalName">Proposal Name</label>
             <input id="ProposalName" class="form-control" ng-model="adc.applicationDetails.model.proposalName"/>
             <label for="StreetAddress">Street Address</label>

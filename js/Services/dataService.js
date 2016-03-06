@@ -23,6 +23,12 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
                     candidateThreatenedSpecies: candidateThreatenedSpecies,
                     predictedThreatenedSpecies: predictedThreatenedSpecies
                 }
+            },
+            applicationDetailsUpdateEvent: "applicationDetailsUpdateEvent",
+            createApplicationDetailsUpdateEvent: function(assessmentType) {
+                return {
+                    assessmentType: assessmentType
+                }
             }
         },
         indexModel: {
@@ -109,7 +115,7 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
             referenceData: referenceDataService.applicationDetails,
             current: null,
             assessmentType: null,
-            proposalId: "1234567",
+            proposalId: 1234567,
             proposalVersion: 1.0
         },
         habitatModel: {
@@ -119,9 +125,6 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
         },
         functionModel: {
             benchmarks: referenceDataService.functionBenchmarkData,
-            rateOfIncrease: referenceDataService.rateOfIncrease.function,
-            restorationModifierForPlanting: referenceDataService.restorationModifierForPlanting.function,
-            benefitForPlanting: referenceDataService.benefitForPlanting.function,
             inFocusVegetationZoneIndex: null,
             calculatorMode: null,
             keithClass: null,
@@ -142,8 +145,6 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
         },
         structureModel: {
             benchmarks: referenceDataService.structureBenchmarkData,
-            rateOfIncrease: referenceDataService.rateOfIncrease.structure,
-            restorationModifierForPlanting: referenceDataService.restorationModifierForPlanting.structure,
             inFocusVegetationZoneIndex: null,
             calculatorMode: null,
             keithClass: null,
@@ -164,8 +165,6 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
         },
         compositionModel: {
             benchmarks: referenceDataService.compositionBenchmarkData,
-            rateOfIncrease: referenceDataService.rateOfIncrease.composition,
-            restorationModifierForPlanting: referenceDataService.restorationModifierForPlanting.composition,
             inFocusVegetationZoneIndex: null,
             calculatorMode: null,
             keithClass: null,
