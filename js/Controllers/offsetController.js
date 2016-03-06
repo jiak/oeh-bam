@@ -116,7 +116,7 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
             // can we add more vegetation zones?
             var canAddMore = false
             this.model.input.pct.forEach(function (item) {
-                if ($scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Good") == -1 || $scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Low") == -1) {
+                if ($scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Good") == -1 || $scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Low") == -1 || $scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Moderate") == -1 || $scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Derived") == -1 || $scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Degraded") == -1 || $scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_High") == -1) {
                     canAddMore = true
                 }
             })

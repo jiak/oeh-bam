@@ -345,16 +345,26 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             if (observedValue == 0) {
                 returnValue = 0;
             } else {
-                if (observedValue > eval("benchmarks." + theObjectLower + "Cover")) {
-                    returnValue = (
-                    (100 + 50) - (50 + ((100 - 50)
-                    /
-                    (1 + Math.exp(-10 * ((observedValue / eval("benchmarks." + theObjectLower + "Cover") - 1.5)))))))
-                } else {
-                    returnValue = (
-                        1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Cover"), 1.85))) * 100
-                    );
-                    returnValue = (1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Cover"), 1.85))) * 100);
+                switch (theObjectLower) {
+                    case "forb":
+                    case "fern" :
+                    case "other":
+                        returnValue = (1.01*(1-Math.exp(-5*(observedValue/eval("benchmarks." + theObjectLower + "Cover"))^2.5))*100);
+                        break;
+
+                    default:
+                        if (observedValue > eval("benchmarks." + theObjectLower + "Cover")) {
+                            returnValue = (
+                            (100 + 50) - (50 + ((100 - 50)
+                            /
+                            (1 + Math.exp(-10 * ((observedValue / eval("benchmarks." + theObjectLower + "Cover") - 1.5)))))))
+                        } else {
+                            returnValue = (
+                            1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Cover"), 2.5))) * 100
+                            );
+                            returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Cover"), 2.5))) * 100);
+                        }
+
                 }
             }
             eval("this.getCurrentStructure().unweighted" + theObject + "Score = Math.round(returnValue)")

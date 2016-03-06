@@ -380,43 +380,32 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             if (observedValue == 0) {
                 returnValue = 0;
             } else {
-                if (theObject == 'NumberOfLargeTrees' || theObject == 'LitterCover' || theObject == 'CoarseWoodyDebris') {
-                    if (observedValue > eval("benchmarks." + theObjectLower + "")) {
-                        if (theObject == 'LitterCover' || theObject == 'CoarseWoodyDebris') {
-                            returnValue = (
-                                (100 + 50) - (50 + ((100 - 50)
-                                /
-                                (1 + Math.exp(-10 * ((observedValue / eval("benchmarks." + theObjectLower + "")) - 1.5)))))
-                            );
-                        } else {
+                switch (theObject) {
+                    case "NumberOfLargeTrees":
+                    case "StemSizeClasses":
+                        if (observedValue > eval("benchmarks." + theObjectLower + "")) {
                             returnValue = 100;
+                        } else {
+                            returnValue = (1.01*(1-Math.exp(-5* Math.pow(observedValue/eval("benchmarks." + theObjectLower + ""),2.5)))*100);
                         }
-                    } else {
-                        returnValue = (
-                            1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + ""), 1.85))) * 100
-                        );
-                    }
-                } else if (theObject == 'StemSizeClasses') {
-                    if (observedValue > benchmarks.stemSizeClasses) {
-                        returnValue = (
-                            (100 + 50) - (50 + ((100 - 50)
-                            /
-                            (1 + Math.exp(-10 * ((observedValue / benchmarks.stemSizeClasses)) - 1.5))))
-                        )
-                    } else {
-                        returnValue = (
-                            1.01 * (1 - Math.exp(-4.4 * Math.pow(parseInt(observedValue) / benchmarks.stemSizeClasses, 1.85))) * 100
-                        )
-                    }
-                } else if (theObject == 'RegenerationPresent') {
-                    if (observedValue == "0") {
-                        returnValue = 0;
-                    } else {
-                        returnValue = (
-                            1.01 * (1 - Math.exp(-4.4 * Math.pow(parseInt(observedValue) / (benchmarks.regeneration == 'present' ? 1 : 0), 1.85))) * 100
-                        )
-                    }
+
+                        break;
+                    case "LitterCover" :
+                    case "CoarseWoodyDebris":
+                    case "RegenerationPresent":
+                        if (theObject == "RegenerationPresent") {
+                            observedValue = parseInt(observedValue);
+                            returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue /1, 2.5))) * 100);
+                        } else {
+                            returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + ""), 2.5))) * 100);
+                        }
+                        break;
+                    default:
+
+                        break;
+
                 }
+
             }
             eval("this.getCurrentFunction().unweighted" + theObject + "Score = Math.round(returnValue)")
         },
@@ -444,7 +433,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         calculateFunctionSubtotal: function () {
             var total = 0
             for (var property in this.getCurrentFunction()) {
-                if (this.getCurrentFunction().hasOwnProperty(property) && (property == 'weightedNumberOfLargeTreesScore' || property == 'weightedLitterCoverScore' || property == 'weightedCoarseWoodyDebrisScore' || property == 'weightedRegenerationPresentScore')) {
+                if (this.getCurrentFunction().hasOwnProperty(property) && (property == 'weightedNumberOfLargeTreesScore' || property == 'weightedLitterCoverScore' || property == 'weightedCoarseWoodyDebrisScore' || property == 'weightedRegenerationPresentScore' || property == 'weightedStemSizeClassesScore')) {
                     total += this.getCurrentFunction()[property]
                 }
             }

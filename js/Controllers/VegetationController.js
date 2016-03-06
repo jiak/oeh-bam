@@ -165,7 +165,7 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             // can we add more vegetation zones?
             var canAddMore = false
             this.model.input.pct.forEach(function (item) {
-                if ($scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_Good") == -1 || $scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_Low") == -1) {
+                if ($scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_Good") == -1 || $scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_Low") == -1 || $scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_Degraded") == -1 || $scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_Moderate") == -1 || $scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_High") == -1) {
                     canAddMore = true
                 }
             })

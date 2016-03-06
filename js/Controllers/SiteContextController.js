@@ -8,16 +8,16 @@ bamApp.controller('siteContextController', ["$scope", "$rootScope", "dataService
             var count = this.model.inputs.landscapeFeatures.length;
             //validate the input
             if (this.model.inputs.landscapeFeatures[count - 1].name == '' || this.model.inputs.landscapeFeatures[count - 1].feature.name == null) {
-                return;
-            }
-            this.model.inputs.landscapeFeatures.push({
-                    feature: this.model.inputs.landscapeFeatures.feature,
-                    name: this.model.inputs.landscapeFeatures.name
-                }
-            );
-            count++;
-            this.model.inputs.landscapeFeatures[count - 1] = [{"feature": null, "name": ""}];
 
+            } else {
+                this.model.inputs.landscapeFeatures.push({
+                        feature: this.model.inputs.landscapeFeatures.feature,
+                        name: this.model.inputs.landscapeFeatures.name
+                    }
+                );
+                count++;
+                this.model.inputs.landscapeFeatures[count - 1] = [{"feature": null, "name": ""}];
+            }
         },
 
         removeFeature: function ($index) {

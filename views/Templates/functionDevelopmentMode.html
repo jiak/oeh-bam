@@ -1,4 +1,12 @@
 <table class="table numericGrid">
+    <tr>
+        <th>Item</th>
+        <th>Number of large trees</th>
+        <th>Litter cover</th>
+        <th>Coarse woody debris</th>
+        <th>Stem size class</th>
+        <th>Regeneration stems <br/> stems <5cm DBH</th>
+    </tr>
     <tr ng-repeat="itemd in fc.function.getApplicableCalcResults()[fc.function.model.inFocusVegetationZoneIndex].functionTransects">
         <th>Transect {{$index + 1}}</th>
         <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="itemd.numberOfLargeTrees" ng-blur="fc.function.updateCalcsFor('NumberOfLargeTrees', itemd.numberOfLargeTrees)"/></td>

@@ -50,9 +50,9 @@
                     <th>Condition Class</th>
                     <th>Identifier</th>
                     <th>Area</th>
-                    <th>Composition</th>
-                    <th>Structure</th>
-                    <th>Function</th>
+                    <th>Composition condition score</th>
+                    <th>Structure condition score</th>
+                    <th>Function condition score</th>
                     <th>Current Vegetation Integrity (VIS) Score</th>
                     <th>&nbsp;</th>
                 </tr>
@@ -68,6 +68,10 @@
                         <select ng-show="vegetationZoneItem.conditionClass == null" class="form-control" ng-model="vegetationZoneItem.conditionClass" ng-change="oc.offset.addToZoneMap(vegetationZoneItem)">
                             <option value="Good" ng-show="oc.offset.model.zoneMap.indexOf(vegetationZoneItem.pctCode.pct.id + '_Good') == -1">Good</option>
                             <option value="Low" ng-show="oc.offset.model.zoneMap.indexOf(vegetationZoneItem.pctCode.pct.id + '_Low') == -1">Low</option>
+                            <option value="Derived" ng-show="oc.offset.model.zoneMap.indexOf(vegetationZoneItem.pctCode.pct.id + '_Derived') == -1">Derived native grass land</option>
+                            <option value="Degraded" ng-show="oc.offset.model.zoneMap.indexOf(vegetationZoneItem.pctCode.pct.id + '_Degraded') == -1">Degraded</option>
+                            <option value="Moderate" ng-show="oc.offset.model.zoneMap.indexOf(vegetationZoneItem.pctCode.pct.id + '_Moderate') == -1">Moderate</option>
+                            <option value="High" ng-show="oc.offset.model.zoneMap.indexOf(vegetationZoneItem.pctCode.pct.id + '_High') == -1">High</option>
                         </select>
                     </td>
                     <td>{{vegetationZoneItem.identifier()}}</td>
@@ -103,13 +107,13 @@
                     <th>Number</th>
                     <th>PCT Code</th>
                     <th>Condition Class</th>
-                    <th>Identifier</th>
+                    <th>Veg zone name</th>
                     <th>Area</th>
-                    <th>Composition</th>
-                    <th>Structure</th>
-                    <th>Function</th>
+                    <th>Composition condition score</th>
+                    <th>Structure condition score</th>
+                    <th>Function condition score</th>
                     <th>Current Vegetation Integrity (VIS) Score</th>
-                    <th>&#916; VIS</th>
+                    <th>Change in vegetation integrity score</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -151,13 +155,13 @@
                     <th>Number</th>
                     <th>PCT Code</th>
                     <th>Condition Class</th>
-                    <th>Identifier</th>
+                    <th>Veg zone name</th>
                     <th>Area</th>
-                    <th>Composition</th>
-                    <th>Structure</th>
-                    <th>Function</th>
-                    <th>VIS</th>
-                    <th>&#916; VIS</th>
+                    <th>Composition condition score</th>
+                    <th>Structure condition score</th>
+                    <th>Function condition score</th>
+                    <th>Vegetation integrity score</th>
+                    <th>Change in vegetation integrity score</th>
                 </tr>
                 </thead>
                 <tbody>
