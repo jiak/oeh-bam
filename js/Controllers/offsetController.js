@@ -2,6 +2,24 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
 
     this.dataService = dataService
 
+    $rootScope.$on(dataService.events.siteContextUpdateEvent, function (event, body) {
+        if (dataService.applicationDetailsModel.assessmentType.name == 'Offset') {
+            $scope.oc.offset.addPctObject()
+        }
+    })
+
+    $rootScope.$on(dataService.events.requestVegzoneUpdateEvent, function (event, body) {
+        if (dataService.applicationDetailsModel.assessmentType.name == 'Offset') {
+            $scope.oc.offset.dispatchVegzoneUpdateEvent()
+        }
+    })
+
+    $rootScope.$on(dataService.events.recalculateVisEvent, function (event, body) {
+        if (dataService.applicationDetailsModel.assessmentType.name == 'Offset') {
+            $scope.oc.offset.recalculateVis()
+        }
+    })
+
     this.offset = {
 
         model: dataService.offsetModel,
@@ -60,9 +78,21 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
             dataService.compositionModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
             dataService.functionModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
             dataService.structureModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
-            dataService.locationModel.setInputs(inFocusVegetationZoneIndex, calculatorMode)
+        },
+
+        dispatchVegzoneUpdateEvent: function () {
             var body = dataService.events.createVegetationZoneUpdateEvent(this.model.input.vegetationZones, this.model.input.pct)
             $rootScope.$emit(dataService.events.vegetationZoneUpdateEvent, body)
+        },
+
+        recalculateVis: function () {
+            for (i = 0; i < this.model.input.vegetationZones.length; i++) {
+                offsetFutureWithoutManagementVis = this.calculateGeomean(i, 'offsetFutureWithoutManagement')
+                offsetFutureWithManagementVis = this.calculateGeomean(i, 'offsetFutureWithManagement')
+                currentVis = this.calculateGeomean(i, 'current')
+                eval("this.model.input.vegetationZones[" + i + "].futureWithAndWithoutDeltaVis = " + (offsetFutureWithManagementVis - offsetFutureWithoutManagementVis))
+                eval("this.model.input.vegetationZones[" + i + "].currentAndFutureWithoutDeltaVis = " + (offsetFutureWithoutManagementVis - currentVis))
+            }
         },
 
         shouldThisPopupBeOpened: function (calculatorMode, $index, calcType) {
@@ -75,10 +105,6 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
                 cs = dataService.compositionModel.compositionCalcResults[index].compositionSubtotal
                 ss = dataService.structureModel.structureCalcResults[index].structureSubtotal
                 fs = dataService.functionModel.functionCalcResults[index].functionSubtotal
-            } else if (calculatorMode == 'future') {
-                cs = dataService.compositionModel.futureCompositionCalcResults[index].compositionSubtotal
-                ss = dataService.structureModel.futureStructureCalcResults[index].structureSubtotal
-                fs = dataService.functionModel.futureFunctionCalcResults[index].functionSubtotal
             } else if (calculatorMode == 'offsetFutureWithoutManagement') {
                 cs = dataService.compositionModel.offsetFutureWithoutManagementCompositionCalcResults[index].compositionSubtotal
                 ss = dataService.structureModel.offsetFutureWithoutManagementStructureCalcResults[index].structureSubtotal
@@ -112,15 +138,20 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
             return result
         },
 
-        addVegetationZone: function () {
-            // can we add more vegetation zones?
+        canAddMoreVegetationZones: function () {
             var canAddMore = false
             this.model.input.pct.forEach(function (item) {
-                if ($scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Good") == -1 || $scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Low") == -1 || $scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Moderate") == -1 || $scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Derived") == -1 || $scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_Degraded") == -1 || $scope.oc.offset.model.zoneMap.indexOf(item.pct.id + "_High") == -1) {
-                    canAddMore = true
+                if (item.pct != null) {
+                    if ($scope.oc.offset.shouldOfferPctCode(item.pct.id)) {
+                        canAddMore = true
+                    }
                 }
             })
-            if (canAddMore) {
+            return canAddMore
+        },
+
+        addVegetationZone: function () {
+            if (this.canAddMoreVegetationZones()) {
                 this.model.input.vegetationZones.push(this.createVegetationZoneItem())
                 dataService.compositionModel.compositionCalcResults.push(dataService.compositionModel.createCompositionCalcResult())
                 dataService.compositionModel.offsetFutureWithoutManagementCompositionCalcResults.push(dataService.compositionModel.createCompositionCalcResult())
@@ -135,7 +166,11 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
         },
 
         shouldOfferPctCode: function (pctCode) {
-            return (this.model.zoneMap.indexOf(pctCode + "_Good") == -1 || this.model.zoneMap.indexOf(pctCode + "_Low") == -1) ? true : false
+            return (this.model.zoneMap.indexOf(pctCode + "_Derived") == -1 || this.model.zoneMap.indexOf(pctCode + "_Good") == -1 || this.model.zoneMap.indexOf(pctCode + "_Low") == -1 || this.model.zoneMap.indexOf(pctCode + "_Degraded") == -1 || this.model.zoneMap.indexOf(pctCode + "_Moderate") == -1 || this.model.zoneMap.indexOf(pctCode + "_High") == -1) ? true : false
+        },
+
+        addToZoneMap: function (vegetationZoneItem) {
+            this.model.zoneMap.push(vegetationZoneItem.pctCode.pct.id + "_" + vegetationZoneItem.conditionClass)
         },
 
         createVegetationZoneItem: function () {

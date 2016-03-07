@@ -4,7 +4,7 @@
         <fieldset class="form-group">
             <div class="callout" ng-show="adc.applicationDetails.model.confirmed == false">
                 <h3>Tip!</h3>
-                <p>Choosing the <em>'Assessment Type'</em> is an important step. Once you click, <em>'Confirm to proceed to the next step'</em> this value will become read-only and it cannot be un-done. Please <a href="#" onclick="location.reload()">refresh</a> your browser and start again if you have selected incorrectly.</p>
+                <p>Choosing the <em>'Assessment Type'</em> is an important step. Once you click, <em>'Next'</em> this value will become read-only and it cannot be un-done. Please <a href="#" onclick="location.reload()">refresh</a> your browser and start again if you have selected incorrectly.</p>
             </div>
             <div class="callout" ng-show="adc.applicationDetails.model.confirmed == true">
                 <h3>Message!</h3>
@@ -22,8 +22,7 @@
             <input id="ProposalName" class="form-control" ng-model="adc.applicationDetails.model.proposalName"/>
             <label for="StreetAddress">Street Address</label>
             <input id="StreetAddress" class="form-control" ng-model="adc.applicationDetails.model.streetAddress"/>
-            <button ng-show="adc.applicationDetails.model.confirmed == false" type="submit" class="btn btn-secondary">Next</button>
-
+            <button ng-disabled="adc.applicationDetails.model.confirmed == true" type="submit" class="btn btn-secondary">Next</button>
         </fieldset>
 </form>
 </div>

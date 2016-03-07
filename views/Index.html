@@ -76,8 +76,10 @@
     <style type="text/css">
 
         html.resp .numericGrid > tbody > tr > th, html.resp .numericGrid tbody > tr > td, html.resp .numericInput {
-            width: 100px; !important;
-            padding: 5px; !important;
+            width: 100px;
+        !important;
+            padding: 5px;
+        !important;
             text-align: right;
         }
 
@@ -131,30 +133,39 @@
         #contentArea ul li {
             background: none;
         }
+
         .nav-tabs > li.disabled > a > uib-tab-heading > h4 {
             color: #ccc;
         }
+
         .glyphicon-check {
             color: #407108;
         }
+
         .arrow {
-            display: none!important;
+            display: none !important;
         }
+
         td > input.numericInput {
             float: right;
         }
+
         table.doalign > thead > tr > th:nth-last-child(1) {
             width: 100px
         }
+
         table.doalign > thead > tr > th:nth-last-child(2) {
             width: 105px
         }
+
         table.doalign > thead > tr > th:nth-last-child(3) {
             width: 100px
         }
+
         table.doalign > thead > tr > th:nth-last-child(4) {
             width: 100px
         }
+
         table.doalign > thead > tr > th:nth-last-child(5) {
             width: 100px
         }
@@ -180,7 +191,8 @@
                                 <ng-include src="'Templates/ApplicationDetails.html'"></ng-include>
                             </uib-tab>
                             <uib-tab disable="!(ic.dataService.applicationDetailsModel.confirmed)" active="ic.dataService.indexModel.tabControl.tab2">
-                                <uib-tab-heading><h4>2. Site Context <span ng-if="!(ic.dataService.applicationDetailsModel.confirmed)" class="glyphicon glyphicon-ban-circle"></span><span ng-if="(ic.dataService.siteContextModel.confirmed == false) && ic.dataService.applicationDetailsModel.confirmed" class="glyphicon glyphicon-edit"></span><span ng-if="(ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed)" class="glyphicon glyphicon-check"></span></h4></uib-tab-heading>
+                                <uib-tab-heading><h4>2. Site Context <span ng-if="!(ic.dataService.applicationDetailsModel.confirmed)" class="glyphicon glyphicon-ban-circle"></span><span ng-if="(ic.dataService.siteContextModel.confirmed == false) && ic.dataService.applicationDetailsModel.confirmed" class="glyphicon glyphicon-edit"></span><span ng-if="(ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed)" class="glyphicon glyphicon-check"></span></h4>
+                                </uib-tab-heading>
                                 <ng-include src="'Templates/SiteContext.html'"></ng-include>
                             </uib-tab>
                             <uib-tab active="ic.dataService.indexModel.tabControl.tab3" ng-if="ic.index.showVegetationTab() || !(ic.dataService.applicationDetailsModel.confirmed)" disable="!(ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed)">
@@ -195,8 +207,8 @@
                                 <uib-tab-heading><h4>4. Habitat Suitability <span ng-if="!ic.dataService.applicationDetailsModel.confirmed || !ic.dataService.siteContextModel.confirmed" class="glyphicon glyphicon-ban-circle"></span><span ng-if="ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed" class="glyphicon glyphicon-edit"></span></h4></uib-tab-heading>
                                 <ng-include src="'Templates/Habitat.html'"></ng-include>
                             </uib-tab>
-                            <uib-tab  disable="!(ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed)">
-                                <uib-tab-heading><h4>5. Credits <span ng-if="!ic.dataService.applicationDetailsModel.confirmed || !ic.dataService.siteContextModel.confirmed" class="glyphicon glyphicon-ban-circle"></span><span ng-if="ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed" class="glyphicon glyphicon-list-alt"></span></h4></uib-tab-heading>
+                            <uib-tab disable="!(ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed)">
+                                <uib-tab-heading><h4 ng-click="ic.index.requestVegzoneUpdateEvent()">5. Credits <span ng-if="!ic.dataService.applicationDetailsModel.confirmed || !ic.dataService.siteContextModel.confirmed" class="glyphicon glyphicon-ban-circle"></span><span ng-if="ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed" class="glyphicon glyphicon-list-alt"></span></h4></uib-tab-heading>
                                 <ng-include src="'Templates/Credits.html'"></ng-include>
                             </uib-tab>
                         </uib-tabset>

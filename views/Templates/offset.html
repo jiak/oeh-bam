@@ -1,5 +1,15 @@
 <form novalidate>
     <div ng-controller="offsetController as oc" class="tabcontentdiv">
+        <div class="callout">
+            <h3>Information!</h3>
+            <p>For the purposes of demonstration, values for the following variables related to a vegetation zone have been fixed as follows:
+            <ul>
+                <li>High Threat Weed Cover = 10%</li>
+                <li>High Risk Land = 'No'</li>
+                <li>Average Stem Count = >0</li>
+            </ul>
+            </p>
+        </div>
         <div>
             <h4>Plant Community Types &amp; Ecological Communities</h4>
             <table class="table">
@@ -92,7 +102,7 @@
                         <button ng-click="oc.offset.setCalcToDisplay($index, 'current', vegetationZoneItem.keithClass, 'function')" uib-popover-template="'Templates/function.html'" popover-animation="true" popover-placement="auto" popover-trigger="none" popover-is-open="oc.offset.shouldThisPopupBeOpened('current', $index, 'function')" type="button" class="btn btn-primary">{{oc.dataService.functionModel.functionCalcResults[$index].functionSubtotal || "0"}}</button>
                     </td>
                     <td>
-                        {{oc.offset.calculateGeomean($index, 'current')}}
+                        {{vegetationZoneItem.currentVis}}
                     </td>
                     <td>&nbsp;</td>
                 </tr>
@@ -138,10 +148,10 @@
                                 class="btn btn-primary">{{oc.dataService.functionModel.offsetFutureWithoutManagementFunctionCalcResults[$index].functionSubtotal || "0"}}</button>
                     </td>
                     <td>
-                        {{oc.offset.calculateGeomean($index, 'offsetFutureWithoutManagement')}}
+                        {{vegetationZoneItem.offsetFutureWithoutManagementVis}}
                     </td>
                     <td>
-                        {{oc.offset.calculateGeomean($index, 'offsetFutureWithoutManagement') - oc.offset.calculateGeomean($index, 'current')}}
+                        {{vegetationZoneItem.currentAndFutureWithoutDeltaVis}}
                     </td>
                 </tr>
                 </tbody>
@@ -186,15 +196,15 @@
                                 class="btn btn-primary">{{oc.dataService.functionModel.offsetFutureWithManagementFunctionCalcResults[$index].functionSubtotal || "0"}}</button>
                     </td>
                     <td>
-                        {{oc.offset.calculateGeomean($index, 'offsetFutureWithManagement')}}
+                        {{vegetationZoneItem.offsetFutureWithManagementVis}}
                     </td>
                     <td>
-                        {{oc.offset.calculateGeomean($index, 'offsetFutureWithManagement') - oc.offset.calculateGeomean($index, 'current')}}
+                        {{vegetationZoneItem.futureWithAndWithoutDeltaVis}}
                     </td>
                 </tr>
                 </tbody>
             </table>
-            <button ng-click="oc.offset.addVegetationZone()" class="btn btn-secondary">Add Vegetation Zone</button>
+            <button ng-disabled="!oc.offset.canAddMoreVegetationZones()" ng-click="oc.offset.addVegetationZone()" class="btn btn-secondary">Add Vegetation Zone</button>
         </div>
     </div>
 </form>

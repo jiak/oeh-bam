@@ -75,9 +75,9 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
                 ecoCreditEntry.identifier = vegZone.identifier()
                 ecoCreditEntry.pctName = vegZone.pctCode.pct.name
                 if ($scope.crc.credits.model.assessmentType.name == 'Offset') {
-                    ecoCreditEntry.viLoss = vegZone.offsetFutureWithManagementVis - vegZone.currentVis
+                    ecoCreditEntry.viLoss = vegZone.futureWithAndWithoutDeltaVis
                 } else {
-                    ecoCreditEntry.viLoss = vegZone.futureVis - vegZone.currentVis
+                    ecoCreditEntry.viLoss = vegZone.futureAndCurrentDeltaVis
                 }
                 ecoCreditEntry.area = vegZone.area
                 $scope.crc.credits.model.ecoCredits.push(ecoCreditEntry)
@@ -86,31 +86,33 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
 
         calculateEcosystemCredits: function (ecoCredit) {
             if (this.model.assessmentType.name == 'Development') {
-                return ecoCredit.area * ecoCredit.viLoss * this.model.highestOm * 0.25
+                return ecoCredit.area * Math.abs(ecoCredit.viLoss) * this.model.highestOm * 0.25
             } else {
-                return ecoCredit.area * ecoCredit.viLoss * 0.25
+                return ecoCredit.area * Math.abs(ecoCredit.viLoss) * 0.25
             }
         },
 
         calculateSpeciesCredit: function (speciesCredit) {
             if (speciesCredit.vegZone != undefined) {
                 if (this.model.assessmentType.name == 'Development') {
+                    speciesCredit.vis = speciesCredit.vegZone.currentVis
                     if (speciesCredit.type == 'flora') {
                         return speciesCredit.area * speciesCredit.om
                     } else if (speciesCredit.type == 'fauna') {
-                        viOfVegZone = speciesCredit.vegZone.futureVis
-                        return viOfVegZone * speciesCredit.area * speciesCredit.om
+                        return speciesCredit.vis * speciesCredit.area * speciesCredit.om
                     }
                 } else if (this.model.assessmentType.name == 'Offset') {
                     if (speciesCredit.type == 'flora') {
                         deltaVis = 1;
                         if (speciesCredit.uom == 'Area') {
-                            deltaVis = speciesCredit.vegZone.offsetFutureWithManagementVis - speciesCredit.vegZone.currentVis
+                            deltaVis = speciesCredit.vegZone.futureWithAndWithoutDeltaVis
                         } else if (speciesCredit.uom == 'Individual') {
-                            deltaVis = speciesCredit.vegZone.offsetFutureWithoutManagementVis - speciesCredit.vegZone.currentVis
+                            deltaVis = speciesCredit.vegZone.currentAndFutureWithoutDeltaVis
                         }
-                        return speciesCredit.area * deltaVis
+                        speciesCredit.vis = Math.abs(deltaVis)
+                        return speciesCredit.area * speciesCredit.vis
                     } else if (speciesCredit.type == 'fauna') {
+                        speciesCredit.vis = speciesCredit.vegZone.vis
                         return speciesCredit.vegZone.currentVis * speciesCredit.area
                     }
                 }

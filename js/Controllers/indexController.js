@@ -1,4 +1,4 @@
-bamApp.controller('indexController', ["$scope", "dataService", function ($scope, dataService) {
+bamApp.controller('indexController', ["$scope", "$rootScope", "dataService", function ($scope, $rootScope, dataService) {
 
     this.index = {
         model: dataService.indexModel,
@@ -8,6 +8,11 @@ bamApp.controller('indexController', ["$scope", "dataService", function ($scope,
 
         showOffsetTab: function() {
             return (dataService.applicationDetailsModel.assessmentType || false) && (dataService.applicationDetailsModel.assessmentType.id == 1)
+        },
+
+        requestVegzoneUpdateEvent: function() {
+            var body = dataService.events.createRequestVegzoneUpdateEvent()
+            $rootScope.$emit(dataService.events.requestVegzoneUpdateEvent, body)
         }
 
     }

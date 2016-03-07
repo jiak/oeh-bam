@@ -2,7 +2,7 @@
     <form ng-submit="scc.siteContext.submit()">
         <div class="callout" ng-show="scc.siteContext.model.confirmed == false">
             <h3>Tip!</h3>
-            <p>Choosing the <em>'IBRA Region and Sub Region'</em> is an important step. Once you click, <em>'Confirm to proceed to the next step'</em> these values will become read-only and cannot be un-done. Please <a href="#" onclick="location.reload()">refresh</a> your browser and start again if you have selected incorrectly.</p>
+            <p>Choosing the <em>'IBRA Region and Sub Region'</em> is an important step. Once you click, <em>'Next'</em> these values will become read-only and cannot be un-done. Please <a href="#" onclick="location.reload()">refresh</a> your browser and start again if you have selected incorrectly.</p>
         </div>
         <div class="callout" ng-show="scc.siteContext.model.confirmed == true">
             <h3>Message!</h3>
@@ -48,10 +48,16 @@
                         <a href="" ng-show="$index < (scc.siteContext.model.inputs.landscapeFeatures.length-1)" ng-click="scc.siteContext.removeFeature($index)">Remove</a>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-primary" ng-click="scc.siteContext.addFeature()">Add</button>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
                 </tbody>
             </table>
-            <button type="button" class="btn pull-right btn-primary" ng-click="scc.siteContext.addFeature()">Add</button>
+            <button ng-disabled="scc.siteContext.model.confirmed == true" type="submit" class="btn btn-secondary">Next</button>
         </fieldset>
-        <input ng-show="scc.siteContext.model.confirmed == false" type="submit" class="btn btn-secondary" value="Confirm to proceed to the next step"/>
     </form>
 </div>

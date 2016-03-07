@@ -1,38 +1,15 @@
 <form novalidate>
     <div ng-controller="creditsController as crc" class="tabcontentdiv">
         <div>
-            <h4>Impact Thresholds</h4>
-        </div>
-        <table class="table">
-            <thead>
-            <tr>
-                <th>Entity</th>
-                <th>CECC/EEC</th>
-                <th>Common Name</th>
-                <th>Scientific Name</th>
-                <th>Impact Threshold</th>
-            </tr>
-            </thead>
-            <tbody>
-                <tr ng-repeat="impactThreshold in crc.credits.model.impactThresholds">
-                    <td>{{impactThreshold.entity}}</td>
-                    <td>{{impactThreshold.ceccEec}}</td>
-                    <td>{{impactThreshold.commonName}}</td>
-                    <td>{{impactThreshold.scientificName}}</td>
-                    <td>{{impactThreshold.impactThresholds}}</td>
-                </tr>
-            </tbody>
-        </table>
-        <div>
             <h4>Ecosystem Credits for Plant Communities Types, Ecological Communities &amp; Threatened Species Habitat</h4>
         </div>
         <table class="table">
             <thead>
             <tr>
                 <th>Zone</th>
-                <th>Identifier</th>
+                <th>Veg Zone Name</th>
                 <th>PCT Name</th>
-                <th>VI Loss</th>
+                <th>VI Loss / Gain</th>
                 <th>Area</th>
                 <th>OM</th>
                 <th>Ecosystem Credits</th>
@@ -43,7 +20,7 @@
                 <td>{{ecoCredit.zone}}</td>
                 <td>{{ecoCredit.identifier}}</td>
                 <td>{{ecoCredit.pctName}}</td>
-                <td>{{ecoCredit.viLoss}}</td>
+                <td>{{ecoCredit.viLoss | abs}}</td>
                 <td>{{ecoCredit.area}}</td>
                 <td>{{crc.credits.model.highestOm}}</td>
                 <td>{{crc.credits.calculateEcosystemCredits(ecoCredit)}}</td>
@@ -59,9 +36,9 @@
                 <th>Type</th>
                 <th>Common Name</th>
                 <th>Scientific Name</th>
-                <th>Vegetation Zone</th>
-                <th>HC</th>
-                <th>Area (HL)</th>
+                <th>Veg Zone Name</th>
+                <th>Habitat Condition (HC)</th>
+                <th>Area / Individual (HL)</th>
                 <th>OM</th>
                 <th>Species Credit</th>
             </tr>
@@ -74,9 +51,9 @@
                 <td>
                     <select class="form-control" ng-model="speciesCredit.vegZone" ng-options="vegZone.identifier() for vegZone in crc.credits.model.vegetationZones"></select>
                 </td>
-                <td>{{speciesCredit.hc}}</td>
+                <td>{{speciesCredit.vis}}</td>
                 <td>{{speciesCredit.area}}</td>
-                <td>{{crc.credits.model.highestOm}}</td>
+                <td>{{speciesCredit.om}}</td>
                 <td>{{crc.credits.calculateSpeciesCredit(speciesCredit)}}</td>
             </tr>
             </tbody>

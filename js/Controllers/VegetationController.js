@@ -2,8 +2,22 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
 
     this.dataService = dataService
 
-    $rootScope.$on(dataService.events.siteContextUpdateEvent, function(event, body) {
-        $scope.vc.vegetationTab.addPctObject()
+    $rootScope.$on(dataService.events.siteContextUpdateEvent, function (event, body) {
+        if(dataService.applicationDetailsModel.assessmentType.name == 'Development') {
+            $scope.vc.vegetationTab.addPctObject()
+        }
+    })
+
+    $rootScope.$on(dataService.events.requestVegzoneUpdateEvent, function(event, body) {
+        if(dataService.applicationDetailsModel.assessmentType.name == 'Development') {
+            $scope.vc.vegetationTab.dispatchVegzoneUpdateEvent()
+        }
+    })
+
+    $rootScope.$on(dataService.events.recalculateVisEvent, function(event, body) {
+        if(dataService.applicationDetailsModel.assessmentType.name == 'Development') {
+            $scope.vc.vegetationTab.recalculateVis()
+        }
     })
 
     this.vegetationTab = {
@@ -28,7 +42,7 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
         getAvailableFormationsForWhichBenchmarkDataIsAvailable: function () {
             availableFormations = []
             this.model.referenceData.formation.forEach(function (formation) {
-                if($scope.vc.vegetationTab.getKeithClassesForWhichBenchmarkDataIsAvailable(formation).length > 0) {
+                if ($scope.vc.vegetationTab.getKeithClassesForWhichBenchmarkDataIsAvailable(formation).length > 0) {
                     availableFormations.push(formation)
                 }
             })
@@ -75,7 +89,7 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
         },
 
         shouldOfferPctCode: function (pctCode) {
-            return (this.model.zoneMap.indexOf(pctCode + "_Good") == -1 || this.model.zoneMap.indexOf(pctCode + "_Low") == -1) ? true : false
+            return (this.model.zoneMap.indexOf(pctCode + "_Derived") == -1 || this.model.zoneMap.indexOf(pctCode + "_Good") == -1 || this.model.zoneMap.indexOf(pctCode + "_Low") == -1 || this.model.zoneMap.indexOf(pctCode + "_Degraded") == -1 || this.model.zoneMap.indexOf(pctCode + "_Moderate") == -1 || this.model.zoneMap.indexOf(pctCode + "_High") == -1) ? true : false
         },
 
         close: function () {
@@ -100,9 +114,19 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             dataService.compositionModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
             dataService.functionModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
             dataService.structureModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
-            dataService.locationModel.setInputs(inFocusVegetationZoneIndex, calculatorMode)
+        },
+
+        dispatchVegzoneUpdateEvent: function() {
             var body = dataService.events.createVegetationZoneUpdateEvent(this.model.input.vegetationZones, this.model.input.pct)
             $rootScope.$emit(dataService.events.vegetationZoneUpdateEvent, body)
+        },
+
+        recalculateVis: function() {
+            for(i = 0; i < this.model.input.vegetationZones.length; i++) {
+                futureVis = this.calculateGeomean(i, 'future')
+                currentVis = this.calculateGeomean(i, 'current')
+                eval("this.model.input.vegetationZones[" + i + "].futureAndCurrentDeltaVis = " + (futureVis - currentVis))
+            }
         },
 
         setFocusedFutureVegetationZone: function (index) {
@@ -122,33 +146,9 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
 
         createVegetationZoneItem: function () {
             return {
-                pctCode: null,
-                keithClass: null,
-                conditionClass: null,
                 identifier: function () {
                     return (this.pctCode != null && this.pctCode.pct.id != null && this.conditionClass != null) ? this.pctCode.pct.id + "_" + this.conditionClass : "..."
-                },
-                area: null,
-                composition: null,
-                structure: null,
-                function: null,
-                vis: null
-            }
-        },
-
-        createFutureVegetationZoneItem: function () {
-            return {
-                typeCode: null,
-                conditionClass: null,
-                identifier: function () {
-                    return (this.pctCode != null && this.pctCode.pct.id != null && this.conditionClass != null) ? this.pctCode.pct.id + "_" + this.conditionClass : "..."
-                },
-                area: null,
-                composition: null,
-                structure: null,
-                function: null,
-                vis: null,
-                changeVis: null
+                }
             }
         },
 
@@ -161,15 +161,20 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             pctArray.splice(index, 1)
         },
 
-        addVegetationZone: function () {
-            // can we add more vegetation zones?
+        canAddMoreVegetationZones: function () {
             var canAddMore = false
             this.model.input.pct.forEach(function (item) {
-                if ($scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_Good") == -1 || $scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_Low") == -1 || $scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_Degraded") == -1 || $scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_Moderate") == -1 || $scope.vc.vegetationTab.model.zoneMap.indexOf(item.pct.id + "_High") == -1) {
-                    canAddMore = true
+                if (item.pct != null) {
+                    if ($scope.vc.vegetationTab.shouldOfferPctCode(item.pct.id)) {
+                        canAddMore = true
+                    }
                 }
             })
-            if (canAddMore) {
+            return canAddMore
+        },
+
+        addVegetationZone: function () {
+            if (this.canAddMoreVegetationZones()) {
                 this.model.input.vegetationZones.push(this.createVegetationZoneItem())
                 dataService.compositionModel.compositionCalcResults.push(dataService.compositionModel.createCompositionCalcResult())
                 dataService.compositionModel.futureCompositionCalcResults.push(dataService.compositionModel.createCompositionCalcResult())
@@ -180,9 +185,6 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             }
         }
     };
-
-
-
 }]);
 
 

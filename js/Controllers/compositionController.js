@@ -9,6 +9,8 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
         close: function () {
             dataService.vegetationModel.isPopupOpen = false
             dataService.offsetModel.isPopupOpen = false
+            var body = dataService.events.createRecalculateVisEvent()
+            $rootScope.$emit(dataService.events.recalculateVisEvent, body)
         },
 
         getApplicableCalcResults: function () {

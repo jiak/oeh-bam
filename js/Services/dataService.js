@@ -10,6 +10,14 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
                     patchSize: patchSize
                 }
             },
+            recalculateVisEvent: "recalculateVisEvent",
+            createRecalculateVisEvent: function() {
+                return {}
+            },
+            requestVegzoneUpdateEvent: "requestVegzoneUpdate",
+            createRequestVegzoneUpdateEvent: function() {
+                return {}
+            },
             vegetationZoneUpdateEvent: "vegetationZoneUpdateEvent",
             createVegetationZoneUpdateEvent: function (vegetationZones, pct) {
                 return {
