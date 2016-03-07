@@ -534,6 +534,40 @@ bamApp.service('referenceDataService', function () {
                             "name": "Coastal Valley Grassy Woodlands",
                             "pct": [
                                 {
+                                    "id": 830,
+                                    "name": "Forest Red Gum - Grey Box shrubby woodland on shale of the southern Cumberland Plain, Sydney Basin",
+                                    "description": "Forest Red Gum - Grey Box shrubby woodland on shale of the southern Cumberland Plain, Sydney Basin",
+                                    "percentCleared": 75,
+                                    "tec": [{"offsetMutliplier": 0, "id": 0, "name": "Not an EEC", "status": ""},
+                                        {"offsetMutliplier": 1, "id": 1, "name": "Moist Shale Woodland in the Sydney Basin Bioregion", "status": "E"}
+                                    ]
+                                },
+
+
+                                {
+                                    "id": 849,
+                                    "name": "Grey Box - Forest Red Gum grassy woodland on flats of the Cumberland Plain, Sydney Basin Bioregion",
+                                    "description": "Grey Box - Forest Red Gum grassy woodland on flats of the Cumberland Plain, Sydney Basin Bioregion",
+                                    "percentCleared": 95,
+                                    "tec": [{"offsetMutliplier": 0, "id": 0, "name": "Not an EEC", "status": ""},
+                                        {"offsetMutliplier": 1, "id": 1, "name": "Cumberland Plain Woodland in the Sydney Basin Bioregion", "status": "E"},
+                                        {"offsetMutliplier": 1, "id": 1, "name": "Cumberland Plain Shale Woodlands and Shale-Gravel Transition Forest (Equivalent)", "status": "CE"},
+                                    ]
+                                },
+
+
+                                {
+                                    "id": 850,
+                                    "name": "Grey Box - Forest Red Gum grassy woodland on shale of the southern Cumberland Plain, Sydney Basin Bioregion",
+                                    "description": "Grey Box - Forest Red Gum grassy woodland on shale of the southern Cumberland Plain, Sydney Basin Bioregion",
+                                    "percentCleared": 95,
+                                    "tec": [{"offsetMutliplier": 0, "id": 0, "name": "Not an EEC", "status": ""},
+                                        {"offsetMutliplier": 1, "id": 1, "name": "Cumberland Plain Woodland in the Sydney Basin Bioregion", "status": "E"},
+                                        {"offsetMutliplier": 1, "id": 1, "name": "Cumberland Plain Shale Woodlands and Shale-Gravel Transition Forest (Equivalent)", "status": "CE"},
+                                    ]
+                                },
+
+                                {
                                     "id": 116,
                                     "name": "Weeping Myall - Coobah - Scrub Wilga shrubland of the Hunter Valley",
                                     "description": "Mid-high woodland of Weeping Myall (Acacia pendula) up to 10 m high with Cooba (Acacia salicina), Scrub Wilga (Geijera salicifolia), Acacia homalophylla and Psydrax odorata f. buxifolia. The ground strata is dense and is primarily composed of native and exotic grass species. Grasses include Kangaroo Grass (Themeda australia), wallaby grass Austrodanthonia spp., snow grass (Poa sieberiana) and Cymbopogon refractus. Occurring in small stands on a colluvial heavy, brown clay soil on lower slopes of the Hunter Valley. Restricted in extent occurring around Jerrys Plains and near Wybalong in the Hunter Valley, in the South Hunter sub-region of the Sydney Basin Bioregion. This is an outlier of the main occurrence of Weeping Myall on the western plains. It is endangered and the remnants require fencing off from stock and conservation planning. Much of the associated flora occurs in dry rainforest in the Hunter Valley.",
