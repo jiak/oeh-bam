@@ -4863,18 +4863,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -4888,18 +4888,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -4907,18 +4907,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -4932,18 +4932,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -4951,18 +4951,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -4976,18 +4976,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -4995,18 +4995,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5020,18 +5020,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5039,18 +5039,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5064,18 +5064,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5083,18 +5083,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5108,18 +5108,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5127,18 +5127,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5152,18 +5152,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5177,18 +5177,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5202,18 +5202,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5221,18 +5221,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5246,18 +5246,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5265,18 +5265,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5290,18 +5290,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5315,18 +5315,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5340,18 +5340,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5365,18 +5365,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5390,18 +5390,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5409,18 +5409,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5434,18 +5434,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5453,18 +5453,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5478,18 +5478,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5497,18 +5497,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5522,18 +5522,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5547,18 +5547,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5572,18 +5572,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5597,18 +5597,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5622,18 +5622,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5647,18 +5647,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5672,18 +5672,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5697,18 +5697,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5716,18 +5716,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5741,18 +5741,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5760,18 +5760,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5785,18 +5785,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5804,18 +5804,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5829,18 +5829,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5854,18 +5854,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5879,18 +5879,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5898,18 +5898,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5923,18 +5923,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5942,18 +5942,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5967,18 +5967,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -5986,18 +5986,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6011,18 +6011,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6030,18 +6030,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6055,18 +6055,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6074,18 +6074,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6099,18 +6099,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6124,18 +6124,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6143,18 +6143,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6168,18 +6168,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6187,18 +6187,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6212,18 +6212,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6231,18 +6231,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6256,18 +6256,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6275,18 +6275,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6300,18 +6300,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6319,18 +6319,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6344,18 +6344,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6363,18 +6363,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6388,18 +6388,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6407,18 +6407,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6432,18 +6432,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6451,18 +6451,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6476,18 +6476,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6495,18 +6495,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6520,18 +6520,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6539,18 +6539,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6564,18 +6564,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6583,18 +6583,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6608,18 +6608,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6627,18 +6627,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6652,18 +6652,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6671,18 +6671,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6696,18 +6696,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6721,18 +6721,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6740,18 +6740,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6765,18 +6765,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6790,18 +6790,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6809,18 +6809,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6834,18 +6834,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6853,18 +6853,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6878,18 +6878,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6903,18 +6903,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6922,18 +6922,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6947,18 +6947,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6966,18 +6966,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -6991,18 +6991,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7010,18 +7010,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7035,18 +7035,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7054,18 +7054,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7079,18 +7079,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7104,18 +7104,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7129,18 +7129,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10207",
                                 "name": "Spotted-tailed quoll",
-                                "scientificName": "Delma impar",
+                                "scientificName": "Dasyurus maculatus",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": ">25ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Moderate",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7148,18 +7148,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10455",
                                 "name": "Swift parrot",
-                                "scientificName": "Prasophyllum petilum",
+                                "scientificName": "Lathamus discolor",
                                 "habitatComponents": "",
                                 "creditType": "EC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7177,18 +7177,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7208,12 +7208,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7221,18 +7221,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7240,18 +7240,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7259,18 +7259,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7278,18 +7278,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10815",
                                 "name": "Tylophora linearis",
-                                "scientificName": "",
+                                "scientificName": "Tylophora linearis",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7297,18 +7297,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7322,18 +7322,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7341,18 +7341,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7360,18 +7360,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10815",
                                 "name": "Tylophora linearis",
-                                "scientificName": "",
+                                "scientificName": "Tylophora linearis",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7385,18 +7385,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7404,18 +7404,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7423,18 +7423,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10815",
                                 "name": "Tylophora linearis",
-                                "scientificName": "",
+                                "scientificName": "Tylophora linearis",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7448,18 +7448,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7473,12 +7473,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7486,18 +7486,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7505,18 +7505,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7524,18 +7524,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7543,18 +7543,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10815",
                                 "name": "Tylophora linearis",
-                                "scientificName": "",
+                                "scientificName": "Tylophora linearis",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7562,18 +7562,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7587,18 +7587,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7612,12 +7612,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7625,18 +7625,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7644,18 +7644,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7663,18 +7663,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7682,18 +7682,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10815",
                                 "name": "Tylophora linearis",
-                                "scientificName": "",
+                                "scientificName": "Tylophora linearis",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7701,18 +7701,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7726,18 +7726,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7751,12 +7751,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7764,18 +7764,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7783,18 +7783,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7802,18 +7802,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7821,18 +7821,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7846,18 +7846,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7871,12 +7871,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7884,18 +7884,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7903,18 +7903,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7922,18 +7922,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10815",
                                 "name": "Tylophora linearis",
-                                "scientificName": "",
+                                "scientificName": "Tylophora linearis",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -7941,18 +7941,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7966,18 +7966,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -7991,18 +7991,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8010,18 +8010,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8029,18 +8029,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8048,18 +8048,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8079,12 +8079,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8092,18 +8092,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8111,18 +8111,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8130,18 +8130,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8149,18 +8149,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8180,12 +8180,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8193,18 +8193,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8212,18 +8212,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8231,18 +8231,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8250,18 +8250,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10815",
                                 "name": "Tylophora linearis",
-                                "scientificName": "",
+                                "scientificName": "Tylophora linearis",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8269,18 +8269,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8300,12 +8300,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8313,18 +8313,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8332,18 +8332,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8351,18 +8351,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8370,18 +8370,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10815",
                                 "name": "Tylophora linearis",
-                                "scientificName": "",
+                                "scientificName": "Tylophora linearis",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8389,18 +8389,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8414,18 +8414,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8433,18 +8433,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8452,18 +8452,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8471,18 +8471,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8490,18 +8490,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8509,18 +8509,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8534,18 +8534,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8553,18 +8553,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8572,18 +8572,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8591,18 +8591,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8610,18 +8610,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8641,12 +8641,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8654,18 +8654,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8673,18 +8673,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8692,18 +8692,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8711,18 +8711,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8730,18 +8730,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8749,18 +8749,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8780,12 +8780,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8793,18 +8793,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8812,18 +8812,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8831,18 +8831,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8850,18 +8850,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8869,18 +8869,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8894,18 +8894,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8913,18 +8913,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8932,18 +8932,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -8951,18 +8951,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -8970,18 +8970,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9001,12 +9001,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9014,18 +9014,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9033,18 +9033,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9052,18 +9052,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9071,18 +9071,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9090,18 +9090,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -9109,18 +9109,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9134,18 +9134,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -9153,18 +9153,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9172,18 +9172,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9191,18 +9191,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9210,18 +9210,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9229,18 +9229,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -9248,18 +9248,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9273,18 +9273,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9292,18 +9292,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9311,18 +9311,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -9330,18 +9330,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9361,12 +9361,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9374,18 +9374,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -9393,18 +9393,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9412,18 +9412,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9431,18 +9431,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -9450,18 +9450,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9475,18 +9475,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9494,18 +9494,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9513,18 +9513,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9532,18 +9532,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -9551,18 +9551,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9576,18 +9576,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9595,18 +9595,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9614,18 +9614,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -9633,18 +9633,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9664,12 +9664,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9677,18 +9677,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9696,18 +9696,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9715,18 +9715,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9740,18 +9740,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9759,18 +9759,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9778,18 +9778,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9797,18 +9797,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9828,12 +9828,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9841,18 +9841,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -9860,18 +9860,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9879,18 +9879,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9898,18 +9898,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9923,18 +9923,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9948,12 +9948,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9961,18 +9961,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -9980,18 +9980,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10005,18 +10005,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10030,12 +10030,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10043,18 +10043,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10373",
                                 "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
+                                "scientificName": "Grevillea parviflora subsp. parviflora",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -10062,18 +10062,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10081,18 +10081,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10100,18 +10100,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10799",
                                 "name": "Black-eyed susan",
-                                "scientificName": "Dichanthium setosum",
+                                "scientificName": "Tetratheca juncea",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -10119,18 +10119,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10150,12 +10150,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10163,18 +10163,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -10182,18 +10182,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10373",
                                 "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
+                                "scientificName": "Grevillea parviflora subsp. parviflora",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -10201,18 +10201,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10220,18 +10220,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10239,18 +10239,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10258,18 +10258,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10277,18 +10277,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10799",
                                 "name": "Black-eyed susan",
-                                "scientificName": "Dichanthium setosum",
+                                "scientificName": "Tetratheca juncea",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -10296,18 +10296,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10321,18 +10321,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -10340,18 +10340,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10359,18 +10359,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10378,18 +10378,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10397,18 +10397,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -10416,18 +10416,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10441,18 +10441,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10460,18 +10460,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10479,18 +10479,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -10498,18 +10498,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10523,18 +10523,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -10542,18 +10542,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10561,18 +10561,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10580,18 +10580,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10611,12 +10611,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "N of Batemans Bay",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10624,18 +10624,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10643,18 +10643,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10662,18 +10662,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10681,18 +10681,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -10700,18 +10700,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10731,12 +10731,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "north of Batemans Bay",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10744,18 +10744,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -10763,18 +10763,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10782,18 +10782,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10801,18 +10801,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10820,18 +10820,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -10839,18 +10839,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10870,12 +10870,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10883,18 +10883,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10902,18 +10902,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10921,18 +10921,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -10940,18 +10940,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10971,12 +10971,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -10984,18 +10984,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11003,18 +11003,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11022,18 +11022,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11041,18 +11041,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11072,12 +11072,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11085,18 +11085,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10221",
                                 "name": "Bluegrass",
-                                "scientificName": "Climacteris picumnus victoriae",
+                                "scientificName": "Dichanthium setosum",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11104,18 +11104,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11123,18 +11123,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11142,18 +11142,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11161,18 +11161,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11192,12 +11192,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11205,18 +11205,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11224,18 +11224,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11243,18 +11243,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11262,18 +11262,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11281,18 +11281,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11312,12 +11312,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11325,18 +11325,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11344,18 +11344,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11363,18 +11363,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11382,18 +11382,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11401,18 +11401,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11426,18 +11426,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11451,12 +11451,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11464,18 +11464,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11483,18 +11483,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10815",
                                 "name": "Tylophora linearis",
-                                "scientificName": "",
+                                "scientificName": "Tylophora linearis",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11502,18 +11502,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11527,18 +11527,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10006",
                                 "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
+                                "scientificName": "Acacia bynoeana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11552,12 +11552,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11565,18 +11565,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11584,18 +11584,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10373",
                                 "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
+                                "scientificName": "Grevillea parviflora subsp. parviflora",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11603,18 +11603,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11622,18 +11622,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11641,18 +11641,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10799",
                                 "name": "Black-eyed susan",
-                                "scientificName": "Dichanthium setosum",
+                                "scientificName": "Tetratheca juncea",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11660,18 +11660,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11685,18 +11685,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10006",
                                 "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
+                                "scientificName": "Acacia bynoeana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11704,18 +11704,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11723,18 +11723,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10074",
                                 "name": "Thick-leaf Star-hair",
-                                "scientificName": "Neophema pulchella",
+                                "scientificName": "Astrotricha crassifolia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11748,12 +11748,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11761,18 +11761,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10373",
                                 "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
+                                "scientificName": "Grevillea parviflora subsp. parviflora",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11780,18 +11780,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11799,18 +11799,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11818,18 +11818,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11837,18 +11837,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10595",
                                 "name": "Hairy geebung",
-                                "scientificName": "Melanodryas cucullata cucullata",
+                                "scientificName": "Persoonia hirsuta",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11856,18 +11856,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11875,18 +11875,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11900,18 +11900,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10006",
                                 "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
+                                "scientificName": "Acacia bynoeana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11925,12 +11925,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11938,18 +11938,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10373",
                                 "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
+                                "scientificName": "Grevillea parviflora subsp. parviflora",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -11957,18 +11957,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11976,18 +11976,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -11995,18 +11995,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12014,18 +12014,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10595",
                                 "name": "Hairy geebung",
-                                "scientificName": "Melanodryas cucullata cucullata",
+                                "scientificName": "Persoonia hirsuta",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12033,18 +12033,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12052,18 +12052,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12077,18 +12077,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10006",
                                 "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
+                                "scientificName": "Acacia bynoeana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12096,18 +12096,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10074",
                                 "name": "Thick-leaf Star-hair",
-                                "scientificName": "Neophema pulchella",
+                                "scientificName": "Astrotricha crassifolia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12121,12 +12121,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12134,18 +12134,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12153,18 +12153,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10373",
                                 "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
+                                "scientificName": "Grevillea parviflora subsp. parviflora",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12172,18 +12172,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12191,18 +12191,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12210,18 +12210,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12229,18 +12229,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12248,18 +12248,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10799",
                                 "name": "Black-eyed susan",
-                                "scientificName": "Dichanthium setosum",
+                                "scientificName": "Tetratheca juncea",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12267,18 +12267,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12292,18 +12292,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10006",
                                 "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
+                                "scientificName": "Acacia bynoeana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12311,18 +12311,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10074",
                                 "name": "Thick-leaf Star-hair",
-                                "scientificName": "Neophema pulchella",
+                                "scientificName": "Astrotricha crassifolia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12336,12 +12336,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12349,18 +12349,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12368,18 +12368,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10373",
                                 "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
+                                "scientificName": "Grevillea parviflora subsp. parviflora",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12387,18 +12387,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12406,18 +12406,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10538",
                                 "name": "Giant barred frog",
-                                "scientificName": "Petalura gigantea",
+                                "scientificName": "Mixophyes iteratus",
                                 "habitatComponents": "Permanent freshwater coastal and escarpment streams with pools and riffles and about 20m of adjacent forest. Generally moist riparian vegetation (e.g. rainforest or wet sclerophyll), although sometimes drier forest or degraded riparian remnants.",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12425,18 +12425,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10595",
                                 "name": "Hairy geebung",
-                                "scientificName": "Melanodryas cucullata cucullata",
+                                "scientificName": "Persoonia hirsuta",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12444,18 +12444,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12463,18 +12463,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12488,18 +12488,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10006",
                                 "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
+                                "scientificName": "Acacia bynoeana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12513,12 +12513,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12526,18 +12526,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10373",
                                 "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
+                                "scientificName": "Grevillea parviflora subsp. parviflora",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12545,18 +12545,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12564,18 +12564,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10592",
                                 "name": "Bargo geebung",
-                                "scientificName": "Ninox connivens",
+                                "scientificName": "Persoonia bargoensis",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12583,18 +12583,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10593",
                                 "name": "Mittagong geebung",
-                                "scientificName": "Rutidosis leiolepis",
+                                "scientificName": "Persoonia glaucescens",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12602,18 +12602,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10595",
                                 "name": "Hairy geebung",
-                                "scientificName": "Melanodryas cucullata cucullata",
+                                "scientificName": "Persoonia hirsuta",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12621,18 +12621,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12640,18 +12640,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12659,18 +12659,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12684,18 +12684,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10006",
                                 "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
+                                "scientificName": "Acacia bynoeana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12709,12 +12709,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12722,18 +12722,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10373",
                                 "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
+                                "scientificName": "Grevillea parviflora subsp. parviflora",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12741,18 +12741,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12760,18 +12760,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12779,18 +12779,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10592",
                                 "name": "Bargo geebung",
-                                "scientificName": "Ninox connivens",
+                                "scientificName": "Persoonia bargoensis",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12798,18 +12798,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10593",
                                 "name": "Mittagong geebung",
-                                "scientificName": "Rutidosis leiolepis",
+                                "scientificName": "Persoonia glaucescens",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12817,18 +12817,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10595",
                                 "name": "Hairy geebung",
-                                "scientificName": "Melanodryas cucullata cucullata",
+                                "scientificName": "Persoonia hirsuta",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12836,18 +12836,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12855,18 +12855,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12880,18 +12880,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10006",
                                 "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
+                                "scientificName": "Acacia bynoeana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12899,18 +12899,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10074",
                                 "name": "Thick-leaf Star-hair",
-                                "scientificName": "Neophema pulchella",
+                                "scientificName": "Astrotricha crassifolia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12924,12 +12924,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12937,18 +12937,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12956,18 +12956,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10373",
                                 "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
+                                "scientificName": "Grevillea parviflora subsp. parviflora",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -12975,18 +12975,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -12994,18 +12994,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13013,18 +13013,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10592",
                                 "name": "Bargo geebung",
-                                "scientificName": "Ninox connivens",
+                                "scientificName": "Persoonia bargoensis",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13032,18 +13032,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10595",
                                 "name": "Hairy geebung",
-                                "scientificName": "Melanodryas cucullata cucullata",
+                                "scientificName": "Persoonia hirsuta",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13051,18 +13051,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13070,18 +13070,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13095,18 +13095,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10006",
                                 "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
+                                "scientificName": "Acacia bynoeana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13120,12 +13120,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13133,18 +13133,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13152,18 +13152,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10373",
                                 "name": "Small-flower grevillea",
-                                "scientificName": "Tyto tenebricosa",
+                                "scientificName": "Grevillea parviflora subsp. parviflora",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13171,18 +13171,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13190,18 +13190,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13209,18 +13209,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10593",
                                 "name": "Mittagong geebung",
-                                "scientificName": "Rutidosis leiolepis",
+                                "scientificName": "Persoonia glaucescens",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13228,18 +13228,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13259,12 +13259,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13272,18 +13272,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13291,18 +13291,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13310,18 +13310,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13329,18 +13329,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13348,18 +13348,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13373,18 +13373,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10006",
                                 "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
+                                "scientificName": "Acacia bynoeana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13398,12 +13398,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13411,18 +13411,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "eastern third of sub_CMA",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13430,18 +13430,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13449,18 +13449,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13468,18 +13468,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13487,18 +13487,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13512,18 +13512,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10006",
                                 "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
+                                "scientificName": "Acacia bynoeana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13537,12 +13537,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13550,18 +13550,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10187",
                                 "name": "Leafless tongue orchid",
-                                "scientificName": "Glossopsitta pusilla",
+                                "scientificName": "Cryptostylis hunteriana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "3 individuals",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13569,18 +13569,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13588,18 +13588,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13607,18 +13607,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13626,18 +13626,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13645,18 +13645,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13670,18 +13670,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "west of Dalton",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13689,18 +13689,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10211",
                                 "name": "Striped legless lizard",
-                                "scientificName": "Mixophyes balbus",
+                                "scientificName": "Delma impar",
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13708,18 +13708,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13727,18 +13727,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13746,18 +13746,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10666",
                                 "name": "Tarengo leek orchid",
-                                "scientificName": "Astrotricha crassifolia",
+                                "scientificName": "Prasophyllum petilum",
                                 "habitatComponents": "forb-rich grassy groundlayer",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13765,18 +13765,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13784,18 +13784,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13809,18 +13809,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10006",
                                 "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
+                                "scientificName": "Acacia bynoeana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13828,18 +13828,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13853,12 +13853,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13866,18 +13866,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10211",
                                 "name": "Striped legless lizard",
-                                "scientificName": "Mixophyes balbus",
+                                "scientificName": "Delma impar",
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13885,18 +13885,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13904,18 +13904,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13923,18 +13923,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13942,18 +13942,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -13961,18 +13961,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -13986,18 +13986,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10074",
                                 "name": "Thick-leaf Star-hair",
-                                "scientificName": "Neophema pulchella",
+                                "scientificName": "Astrotricha crassifolia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -14011,12 +14011,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14024,18 +14024,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10211",
                                 "name": "Striped legless lizard",
-                                "scientificName": "Mixophyes balbus",
+                                "scientificName": "Delma impar",
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14043,18 +14043,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14062,18 +14062,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14081,18 +14081,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14106,18 +14106,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10006",
                                 "name": "Bynoe\u00e2\u20ac\u2122s wattle",
-                                "scientificName": "Dodonaea procumbens",
+                                "scientificName": "Acacia bynoeana",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -14125,18 +14125,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "south of Grabben Gullen",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14144,18 +14144,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10211",
                                 "name": "Striped legless lizard",
-                                "scientificName": "Mixophyes balbus",
+                                "scientificName": "Delma impar",
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14163,18 +14163,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14182,18 +14182,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14201,18 +14201,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -14220,18 +14220,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14245,18 +14245,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14270,12 +14270,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14283,18 +14283,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10211",
                                 "name": "Striped legless lizard",
-                                "scientificName": "Mixophyes balbus",
+                                "scientificName": "Delma impar",
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14302,18 +14302,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14321,18 +14321,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14340,18 +14340,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14359,18 +14359,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14384,18 +14384,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14409,12 +14409,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14422,18 +14422,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10211",
                                 "name": "Striped legless lizard",
-                                "scientificName": "Mixophyes balbus",
+                                "scientificName": "Delma impar",
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14441,18 +14441,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14460,18 +14460,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14479,18 +14479,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14498,18 +14498,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -14517,18 +14517,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14542,18 +14542,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14567,12 +14567,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14580,18 +14580,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14599,18 +14599,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14624,18 +14624,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14649,12 +14649,12 @@ bamApp.service('referenceDataService', function () {
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14662,18 +14662,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14681,18 +14681,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14700,18 +14700,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14725,18 +14725,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10211",
                                 "name": "Striped legless lizard",
-                                "scientificName": "Mixophyes balbus",
+                                "scientificName": "Delma impar",
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14744,18 +14744,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14763,18 +14763,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "Kosciuszko National Park",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -14782,18 +14782,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14807,18 +14807,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10211",
                                 "name": "Striped legless lizard",
-                                "scientificName": "Mixophyes balbus",
+                                "scientificName": "Delma impar",
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14826,18 +14826,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10536",
                                 "name": "Stuttering frog",
-                                "scientificName": "Lathamus discolor",
+                                "scientificName": "Mixophyes balbus",
                                 "habitatComponents": "rainforest or tall open wet forest with understorey and\/or leaf litter and within 100 m of streams",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "31-70%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "0",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14845,18 +14845,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14864,18 +14864,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -14883,18 +14883,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14908,18 +14908,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10061",
                                 "name": "Pink-tailed legless lizard",
-                                "scientificName": "Acacia pendula \u00e2\u20ac\u201c endangered population",
+                                "scientificName": "Aprasia parapulchella",
                                 "habitatComponents": "land containing surface rocks (embedded or loose)",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14927,18 +14927,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10211",
                                 "name": "Striped legless lizard",
-                                "scientificName": "Mixophyes balbus",
+                                "scientificName": "Delma impar",
                                 "habitatComponents": "land containing loose surface rock, cracking surface soils or tussock clumps",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14946,18 +14946,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10246",
                                 "name": "Creeping Hop-bush",
-                                "scientificName": "Stagonopleura guttata",
+                                "scientificName": "Dodonaea procumbens",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "Lake Bathurst area",
                                 "unitOfMeasure": "Individual",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -14965,18 +14965,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10483",
                                 "name": "Green and golden bell frog",
-                                "scientificName": "Pomatostomus temporalis temporalis",
+                                "scientificName": "Litoria aurea",
                                 "habitatComponents": "land within 100 m of emergent aquatic or riparian vegetation",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -14984,18 +14984,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10616",
                                 "name": "Koala",
-                                "scientificName": "Chalinolobus dwyeri",
+                                "scientificName": "Phascolarctos cinereus",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "5-25ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Moderate ",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -15003,18 +15003,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10666",
                                 "name": "Tarengo leek orchid",
-                                "scientificName": "Astrotricha crassifolia",
+                                "scientificName": "Prasophyllum petilum",
                                 "habitatComponents": "forb-rich grassy groundlayer",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -15022,18 +15022,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10738",
                                 "name": "Monaro golden daisy",
-                                "scientificName": "Diuris tricolor",
+                                "scientificName": "Rutidosis leiolepis",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
                                 "percentCover": "11-30%",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Low",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -15041,18 +15041,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10802",
                                 "name": "Austral Toadflex",
-                                "scientificName": "Persoonia bargoensis",
+                                "scientificName": "Thesium australe",
                                 "habitatComponents": "coastal headlands, grassland, grassy open forest or woodland on fertile or moderately fertile soils",
                                 "creditType": "SC",
                                 "patchSize": "",
                                 "percentCover": "",
                                 "threatStatus": "V",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "flora",
+                                "speciesType": "Flora",
                                 "pct": [
 
                                 ]
@@ -15060,18 +15060,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10817",
                                 "name": "Grassland earless dragon",
-                                "scientificName": "Scoteanax rueppellii",
+                                "scientificName": "Tympanocryptis pinguicolla",
                                 "habitatComponents": "Natural temperate grasslands",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "E",
-                                "offsetMultiplier": 1,
-                                "soiThreashold": "-",
+                                "offsetMultiplier": "",
+                                "soiThreashold": "",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "High",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
@@ -15079,18 +15079,18 @@ bamApp.service('referenceDataService', function () {
                             {
                                 "id": "10841",
                                 "name": "Regent honeyeater",
-                                "scientificName": "Varanus rosenbergi",
+                                "scientificName": "Anthochaera phrygia",
                                 "habitatComponents": "",
                                 "creditType": "SC",
                                 "patchSize": "<5ha",
-                                "percentCover": "<=10%",
+                                "percentCover": "\u00e2\u2030\u00a410%",
                                 "threatStatus": "CE",
-                                "offsetMultiplier": 1,
+                                "offsetMultiplier": "",
                                 "soiThreashold": "to be confirmed - breeding locations",
                                 "geographicCondition": "-",
                                 "unitOfMeasure": "Area",
                                 "sensitivity": "Very high",
-                                "speciesType": "fauna",
+                                "speciesType": "Fauna",
                                 "pct": [
 
                                 ]
