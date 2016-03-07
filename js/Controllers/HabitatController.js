@@ -48,11 +48,12 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
 
                         //if any patchSize or cover is null, just ignore them
-                        if (
-                            (((inputCover != null) ? inputCover : cover ) == cover)
-                            &&
-                            (((inputPatchSize != null) ? inputPatchSize : patchSize ) == patchSize)
-                        )
+                       // if (
+                       //     (((inputCover != null) ? inputCover : cover ) == cover)
+                       //     &&
+                       //     (((inputPatchSize != null) ? inputPatchSize : patchSize ) == patchSize)
+                       // )
+
                             input.ecosystemCredit.push(this.createEcoSystemCreditInput(this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j]));
                     }
                 }
@@ -101,11 +102,11 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                         var inputCover = this.formalizeCover(input.key.cover);
 
                         //if any patchSize or cover is null, just ignore them
-                        if (
-                            (((inputCover != null) ? inputCover : cover ) == cover)
-                            &&
-                            (((inputPatchSize != null) ? inputPatchSize : patchSize ) == patchSize)
-                        )
+                        //if (
+                        //    (((inputCover != null) ? inputCover : cover ) == cover)
+                        //    &&
+                        //    (((inputPatchSize != null) ? inputPatchSize : patchSize ) == patchSize)
+                        //)
                             input.speciesCredit.push(this.createSpeciesCreditInput(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j]));
                     }
                 }

@@ -123,8 +123,8 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
             referenceData: referenceDataService.applicationDetails,
             current: null,
             assessmentType: null,
-            proposalId: 1234567,
-            proposalVersion: 1.0
+            proposalId: "DEMO.0.0.1",
+            proposalVersion: "0.0.1"
         },
         habitatModel: {
             referenceData: referenceDataService.habitat,

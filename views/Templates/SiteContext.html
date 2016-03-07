@@ -18,6 +18,11 @@
             <label for="mitchell" ng-if="scc.dataService.applicationDetailsModel.assessmentType.id != 3">Mitchell</label>
             <select id="mitchell" ng-if="scc.dataService.applicationDetailsModel.assessmentType.id != 3" class="form-control" ng-model="scc.siteContext.model.inputs.mitchellLandscape" ng-options="item as item.name for item in scc.siteContext.model.refMitchellLandscape">
             </select>
+
+            <div class="callout" ng-show="scc.siteContext.model.confirmed == false">
+                <h3>Information</h3>
+                <p>The <em>BAM Demonstration tool</em> does not include <em>cover</em> and <em>patch size</em> for filtering threatened species, but we have left the inputs to demonstrate how they will be implemented in the final version.</p>
+            </div>
             <label for="cover">Cover</label>
             <select ng-disabled="scc.siteContext.model.confirmed == true" id="cover" class="form-control" ng-model="scc.siteContext.model.inputs.cover" ng-options="item as item for item in scc.siteContext.model.vegetationCoverClass">
             </select>
