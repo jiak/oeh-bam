@@ -1,4 +1,4 @@
-bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataService", "dataService", "$uibModal", function ($scope, $rootScope, referenceDataService, dataService, $uibModal) {
+bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataService", "dataService", "$uibModal", "calculationService", function ($scope, $rootScope, referenceDataService, dataService, $uibModal, calculationService) {
 
     this.dataService = dataService
 
@@ -74,13 +74,12 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 this.calculateWeightedNoDiscount(theObject, theObjectLower)
                 this.calculateJohnCalc1(theObject, theObjectLower)
                 this.calculateJohnCalc2(theObject, theObjectLower)
-                this.calculateFunctionOffsetSubtotalForFutureWithManagement()
             }
         },
 
         calculateRawRestorationGain: function (theObject, theObjectLower) {
             var c11Benchmark
-            if(theObject == 'RegenerationPresent') {
+            if (theObject == 'RegenerationPresent') {
                 c11Benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
             } else {
                 c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
@@ -105,7 +104,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         calculateNbpv: function (theObject, theObjectLower) {
             var result = 0
             var c11Benchmark
-            if(theObject == 'RegenerationPresent') {
+            if (theObject == 'RegenerationPresent') {
                 c11Benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
             } else {
                 c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
@@ -127,7 +126,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
 
         calculateWeightedNbpv: function (theObject, theObjectLower) {
             var c11Benchmark
-            if(theObject == 'RegenerationPresent') {
+            if (theObject == 'RegenerationPresent') {
                 c11Benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
             } else {
                 c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
@@ -145,7 +144,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
 
         calculateWeightedNoDiscount: function (theObject, theObjectLower) {
             var c11Benchmark
-            if(theObject == 'RegenerationPresent') {
+            if (theObject == 'RegenerationPresent') {
                 c11Benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
             } else {
                 c11Benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
@@ -242,7 +241,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         calculateCurrentValueWithAddedConstant: function (theObject, theObjectLower) {
             var result = 0
             var benchmark
-            if(theObject == 'RegenerationPresent') {
+            if (theObject == 'RegenerationPresent') {
                 benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
             } else {
                 benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
@@ -261,15 +260,15 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         },
 
         displayFutureWithManagement: function () {
-            if (this.model.calculatorMode == 'offsetFutureWithManagement') {
-                this.updateCalcsFor('NumberOfLargeTrees', -1)
-                this.updateCalcsFor('LitterCover', -1)
-                this.updateCalcsFor('CoarseWoodyDebris', -1)
-                this.updateCalcsFor('RegenerationPresent', -1)
-                return true;
-            } else {
-                return false
-            }
+            return this.model.calculatorMode == 'offsetFutureWithManagement'
+        },
+
+        updateFutureWithManagement: function () {
+            this.updateCalcsFor('NumberOfLargeTrees', -1)
+            this.updateCalcsFor('LitterCover', -1)
+            this.updateCalcsFor('CoarseWoodyDebris', -1)
+            this.updateCalcsFor('RegenerationPresent', -1)
+            this.calculateFunctionOffsetSubtotalForFutureWithManagement()
         },
 
         displayFutureWithoutManagement: function () {
@@ -290,7 +289,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             var dynamicWeighting = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
             //var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
             var benchmark
-            if(theObject == 'RegenerationPresent') {
+            if (theObject == 'RegenerationPresent') {
                 benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
             } else {
                 benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
@@ -388,7 +387,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                         if (observedValue > eval("benchmarks." + theObjectLower + "")) {
                             returnValue = 100;
                         } else {
-                            returnValue = (1.01*(1-Math.exp(-5* Math.pow(observedValue/eval("benchmarks." + theObjectLower + ""),2.5)))*100);
+                            returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + ""), 2.5))) * 100);
                         }
 
                         break;
@@ -397,7 +396,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                     case "RegenerationPresent":
                         if (theObject == "RegenerationPresent") {
                             observedValue = parseInt(observedValue);
-                            returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue /1, 2.5))) * 100);
+                            returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / 1, 2.5))) * 100);
                         } else {
                             returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + ""), 2.5))) * 100);
                         }

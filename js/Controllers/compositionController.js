@@ -75,7 +75,6 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                 this.calculateWeightedNoDiscount(theObject, theObjectLower)
                 this.calculateJohnCalc1(theObject, theObjectLower)
                 this.calculateJohnCalc2(theObject, theObjectLower)
-                this.calculateCompositionOffsetSubtotalForFutureWithManagement()
             }
         },
 
@@ -221,16 +220,16 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
         },
 
         displayFutureWithManagement: function () {
-            if (this.model.calculatorMode == 'offsetFutureWithManagement') {
-                this.updateCalcsFor('Tree', -1)
-                this.updateCalcsFor('Shrub', -1)
-                this.updateCalcsFor('Fern', -1)
-                this.updateCalcsFor('Forb', -1)
-                this.updateCalcsFor('GrassAndGrassLike', -1)
-                return true;
-            } else {
-                return false
-            }
+            return this.model.calculatorMode == 'offsetFutureWithManagement'
+        },
+
+        updateFutureWithManagement: function( ){
+            this.updateCalcsFor('Tree', -1)
+            this.updateCalcsFor('Shrub', -1)
+            this.updateCalcsFor('Fern', -1)
+            this.updateCalcsFor('Forb', -1)
+            this.updateCalcsFor('GrassAndGrassLike', -1)
+            this.calculateCompositionOffsetSubtotalForFutureWithManagement()
         },
 
         displayFutureWithoutManagement: function () {

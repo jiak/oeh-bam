@@ -90,7 +90,6 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 this.calculateWeightedNoDiscount(theObject, theObjectLower)
                 this.calculateJohnCalc1(theObject, theObjectLower)
                 this.calculateJohnCalc2(theObject, theObjectLower)
-                this.calculateStructureOffsetSubtotalForFutureWithManagement()
             }
         },
 
@@ -230,16 +229,16 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
         },
 
         displayFutureWithManagement: function () {
-            if (this.model.calculatorMode == 'offsetFutureWithManagement') {
-                this.updateCalcsFor('Tree', -1)
-                this.updateCalcsFor('Shrub', -1)
-                this.updateCalcsFor('Fern', -1)
-                this.updateCalcsFor('Forb', -1)
-                this.updateCalcsFor('GrassAndGrassLike', -1)
-                return true;
-            } else {
-                return false
-            }
+            return this.model.calculatorMode == 'offsetFutureWithManagement'
+        },
+
+        updateFutureWithManagement: function( ){
+            this.updateCalcsFor('Tree', -1)
+            this.updateCalcsFor('Shrub', -1)
+            this.updateCalcsFor('Fern', -1)
+            this.updateCalcsFor('Forb', -1)
+            this.updateCalcsFor('GrassAndGrassLike', -1)
+            this.calculateStructureOffsetSubtotalForFutureWithManagement()
         },
 
         displayFutureWithoutManagement: function () {

@@ -6,6 +6,7 @@
             </div>
             <div class="col-md-6">
                 <button ng-click="cc.composition.close()" class="btn btn-primary pull-right">Close</button>
+                <button ng-show="cc.composition.model.calculatorMode == 'offsetFutureWithManagement'" ng-click="cc.composition.updateFutureWithManagement()" class="btn btn-primary pull-right">Update</button>
                 <button ng-show="cc.composition.model.calculatorMode == 'current'" ng-click="cc.composition.addCompositionTransect()" class="btn btn-secondary pull-right">Add Transect</button>
             </div>
         </div>

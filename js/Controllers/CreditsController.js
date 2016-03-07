@@ -96,24 +96,24 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
             if (speciesCredit.vegZone != undefined) {
                 if (this.model.assessmentType.name == 'Development') {
                     speciesCredit.vis = speciesCredit.vegZone.currentVis
-                    if (speciesCredit.type == 'flora') {
+                    if (speciesCredit.type == 'Flora') {
                         return speciesCredit.area * speciesCredit.om
-                    } else if (speciesCredit.type == 'fauna') {
+                    } else if (speciesCredit.type == 'Fauna') {
                         return speciesCredit.vis * speciesCredit.area * speciesCredit.om
                     }
                 } else if (this.model.assessmentType.name == 'Offset') {
-                    if (speciesCredit.type == 'flora') {
-                        deltaVis = 1;
+                    if (speciesCredit.type == 'Flora') {
+                        speciesCredit.vis
                         if (speciesCredit.uom == 'Area') {
-                            deltaVis = speciesCredit.vegZone.futureWithAndWithoutDeltaVis
+                            speciesCredit.vis = speciesCredit.vegZone.futureWithAndWithoutDeltaVis
                         } else if (speciesCredit.uom == 'Individual') {
-                            deltaVis = speciesCredit.vegZone.currentAndFutureWithoutDeltaVis
+                            speciesCredit.vis = speciesCredit.vegZone.currentAndFutureWithoutDeltaVis
                         }
-                        speciesCredit.vis = Math.abs(deltaVis)
+                        speciesCredit.vis = Math.abs(speciesCredit.vis)
                         return speciesCredit.area * speciesCredit.vis
-                    } else if (speciesCredit.type == 'fauna') {
+                    } else if (speciesCredit.type == 'Fauna') {
                         speciesCredit.vis = speciesCredit.vegZone.vis
-                        return speciesCredit.vegZone.currentVis * speciesCredit.area
+                        return speciesCredit.vis * speciesCredit.area
                     }
                 }
             }
