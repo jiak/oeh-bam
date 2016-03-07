@@ -166,7 +166,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 if (n11FutureValueWithOffset > c11Benchmark) {
                     result = ((100 + 50) - (50 + (100 - 50) / (1 + Math.exp(-10 * ((n11FutureValueWithOffset / c11Benchmark) - 1.5)))))
                 } else {
-                    result = Math.pow(1.01 * (1 - Math.exp(-4.4 * (n11FutureValueWithOffset / c11Benchmark))), 1.85) * 100
+                    result = Math.pow(1.01 * (1 - Math.exp(-5 * (n11FutureValueWithOffset / c11Benchmark))), 2.5) * 100
                 }
             }
             eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithOffset" + theObject + " = " + result.toFixed(2))
@@ -277,7 +277,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 if (futureValueWithoutOffset > benchmark) {
                     result = ((100 + 50) - (50 + ((100 - 50) / (1 + Math.exp(-10 * ((futureValueWithoutOffset / benchmark) - 1.5))))))
                 } else {
-                    result = (1.01 * (1 - Math.exp((-4.4 * Math.pow(futureValueWithoutOffset / benchmark, 1.85)))) * 100)
+                    result = (1.01 * (1 - Math.exp((-5 * Math.pow(futureValueWithoutOffset / benchmark, 2.5)))) * 100)
                 }
             }
             eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject + " = " + result.toFixed(2))

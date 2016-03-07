@@ -177,12 +177,12 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 result = 0
             } else {
                 if (theObject == 'RegenerationPresent') {
-                    result = (1.01 * (1 - Math.exp(-4.4 * (n11FutureValueWithOffset / c11Benchmark), 1.85)) * 100)
+                    result = (1.01 * (1 - Math.exp(-5 * (n11FutureValueWithOffset / c11Benchmark), 2.5)) * 100)
                 } else {
                     if (n11FutureValueWithOffset > c11Benchmark) {
                         result = 100
                     } else {
-                        result = (1.01 * (1 - Math.exp(-4.4 * Math.pow(n11FutureValueWithOffset / c11Benchmark, 1.85))) * 100)
+                        result = (1.01 * (1 - Math.exp(-5 * Math.pow(n11FutureValueWithOffset / c11Benchmark, 2.5))) * 100)
                     }
                 }
             }
@@ -313,7 +313,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 if (benchmark == 0) {
                     result = 0
                 } else {
-                    result = (1.01 * (1 - Math.exp(-4.4 * Math.pow(observedValue / benchmark, 1.85))) * 100).toFixed(2)
+                    result = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / benchmark, 2.5))) * 100).toFixed(2)
                 }
             } else {
                 if (observedValue == 0) {
@@ -324,7 +324,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                         result = 100
                     } else {
                         var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
-                        result = (1.01 * (1 - Math.exp(-4.4 * Math.pow(futureValueWithoutOffset / benchmark, 1.85))) * 100).toFixed(2)
+                        result = (1.01 * (1 - Math.exp(-5 * Math.pow(futureValueWithoutOffset / benchmark, 2.5))) * 100).toFixed(2)
                     }
                 }
             }

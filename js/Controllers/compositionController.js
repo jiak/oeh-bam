@@ -151,13 +151,14 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                 if (n11FutureValueWithOffset > c11Benchmark) {
                     result = 100
                 } else {
-                    result = (1.01 * (1 - Math.exp(-4.4 * Math.pow(n11FutureValueWithOffset / c11Benchmark, 1.85))) * 100)
+                    result = (1.01 * (1 - Math.exp(-5 * Math.pow(n11FutureValueWithOffset / c11Benchmark, 2.5))) * 100)
                 }
             }
             eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithOffset" + theObject + " = " + result.toFixed(2))
         },
 
         calculateFutureValueWithOffset: function (theObject, theObjectLower) {
+            var observedValue = eval("this.model.compositionCalcResults[this.model.inFocusVegetationZoneIndex].observedMean" + theObject);
             var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Composition")
             var supplimentaryPlanting = "Absent"
             var numberOfSpeciesPlanted = 0.75 * benchmark
@@ -173,18 +174,23 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             if (benchmark == 0) {
                 result = 0
             } else {
-                if (supplimentaryPlanting == 'Absent') {
-                    result = (benchmark * currentValueWithAddedConstant * Math.exp(rValue * 20)) / (benchmark + currentValueWithAddedConstant * (Math.exp(rValue * 20) - 1))
+                if(observedValue > benchmark) {
+                    result = observedValue;
                 } else {
-                    var someVal = 0.75
-                    if (theObject == 'GrassAndGrassLike') {
-                        someVal = 0.33
-                    } else if (theObject == 'Forb') {
-                        someVal = 0.2
-                    } else if (theObject == 'Fern') {
-                        someVal = 0.2
+                    if (supplimentaryPlanting == 'Absent') {
+                        result = (benchmark * currentValueWithAddedConstant * Math.exp(rValue * 20)) / (benchmark + currentValueWithAddedConstant * (Math.exp(rValue * 20) - 1))
+                    } else {
+                        var someVal = 0.75
+                        if (theObject == 'GrassAndGrassLike') {
+                            someVal = 0.33
+                        } else if (theObject == 'Forb') {
+                            someVal = 0.2
+                        } else if (theObject == 'Fern') {
+                            someVal = 0.2
+                        }
+                        result = (restorationModifier * numberOfSpeciesPlanted * someVal) + (benchmark * (currentValueWithAddedConstant) * Math.exp((rValue) * managementTimeFrame)) / (benchmark + (currentValueWithAddedConstant) * (Math.exp((rValue) * managementTimeFrame) - 1))
                     }
-                    result = (restorationModifier * numberOfSpeciesPlanted * someVal) + (benchmark * (currentValueWithAddedConstant) * Math.exp((rValue) * managementTimeFrame)) / (benchmark + (currentValueWithAddedConstant) * (Math.exp((rValue) * managementTimeFrame) - 1))
+
                 }
             }
             eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithOffset" + theObject + " = " + result.toFixed(2))
@@ -269,7 +275,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                     result = 100
                 } else {
                     var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
-                    result = (1.01 * (1 - Math.exp(-4.4 * Math.pow(futureValueWithoutOffset / benchmark, 1.85))) * 100).toFixed(2)
+                    result = (1.01 * (1 - Math.exp(-5 * Math.pow(futureValueWithoutOffset / benchmark, 2.5))) * 100).toFixed(2)
                 }
             }
             eval("this.model.offsetFutureWithoutManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject + " = " + result)
