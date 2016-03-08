@@ -3,7 +3,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
     this.dataService = dataService
 
     $rootScope.$on(dataService.events.openCalculatorEvent, function (event, body) {
-        if(dataService.applicationDetailsModel.assessmentType.name == 'Offset' && body.calculatorMode == 'offsetFutureWithManagement') {
+        if (dataService.applicationDetailsModel.assessmentType.name == 'Offset' && body.calculatorMode == 'offsetFutureWithManagement') {
             $scope.cc.composition.updateFutureWithManagement()
         }
     })
@@ -65,6 +65,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                 this.calculateRawRestorationGain(theObject, theObjectLower)
                 this.calculateRawTotalGain(theObject, theObjectLower)
                 this.calculateWeightedNoDiscount(theObject, theObjectLower)
+                this.calculateWeightedConditionWithOffset(theObject, theObjectLower)
             }
         },
 
@@ -121,7 +122,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Composition")
             var supplimentaryPlanting = "Absent"
             var numberOfSpeciesPlanted = 0.75 * benchmark
-            if(theObject == 'Tree' || theObject == 'Shrub') {
+            if (theObject == 'Tree' || theObject == 'Shrub') {
                 supplimentaryPlanting = "Present"
             }
             var currentValueWithAddedConstant = eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject)
@@ -133,7 +134,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             if (benchmark == 0) {
                 result = 0
             } else {
-                if(observedValue > benchmark) {
+                if (observedValue > benchmark) {
                     result = observedValue;
                 } else {
                     if (supplimentaryPlanting == 'Absent') {
@@ -188,7 +189,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             return this.model.calculatorMode == 'offsetFutureWithManagement'
         },
 
-        updateFutureWithManagement: function( ){
+        updateFutureWithManagement: function () {
             this.updateCalcsFor('Tree', -1)
             this.updateCalcsFor('Shrub', -1)
             this.updateCalcsFor('Fern', -1)
@@ -303,8 +304,13 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
         },
 
         calculateCompositionOffsetSubtotalForFutureWithManagement: function () {
-            var total = -9999
+            var total = 0
             var c = this.getCurrentComposition()
+            total += c.weightedConditionWithOffsetTree
+            total += c.weightedConditionWithOffsetShrub
+            total += c.weightedConditionWithOffsetGrassAndGrassLike
+            total += c.weightedConditionWithOffsetForb
+            total += c.weightedConditionWithOffsetFern
             c.compositionSubtotal = total.toFixed(0)
         },
 
@@ -345,7 +351,15 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                 this.addCompositionCalcResults();
             }
             this.getCurrentComposition().compositionTransects.push(this.createCompositionTransect())
-        }
+        },
+
+        calculateWeightedConditionWithOffset: function (theObject, theObjectLower) {
+            dynamicWeightingScore = eval("this.model.compositionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
+            futureConditionWithOffset = eval("this.getCurrentComposition().futureConditionWithOffset" + theObject)
+            result = (dynamicWeightingScore * futureConditionWithOffset).toFixed(2)
+            eval("this.getCurrentComposition().weightedConditionWithOffset" + theObject + " = " + result)
+            return result
+        },
     }
 
     if (this.composition.getApplicableCalcResults()[this.composition.model.inFocusVegetationZoneIndex].compositionTransects.length == 0) {

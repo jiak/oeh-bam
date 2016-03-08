@@ -64,6 +64,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 this.calculateRawRestorationGain(theObject, theObjectLower)
                 this.calculateRawTotalGain(theObject, theObjectLower)
                 this.calculateWeightedNoDiscount(theObject, theObjectLower)
+                this.calculateWeightedConditionWithOffset(theObject, theObjectLower)
             }
         },
 
@@ -361,8 +362,12 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         },
 
         calculateFunctionOffsetSubtotalForFutureWithManagement: function () {
-            var total = -9999
+            var total = 0
             var c = this.getCurrentFunction()
+            total += c.weightedConditionWithOffsetNumberOfLargeTrees
+            total += c.weightedConditionWithOffsetLitterCover
+            total += c.weightedConditionWithOffsetCoarseWoodyDebris
+            total += c.weightedConditionWithOffsetRegenerationPresent
             c.functionSubtotal = total.toFixed(0)
         },
 
@@ -401,7 +406,15 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 this.addFunctionCalcResults()
             }
             this.getCurrentFunction().functionTransects.push(this.createFunctionTransect())
-        }
+        },
+
+        calculateWeightedConditionWithOffset: function (theObject, theObjectLower) {
+            dynamicWeightingScore = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
+            futureConditionWithOffset = eval("this.getCurrentFunction().futureConditionWithOffset" + theObject)
+            result = (dynamicWeightingScore * futureConditionWithOffset).toFixed(2)
+            eval("this.getCurrentFunction().weightedConditionWithOffset" + theObject + " = " + result)
+            return result
+        },
     }
 
     if (this.function.getApplicableCalcResults()[this.function.model.inFocusVegetationZoneIndex].functionTransects.length == 0) {

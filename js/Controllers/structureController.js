@@ -80,6 +80,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 this.calculateRawRestorationGain(theObject, theObjectLower)
                 this.calculateRawTotalGain(theObject, theObjectLower)
                 this.calculateWeightedNoDiscount(theObject, theObjectLower)
+                this.calculateWeightedConditionWithOffset(theObject, theObjectLower)
             }
         },
 
@@ -331,8 +332,13 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
         },
 
         calculateStructureOffsetSubtotalForFutureWithManagement: function () {
-            var total = -9999
+            var total = 0
             var c = this.getCurrentStructure()
+            total += c.weightedConditionWithOffsetTree
+            total += c.weightedConditionWithOffsetShrub
+            total += c.weightedConditionWithOffsetGrassAndGrassLike
+            total += c.weightedConditionWithOffsetForb
+            total += c.weightedConditionWithOffsetFern
             c.structureSubtotal = total.toFixed(0)
         },
 
@@ -373,6 +379,14 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 this.addStructureCalcResults()
             }
             this.getCurrentStructure().structureTransects.push(this.createStructureTransect())
+        },
+
+        calculateWeightedConditionWithOffset: function (theObject, theObjectLower) {
+            dynamicWeightingScore = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
+            futureConditionWithOffset = eval("this.getCurrentStructure().futureConditionWithOffset" + theObject)
+            result = (dynamicWeightingScore * futureConditionWithOffset).toFixed(2)
+            eval("this.getCurrentStructure().weightedConditionWithOffset" + theObject + " = " + result)
+            return result
         }
     }
 
