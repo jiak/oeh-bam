@@ -22,8 +22,9 @@
                         </select>
                     </td>
                     <td>
-                        <select ng-if="hc.habitat.model.inputs[hc.habitat.model.current].ecosystemCredit[$index].presence.name=='Yes'" class="form-control" ng-model="hc.habitat.model.inputs[hc.habitat.model.current].ecoSystemCredit[$index].sensitivity" ng-options="item as item.name for item in hc.habitat.model.referenceData.sensitivityClass">
-                        </select>
+                        <!--select ng-if="hc.habitat.model.inputs[hc.habitat.model.current].ecosystemCredit[$index].presence.name=='Yes'" class="form-control" ng-model="hc.habitat.model.inputs[hc.habitat.model.current].ecoSystemCredit[$index].sensitivity" ng-options="item as item.name for item in hc.habitat.model.referenceData.sensitivityClass">
+                        </select-->
+                        <input ng-disabled="true" type="text" class="form-control" ng-model="hc.habitat.model.inputs[hc.habitat.model.current].ecoSystemCredit[$index].sensitivity" ng-value="x.threatendedSpecies.sensitivity"/>
                     </td>
                 <tr>
                 </tbody>
@@ -96,8 +97,8 @@
                 <tr>
                 </tbody>
             </table>
-            <h4>Assessment of Biodiversity Concern</h4>
-            <table class="table">
+            <h4 ng-if="hc.dataService.applicationDetailsModel.assessmentType.id != 1">Assessment of Biodiversity Concern</h4>
+            <table class="table" ng-if="hc.dataService.applicationDetailsModel.assessmentType.id != 1">
                 <thead>
                 <tr>
                     <th>Common Name</th>
