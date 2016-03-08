@@ -50,9 +50,10 @@ bamApp.service('calculationService', [function () {
             if (type == 'NumberofLargeTrees') {
                 medianRateOfIncrease = 0.01
             } else if (type == 'LitterCover') {
-                medianRateOfIncrease = 0.015
+                medianRateOfIncrease = 0.15
+                return medianRateOfIncrease + 0.01
             } else if (type == 'CoarseWoodyDebris') {
-                medianRateOfIncrease = 0.08
+                medianRateOfIncrease = 0.05
             }
             return ((((medianRateOfIncrease * 1) + 0) * 1 * (1 / (1 + Math.exp(3.5 - viScore / (10))))));
         }
