@@ -78,6 +78,8 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
             dataService.compositionModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
             dataService.functionModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
             dataService.structureModel.setInputs(inFocusVegetationZoneIndex, calculatorMode, keithClass)
+            body = dataService.events.createOpenCalculatorEvent(calcType, calculatorMode)
+            $rootScope.$emit(dataService.events.openCalculatorEvent, body)
         },
 
         dispatchVegzoneUpdateEvent: function () {
