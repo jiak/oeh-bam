@@ -10,6 +10,13 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
                     patchSize: patchSize
                 }
             },
+            openCalculatorEvent: "openCalculatorEvent",
+            createOpenCalculatorEvent: function(calcType, calculatorMode) {
+                return {
+                    calcType: calcType,
+                    calculatorMode: calculatorMode
+                }
+            },
             recalculateVisEvent: "recalculateVisEvent",
             createRecalculateVisEvent: function() {
                 return {}
