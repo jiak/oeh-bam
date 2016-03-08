@@ -31,7 +31,7 @@ bamApp.controller('siteContextController', ["$scope", "$rootScope", "dataService
 
         submit: function() {
             this.model.confirmed = true
-            if(dataService.applicationDetailsModel.assessmentType.id != 3) {
+            if(dataService.applicationDetailsModel.assessmentType.id != 1) {
                 dataService.indexModel.tabControl.tab3 = true;
             } else {
                 dataService.indexModel.tabControl.tab4 = true;
