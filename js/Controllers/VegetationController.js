@@ -3,19 +3,19 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
     this.dataService = dataService
 
     $rootScope.$on(dataService.events.siteContextUpdateEvent, function (event, body) {
-        if(dataService.applicationDetailsModel.assessmentType.name == 'Development') {
+        if (dataService.applicationDetailsModel.assessmentType.name == 'Development') {
             $scope.vc.vegetationTab.addPctObject()
         }
     })
 
-    $rootScope.$on(dataService.events.requestVegzoneUpdateEvent, function(event, body) {
-        if(dataService.applicationDetailsModel.assessmentType.name == 'Development') {
+    $rootScope.$on(dataService.events.requestVegzoneUpdateEvent, function (event, body) {
+        if (dataService.applicationDetailsModel.assessmentType.name == 'Development') {
             $scope.vc.vegetationTab.dispatchVegzoneUpdateEvent()
         }
     })
 
-    $rootScope.$on(dataService.events.recalculateVisEvent, function(event, body) {
-        if(dataService.applicationDetailsModel.assessmentType.name == 'Development') {
+    $rootScope.$on(dataService.events.recalculateVisEvent, function (event, body) {
+        if (dataService.applicationDetailsModel.assessmentType.name == 'Development') {
             $scope.vc.vegetationTab.recalculateVis()
         }
     })
@@ -118,13 +118,13 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             $rootScope.$emit(dataService.events.openCalculatorEvent, body)
         },
 
-        dispatchVegzoneUpdateEvent: function() {
+        dispatchVegzoneUpdateEvent: function () {
             var body = dataService.events.createVegetationZoneUpdateEvent(this.model.input.vegetationZones, this.model.input.pct)
             $rootScope.$emit(dataService.events.vegetationZoneUpdateEvent, body)
         },
 
-        recalculateVis: function() {
-            for(i = 0; i < this.model.input.vegetationZones.length; i++) {
+        recalculateVis: function () {
+            for (i = 0; i < this.model.input.vegetationZones.length; i++) {
                 futureVis = this.calculateGeomean(i, 'future')
                 currentVis = this.calculateGeomean(i, 'current')
                 eval("this.model.input.vegetationZones[" + i + "].futureAndCurrentDeltaVis = " + (futureVis - currentVis))
