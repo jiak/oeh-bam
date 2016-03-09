@@ -83,13 +83,13 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 rawCurrentCondition = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].unweighted" + theObject + "Score")
                 result = futureConditionWithOffset - rawCurrentCondition
             }
-            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawRestorationGain" + theObject + " = " + result.toFixed(2))
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawRestorationGain" + theObject + " = " + Math.abs(result).toFixed(2))
         },
 
         calculateRawTotalGain: function (theObject, theObjectLower) {
             var rawAvertedLoss = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawAvertedLoss" + theObject)
             var rawRestorationGain = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawRestorationGain" + theObject)
-            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject + " = " + (rawAvertedLoss + rawRestorationGain).toFixed(2))
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject + " = " + Math.abs(rawAvertedLoss + rawRestorationGain).toFixed(2))
         },
 
         calculateWeightedNoDiscount: function (theObject, theObjectLower) {
@@ -154,10 +154,17 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 if (benchmark == 0) {
                     result = 0
                 } else {
-                    if (supplimentaryPlanting == 'Absent') {
-                        result = (benchmark * currentValueWithAddedConstant * Math.exp(rValue * 20)) / (benchmark + currentValueWithAddedConstant * (Math.exp(rValue * 20) - 1))
+                    var observedValue = parseInt(eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].observedMean" + theObject))
+                    if(observedValue > benchmark) {
+                        result = observedValue
                     } else {
-                        result = (benchmark * (currentValueWithAddedConstant + benchmark * 0.01) * Math.exp((rValue + benefitForPlanting) * managementTimeFrame)) / (benchmark + (currentValueWithAddedConstant + benchmark * 0.01) * (Math.exp((rValue + benefitForPlanting) * managementTimeFrame) - 1))
+                        if (supplimentaryPlanting == 'Absent') {
+                            result = (benchmark * currentValueWithAddedConstant * Math.exp(rValue * 20)) / (benchmark + currentValueWithAddedConstant * (Math.exp(rValue * 20) - 1))
+                        } else {
+                            result = (benchmark * (currentValueWithAddedConstant + benchmark * 0.01) *
+                                Math.exp((rValue + benefitForPlanting) * managementTimeFrame)) / (benchmark + (currentValueWithAddedConstant + benchmark * 0.01) *
+                                (Math.exp((rValue + benefitForPlanting) * managementTimeFrame) - 1))
+                        }
                     }
                 }
             } else if (theObject == 'RegenerationPresent') {
@@ -185,7 +192,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
                 result = rawCurrentCondition - futureConditionWithoutOffset
             }
-            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawAvertedLoss" + theObject + " = " + result.toFixed(2))
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawAvertedLoss" + theObject + " = " + Math.abs(result).toFixed(2))
         },
 
         calculateCurrentValueWithAddedConstant: function (theObject, theObjectLower) {
