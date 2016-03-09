@@ -1,6 +1,6 @@
 <table ng-show="sc.structure.displayFutureWithoutManagement()" class="table numericGrid">
     <tr ng-repeat="item in sc.structure.getApplicableCalcResults()[sc.structure.model.inFocusVegetationZoneIndex].structureTransects">
-        <td>Rate Of Decline (% per annum)</td>
+        <td>Rate of decline (% per annum)</td>
         <td>
             <select class="form-control" ng-model="item.tree" ng-blur="sc.structure.updateCalcsFor('Tree', item.tree)">
                 <option value="0.00">0.00%</option>
@@ -53,7 +53,7 @@
         </td>
     </tr>
     <tr>
-        <th>Future Value Without Offset</th>
+        <th>Future value without offset</th>
         <td>{{sc.structure.getCurrentStructure().futureValueWithoutOffsetTree || "0"}}</td>
         <td>{{sc.structure.getCurrentStructure().futureValueWithoutOffsetShrub || "0"}}</td>
         <td>{{sc.structure.getCurrentStructure().futureValueWithoutOffsetGrassAndGrassLike || "0"}}</td>
@@ -61,7 +61,7 @@
         <td>{{sc.structure.getCurrentStructure().futureValueWithoutOffsetFern || "0"}}</td>
     </tr>
     <tr>
-        <th>Future Condition Without Offset</th>
+        <th>Future condition without offset</th>
         <td>{{sc.structure.getCurrentStructure().futureConditionWithoutOffsetTree || "0"}}</td>
         <td>{{sc.structure.getCurrentStructure().futureConditionWithoutOffsetShrub || "0"}}</td>
         <td>{{sc.structure.getCurrentStructure().futureConditionWithoutOffsetGrassAndGrassLike || "0"}}</td>
@@ -69,7 +69,7 @@
         <td>{{sc.structure.getCurrentStructure().futureConditionWithoutOffsetFern || "0"}}</td>
     </tr>
     <tr>
-        <th>Adjusted Condition Without Offset</th>
+        <th>Adjusted condition without offset</th>
         <td>{{sc.structure.getCurrentStructure().adjustedConditionWithoutOffsetTree || "0"}}</td>
         <td>{{sc.structure.getCurrentStructure().adjustedConditionWithoutOffsetShrub || "0"}}</td>
         <td>{{sc.structure.getCurrentStructure().adjustedConditionWithoutOffsetGrassAndGrassLike || "0"}}</td>

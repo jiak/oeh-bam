@@ -2,11 +2,11 @@
     <div ng-controller="structureController as sc">
         <div class="row">
             <div class="col-md-6">
-                <h4>Zone Structure Data (Structure condition score: {{sc.structure.getCurrentStructure().structureSubtotal || "0"}})</h4>
+                <h4>Zone structure data (Structure condition score: {{sc.structure.getCurrentStructure().structureSubtotal || "0"}})</h4>
             </div>
             <div class="col-md-6">
                 <button ng-click="sc.structure.close()" class="btn btn-primary pull-right">Close</button>
-                <button ng-show="sc.structure.model.calculatorMode == 'current'" ng-click="sc.structure.addStructureTransect()" class="btn btn-secondary pull-right">Add Transect</button>
+                <button ng-show="sc.structure.model.calculatorMode == 'current'" ng-click="sc.structure.addStructureTransect()" class="btn btn-secondary pull-right">Add transect</button>
             </div>
         </div>
         <div class="row" style="padding-top: 30px">

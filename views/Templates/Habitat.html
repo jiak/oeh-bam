@@ -1,15 +1,15 @@
 <div ng-controller="habitatController as hc" class="tabcontentdiv">
     <form>
         <fieldset class="form-group">
-            <h4>Predicted Threatened Species</h4>
+            <h4>Predicted threatened species</h4>
             <table class="table">
                 <thead>
                 <tr>
-                    <th>Common Name</th>
-                    <th>Scientific Name</th>
-                    <th>Habitat Components</th>
-                    <th>Habitat Presence</th>
-                    <th>Sensitivity Class</th>
+                    <th>Common name</th>
+                    <th>Scientific name</th>
+                    <th>Habitat components</th>
+                    <th>Habitat presence</th>
+                    <th>Sensitivity class</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -33,17 +33,17 @@
     </form>
     <form>
         <fieldset class="form-group">
-            <h4>Candidate Threatened Species</h4>
+            <h4>Candidate threatened species</h4>
             <table class="table" ng-if="true">
                 <thead>
                 <tr>
-                    <th>Common Name</th>
-                    <th>Scientific Name</th>
-                    <th>Geographic Limitations</th>
-                    <th>Habitat Components</th>
+                    <th>Common name</th>
+                    <th>Scientific name</th>
+                    <th>Geographic limitations</th>
+                    <th>Habitat components</th>
                     <th>Sensitivity</th>
                     <th>Candidate</th>
-                    <th>Assess Required</th>
+                    <th>Assess required</th>
                     <th>Presence</th>
                     <th>UOM</th>
                     <th>Value</th>
@@ -97,17 +97,17 @@
                 <tr>
                 </tbody>
             </table>
-            <h4 ng-if="hc.dataService.applicationDetailsModel.assessmentType.id != 1">Assessment of Biodiversity Concern</h4>
+            <h4 ng-if="hc.dataService.applicationDetailsModel.assessmentType.id != 1">Assessment of biodiversity concern</h4>
             <table class="table" ng-if="hc.dataService.applicationDetailsModel.assessmentType.id != 1">
                 <thead>
                 <tr>
-                    <th>Common Name</th>
-                    <th>Scientific Name</th>
-                    <th>Threat Status</th>
-                    <th>Biodiv. Concern</th>
-                    <th>Offset Multiplier</th>
-                    <th>SOII Threshold</th>
-                    <th>SOII Select</th>
+                    <th>Common name</th>
+                    <th>Scientific name</th>
+                    <th>Threat status</th>
+                    <th>Biodiv. concern</th>
+                    <th>Offset multiplier</th>
+                    <th>SOII threshold</th>
+                    <th>SOII select</th>
                 </tr>
                 </thead>
                 <tbody>
