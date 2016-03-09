@@ -4,23 +4,23 @@
         <fieldset class="form-group">
             <div class="callout" ng-show="adc.applicationDetails.model.confirmed == false">
                 <h3>Tip!</h3>
-                <p>Choosing the <em>'Assessment Type'</em> is an important step. Once you click, <em>'Next'</em> this value will become read-only and it cannot be un-done. Please <a href="#" onclick="location.reload()">refresh</a> your browser and start again if you have selected incorrectly.</p>
+                <p>Choosing the <em>'Assessment type'</em> is an important step. Once you click, <em>'Next'</em> this value will become read-only and it cannot be un-done. Please <a href="#" onclick="location.reload()">refresh</a> your browser and start again if you have selected incorrectly.</p>
             </div>
             <div class="callout" ng-show="adc.applicationDetails.model.confirmed == true">
                 <h3>Message!</h3>
                 <p>You have selected <em>'{{adc.applicationDetails.model.assessmentType.name}}'</em> as the <em>'Assessment Type'</em> so we now have enough information to proceed to the 'Site Context'. Please remember to <a href="#" onclick="location.reload()">refresh</a> your browser and start again if you have selected incorrectly.</p>
             </div>
 
-            <label for="AssessmentType">Assessment Type</label>
+            <label for="AssessmentType">Assessment type</label>
             <select title="Once set, Assessment Type cannot be changed" id="AssessmentType" ng-disabled="adc.applicationDetails.model.confirmed == true" required class="form-control" ng-model="adc.applicationDetails.model.assessmentType" ng-options="item as item.name for item in adc.applicationDetails.model.referenceData.applicationType track by item.name">
             </select>
-            <label for="ProposalID">Proposal ID</label>
+            <label for="ProposalID">Proposal id</label>
             <input ng-disabled="true" id="ProposalID" class="form-control" ng-model="adc.applicationDetails.model.proposalId"/>
-            <label for="ProposalVersion">Proposal Version</label>
+            <label for="ProposalVersion">Proposal version</label>
             <input ng-disabled="true" id="ProposalVersion" class="form-control" ng-model="adc.applicationDetails.model.proposalVersion"/>
-            <label for="ProposalName">Proposal Name</label>
+            <label for="ProposalName">Proposal name</label>
             <input id="ProposalName" class="form-control" ng-model="adc.applicationDetails.model.proposalName"/>
-            <label for="StreetAddress">Street Address</label>
+            <label for="StreetAddress">Street address</label>
             <input id="StreetAddress" class="form-control" ng-model="adc.applicationDetails.model.streetAddress"/>
             <button ng-disabled="adc.applicationDetails.model.confirmed == true" type="submit" class="btn btn-secondary">Next</button>
         </fieldset>
