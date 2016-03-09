@@ -166,6 +166,11 @@
             width: 100px
         }
 
+        .btn:focus {
+            outline: thin dotted;
+            outline-offset: 1px;
+        }
+
 
     </style>
 </head>
@@ -176,18 +181,18 @@
             <div>
                 <div class="row">
                     <div class="col-md-1">
-                        <button onclick="location.reload()" class="btn btn-primary">Reset Calculator</button>
+                        <button onclick="location.reload()" class="btn btn-secondary">Reset Calculator</button>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <uib-tabset>
                             <uib-tab active="ic.dataService.indexModel.tabControl.tab1">
-                                <uib-tab-heading><h4>1. Application Details <span ng-if="!(ic.dataService.applicationDetailsModel.confirmed)" class="glyphicon glyphicon-edit"></span><span ng-if="(ic.dataService.applicationDetailsModel.confirmed)" class="glyphicon glyphicon-check"></span></h4></uib-tab-heading>
+                                <uib-tab-heading><h4>1. Application details <span ng-if="!(ic.dataService.applicationDetailsModel.confirmed)" class="glyphicon glyphicon-edit"></span><span ng-if="(ic.dataService.applicationDetailsModel.confirmed)" class="glyphicon glyphicon-check"></span></h4></uib-tab-heading>
                                 <ng-include src="'Templates/ApplicationDetails.html'"></ng-include>
                             </uib-tab>
                             <uib-tab disable="!(ic.dataService.applicationDetailsModel.confirmed)" active="ic.dataService.indexModel.tabControl.tab2">
-                                <uib-tab-heading><h4>2. Site Context <span ng-if="!(ic.dataService.applicationDetailsModel.confirmed)" class="glyphicon glyphicon-ban-circle"></span><span ng-if="(ic.dataService.siteContextModel.confirmed == false) && ic.dataService.applicationDetailsModel.confirmed" class="glyphicon glyphicon-edit"></span><span ng-if="(ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed)" class="glyphicon glyphicon-check"></span></h4>
+                                <uib-tab-heading><h4>2. Site context <span ng-if="!(ic.dataService.applicationDetailsModel.confirmed)" class="glyphicon glyphicon-ban-circle"></span><span ng-if="(ic.dataService.siteContextModel.confirmed == false) && ic.dataService.applicationDetailsModel.confirmed" class="glyphicon glyphicon-edit"></span><span ng-if="(ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed)" class="glyphicon glyphicon-check"></span></h4>
                                 </uib-tab-heading>
                                 <ng-include src="'Templates/SiteContext.html'"></ng-include>
                             </uib-tab>
@@ -200,7 +205,7 @@
                                 <ng-include src="'Templates/offset.html'"></ng-include>
                             </uib-tab>
                             <uib-tab disable="!(ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed)">
-                                <uib-tab-heading><h4>4. Habitat Suitability <span ng-if="!ic.dataService.applicationDetailsModel.confirmed || !ic.dataService.siteContextModel.confirmed" class="glyphicon glyphicon-ban-circle"></span><span ng-if="ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed" class="glyphicon glyphicon-edit"></span></h4></uib-tab-heading>
+                                <uib-tab-heading><h4>4. Habitat suitability <span ng-if="!ic.dataService.applicationDetailsModel.confirmed || !ic.dataService.siteContextModel.confirmed" class="glyphicon glyphicon-ban-circle"></span><span ng-if="ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed" class="glyphicon glyphicon-edit"></span></h4></uib-tab-heading>
                                 <ng-include src="'Templates/Habitat.html'"></ng-include>
                             </uib-tab>
                             <uib-tab disable="!(ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed)">

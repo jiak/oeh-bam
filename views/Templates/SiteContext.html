@@ -9,13 +9,13 @@
             <p>You have selected <em>'{{scc.siteContext.model.inputs.ibra.name}}'</em> as the <em>'IBRA Region'</em> and <em>'{{scc.siteContext.model.inputs.subRegion.name}}'</em> as the <em>'IBRA Sub Region'</em> so we now have enough information to proceed. Please remember to <a href="#" onclick="location.reload()">refresh</a> your browser and start again if you have selected incorrectly.</p>
         </div>
         <fieldset class="form-group" ng-disabled="scc.siteContext.model.confirmed == true">
-            <label for="ibra">IBRA</label>
+            <label for="ibra">Biogeographic Regionalisation for Australia (IBRA)</label>
             <select ng-disabled="scc.siteContext.model.confirmed == true" required id="ibra" class="form-control" ng-model="scc.siteContext.model.inputs.ibra" ng-options="item as item.name for item in scc.siteContext.model.refIbra">
             </select>
-            <label for="sub-region">Sub Region</label>
+            <label for="sub-region">IBRA sub region</label>
             <select ng-disabled="scc.siteContext.model.confirmed == true" required id="sub-region" class="form-control" ng-model="scc.siteContext.model.inputs.subRegion" ng-options="item as item.name for item in scc.siteContext.model.inputs.ibra.ibraSubRegion">
             </select>
-            <label for="mitchell" ng-if="scc.dataService.applicationDetailsModel.assessmentType.id != 3">Mitchell</label>
+            <label for="mitchell" ng-if="scc.dataService.applicationDetailsModel.assessmentType.id != 3">Mitchell landscape</label>
             <select id="mitchell" ng-if="scc.dataService.applicationDetailsModel.assessmentType.id != 3" class="form-control" ng-model="scc.siteContext.model.inputs.mitchellLandscape" ng-options="item as item.name for item in scc.siteContext.model.refMitchellLandscape">
             </select>
 
@@ -26,12 +26,12 @@
             <label for="cover">Cover</label>
             <select ng-disabled="scc.siteContext.model.confirmed == true" id="cover" class="form-control" ng-model="scc.siteContext.model.inputs.cover" ng-options="item as item for item in scc.siteContext.model.vegetationCoverClass">
             </select>
-            <label for="patch-size">Patch Size</label>
+            <label for="patch-size">Patch size</label>
             <select ng-disabled="scc.siteContext.model.confirmed == true" id="patch-size" class="form-control" ng-model="scc.siteContext.model.inputs.patchSize" ng-options="item as item for item in scc.siteContext.model.patchSizeClass">
             </select>
         </fieldset>
         <fieldset ng-if="scc.dataService.applicationDetailsModel.assessmentType.id != 3" ng-disabled="scc.siteContext.model.confirmed == true">
-            <h4>Landscape Features</h4>
+            <h4>Landscape features</h4>
             <table>
                 <thead>
                 <tr>
@@ -50,12 +50,12 @@
                         <input class="form-control" type="text" ng-model="x.name" name="feature-name"/>
                     </td>
                     <td>
-                        <a href="" ng-show="$index < (scc.siteContext.model.inputs.landscapeFeatures.length-1)" ng-click="scc.siteContext.removeFeature($index)">Remove</a>
+                        <a class="btn" href="" ng-show="$index < (scc.siteContext.model.inputs.landscapeFeatures.length-1)" ng-click="scc.siteContext.removeFeature($index)">Remove</a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <button type="button" class="btn btn-primary" ng-click="scc.siteContext.addFeature()">Add</button>
+                        <button type="button" class="btn" ng-click="scc.siteContext.addFeature()">Add another landscape feature</button>
                     </td>
                     <td></td>
                     <td></td>

@@ -18,7 +18,7 @@
                     <td>{{x.threatendedSpecies.scientificName}}</td>
                     <td>{{x.threatendedSpecies.habitatComponents}}</td>
                     <td>
-                        <select ng-model="hc.habitat.model.inputs[hc.habitat.model.current].ecosystemCredit[$index].presence" class="form-control" ng-options="item as item.name for item in hc.habitat.model.referenceData.optionClass">
+                        <select ng-model="hc.habitat.model.inputs[hc.habitat.model.current].ecosystemCredit[$index].presence" class="form-control" ng-options="item as item.name for item in hc.habitat.model.referenceData.optionClass" ng-init="hc.habitat.model.inputs[hc.habitat.model.current].ecosystemCredit[$index].presence = hc.habitat.model.referenceData.optionClass[0]">
                         </select>
                     </td>
                     <td>
