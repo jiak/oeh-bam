@@ -3,7 +3,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
     this.dataService = dataService
 
     $rootScope.$on(dataService.events.openCalculatorEvent, function (event, body) {
-        if(dataService.applicationDetailsModel.assessmentType.name == 'Offset' && body.calculatorMode == 'offsetFutureWithManagement') {
+        if (dataService.applicationDetailsModel.assessmentType.name == 'Offset' && body.calculatorMode == 'offsetFutureWithManagement') {
             $scope.sc.structure.updateFutureWithManagement()
         }
     })
@@ -31,13 +31,13 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             }
         },
 
-        calculateCurrentValueWithAddedConstant: function(theObject, theObjectLower, observedValue) {
+        calculateCurrentValueWithAddedConstant: function (theObject, theObjectLower, observedValue) {
             var result = 0
             var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Cover")
-            if(benchmark == 0) {
+            if (benchmark == 0) {
                 result = 0
             } else {
-                if(observedValue == 0) {
+                if (observedValue == 0) {
                     result = observedValue + (benchmark * 0.01)
                 } else {
                     result = observedValue
@@ -98,8 +98,8 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
         },
 
         calculateRawTotalGain: function (theObject, theObjectLower) {
-            var rawAvertedLoss = eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawAvertedLoss" + theObject)
-            var rawRestorationGain = eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawRestorationGain" + theObject)
+            var rawAvertedLoss = Math.abs(eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawAvertedLoss" + theObject))
+            var rawRestorationGain = Math.abs(eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawRestorationGain" + theObject))
             eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject + " = " + (rawAvertedLoss + rawRestorationGain).toFixed(2))
         },
 
@@ -123,10 +123,14 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             if (c11Benchmark == 0) {
                 result = 0
             } else {
-                if (n11FutureValueWithOffset > c11Benchmark) {
-                    result = ((100 + 50) - (50 + (100 - 50) / (1 + Math.exp(-10 * ((n11FutureValueWithOffset / c11Benchmark) - 1.5)))))
+                if(theObject == 'Forb' || theObject == 'Fern') {
+                    result = 1.01 * (1 - Math.exp(-5 * Math.pow((n11FutureValueWithOffset / c11Benchmark), 2.5))) * 100
                 } else {
-                    result = Math.pow(1.01 * (1 - Math.exp(-5 * (n11FutureValueWithOffset / c11Benchmark))), 2.5) * 100
+                    if (n11FutureValueWithOffset > c11Benchmark) {
+                        result = ((100 + 50) - (50 + (100 - 50) / (1 + Math.exp(-10 * ((n11FutureValueWithOffset / c11Benchmark) - 1.5)))))
+                    } else {
+                        result = 1.01 * (1 - Math.exp(-5 * Math.pow((n11FutureValueWithOffset / c11Benchmark), 2.5))) * 100
+                    }
                 }
             }
             eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithOffset" + theObject + " = " + result.toFixed(2))
@@ -134,9 +138,13 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
 
         calculateFutureValueWithOffset: function (theObject, theObjectLower) {
             var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Cover")
-            var highThreadWeedCover = true
+            var observedValue = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].observedMean" + theObject)
             var currentValueWithAddedConstant = eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject)
-            viScore = dataService.offsetModel.input.vegetationZones[this.model.inFocusVegetationZoneIndex].offsetFutureWithManagementVis
+            var supplimentaryPlanting = "Absent"
+            if (theObject == 'Tree' || theObject == 'Shrub') {
+                supplimentaryPlanting = "Present"
+            }
+            viScore = dataService.offsetModel.input.vegetationZones[this.model.inFocusVegetationZoneIndex].currentVis
             rValue = calculationService.getStructureRValue(theObject, viScore)
             var managementTimeFrame = 20
             restorationModifier = restorationModifier = calculationService.getRestorationModifierForPlanting(viScore)
@@ -144,16 +152,20 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             if (benchmark == 0) {
                 result = 0
             } else {
-                if (!highThreadWeedCover) {
-                    result = (benchmark * currentValueWithAddedConstant * Math.exp(rValue * 20)) / (benchmark + currentValueWithAddedConstant * (Math.exp(rValue * 20) - 1))
+                if (theObject == 'Tree' && observedValue > benchmark) {
+                    result = observedValue;
                 } else {
-                    var someVal = 0.2
-                    if(theObject == 'GrassAndGrassLike') {
-                        someVal = 0.1
-                    } else if (theObject == 'Forb' || theObject == 'Fern') {
-                        someVal = 0.05
+                    if (supplimentaryPlanting == 'Absent') {
+                        result = (benchmark * currentValueWithAddedConstant * Math.exp(rValue * 20)) / (benchmark + currentValueWithAddedConstant * (Math.exp(rValue * 20) - 1))
+                    } else {
+                        var someVal = 0.2
+                        if (theObject == 'GrassAndGrassLike') {
+                            someVal = 0.1
+                        } else if (theObject == 'Forb' || theObject == 'Fern') {
+                            someVal = 0.05
+                        }
+                        result = (benchmark * (currentValueWithAddedConstant + (benchmark * someVal) * restorationModifier) * Math.exp((rValue) * managementTimeFrame)) / (benchmark + (currentValueWithAddedConstant + (benchmark * someVal) * restorationModifier) * (Math.exp((rValue) * managementTimeFrame) - 1))
                     }
-                    result = (benchmark * (currentValueWithAddedConstant + (benchmark * someVal) * restorationModifier) * Math.exp((rValue) * managementTimeFrame)) / (benchmark + (currentValueWithAddedConstant + (benchmark * 0.2) * restorationModifier) * (Math.exp((rValue) * managementTimeFrame) - 1))
                 }
             }
             eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithOffset" + theObject + " = " + result.toFixed(2))
@@ -165,9 +177,9 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             if (benchmark == 0) {
                 result = 0
             } else {
-                var rawCurrentCondition = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].unweighted" + theObject + "Score")
-                var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
-                result = rawCurrentCondition - futureConditionWithoutOffset
+                var rawCurrentCondition = Math.abs(eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].unweighted" + theObject + "Score"))
+                var futureConditionWithoutOffset = Math.abs(eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject))
+                result = Math.abs(rawCurrentCondition - futureConditionWithoutOffset)
             }
             eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawAvertedLoss" + theObject + " = " + result.toFixed(2))
         },
@@ -192,7 +204,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             return this.model.calculatorMode == 'offsetFutureWithManagement'
         },
 
-        updateFutureWithManagement: function( ){
+        updateFutureWithManagement: function () {
             this.updateCalcsFor('Tree', -1)
             this.updateCalcsFor('Shrub', -1)
             this.updateCalcsFor('Fern', -1)
@@ -310,7 +322,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                     case "forb":
                     case "fern" :
                     case "other":
-                        returnValue = (1.01*(1-Math.exp(-5*(observedValue/eval("benchmarks." + theObjectLower + "Cover"))^2.5))*100);
+                        returnValue = (1.01 * (1 - Math.exp(-5 * (observedValue / eval("benchmarks." + theObjectLower + "Cover")) ^ 2.5)) * 100);
                         break;
 
                     default:
@@ -321,7 +333,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                             (1 + Math.exp(-10 * ((observedValue / eval("benchmarks." + theObjectLower + "Cover") - 1.5)))))))
                         } else {
                             returnValue = (
-                            1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Cover"), 2.5))) * 100
+                                1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Cover"), 2.5))) * 100
                             );
                             returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Cover"), 2.5))) * 100);
                         }
