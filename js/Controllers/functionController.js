@@ -131,7 +131,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 if (theObject == 'RegenerationPresent') {
                     result = (1.01 * (1 - Math.exp(-5 * (n11FutureValueWithOffset / c11Benchmark), 2.5)) * 100)
                 } else {
-                    if (n11FutureValueWithOffset > c11Benchmark) {
+                    if (theObject == 'Tree' && n11FutureValueWithOffset > c11Benchmark) {
                         result = 100
                     } else {
                         result = (1.01 * (1 - Math.exp(-5 * Math.pow(n11FutureValueWithOffset / c11Benchmark, 2.5))) * 100)
@@ -147,9 +147,9 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 result = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
             } else if (theObject == 'LitterCover' || theObject == 'CoarseWoodyDebris') {
                 var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
-                var supplimentaryPlanting = "Absent"
+                var supplimentaryPlanting = "Present"
                 var currentValueWithAddedConstant = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject)
-                rValue = calculationService.getFunctionRValue(theObject, dataService.offsetModel.input.vegetationZones[this.model.inFocusVegetationZoneIndex].offsetFutureWithManagementVis)
+                rValue = calculationService.getFunctionRValue(theObject, dataService.offsetModel.input.vegetationZones[this.model.inFocusVegetationZoneIndex].currentVis)
                 var managementTimeFrame = 20
                 var benefitForPlanting = 0
                 var result = 0
@@ -267,23 +267,19 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             if (theObject == 'RegenerationPresent') {
                 benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration == 'present' ? 1 : 0
             }
-            if (theObject == 'RegenerationPresent' || theObject == 'StemSizeClasses') {
-                if (benchmark == 0) {
-                    result = 0
-                } else {
-                    result = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / benchmark, 2.5))) * 100)
-                }
+            if(benchmark == 0) {
+                result = 0
             } else {
-                if (observedValue == 0) {
-                    result = 0
+                var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
+                if(theObject == 'NumberOfLargeTrees' && futureValueWithoutOffset > benchmark) {
+                    result = 100
                 } else {
-
-                    if (observedValue > benchmark) {
-                        result = 100
+                    if(theObject == 'StemSizeClasses' || theObject == 'RegenerationPresent') {
+                        result = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / benchmark, 2.5))) * 100)
                     } else {
-                        var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
                         result = (1.01 * (1 - Math.exp(-5 * Math.pow(futureValueWithoutOffset / benchmark, 2.5))) * 100)
                     }
+
                 }
             }
             eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject + " = " + result)
@@ -334,7 +330,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         },
 
         calculateDynamicWeightingGain: function (theObject, theObjectLower) {
-            result = this.calculateDynamicWeightingScore(theObject, theObjectLower) * 0.85
+            result = this.calculateDynamicWeightingScore(theObject, theObjectLower) / 0.85
             eval("this.getCurrentFunction().dynamicWeightingGain" + theObject + "Score = " + result)
         },
 
@@ -348,30 +344,19 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             if (observedValue == 0) {
                 returnValue = 0;
             } else {
-                switch (theObject) {
-                    case "NumberOfLargeTrees":
-                    case "StemSizeClasses":
-                        if (observedValue > eval("benchmarks." + theObjectLower + "")) {
-                            returnValue = 100;
-                        } else {
-                            returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + ""), 2.5))) * 100);
-                        }
-
-                        break;
-                    case "LitterCover" :
-                    case "CoarseWoodyDebris":
-                    case "RegenerationPresent":
-                        if (theObject == "RegenerationPresent") {
-                            observedValue = parseInt(observedValue);
-                            returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / 1, 2.5))) * 100);
-                        } else {
-                            returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + ""), 2.5))) * 100);
-                        }
-                        break;
-                    default:
-
-                        break;
-
+                if(theObject == 'NumberOfLargeTrees' || theObject == 'StemSizeClasses') {
+                    if (observedValue > eval("benchmarks." + theObjectLower)) {
+                        returnValue = 100;
+                    } else {
+                        returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow((observedValue / eval("benchmarks." + theObjectLower)), 2.5))) * 100)
+                    }
+                } else if(theObject == 'LitterCover' || theObject == 'CoarseWoodyDebris' || theObject == 'RegenerationPresent') {
+                    if(theObject == 'RegenerationPresent') {
+                        benchmark = benchmarks.regeneration == 'present' ? 1 : 0
+                    } else {
+                        benchmark = eval("benchmarks." + theObjectLower)
+                    }
+                    returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow((observedValue / benchmark), 2.5))) * 100)
                 }
 
             }
