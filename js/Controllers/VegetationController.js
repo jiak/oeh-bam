@@ -60,23 +60,23 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
                 ss = dataService.structureModel.futureStructureCalcResults[index].structureSubtotal
                 fs = dataService.functionModel.futureFunctionCalcResults[index].functionSubtotal
             }
-            var sum = 1
+            var product = 1
             var count = 0
             if (cs > 0) {
-                sum *= cs
+                product *= cs
                 count++
             }
             if (ss > 0) {
-                sum *= ss
+                product *= ss
                 count++
             }
             if (fs > 0) {
-                sum *= fs
+                product *= fs
                 count++
             }
             result = 0
-            if (sum > 0 && count > 0) {
-                result = Math.pow(sum, 1 / count)
+            if (product > 0 && count > 0) {
+                result = Math.pow(product, 1 / count)
             } else {
                 result = 0
             }

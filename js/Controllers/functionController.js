@@ -326,7 +326,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             } else if (theObject == "StemSizeClasses") {
                 value = 0.15
             } else if (theObject == "RegenerationPresent") {
-                value = 0.15
+                value = 0.2
             }
             eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score = " + value)
         },

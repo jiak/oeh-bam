@@ -21,7 +21,7 @@ bamApp.filter('r0d', function() {
         if(isNaN(val)) {
             return "NaN"
         } else {
-            return math.floor(val)
+            return math.round(val, 0)
         }
     }
 })
