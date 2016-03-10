@@ -8,7 +8,7 @@
         <th>Fern</th>
     </tr>
     <tr ng-repeat="item in cc.composition.getApplicableCalcResults()[cc.composition.model.inFocusVegetationZoneIndex].compositionTransects">
-        <th>Rate Of Decline (% per annum)</th>
+        <th>Rate of decline (% per annum)</th>
         <td>
             <select class="form-control" ng-model="item.tree" ng-blur="cc.composition.updateCalcsFor('Tree', item.tree)">
                 <option value="0.00">0.00%</option>
@@ -61,7 +61,7 @@
         </td>
     </tr>
     <tr>
-        <th>Future Value Without Offset</th>
+        <th>Future value without offset</th>
         <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetTree | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetShrub | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetGrassAndGrassLike | r2d}}</td>
@@ -69,7 +69,7 @@
         <td>{{cc.composition.getCurrentComposition().futureValueWithoutOffsetFern | r2d}}</td>
     </tr>
     <tr>
-        <th>Future Condition Without Offset</th>
+        <th>Future condition without offset</th>
         <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetTree | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetShrub | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetGrassAndGrassLike | r2d}}</td>
@@ -77,7 +77,7 @@
         <td>{{cc.composition.getCurrentComposition().futureConditionWithoutOffsetFern | r2d}}</td>
     </tr>
     <tr>
-        <th>Adjusted Condition Without Offset</th>
+        <th>Adjusted condition without offset</th>
         <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetTree | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetShrub | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().adjustedConditionWithoutOffsetGrassAndGrassLike | r2d}}</td>

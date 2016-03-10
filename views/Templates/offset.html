@@ -11,7 +11,7 @@
             </p>
         </div>
         <div>
-            <h4>Plant Community Types &amp; Ecological Communities</h4>
+            <h4>Plant Community Types (PCT) &amp; ecological communities</h4>
             <table class="table">
                 <thead>
                 <tr>
@@ -21,7 +21,7 @@
                     <th>PCT Code</th>
                     <th>PCT % Cleared</th>
                     <th>Associated TEC</th>
-                    <th>Threat Status Class</th>
+                    <th>Threat status class</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -39,7 +39,7 @@
                         <p ng-show="pctItem.pct != null">{{pctItem.pct.name}}</p>
                     </td>
                     <td>{{pctItem.pct.id}}</td>
-                    <td>{{pctItem.pct.percentCleared}}</td>
+                    <td>{{pctItem.pct.percentCleared.pct_cleared}}</td>
                     <td>
                         <select ng-show="pctItem.tec == null" class="form-control" ng-model="pctItem.tec" ng-options="ref.name for ref in pctItem.pct.tec"></select>
                         <p ng-show="pctItem.tec != null">{{pctItem.tec.name}}</p>
@@ -51,19 +51,19 @@
             <button ng-click="oc.offset.addPctObject()" class="btn btn-secondary">Add PCT</button>
         </div>
         <div>
-            <h4>Vegetation Zones (Assess current vegetation integrity score)</h4>
+            <h4>Vegetation zones (Assess current vegetation integrity score)</h4>
             <table class="table doalign">
                 <thead>
                 <tr>
                     <th>Number</th>
-                    <th>PCT Code</th>
-                    <th>Condition Class</th>
+                    <th>PCT code</th>
+                    <th>Condition class</th>
                     <th>Identifier</th>
                     <th>Area</th>
                     <th>Composition condition score</th>
                     <th>Structure condition score</th>
                     <th>Function condition score</th>
-                    <th>Current Vegetation Integrity (VIS) Score</th>
+                    <th>Current vegetation integrity score</th>
                     <th>&nbsp;</th>
                 </tr>
                 </thead>
@@ -90,16 +90,16 @@
                     </td>
                     <td>
                         <button ng-click="oc.offset.setCalcToDisplay($index, 'current', vegetationZoneItem.keithClass, 'composition')" uib-popover-template="'Templates/composition.html'" popover-trigger="none" popover-is-open="oc.offset.shouldThisPopupBeOpened('current', $index, 'composition')" popover-animation="true" popover-placement="auto" type="button"
-                                class="btn btn-primary">{{oc.dataService.compositionModel.compositionCalcResults[$index].compositionSubtotal | r0d}}
+                                class="btn btn-secondary">{{oc.dataService.compositionModel.compositionCalcResults[$index].compositionSubtotal || r2d}}
                         </button>
                     </td>
                     <td>
                         <button ng-click="oc.offset.setCalcToDisplay($index, 'current', vegetationZoneItem.keithClass, 'structure')" uib-popover-template="'Templates/structure.html'" popover-trigger="none" popover-is-open="oc.offset.shouldThisPopupBeOpened('current', $index, 'structure')" popover-animation="true" popover-placement="auto" type="button"
-                                class="btn btn-primary">{{oc.dataService.structureModel.structureCalcResults[$index].structureSubtotal | r0d}}
+                                class="btn btn-secondary">{{oc.dataService.structureModel.structureCalcResults[$index].structureSubtotal || r2d}}
                         </button>
                     </td>
                     <td>
-                        <button ng-click="oc.offset.setCalcToDisplay($index, 'current', vegetationZoneItem.keithClass, 'function')" uib-popover-template="'Templates/function.html'" popover-animation="true" popover-placement="auto" popover-trigger="none" popover-is-open="oc.offset.shouldThisPopupBeOpened('current', $index, 'function')" type="button" class="btn btn-primary">{{oc.dataService.functionModel.functionCalcResults[$index].functionSubtotal | r0d}}</button>
+                        <button ng-click="oc.offset.setCalcToDisplay($index, 'current', vegetationZoneItem.keithClass, 'function')" uib-popover-template="'Templates/function.html'" popover-animation="true" popover-placement="auto" popover-trigger="none" popover-is-open="oc.offset.shouldThisPopupBeOpened('current', $index, 'function')" type="button" class="btn btn-secondary">{{oc.dataService.functionModel.functionCalcResults[$index].functionSubtotal || r0d}}</button>
                     </td>
                     <td>
                         {{vegetationZoneItem.currentVis | r0d}}
@@ -110,13 +110,13 @@
             </table>
         </div>
         <div>
-            <h4>Vegetation Zones (future without management)</h4>
+            <h4>Vegetation zones (future without management)</h4>
             <table class="table doalign">
                 <thead>
                 <tr>
                     <th>Number</th>
-                    <th>PCT Code</th>
-                    <th>Condition Class</th>
+                    <th>PCT code</th>
+                    <th>Condition class</th>
                     <th>Veg zone name</th>
                     <th>Area</th>
                     <th>Composition condition score</th>
@@ -134,18 +134,18 @@
                     <td>{{vegetationZoneItem.identifier()}}</td>
                     <td>{{vegetationZoneItem.area}}</td>
                     <td>
-                        <button ng-click="oc.offset.setCalcToDisplay($index, 'offsetFutureWithoutManagement', vegetationZoneItem.keithClass, 'composition')" uib-popover-template="'Templates/composition.html'" popover-animation="true" popover-placement="auto" popover-trigger="none" popover-is-open="oc.offset.shouldThisPopupBeOpened('offsetFutureWithoutManagement', $index, 'composition')" type="button" class="btn btn-primary">{{oc.dataService.compositionModel.offsetFutureWithoutManagementCompositionCalcResults[$index].compositionSubtotal
-                            | r0d}}
+                        <button ng-click="oc.offset.setCalcToDisplay($index, 'offsetFutureWithoutManagement', vegetationZoneItem.keithClass, 'composition')" uib-popover-template="'Templates/composition.html'" popover-animation="true" popover-placement="auto" popover-trigger="none" popover-is-open="oc.offset.shouldThisPopupBeOpened('offsetFutureWithoutManagement', $index, 'composition')" type="button" class="btn btn-secondary">{{oc.dataService.compositionModel.offsetFutureWithoutManagementCompositionCalcResults[$index].compositionSubtotal
+                            || r0d}}
                         </button>
                     </td>
                     <td>
                         <button ng-click="oc.offset.setCalcToDisplay($index, 'offsetFutureWithoutManagement', vegetationZoneItem.keithClass, 'structure')" uib-popover-template="'Templates/structure.html'" popover-trigger="none" popover-is-open="oc.offset.shouldThisPopupBeOpened('offsetFutureWithoutManagement', $index, 'structure')" popover-animation="true" popover-placement="auto" type="button"
-                                class="btn btn-primary">{{oc.dataService.structureModel.offsetFutureWithoutManagementStructureCalcResults[$index].structureSubtotal | r0d}}
+                                class="btn btn-secondary">{{oc.dataService.structureModel.offsetFutureWithoutManagementStructureCalcResults[$index].structureSubtotal || r0d}}
                         </button>
                     </td>
                     <td>
                         <button ng-click="oc.offset.setCalcToDisplay($index, 'offsetFutureWithoutManagement', vegetationZoneItem.keithClass, 'function')" uib-popover-template="'Templates/function.html'" popover-animation="true" popover-placement="auto" popover-trigger="none" popover-is-open="oc.offset.shouldThisPopupBeOpened('offsetFutureWithoutManagement', $index, 'function')" type="button"
-                                class="btn btn-primary">{{oc.dataService.functionModel.offsetFutureWithoutManagementFunctionCalcResults[$index].functionSubtotal | r0d}}</button>
+                                class="btn btn-secondary">{{oc.dataService.functionModel.offsetFutureWithoutManagementFunctionCalcResults[$index].functionSubtotal || r0d}}</button>
                     </td>
                     <td>
                         {{vegetationZoneItem.offsetFutureWithoutManagementVis | r0d}}
@@ -158,13 +158,13 @@
             </table>
         </div>
         <div>
-            <h4>Vegetation Zones (future with management)</h4>
+            <h4>Vegetation zones (future with management)</h4>
             <table class="table doalign">
                 <thead>
                 <tr>
                     <th>Number</th>
-                    <th>PCT Code</th>
-                    <th>Condition Class</th>
+                    <th>PCT code</th>
+                    <th>Condition class</th>
                     <th>Veg zone name</th>
                     <th>Area</th>
                     <th>Composition condition score</th>
@@ -182,18 +182,19 @@
                     <td>{{vegetationZoneItem.identifier()}}</td>
                     <td>{{vegetationZoneItem.area}}</td>
                     <td>
-                        <button ng-click="oc.offset.setCalcToDisplay($index, 'offsetFutureWithManagement', vegetationZoneItem.keithClass, 'composition')" uib-popover-template="'Templates/composition.html'" popover-animation="true" popover-placement="auto" popover-trigger="none" popover-is-open="oc.offset.shouldThisPopupBeOpened('offsetFutureWithManagement', $index, 'composition')" type="button" class="btn btn-primary">{{oc.dataService.compositionModel.offsetFutureWithManagementCompositionCalcResults[$index].compositionSubtotal
-                            | r0d}}
+                        <button ng-click="oc.offset.setCalcToDisplay($index, 'offsetFutureWithManagement', vegetationZoneItem.keithClass, 'composition')" uib-popover-template="'Templates/composition.html'" popover-animation="true" popover-placement="auto" popover-trigger="none" popover-is-open="oc.offset.shouldThisPopupBeOpened('offsetFutureWithManagement', $index, 'composition')" type="button"
+                                class="btn btn-secondary">{{oc.dataService.compositionModel.offsetFutureWithManagementCompositionCalcResults[$index].compositionSubtotal
+                            || r0d}}
                         </button>
                     </td>
                     <td>
                         <button ng-click="oc.offset.setCalcToDisplay($index, 'offsetFutureWithManagement', vegetationZoneItem.keithClass, 'structure')" uib-popover-template="'Templates/structure.html'" popover-trigger="none" popover-is-open="oc.offset.shouldThisPopupBeOpened('offsetFutureWithManagement', $index, 'structure')" popover-animation="true" popover-placement="auto" type="button"
-                                class="btn btn-primary">{{oc.dataService.structureModel.offsetFutureWithManagementStructureCalcResults[$index].structureSubtotal | r0d}}
+                                class="btn btn-secondary">{{oc.dataService.structureModel.offsetFutureWithManagementStructureCalcResults[$index].structureSubtotal || r0d}}
                         </button>
                     </td>
                     <td>
                         <button ng-click="oc.offset.setCalcToDisplay($index, 'offsetFutureWithManagement', vegetationZoneItem.keithClass, 'function')" uib-popover-template="'Templates/function.html'" popover-animation="true" popover-placement="auto" popover-trigger="none" popover-is-open="oc.offset.shouldThisPopupBeOpened('offsetFutureWithManagement', $index, 'function')" type="button"
-                                class="btn btn-primary">{{oc.dataService.functionModel.offsetFutureWithManagementFunctionCalcResults[$index].functionSubtotal | r0d}}</button>
+                                class="btn btn-secondary">{{oc.dataService.functionModel.offsetFutureWithManagementFunctionCalcResults[$index].functionSubtotal || r0d}}</button>
                     </td>
                     <td>
                         {{vegetationZoneItem.offsetFutureWithManagementVis | r0d}}

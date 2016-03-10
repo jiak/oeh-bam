@@ -7,7 +7,7 @@
         <th>Regeneration stems <br/> stems <5cm DBH</th>
     </tr>
     <tr ng-repeat="item in fc.function.getApplicableCalcResults()[fc.function.model.inFocusVegetationZoneIndex].functionTransects">
-        <th>Management Timeframe (years)</th>
+        <th>Management time frame (years)</th>
         <td>
             <select class="form-control" ng-model="item.numberOfLargeTrees" ng-blur="fc.function.updateCalcsFor('NumberOfLargeTrees', item.numberOfLargeTrees)">
                 <option value="0.00">0.00%</option>
@@ -50,21 +50,21 @@
         </td>
     </tr>
     <tr>
-        <th>Future Value Without Offset</th>
+        <th>Future value without offset</th>
         <td>{{fc.function.getCurrentFunction().futureValueWithoutOffsetNumberOfLargeTrees | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().futureValueWithoutOffsetLitterCover | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().futureValueWithoutOffsetCoarseWoodyDebris | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().futureValueWithoutOffsetRegenerationPresent | r2d}}</td>
     </tr>
     <tr>
-        <th>Future Condition Without Offset</th>
+        <th>Future condition without offset</th>
         <td>{{fc.function.getCurrentFunction().futureConditionWithoutOffsetNumberOfLargeTrees | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().futureConditionWithoutOffsetLitterCover | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().futureConditionWithoutOffsetCoarseWoodyDebris | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().futureConditionWithoutOffsetRegenerationPresent | r2d}}</td>
     </tr>
     <tr>
-        <th>Adjusted Condition Without Offset</th>
+        <th>Adjusted condition without offset</th>
         <td>{{fc.function.getCurrentFunction().adjustedConditionWithoutOffsetNumberOfLargeTrees | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().adjustedConditionWithoutOffsetLitterCover | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().adjustedConditionWithoutOffsetCoarseWoodyDebris | r2d}}</td>

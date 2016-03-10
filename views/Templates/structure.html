@@ -2,7 +2,7 @@
     <div ng-controller="structureController as sc">
         <div class="row">
             <div class="col-md-6">
-                <h4>Zone Structure Data (Structure condition score: {{sc.structure.getCurrentStructure().structureSubtotal | r2d}})</h4>
+                <h4>Zone structure data (Structure condition score: {{sc.structure.getCurrentStructure().structureSubtotal || "0"}})</h4>
             </div>
             <div class="col-md-6">
                 <button ng-click="sc.structure.close()" class="btn btn-primary pull-right">Close</button>

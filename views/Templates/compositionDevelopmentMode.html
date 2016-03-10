@@ -3,7 +3,7 @@
         <th>Item</th>
         <th>Tree</th>
         <th>Shrub</th>
-        <th>Grass & <br/> Grass Like</th>
+        <th>Grass & <br/> grass Like</th>
         <th>Forb</th>
         <th>Fern</th>
         <th>Other</th>
@@ -27,7 +27,7 @@
         <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.siteContextModel.inputs.ibra.name].otherComposition | r2d}}</td>
     </tr>
     <tr>
-        <th>Observed Mean (x&#772;)</th>
+        <th>Observed mean (x&#772;)</th>
         <td>{{cc.composition.getCurrentComposition().observedMeanTree | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().observedMeanShrub | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().observedMeanGrassAndGrassLike | r2d}}</td>
@@ -36,7 +36,7 @@
         <td>{{cc.composition.getCurrentComposition().observedMeanOther | r2d}}</td>
     </tr>
     <tr>
-        <th>Unweighted Composition Score (UCS<sub>i</sub>)
+        <th>Unweighted composition score (UCS<sub>i</sub>)
         </td>
         <td>{{cc.composition.getCurrentComposition().unweightedTreeScore | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().unweightedShrubScore | r2d}}</td>
@@ -46,7 +46,7 @@
         <td>{{cc.composition.getCurrentComposition().unweightedOtherScore | r2d}}</td>
     </tr>
     <tr>
-        <th>Weighted Composition Score (WCS<sub>i</sub>)</th>
+        <th>Weighted composition score (WCS<sub>i</sub>)</th>
         <td>{{cc.composition.getCurrentComposition().weightedTreeScore | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().weightedShrubScore | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().weightedGrassAndGrassLikeScore | r2d}}</td>
@@ -55,7 +55,7 @@
         <td>{{cc.composition.getCurrentComposition().weightedOtherScore | r2d}}</td>
     </tr>
     <tr>
-        <th>Dynamic Weighting (w<sub>i</sub>333)</th>
+        <th>Dynamic weighting (w<sub>i</sub>)</th>
         <td>{{cc.composition.getCurrentComposition().dynamicWeightingTreeScore | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().dynamicWeightingShrubScore | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().dynamicWeightingGrassAndGrassLikeScore | r2d}}</td>
