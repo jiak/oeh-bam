@@ -1,6 +1,14 @@
 <table ng-show="sc.structure.displayFutureWithoutManagement()" class="table numericGrid">
+    <tr>
+        <th>Item</th>
+        <th>Tree</th>
+        <th>Shrub</th>
+        <th>Grass & <br/> Grass Like</th>
+        <th>Forb</th>
+        <th>Fern</th>
+    </tr>
     <tr ng-repeat="item in sc.structure.getApplicableCalcResults()[sc.structure.model.inFocusVegetationZoneIndex].structureTransects">
-        <td>Rate Of Decline (% per annum)</td>
+        <th>Rate Of Decline (% per annum)</th>
         <td>
             <select class="form-control" ng-model="item.tree" ng-blur="sc.structure.updateCalcsFor('Tree', item.tree)">
                 <option value="0.00">0.00%</option>
