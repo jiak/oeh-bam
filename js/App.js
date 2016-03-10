@@ -1,32 +1,36 @@
 var bamApp = angular.module('bamApp', ['ngAnimate', 'ui.bootstrap'])
 
 bamApp.filter('abs', function () {
-    return function(val) {
+    return function (val) {
         return Math.abs(val);
     }
 })
 
-bamApp.filter('r2d', function() {
-    return function(val) {
-        if(isNaN(val)) {
+bamApp.filter('r2d', function () {
+    return function (val) {
+        if (isNaN(val)) {
             return "NaN"
+        } else if (val == 0) {
+            return "0"
         } else {
             return math.round(val, 2)
         }
     }
 })
 
-bamApp.filter('r0d', function() {
-    return function(val) {
-        if(isNaN(val)) {
+bamApp.filter('r0d', function () {
+    return function (val) {
+        if (isNaN(val)) {
             return "NaN"
+        } else if (val == 0) {
+            return "0"
         } else {
             return math.round(val, 0)
         }
     }
 })
 
-String.prototype.toCamelCase = function() {
+String.prototype.toCamelCase = function () {
     return this
         .replace(/\s(.)/g, function ($1) {
             return $1.toUpperCase();

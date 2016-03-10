@@ -2,7 +2,7 @@
     <div ng-controller="compositionController as cc">
         <div class="row">
             <div class="col-md-6">
-                <h4>Zone composition data (Composition condition score: {{cc.composition.getCurrentComposition().compositionSubtotal || r2d}})</h4>
+                <h4>Zone composition data (Composition condition score: {{cc.composition.getCurrentComposition().compositionSubtotal | r2d}})</h4>
             </div>
             <div class="col-md-6">
                 <button ng-click="cc.composition.close()" class="btn btn-secondary pull-right">Close</button>
