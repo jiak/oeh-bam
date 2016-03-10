@@ -48,7 +48,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             if (this.model.calculatorMode == 'current' || this.model.calculatorMode == 'future') {
                 this.calculateObservedMean(theObject, theObjectLower)
                 this.calculateDynamicWeightingScore(theObject, theObjectLower)
-                this.calculateDynamicWeightingScoreMinusOther(theObject, theObjectLower)
+                this.calculateDynamicWeightingGain(theObject, theObjectLower)
                 this.calculateUnweightedCompositionScore(theObject, theObjectLower, observedValue)
                 this.calculateWeightedCompositionScore(theObject, theObjectLower)
                 this.calculateCompositionSubtotal()
@@ -96,8 +96,8 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                 result = 0
             } else {
                 var rawTotalGain = eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject)
-                var dynamicWeightingMinusOther = eval("this.model.compositionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeightingMinusOther" + theObject + "Score")
-                result = rawTotalGain * dynamicWeightingMinusOther
+                var dynamicWeightingGain = eval("this.model.compositionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeightingGain" + theObject + "Score")
+                result = rawTotalGain * dynamicWeightingGain
             }
             eval("this.model.offsetFutureWithManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].weightedNoDiscount" + theObject + " = " + result)
         },
@@ -260,8 +260,8 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
 
         calculateWeightedCompositionScore: function (theObject, theObjectLower) {
             unweightedScore = eval("this.getCurrentComposition().unweighted" + theObject + "Score")
-            dynamicWeightingScore = eval("this.getCurrentComposition().dynamicWeighting" + theObject + "Score")
-            result = unweightedScore * dynamicWeightingScore
+            dynamicWeightingGainScore = eval("this.getCurrentComposition().dynamicWeighting" + theObject + "Score")
+            result = unweightedScore * dynamicWeightingGainScore
             eval("this.getCurrentComposition().weighted" + theObject + "Score = " + result)
         },
 
@@ -281,16 +281,16 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             eval("this.getCurrentComposition().dynamicWeighting" + theObject + "Score = " + result)
         },
 
-        calculateDynamicWeightingScoreMinusOther: function (theObject, theObjectLower) {
+        calculateDynamicWeightingGain: function (theObject, theObjectLower) {
             var sumOfBenchmarkScores = 0;
             var benchmarks = this.getBenchmark()
             for (var property in benchmarks) {
-                if (benchmarks.hasOwnProperty(property) && property.indexOf("Other") == -1) {
+                if (benchmarks.hasOwnProperty(property) && property.indexOf("other") == -1) {
                     sumOfBenchmarkScores += benchmarks[property];
                 }
             }
             result = eval("benchmarks." + theObjectLower + "Composition / sumOfBenchmarkScores")
-            eval("this.getCurrentComposition().dynamicWeightingMinusOther" + theObject + "Score = " + result)
+            eval("this.getCurrentComposition().dynamicWeightingGain" + theObject + "Score = " + result)
         },
 
         calculateUnweightedCompositionScore: function (theObject, theObjectLower, observedValue) {
@@ -361,9 +361,9 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
         },
 
         calculateWeightedConditionWithOffset: function (theObject, theObjectLower) {
-            dynamicWeightingScore = eval("this.model.compositionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
+            dynamicWeightingGainScore = eval("this.model.compositionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeightingGain" + theObject + "Score")
             futureConditionWithOffset = eval("this.getCurrentComposition().futureConditionWithOffset" + theObject)
-            result = (dynamicWeightingScore * futureConditionWithOffset)
+            result = (dynamicWeightingGainScore * futureConditionWithOffset)
             eval("this.getCurrentComposition().weightedConditionWithOffset" + theObject + " = " + result)
             return result
         },

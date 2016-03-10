@@ -48,6 +48,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             if (this.model.calculatorMode == 'current' || this.model.calculatorMode == 'future') {
                 this.calculateObservedMean(theObject, theObjectLower)
                 this.calculateDynamicWeightingScore(theObject, theObjectLower)
+                this.calculateDynamicWeightingGain(theObject, theObjectLower)
                 this.calculateUnweightedFunctionScore(theObject, theObjectLower, observedValue)
                 this.calculateWeightedFunctionScore(theObject, theObjectLower)
                 this.calculateFunctionSubtotal()
@@ -105,7 +106,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 result = 0
             } else {
                 var rawTotalGain = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject)
-                var dynamicWeighting = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score") / 0.85
+                var dynamicWeighting = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeightingGain" + theObject + "Score") / 0.85
                 result = rawTotalGain * dynamicWeighting
             }
             eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].weightedNoDiscount" + theObject + " = " + result)
@@ -310,8 +311,8 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 }
             }
             unweightedScore = eval("this.getCurrentFunction().unweighted" + theObject + "Score")
-            dynamicWeightingScore = eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score")
-            result = unweightedScore * dynamicWeightingScore
+            dynamicWeightingGainScore = eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score")
+            result = unweightedScore * dynamicWeightingGainScore
             eval("this.getCurrentFunction().weighted" + theObject + "Score = " + result)
         },
 
@@ -329,6 +330,12 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 value = 0.2
             }
             eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score = " + value)
+            return value
+        },
+
+        calculateDynamicWeightingGain: function (theObject, theObjectLower) {
+            result = this.calculateDynamicWeightingScore(theObject, theObjectLower) * 0.85
+            eval("this.getCurrentFunction().dynamicWeightingGain" + theObject + "Score = " + result)
         },
 
         getBenchmark: function () {
@@ -419,9 +426,9 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         },
 
         calculateWeightedConditionWithOffset: function (theObject, theObjectLower) {
-            dynamicWeightingScore = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
+            dynamicWeightingGainScore = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeightingGain" + theObject + "Score")
             futureConditionWithOffset = eval("this.getCurrentFunction().futureConditionWithOffset" + theObject)
-            result = (dynamicWeightingScore * futureConditionWithOffset)
+            result = (dynamicWeightingGainScore * futureConditionWithOffset)
             eval("this.getCurrentFunction().weightedConditionWithOffset" + theObject + " = " + result)
             return result
         },

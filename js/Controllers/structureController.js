@@ -63,7 +63,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             if (this.model.calculatorMode == 'current' || this.model.calculatorMode == 'future') {
                 this.calculateObservedMean(theObject, theObjectLower)
                 this.calculateDynamicWeightingScore(theObject, theObjectLower)
-                this.calculateDynamicWeightingScoreMinusOther(theObject, theObjectLower)
+                this.calculateDynamicWeightingGain(theObject, theObjectLower)
                 this.calculateUnweightedStructureScore(theObject, theObjectLower, observedValue)
                 this.calculateWeightedStructureScore(theObject, theObjectLower)
                 this.calculateStructureSubtotal()
@@ -111,8 +111,8 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 result = 0
             } else {
                 var rawTotalGain = eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject)
-                var dynamicWeightingMinusOther = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeightingMinusOther" + theObject + "Score")
-                result = rawTotalGain * dynamicWeightingMinusOther
+                var dynamicWeightingGain = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeightingGain" + theObject + "Score")
+                result = rawTotalGain * dynamicWeightingGain
             }
             eval("this.model.offsetFutureWithManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].weightedNoDiscount" + theObject + " = " + result)
         },
@@ -274,8 +274,8 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
 
         calculateWeightedStructureScore: function (theObject, theObjectLower) {
             unweightedScore = eval("this.getCurrentStructure().unweighted" + theObject + "Score")
-            dynamicWeightingScore = eval("this.getCurrentStructure().dynamicWeighting" + theObject + "Score")
-            result = unweightedScore * dynamicWeightingScore
+            dynamicWeightingGainScore = eval("this.getCurrentStructure().dynamicWeighting" + theObject + "Score")
+            result = unweightedScore * dynamicWeightingGainScore
             eval("this.getCurrentStructure().weighted" + theObject + "Score = " + result)
         },
 
@@ -295,16 +295,16 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             eval("this.getCurrentStructure().dynamicWeighting" + theObject + "Score = " + result)
         },
 
-        calculateDynamicWeightingScoreMinusOther: function (theObject, theObjectLower) {
+        calculateDynamicWeightingGain: function (theObject, theObjectLower) {
             var sumOfBenchmarkScores = 0;
             var benchmarks = this.getBenchmark()
             for (var property in benchmarks) {
-                if (benchmarks.hasOwnProperty(property) && property.indexOf("Other") == -1) {
+                if (benchmarks.hasOwnProperty(property) && property.indexOf("other") == -1) {
                     sumOfBenchmarkScores += benchmarks[property];
                 }
             }
             result = eval("benchmarks." + theObjectLower + "Cover") / sumOfBenchmarkScores
-            eval("this.getCurrentStructure().dynamicWeightingMinusOther" + theObject + "Score = " + result)
+            eval("this.getCurrentStructure().dynamicWeightingGain" + theObject + "Score = " + result)
         },
 
         calculateUnweightedStructureScore: function (theObject, theObjectLower, observedValue) {
@@ -389,9 +389,9 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
         },
 
         calculateWeightedConditionWithOffset: function (theObject, theObjectLower) {
-            dynamicWeightingScore = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
+            dynamicWeightingGainScore = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeightingGain" + theObject + "Score")
             futureConditionWithOffset = eval("this.getCurrentStructure().futureConditionWithOffset" + theObject)
-            result = (dynamicWeightingScore * futureConditionWithOffset)
+            result = (dynamicWeightingGainScore * futureConditionWithOffset)
             eval("this.getCurrentStructure().weightedConditionWithOffset" + theObject + " = " + result)
             return result
         }

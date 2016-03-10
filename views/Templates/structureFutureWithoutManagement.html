@@ -8,7 +8,7 @@
         <th>Fern</th>
     </tr>
     <tr ng-repeat="item in sc.structure.getApplicableCalcResults()[sc.structure.model.inFocusVegetationZoneIndex].structureTransects">
-        <td>Rate of decline (% per annum)</td>
+        <th>Rate of decline (% per annum)</th>
         <td>
             <select class="form-control" ng-model="item.tree" ng-blur="sc.structure.updateCalcsFor('Tree', item.tree)">
                 <option value="0.00">0.00%</option>
@@ -77,7 +77,7 @@
         <td>{{sc.structure.getCurrentStructure().futureConditionWithoutOffsetFern | r2d}}</td>
     </tr>
     <tr>
-        <th>Adjusted condition without offset</th>
+        <th>Weighted condition without offset</th>
         <td>{{sc.structure.getCurrentStructure().adjustedConditionWithoutOffsetTree | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().adjustedConditionWithoutOffsetShrub | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().adjustedConditionWithoutOffsetGrassAndGrassLike | r2d}}</td>
