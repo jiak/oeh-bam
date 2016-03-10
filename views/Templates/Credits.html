@@ -20,10 +20,10 @@
                 <td>{{ecoCredit.zone}}</td>
                 <td>{{ecoCredit.identifier}}</td>
                 <td>{{ecoCredit.pctName}}</td>
-                <td>{{ecoCredit.viLoss | abs}}</td>
+                <td>{{ecoCredit.viLoss | abs | r0d}}</td>
                 <td>{{ecoCredit.area}}</td>
                 <td>{{crc.credits.model.highestOm}}</td>
-                <td>{{crc.credits.calculateEcosystemCredits(ecoCredit)}}</td>
+                <td>{{crc.credits.calculateEcosystemCredits(ecoCredit) | abs | r0d}}</td>
             </tr>
             </tbody>
         </table>
@@ -51,10 +51,10 @@
                 <td>
                     <select class="form-control" ng-model="speciesCredit.vegZone" ng-options="vegZone.identifier() for vegZone in crc.credits.model.vegetationZones"></select>
                 </td>
-                <td>{{speciesCredit.vis}}</td>
+                <td>{{speciesCredit.vis | abs | r0d}}</td>
                 <td>{{speciesCredit.area}}</td>
                 <td>{{speciesCredit.om}}</td>
-                <td>{{crc.credits.calculateSpeciesCredit(speciesCredit)}}</td>
+                <td>{{crc.credits.calculateSpeciesCredit(speciesCredit) | abs | r0d}}</td>
             </tr>
             </tbody>
         </table>

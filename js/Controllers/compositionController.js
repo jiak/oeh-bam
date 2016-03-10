@@ -5,6 +5,8 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
     $rootScope.$on(dataService.events.openCalculatorEvent, function (event, body) {
         if (dataService.applicationDetailsModel.assessmentType.name == 'Offset' && body.calculatorMode == 'offsetFutureWithManagement') {
             $scope.cc.composition.updateFutureWithManagement()
+        } else if(dataService.applicationDetailsModel.assessmentType.name == 'Development' && body.calculatorMode == 'future') {
+            $scope.cc.composition.updateFutureValuesInDevelopmentMode()
         }
     })
 
@@ -188,6 +190,15 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
 
         displayFutureWithManagement: function () {
             return this.model.calculatorMode == 'offsetFutureWithManagement'
+        },
+
+        updateFutureValuesInDevelopmentMode: function() {
+            this.updateCalcsFor('Tree', 0)
+            this.updateCalcsFor('Shrub', 0)
+            this.updateCalcsFor('Fern', 0)
+            this.updateCalcsFor('Forb', 0)
+            this.updateCalcsFor('GrassAndGrassLike', 0)
+            this.calculateCompositionSubtotal()
         },
 
         updateFutureWithManagement: function () {

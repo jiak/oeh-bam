@@ -618,7 +618,7 @@ bamApp.service('referenceDataService', function () {
                                             "status": ""
                                         },
                                         {
-                                            "offsetMutliplier": 1,
+                                            "offsetMutliplier": 100,
                                             "id": 16,
                                             "name": " Swamp Sclerophyll Forest on Coastal Floodplains of the New South Wales North Coast, Sydney Basin and South East Corner Bioregions (Part) partially subset of",
                                             "status": "E"

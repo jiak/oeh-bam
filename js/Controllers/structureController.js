@@ -5,6 +5,8 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
     $rootScope.$on(dataService.events.openCalculatorEvent, function (event, body) {
         if (dataService.applicationDetailsModel.assessmentType.name == 'Offset' && body.calculatorMode == 'offsetFutureWithManagement') {
             $scope.sc.structure.updateFutureWithManagement()
+        } else if(dataService.applicationDetailsModel.assessmentType.name == 'Development' && body.calculatorMode == 'future') {
+            $scope.sc.structure.updateFutureValuesInDevelopmentMode()
         }
     })
 

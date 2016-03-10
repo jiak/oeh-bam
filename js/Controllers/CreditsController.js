@@ -18,7 +18,7 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
         $scope.crc.credits.updateSpeciesCredits(body.candidateThreatenedSpecies)
         if ($scope.crc.credits.model.assessmentType != null && $scope.crc.credits.model.assessmentType != undefined && $scope.crc.credits.model.assessmentType.name == 'Development') {
             var highestOm = 1
-            body.candidateThreatenedSpecies.forEach(function (cts) {
+            body.predictedThreatenedSpecies.forEach(function (cts) {
                 if (cts.threatendedSpecies.offsetMultiplier > highestOm) {
                     highestOm = cts.threatendedSpecies.offsetMultiplier
                 }
@@ -46,7 +46,7 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
 
         updateSpeciesCredits: function (candidateThreatenedSpecies, predictedThreatenedSpecies) {
             candidateThreatenedSpecies.forEach(function (candidateThreatenedSpecies, index) {
-                if (candidateThreatenedSpecies.assessRequired != null && candidateThreatenedSpecies.assessRequired.name == 'Yes') {
+                if (candidateThreatenedSpecies.assessRequired != null && candidateThreatenedSpecies.assessRequired.name == 'Yes' && candidateThreatenedSpecies.presence != null && candidateThreatenedSpecies.presence.name == 'Yes') {
                     var entry = {};
                     entry.type = candidateThreatenedSpecies.threatendedSpecies.speciesType
                     entry.commonName = candidateThreatenedSpecies.threatendedSpecies.name
@@ -103,16 +103,14 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
                     }
                 } else if (this.model.assessmentType.name == 'Offset') {
                     if (speciesCredit.type == 'Flora') {
-                        speciesCredit.vis
                         if (speciesCredit.uom == 'Area') {
                             speciesCredit.vis = speciesCredit.vegZone.futureWithAndWithoutDeltaVis
                         } else if (speciesCredit.uom == 'Individual') {
                             speciesCredit.vis = speciesCredit.vegZone.currentAndFutureWithoutDeltaVis
                         }
-                        speciesCredit.vis = speciesCredit.vis
                         return speciesCredit.area * speciesCredit.vis
                     } else if (speciesCredit.type == 'Fauna') {
-                        speciesCredit.vis = speciesCredit.vegZone.vis
+                        speciesCredit.vis = speciesCredit.vegZone.currentVis
                         return speciesCredit.vis * speciesCredit.area
                     }
                 }
