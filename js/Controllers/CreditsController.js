@@ -86,9 +86,9 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
 
         calculateEcosystemCredits: function (ecoCredit) {
             if (this.model.assessmentType.name == 'Development') {
-                return ecoCredit.area * Math.abs(ecoCredit.viLoss) * this.model.highestOm * 0.25
+                return ecoCredit.area * ecoCredit.viLoss * this.model.highestOm * 0.25
             } else {
-                return ecoCredit.area * Math.abs(ecoCredit.viLoss) * 0.25
+                return ecoCredit.area * ecoCredit.viLoss * 0.25
             }
         },
 
@@ -109,7 +109,7 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
                         } else if (speciesCredit.uom == 'Individual') {
                             speciesCredit.vis = speciesCredit.vegZone.currentAndFutureWithoutDeltaVis
                         }
-                        speciesCredit.vis = Math.abs(speciesCredit.vis)
+                        speciesCredit.vis = speciesCredit.vis
                         return speciesCredit.area * speciesCredit.vis
                     } else if (speciesCredit.type == 'Fauna') {
                         speciesCredit.vis = speciesCredit.vegZone.vis

@@ -76,7 +76,7 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             }
             result = 0
             if (sum > 0 && count > 0) {
-                result = Math.pow(sum, 1 / count).toFixed(0)
+                result = Math.pow(sum, 1 / count)
             } else {
                 result = 0
             }

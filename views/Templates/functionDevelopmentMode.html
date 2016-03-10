@@ -30,42 +30,42 @@
     </tr>
     <tr>
         <th>Benchmark</th>
-        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].numberOfLargeTrees || "0"}}</td>
-        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].litterCover || "0"}}</td>
-        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].coarseWoodyDebris || "0"}}</td>
-        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].stemSizeClasses || 0}}</td>
-        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].regeneration || 0}}</td>
+        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].numberOfLargeTrees | r2d}}</td>
+        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].litterCover | r2d}}</td>
+        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].coarseWoodyDebris | r2d}}</td>
+        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].stemSizeClasses | r2d}}</td>
+        <td>{{fc.function.model.benchmarks[fc.function.model.keithClass][fc.dataService.siteContextModel.inputs.ibra.name].regeneration | r2d}}</td>
     </tr>
     <tr>
         <th>Observed Mean (x&#772;)</th>
-        <td>{{fc.function.getCurrentFunction().observedMeanNumberOfLargeTrees || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().observedMeanLitterCover || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().observedMeanCoarseWoodyDebris || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().observedMeanStemSizeClasses || 0}}</td>
-        <td>{{fc.function.getCurrentFunction().observedMeanRegenerationPresent || 0}}</td>
+        <td>{{fc.function.getCurrentFunction().observedMeanNumberOfLargeTrees | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().observedMeanLitterCover | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().observedMeanCoarseWoodyDebris | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().observedMeanStemSizeClasses | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().observedMeanRegenerationPresent | r2d}}</td>
     </tr>
     <tr>
         <th>Unweighted Function Score (UFS<sub>i</sub>)</td>
-        <td>{{fc.function.getCurrentFunction().unweightedNumberOfLargeTreesScore || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().unweightedLitterCoverScore || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().unweightedCoarseWoodyDebrisScore || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().unweightedStemSizeClassesScore || 0}}</td>
-        <td>{{fc.function.getCurrentFunction().unweightedRegenerationPresentScore || 0}}</td>
+        <td>{{fc.function.getCurrentFunction().unweightedNumberOfLargeTreesScore | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().unweightedLitterCoverScore | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().unweightedCoarseWoodyDebrisScore | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().unweightedStemSizeClassesScore | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().unweightedRegenerationPresentScore | r2d}}</td>
     </tr>
     <tr>
         <th>Weighted Function Score (WFS<sub>i</sub>)</th>
-        <td>{{fc.function.getCurrentFunction().weightedNumberOfLargeTreesScore || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().weightedLitterCoverScore || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().weightedCoarseWoodyDebrisScore || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().weightedStemSizeClassesScore || 0}}</td>
-        <td>{{fc.function.getCurrentFunction().weightedRegenerationPresentScore || 0}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedNumberOfLargeTreesScore | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedLitterCoverScore | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedCoarseWoodyDebrisScore | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedStemSizeClassesScore | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedRegenerationPresentScore | r2d}}</td>
     </tr>
     <tr>
         <th>Dynamic Weighting (w<sub>i</sub>)</th>
-        <td>{{fc.function.getCurrentFunction().dynamicWeightingNumberOfLargeTreesScore || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().dynamicWeightingLitterCoverScore || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().dynamicWeightingCoarseWoodyDebrisScore || "0"}}</td>
-        <td>{{fc.function.getCurrentFunction().dynamicWeightingStemSizeClassesScore || 0}}</td>
-        <td>{{fc.function.getCurrentFunction().dynamicWeightingRegenerationPresentScore || 0}}</td>
+        <td>{{fc.function.getCurrentFunction().dynamicWeightingNumberOfLargeTreesScore | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().dynamicWeightingLitterCoverScore | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().dynamicWeightingCoarseWoodyDebrisScore | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().dynamicWeightingStemSizeClassesScore | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().dynamicWeightingRegenerationPresentScore | r2d}}</td>
     </tr>
 </table>

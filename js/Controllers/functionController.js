@@ -83,13 +83,14 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 rawCurrentCondition = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].unweighted" + theObject + "Score")
                 result = futureConditionWithOffset - rawCurrentCondition
             }
-            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawRestorationGain" + theObject + " = " + Math.abs(result).toFixed(2))
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawRestorationGain" + theObject + " = " + result)
         },
 
         calculateRawTotalGain: function (theObject, theObjectLower) {
             var rawAvertedLoss = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawAvertedLoss" + theObject)
             var rawRestorationGain = eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawRestorationGain" + theObject)
-            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject + " = " + Math.abs(rawAvertedLoss + rawRestorationGain).toFixed(2))
+            result = rawAvertedLoss + rawRestorationGain
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawTotalGain" + theObject + " = " + result)
         },
 
         calculateWeightedNoDiscount: function (theObject, theObjectLower) {
@@ -107,7 +108,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 var dynamicWeighting = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score") / 0.85
                 result = rawTotalGain * dynamicWeighting
             }
-            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].weightedNoDiscount" + theObject + " = " + result.toFixed(2))
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].weightedNoDiscount" + theObject + " = " + result)
         },
 
         calculateFutureConditionWithOffset: function (theObject, theObjectLower) {
@@ -136,7 +137,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                     }
                 }
             }
-            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithOffset" + theObject + " = " + result.toFixed(2))
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithOffset" + theObject + " = " + result)
         },
 
         calculateFutureValueWithOffset: function (theObject, theObjectLower) {
@@ -170,7 +171,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             } else if (theObject == 'RegenerationPresent') {
                 result = 1.0
             }
-            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithOffset" + theObject + " = " + result.toFixed(2))
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithOffset" + theObject + " = " + result)
         },
 
         calculateRawAvertedLoss: function (theObject, theObjectLower) {
@@ -192,7 +193,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
                 result = rawCurrentCondition - futureConditionWithoutOffset
             }
-            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawAvertedLoss" + theObject + " = " + Math.abs(result).toFixed(2))
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].rawAvertedLoss" + theObject + " = " + result)
         },
 
         calculateCurrentValueWithAddedConstant: function (theObject, theObjectLower) {
@@ -213,7 +214,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                     result = observedValue
                 }
             }
-            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject + " = " + result.toFixed(2))
+            eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].currentValueWithAddedConstant" + theObject + " = " + result)
         },
 
         displayFutureWithManagement: function () {
@@ -244,7 +245,6 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             var result = 0
             var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
             var dynamicWeighting = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
-            //var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
             var benchmark
             if (theObject == 'RegenerationPresent') {
                 benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
@@ -254,7 +254,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             if (benchmark == 0) {
                 result = 0
             } else {
-                result = (futureConditionWithoutOffset * dynamicWeighting).toFixed(2)
+                result = (futureConditionWithoutOffset * dynamicWeighting)
                 eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].adjustedConditionWithoutOffset" + theObject + " = " + result)
             }
         },
@@ -270,7 +270,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 if (benchmark == 0) {
                     result = 0
                 } else {
-                    result = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / benchmark, 2.5))) * 100).toFixed(2)
+                    result = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / benchmark, 2.5))) * 100)
                 }
             } else {
                 if (observedValue == 0) {
@@ -281,7 +281,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                         result = 100
                     } else {
                         var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
-                        result = (1.01 * (1 - Math.exp(-5 * Math.pow(futureValueWithoutOffset / benchmark, 2.5))) * 100).toFixed(2)
+                        result = (1.01 * (1 - Math.exp(-5 * Math.pow(futureValueWithoutOffset / benchmark, 2.5))) * 100)
                     }
                 }
             }
@@ -291,7 +291,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         calculateFutureValueWithoutOffset: function (theObject, theObjectLower, rateOfDecline) {
             var result = 0
             var observedValue = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].observedMean" + theObject)
-            result = eval(observedValue + " * (Math.pow((1 - " + (rateOfDecline / 100) + "), " + 20 + "))").toFixed(2)
+            result = eval(observedValue + " * (Math.pow((1 - " + (rateOfDecline / 100) + "), " + 20 + "))")
             eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject + " = " + result)
         },
 
@@ -300,7 +300,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             this.getCurrentFunction().functionTransects.forEach(function (element) {
                 eval("observedMean += parseInt(element." + theObjectLower + ")")
             })
-            eval("this.getCurrentFunction().observedMean" + theObject + " = (observedMean / this.getCurrentFunction().functionTransects.length).toFixed(2)")
+            eval("this.getCurrentFunction().observedMean" + theObject + " = (observedMean / this.getCurrentFunction().functionTransects.length)")
         },
 
         calculateWeightedFunctionScore: function (theObject, theObjectLower) {
@@ -309,7 +309,10 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                     return;
                 }
             }
-            eval("this.getCurrentFunction().weighted" + theObject + "Score = Math.round(this.getCurrentFunction().unweighted" + theObject + "Score * this.getCurrentFunction().dynamicWeighting" + theObject + "Score)")
+            unweightedScore = eval("this.getCurrentFunction().unweighted" + theObject + "Score")
+            dynamicWeightingScore = eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score")
+            result = unweightedScore * dynamicWeightingScore
+            eval("this.getCurrentFunction().weighted" + theObject + "Score = " + result)
         },
 
         calculateDynamicWeightingScore: function (theObject, theObjectLower) {
@@ -325,7 +328,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             } else if (theObject == "RegenerationPresent") {
                 value = 0.15
             }
-            eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score = " + value + "")
+            eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score = " + value)
         },
 
         getBenchmark: function () {
@@ -365,7 +368,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 }
 
             }
-            eval("this.getCurrentFunction().unweighted" + theObject + "Score = Math.round(returnValue)")
+            eval("this.getCurrentFunction().unweighted" + theObject + "Score = " + returnValue)
         },
 
         calculateFunctionOffsetSubtotalForFutureWithManagement: function () {
@@ -375,7 +378,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             total += c.weightedConditionWithOffsetLitterCover
             total += c.weightedConditionWithOffsetCoarseWoodyDebris
             total += c.weightedConditionWithOffsetRegenerationPresent
-            c.functionSubtotal = total.toFixed(0)
+            c.functionSubtotal = total
         },
 
         calculateFunctionOffsetSubtotal: function () {
@@ -385,7 +388,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             total += c.adjustedConditionWithoutOffsetLitterCover
             total += c.adjustedConditionWithoutOffsetCoarseWoodyDebris
             total += c.adjustedConditionWithoutOffsetRegenerationPresent
-            c.functionSubtotal = total.toFixed(0)
+            c.functionSubtotal = total
         },
 
         calculateFunctionSubtotal: function () {
@@ -395,7 +398,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                     total += this.getCurrentFunction()[property]
                 }
             }
-            this.getCurrentFunction().functionSubtotal = total.toFixed(0)
+            this.getCurrentFunction().functionSubtotal = total
         },
 
         createFunctionTransect: function () {
@@ -418,7 +421,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         calculateWeightedConditionWithOffset: function (theObject, theObjectLower) {
             dynamicWeightingScore = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
             futureConditionWithOffset = eval("this.getCurrentFunction().futureConditionWithOffset" + theObject)
-            result = (dynamicWeightingScore * futureConditionWithOffset).toFixed(2)
+            result = (dynamicWeightingScore * futureConditionWithOffset)
             eval("this.getCurrentFunction().weightedConditionWithOffset" + theObject + " = " + result)
             return result
         },

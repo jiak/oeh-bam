@@ -4,7 +4,27 @@ bamApp.filter('abs', function () {
     return function(val) {
         return Math.abs(val);
     }
-});
+})
+
+bamApp.filter('r2d', function() {
+    return function(val) {
+        if(isNaN(val)) {
+            return "NaN"
+        } else {
+            return math.round(val, 2)
+        }
+    }
+})
+
+bamApp.filter('r0d', function() {
+    return function(val) {
+        if(isNaN(val)) {
+            return "NaN"
+        } else {
+            return math.floor(val)
+        }
+    }
+})
 
 String.prototype.toCamelCase = function() {
     return this

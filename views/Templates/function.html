@@ -2,7 +2,7 @@
     <div ng-controller="functionController as fc">
         <div class="row">
             <div class="col-md-6">
-                <h4>Zone Function Data (Function condition score: {{fc.function.getCurrentFunction().functionSubtotal || "0"}})</h4>
+                <h4>Zone Function Data (Function condition score: {{fc.function.getCurrentFunction().functionSubtotal | r2d}})</h4>
             </div>
             <div class="col-md-6">
                 <button ng-click="fc.function.close()" class="btn btn-primary pull-right">Close</button>

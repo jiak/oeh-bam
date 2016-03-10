@@ -19,48 +19,48 @@
     </tr>
     <tr>
         <th>Benchmark</th>
-        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.siteContextModel.inputs.ibra.name].treeComposition || "0"}}</td>
-        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.siteContextModel.inputs.ibra.name].shrubComposition || "0"}}</td>
-        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.siteContextModel.inputs.ibra.name].grassAndGrassLikeComposition || "0"}}</td>
-        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.siteContextModel.inputs.ibra.name].forbComposition || "0"}}</td>
-        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.siteContextModel.inputs.ibra.name].fernComposition || "0"}}</td>
-        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.siteContextModel.inputs.ibra.name].otherComposition || "0"}}</td>
+        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.siteContextModel.inputs.ibra.name].treeComposition | r2d}}</td>
+        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.siteContextModel.inputs.ibra.name].shrubComposition | r2d}}</td>
+        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.siteContextModel.inputs.ibra.name].grassAndGrassLikeComposition | r2d}}</td>
+        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.siteContextModel.inputs.ibra.name].forbComposition | r2d}}</td>
+        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.siteContextModel.inputs.ibra.name].fernComposition | r2d}}</td>
+        <td>{{cc.composition.model.benchmarks[cc.composition.model.keithClass][cc.dataService.siteContextModel.inputs.ibra.name].otherComposition | r2d}}</td>
     </tr>
     <tr>
         <th>Observed Mean (x&#772;)</th>
-        <td>{{cc.composition.getCurrentComposition().observedMeanTree || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().observedMeanShrub || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().observedMeanGrassAndGrassLike || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().observedMeanForb || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().observedMeanFern || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().observedMeanOther || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().observedMeanTree | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().observedMeanShrub | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().observedMeanGrassAndGrassLike | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().observedMeanForb | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().observedMeanFern | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().observedMeanOther | r2d}}</td>
     </tr>
     <tr>
         <th>Unweighted Composition Score (UCS<sub>i</sub>)
         </td>
-        <td>{{cc.composition.getCurrentComposition().unweightedTreeScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().unweightedShrubScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().unweightedGrassAndGrassLikeScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().unweightedForbScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().unweightedFernScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().unweightedOtherScore || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().unweightedTreeScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().unweightedShrubScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().unweightedGrassAndGrassLikeScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().unweightedForbScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().unweightedFernScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().unweightedOtherScore | r2d}}</td>
     </tr>
     <tr>
         <th>Weighted Composition Score (WCS<sub>i</sub>)</th>
-        <td>{{cc.composition.getCurrentComposition().weightedTreeScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().weightedShrubScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().weightedGrassAndGrassLikeScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().weightedForbScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().weightedFernScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().weightedOtherScore || "0"}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedTreeScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedShrubScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedGrassAndGrassLikeScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedForbScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedFernScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().weightedOtherScore | r2d}}</td>
     </tr>
     <tr>
-        <th>Dynamic Weighting (w<sub>i</sub>)</th>
-        <td>{{cc.composition.getCurrentComposition().dynamicWeightingTreeScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().dynamicWeightingShrubScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().dynamicWeightingGrassAndGrassLikeScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().dynamicWeightingForbScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().dynamicWeightingFernScore || "0"}}</td>
-        <td>{{cc.composition.getCurrentComposition().dynamicWeightingOtherScore || "0"}}</td>
+        <th>Dynamic Weighting (w<sub>i</sub>333)</th>
+        <td>{{cc.composition.getCurrentComposition().dynamicWeightingTreeScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().dynamicWeightingShrubScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().dynamicWeightingGrassAndGrassLikeScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().dynamicWeightingForbScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().dynamicWeightingFernScore | r2d}}</td>
+        <td>{{cc.composition.getCurrentComposition().dynamicWeightingOtherScore | r2d}}</td>
     </tr>
 </table>
