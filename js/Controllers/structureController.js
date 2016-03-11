@@ -231,13 +231,12 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
         calculateAdjustedConditionWithoutOffset: function (theObject, theObjectLower) {
             var result = 0
             var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
-            var dynamicWeighting = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
-            //var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
+            var dynamicWeightingGain = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeightingGain" + theObject + "Score")
             var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Cover")
             if (benchmark == 0) {
                 result = 0
             } else {
-                result = (futureConditionWithoutOffset * dynamicWeighting)
+                result = (futureConditionWithoutOffset * dynamicWeightingGain)
                 eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].adjustedConditionWithoutOffset" + theObject + " = " + result)
             }
         },

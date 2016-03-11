@@ -247,7 +247,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         calculateAdjustedConditionWithoutOffset: function (theObject, theObjectLower) {
             var result = 0
             var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
-            var dynamicWeighting = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
+            var dynamicWeightingGain = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeightingGain" + theObject + "Score")
             var benchmark
             if (theObject == 'RegenerationPresent') {
                 benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
@@ -257,7 +257,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             if (benchmark == 0) {
                 result = 0
             } else {
-                result = (futureConditionWithoutOffset * dynamicWeighting)
+                result = (futureConditionWithoutOffset * dynamicWeightingGain)
                 eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].adjustedConditionWithoutOffset" + theObject + " = " + result)
             }
         },
