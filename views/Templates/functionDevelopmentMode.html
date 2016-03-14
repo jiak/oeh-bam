@@ -9,11 +9,11 @@
     </tr>
     <tr ng-repeat="itemd in fc.function.getApplicableCalcResults()[fc.function.model.inFocusVegetationZoneIndex].functionTransects">
         <th>Transect {{$index + 1}}</th>
-        <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="itemd.numberOfLargeTrees" ng-blur="fc.function.updateCalcsFor('NumberOfLargeTrees', itemd.numberOfLargeTrees)"/></td>
-        <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="itemd.litterCover" ng-blur="fc.function.updateCalcsFor('LitterCover', itemd.litterCover)"/></td>
-        <td><input class="numericInput form-control" size=3 type="number" min="0" ng-model="itemd.coarseWoodyDebris" ng-blur="fc.function.updateCalcsFor('CoarseWoodyDebris', itemd.coarseWoodyDebris)"/></td>
+        <td><input ng-disabled="fc.function.model.calculatorMode == 'future'" class="numericInput form-control" size=3 type="number" min="0" ng-model="itemd.numberOfLargeTrees" ng-blur="fc.function.updateCalcsFor('NumberOfLargeTrees', itemd.numberOfLargeTrees)"/></td>
+        <td><input ng-disabled="fc.function.model.calculatorMode == 'future'" class="numericInput form-control" size=3 type="number" min="0" ng-model="itemd.litterCover" ng-blur="fc.function.updateCalcsFor('LitterCover', itemd.litterCover)"/></td>
+        <td><input ng-disabled="fc.function.model.calculatorMode == 'future'"class="numericInput form-control" size=3 type="number" min="0" ng-model="itemd.coarseWoodyDebris" ng-blur="fc.function.updateCalcsFor('CoarseWoodyDebris', itemd.coarseWoodyDebris)"/></td>
         <td>
-            <select class="form-control" ng-model="itemd.stemSizeClasses" ng-blur="fc.function.updateCalcsFor('StemSizeClasses', itemd.stemSizeClasses)">
+            <select ng-disabled="fc.function.model.calculatorMode == 'future'" class="form-control" ng-model="itemd.stemSizeClasses" ng-blur="fc.function.updateCalcsFor('StemSizeClasses', itemd.stemSizeClasses)">
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -22,7 +22,7 @@
             </select>
         </td>
         <td>
-            <select class="form-control" ng-model="itemd.regenerationPresent" ng-blur="fc.function.updateCalcsFor('RegenerationPresent', itemd.regenerationPresent)">
+            <select ng-disabled="fc.function.model.calculatorMode == 'future'" class="form-control" ng-model="itemd.regenerationPresent" ng-blur="fc.function.updateCalcsFor('RegenerationPresent', itemd.regenerationPresent)">
                 <option value="0">Absent</option>
                 <option value="1">Present</option>
             </select>

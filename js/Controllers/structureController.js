@@ -22,11 +22,15 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
         },
 
         updateFutureValuesInDevelopmentMode: function() {
+            if(this.getCurrentStructure().structureTransects.length == 0) {
+                this.getCurrentStructure().structureTransects.push(this.createStructureTransect())
+            }
             this.updateCalcsFor('Tree', 0)
             this.updateCalcsFor('Shrub', 0)
             this.updateCalcsFor('Fern', 0)
             this.updateCalcsFor('Forb', 0)
             this.updateCalcsFor('GrassAndGrassLike', 0)
+            this.updateCalcsFor('Other', 0)
             this.calculateStructureSubtotal()
         },
 
@@ -382,12 +386,12 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
 
         createStructureTransect: function () {
             return {
-                tree: null,
-                shurb: null,
-                grassAndGrassLike: null,
-                forb: null,
-                fern: null,
-                other: null
+                tree: 0,
+                shrub: 0,
+                grassAndGrassLike: 0,
+                forb: 0,
+                fern: 0,
+                other: 0
             }
         },
 

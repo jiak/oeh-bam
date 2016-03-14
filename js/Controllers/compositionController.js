@@ -193,11 +193,15 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
         },
 
         updateFutureValuesInDevelopmentMode: function() {
+            if(this.getCurrentComposition().compositionTransects.length == 0) {
+                this.getCurrentComposition().compositionTransects.push(this.createCompositionTransect())
+            }
             this.updateCalcsFor('Tree', 0)
             this.updateCalcsFor('Shrub', 0)
             this.updateCalcsFor('Fern', 0)
             this.updateCalcsFor('Forb', 0)
             this.updateCalcsFor('GrassAndGrassLike', 0)
+            this.updateCalcsFor('Other', 0)
             this.calculateCompositionSubtotal()
         },
 
@@ -207,6 +211,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
             this.updateCalcsFor('Fern', -1)
             this.updateCalcsFor('Forb', -1)
             this.updateCalcsFor('GrassAndGrassLike', -1)
+            this.updateCalcsFor('Other', -1)
             this.calculateCompositionOffsetSubtotalForFutureWithManagement()
         },
 
@@ -354,12 +359,12 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
 
         createCompositionTransect: function () {
             return {
-                tree: null,
-                shurb: null,
-                grassAndGrassLike: null,
-                forb: null,
-                fern: null,
-                other: null
+                tree: 0,
+                shrub: 0,
+                grassAndGrassLike: 0,
+                forb: 0,
+                fern: 0,
+                other: 0
             }
         },
 
