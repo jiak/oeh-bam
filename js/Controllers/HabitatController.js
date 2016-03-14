@@ -151,6 +151,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                 this.model.inputs[this.model.current].speciesCredit[index].presence.name == "Yes" &&
                 (this.model.inputs[this.model.current].speciesCredit[index].threatendedSpecies.sensitivity == "Very high" || dataService.applicationDetailsModel.assessmentType.id != 3);
 
+            this.emitHabitatUpdateEvent()
         },
 
         update: function (ibra, subRegion, cover, patchSize) {

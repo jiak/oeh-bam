@@ -11,7 +11,7 @@
                 <th>PCT Name</th>
                 <th>VI Loss / Gain</th>
                 <th>Area</th>
-                <th>OM</th>
+                <th ng-show="crc.model.assessmentType.name == 'Development'">OM</th>
                 <th>Ecosystem credits</th>
             </tr>
             </thead>
@@ -22,7 +22,7 @@
                 <td>{{ecoCredit.pctName}}</td>
                 <td>{{ecoCredit.viLoss | abs | r0d}}</td>
                 <td>{{ecoCredit.area}}</td>
-                <td>{{crc.credits.model.highestOm}}</td>
+                <td ng-show="crc.model.assessmentType.name == 'Development'">{{crc.credits.model.highestOm}}</td>
                 <td>{{crc.credits.calculateEcosystemCredits(ecoCredit) | abs | r0d}}</td>
             </tr>
             </tbody>
@@ -39,7 +39,7 @@
                 <th>Veg zone name</th>
                 <th>Habitat condition (HC)</th>
                 <th>Area / individual (HL)</th>
-                <th>OM</th>
+                <th ng-show="crc.model.assessmentType.name == 'Development'">OM</th>
                 <th>Species credit</th>
             </tr>
             </thead>
@@ -53,7 +53,7 @@
                 </td>
                 <td>{{speciesCredit.vis | abs | r0d}}</td>
                 <td>{{speciesCredit.area}}</td>
-                <td>{{speciesCredit.om}}</td>
+                <td ng-show="crc.model.assessmentType.name == 'Development'">{{speciesCredit.om}}</td>
                 <td>{{crc.credits.calculateSpeciesCredit(speciesCredit) | abs | r0d}}</td>
             </tr>
             </tbody>

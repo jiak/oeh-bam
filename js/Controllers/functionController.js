@@ -21,6 +21,15 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             $rootScope.$emit(dataService.events.recalculateVisEvent, body)
         },
 
+        updateFutureValuesInDevelopmentMode: function() {
+            this.updateCalcsFor('NumberOfLargeTrees', 0)
+            this.updateCalcsFor('CoarseWoodyDebris', 0)
+            this.updateCalcsFor('LitterCover', 0)
+            this.updateCalcsFor('RegenerationPresent', 0)
+            this.updateCalcsFor('StemSizeClasses', 0)
+            this.calculateFunctionSubtotal()
+        },
+
         getApplicableCalcResults: function () {
             if (this.model.calculatorMode == 'current') {
                 return this.model.functionCalcResults

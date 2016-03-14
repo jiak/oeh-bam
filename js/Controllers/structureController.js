@@ -21,6 +21,15 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             $rootScope.$emit(dataService.events.recalculateVisEvent, body)
         },
 
+        updateFutureValuesInDevelopmentMode: function() {
+            this.updateCalcsFor('Tree', 0)
+            this.updateCalcsFor('Shrub', 0)
+            this.updateCalcsFor('Fern', 0)
+            this.updateCalcsFor('Forb', 0)
+            this.updateCalcsFor('GrassAndGrassLike', 0)
+            this.calculateStructureSubtotal()
+        },
+
         getApplicableCalcResults: function () {
             if (this.model.calculatorMode == 'current') {
                 return this.model.structureCalcResults
