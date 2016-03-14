@@ -231,8 +231,8 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
                 result = 0
             } else {
                 result = (futureConditionWithoutOffset * dynamicWeightingGain)
-                eval("this.model.offsetFutureWithoutManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].adjustedConditionWithoutOffset" + theObject + " = " + result)
             }
+            eval("this.model.offsetFutureWithoutManagementCompositionCalcResults[this.model.inFocusVegetationZoneIndex].adjustedConditionWithoutOffset" + theObject + " = " + result)
         },
 
         calculateFutureConditionWithoutOffset: function (theObject, theObjectLower) {

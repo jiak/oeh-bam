@@ -267,8 +267,8 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 result = 0
             } else {
                 result = (futureConditionWithoutOffset * dynamicWeightingGain)
-                eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].adjustedConditionWithoutOffset" + theObject + " = " + result)
             }
+            eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].adjustedConditionWithoutOffset" + theObject + " = " + result)
         },
 
         calculateFutureConditionWithoutOffset: function (theObject, theObjectLower) {
