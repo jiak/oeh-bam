@@ -160,7 +160,9 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
 
         removePctObject: function (index) {
             pctArray = this.model.input.pct
+            pctId = pctArray[index].pct.id
             pctArray.splice(index, 1)
+            this.removeVegetationZoneByPctCode(pctId)
         },
 
         canAddMoreVegetationZones: function () {
@@ -185,7 +187,45 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
                 dataService.functionModel.functionCalcResults.push(dataService.functionModel.createFunctionCalcResult())
                 dataService.functionModel.futureFunctionCalcResults.push(dataService.functionModel.createFunctionCalcResult())
             }
-        }
+        },
+
+        removeVegetationZoneByPctCode: function (pctId) {
+            itemsToRemove = []
+            vegZones = this.model.input.vegetationZones
+            currentCompositionCalcResults = dataService.compositionModel.compositionCalcResults
+            futureCompositionCalcResults = dataService.compositionModel.futureCompositionCalcResults
+            currentStructureCalcResults = dataService.structureModel.structureCalcResults
+            futureStructureCalcResults = dataService.structureModel.futureStructureCalcResults
+            currentFunctionCalcResults = dataService.functionModel.functionCalcResults
+            futureFunctionCalcResults = dataService.functionModel.futureFunctionCalcResults
+            for (i = 0; i < vegZones.length; i++) {
+                if (vegZones[i].pctCode.pct.id == pctId) {
+                    itemsToRemove.push(i)
+                }
+            }
+            itemsRemoved = 0
+            function removeItem(index) {
+                vegZones.splice(index, 1)
+                currentCompositionCalcResults.splice(index, 1)
+                futureCompositionCalcResults.splice(index, 1)
+                currentStructureCalcResults.splice(index, 1)
+                futureStructureCalcResults.splice(index, 1)
+                currentFunctionCalcResults.splice(index, 1)
+                futureFunctionCalcResults.splice(index, 1)
+            }
+
+            if (itemsToRemove[0] != undefined) {
+                removeItem(itemsToRemove[0])
+                itemsRemoved++
+            }
+            if (itemsToRemove.length > 0) {
+                for (i = 1; i < itemsToRemove.length; i++) {
+                    shiftedIndex = itemsToRemove[i] - itemsRemoved
+                    removeItem(shiftedIndex)
+                    itemsRemoved++
+                }
+            }
+        },
     };
 }]);
 
