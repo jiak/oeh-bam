@@ -21,6 +21,18 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             $rootScope.$emit(dataService.events.recalculateVisEvent, body)
         },
 
+        updateFutureValuesInDevelopmentMode: function() {
+            if(this.getCurrentFunction().functionTransects.length == 0) {
+                this.getCurrentFunction().functionTransects.push(this.createFunctionTransect())
+            }
+            this.updateCalcsFor('NumberOfLargeTrees', 0)
+            this.updateCalcsFor('CoarseWoodyDebris', 0)
+            this.updateCalcsFor('LitterCover', 0)
+            this.updateCalcsFor('RegenerationPresent', 0)
+            this.updateCalcsFor('StemSizeClasses', 0)
+            this.calculateFunctionSubtotal()
+        },
+
         getApplicableCalcResults: function () {
             if (this.model.calculatorMode == 'current') {
                 return this.model.functionCalcResults
@@ -229,6 +241,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             this.updateCalcsFor('LitterCover', -1)
             this.updateCalcsFor('CoarseWoodyDebris', -1)
             this.updateCalcsFor('RegenerationPresent', -1)
+            this.updateCalcsFor('StemSizeClasses', -1)
             this.calculateFunctionOffsetSubtotalForFutureWithManagement()
         },
 
@@ -258,8 +271,8 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 result = 0
             } else {
                 result = (futureConditionWithoutOffset * dynamicWeightingGain)
-                eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].adjustedConditionWithoutOffset" + theObject + " = " + result)
             }
+            eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].adjustedConditionWithoutOffset" + theObject + " = " + result)
         },
 
         calculateFutureConditionWithoutOffset: function (theObject, theObjectLower) {
@@ -303,14 +316,16 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         },
 
         calculateWeightedFunctionScore: function (theObject, theObjectLower) {
+            var result = 0
             if (theObject == "RegenerationPresent") {
                 if (this.getBenchmark().regeneration == 'absent') {
-                    return;
+                    result = 0;
                 }
+            } else {
+                unweightedScore = eval("this.getCurrentFunction().unweighted" + theObject + "Score")
+                dynamicWeightingGainScore = eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score")
+                result = unweightedScore * dynamicWeightingGainScore
             }
-            unweightedScore = eval("this.getCurrentFunction().unweighted" + theObject + "Score")
-            dynamicWeightingGainScore = eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score")
-            result = unweightedScore * dynamicWeightingGainScore
             eval("this.getCurrentFunction().weighted" + theObject + "Score = " + result)
         },
 
@@ -397,11 +412,11 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
 
         createFunctionTransect: function () {
             return {
-                numberOfLargeTrees: null,
-                litterCover: null,
-                coarseWoodyDebris: null,
-                stemSizeClasses: null,
-                regenerationPresent: null
+                numberOfLargeTrees: 0,
+                litterCover: 0,
+                coarseWoodyDebris: 0,
+                stemSizeClasses: 0,
+                regenerationPresent: 0
             }
         },
 
