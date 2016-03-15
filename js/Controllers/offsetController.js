@@ -189,7 +189,57 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
                 function: null,
                 vis: null
             }
-        }
+        },
+
+        removePctObject: function (index) {
+            pctArray = this.model.input.pct
+            pctId = pctArray[index].pct.id
+            pctArray.splice(index, 1)
+            this.removeVegetationZoneByPctCode(pctId)
+        },
+
+        removeVegetationZoneByPctCode: function (pctId) {
+            itemsToRemove = []
+            vegZones = this.model.input.vegetationZones
+            currentCompositionCalcResults = dataService.compositionModel.compositionCalcResults
+            offsetFutureWithoutManagementCompositionCalcResults  = dataService.compositionModel.offsetFutureWithoutManagementCompositionCalcResults
+            offsetFutureWithManagementCompositionCalcResults  = dataService.compositionModel.offsetFutureWithManagementCompositionCalcResults
+            currentStructureCalcResults = dataService.structureModel.structureCalcResults
+            offsetFutureWithoutManagementStructureCalcResults = dataService.structureModel.offsetFutureWithoutManagementStructureCalcResults
+            offsetFutureWithManagementStructureCalcResults = dataService.structureModel.offsetFutureWithManagementStructureCalcResults
+            currentFunctionCalcResults = dataService.functionModel.functionCalcResults
+            offsetFutureWithoutManagementFunctionCalcResults = dataService.functionModel.offsetFutureWithoutManagementFunctionCalcResults
+            offsetFutureWithManagementFunctionCalcResults = dataService.functionModel.offsetFutureWithManagementFunctionCalcResults
+            for (i = 0; i < vegZones.length; i++) {
+                if (vegZones[i].pctCode.pct.id == pctId) {
+                    itemsToRemove.push(i)
+                }
+            }
+            itemsRemoved = 0
+            function removeItem(index) {
+                vegZones.splice(index, 1)
+                currentCompositionCalcResults.splice(index, 1)
+                offsetFutureWithoutManagementCompositionCalcResults.splice(index, 1)
+                offsetFutureWithManagementCompositionCalcResults.splice(index, 1)
+                currentStructureCalcResults.splice(index, 1)
+                offsetFutureWithoutManagementStructureCalcResults.splice(index, 1)
+                offsetFutureWithManagementStructureCalcResults.splice(index, 1)
+                currentFunctionCalcResults.splice(index, 1)
+                offsetFutureWithoutManagementFunctionCalcResults.splice(index, 1)
+                offsetFutureWithManagementFunctionCalcResults.splice(index, 1)
+            }
+            if (itemsToRemove[0] != undefined) {
+                removeItem(itemsToRemove[0])
+                itemsRemoved++
+            }
+            if (itemsToRemove.length > 0) {
+                for (i = 1; i < itemsToRemove.length; i++) {
+                    shiftedIndex = itemsToRemove[i] - itemsRemoved
+                    removeItem(shiftedIndex)
+                    itemsRemoved++
+                }
+            }
+        },
     }
 
 }])

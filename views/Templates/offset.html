@@ -22,6 +22,7 @@
                     <th>PCT % Cleared</th>
                     <th>Associated TEC</th>
                     <th>Threat status class</th>
+                    <th>Action</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -45,6 +46,7 @@
                         <p ng-show="pctItem.tec != null">{{pctItem.tec.name}}</p>
                     </td>
                     <td>{{pctItem.tec.status}}</td>
+                    <td><a ng-click="oc.offset.removePctObject($index)" style="cursor: pointer;">Remove</a></td>
                 </tr>
                 </tbody>
             </table>
