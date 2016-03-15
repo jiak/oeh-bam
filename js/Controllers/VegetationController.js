@@ -3,19 +3,19 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
     this.dataService = dataService
 
     $rootScope.$on(dataService.events.siteContextUpdateEvent, function (event, body) {
-        if (dataService.applicationDetailsModel.assessmentType.name == 'Development') {
+        if (dataService.applicationDetailsModel.assessmentType.name != 'Offset') {
             $scope.vc.vegetationTab.addPctObject()
         }
     })
 
     $rootScope.$on(dataService.events.requestVegzoneUpdateEvent, function (event, body) {
-        if (dataService.applicationDetailsModel.assessmentType.name == 'Development') {
+        if (dataService.applicationDetailsModel.assessmentType.name != 'Offset') {
             $scope.vc.vegetationTab.dispatchVegzoneUpdateEvent()
         }
     })
 
     $rootScope.$on(dataService.events.recalculateVisEvent, function (event, body) {
-        if (dataService.applicationDetailsModel.assessmentType.name == 'Development') {
+        if (dataService.applicationDetailsModel.assessmentType.name != 'Offset') {
             $scope.vc.vegetationTab.recalculateVis()
         }
     })
