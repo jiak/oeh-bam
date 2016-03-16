@@ -2,9 +2,13 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
     this.dataService = dataService
 
-    $rootScope.$on(dataService.events.siteContextUpdateEvent, function (event, body) {
-        $scope.hc.habitat.update(body.ibra, body.subRegion, body.cover, body.patchSize)
+    //$rootScope.$on(dataService.events.siteContextUpdateEvent, function (event, body) {
+    //    $scope.hc.habitat.update(body.ibra, body.subRegion, body.cover, body.patchSize)
+    //})
+    $rootScope.$on(dataService.events.vegetationPctChangeEvent, function (event, body) {
+        $scope.hc.habitat.loadSpecies()
     })
+
 
     this.habitat = {
         streamlineSensitivityCheck: function(species) {
@@ -37,6 +41,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
         },
 
         initEcoSystemCreditInput: function (input) {
+            var duplicateCheck = [];
             for (var i = 0; i < this.model.referenceData.ecosystemCredit.ibraSubRegion.length; i++) {
                 if (this.model.referenceData.ecosystemCredit.ibraSubRegion[i].id == input.key.ibraId) {
                     //found subregion
@@ -46,15 +51,23 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                         var inputPatchSize = this.formalizePatchSize(input.key.patchSize);
                         var inputCover = this.formalizeCover(input.key.cover);
 
+                        for (pct in dataService.vegetationModel.input.pct) {
+                            var duplicate = false;
+                            if (dataService.vegetationModel.input.pct[pct].pct != null) {
+                                if (duplicateCheck.indexOf(this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].id) >= 0) duplicate = true
+                                if (this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].pct.indexOf(dataService.vegetationModel.input.pct[pct].pct.id) >=0 && !duplicate) {
+                                    duplicateCheck.push(this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].id);
+                                    //if any patchSize or cover is null, just ignore them
+                                    //if (
+                                    //    (((inputCover != null) ? inputCover : cover ) == cover)
+                                    //    &&
+                                    //    (((inputPatchSize != null) ? inputPatchSize : patchSize ) == patchSize)
+                                    //)
+                                    input.ecosystemCredit.push(this.createEcoSystemCreditInput(this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j]));
+                                }
+                            }
+                        }
 
-                        //if any patchSize or cover is null, just ignore them
-                       // if (
-                       //     (((inputCover != null) ? inputCover : cover ) == cover)
-                       //     &&
-                       //     (((inputPatchSize != null) ? inputPatchSize : patchSize ) == patchSize)
-                       // )
-
-                            input.ecosystemCredit.push(this.createEcoSystemCreditInput(this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j]));
                     }
                 }
             }
@@ -92,6 +105,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
         },
 
         initSpeciesCreditInput: function (input, subRegion) {
+            var duplicateCheck = [];
             for (var i = 0; i < this.model.referenceData.speciesCredit.ibraSubRegion.length; i++) {
                 if (this.model.referenceData.speciesCredit.ibraSubRegion[i].id == input.key.ibraId) {
                     //found subregion
@@ -101,13 +115,23 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                         var inputPatchSize = this.formalizePatchSize(input.key.patchSize);
                         var inputCover = this.formalizeCover(input.key.cover);
 
-                        //if any patchSize or cover is null, just ignore them
-                        //if (
-                        //    (((inputCover != null) ? inputCover : cover ) == cover)
-                        //    &&
-                        //    (((inputPatchSize != null) ? inputPatchSize : patchSize ) == patchSize)
-                        //)
-                            input.speciesCredit.push(this.createSpeciesCreditInput(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j]));
+                        for (pct in dataService.vegetationModel.input.pct) {
+                            var duplicate = false;
+                            if (dataService.vegetationModel.input.pct[pct].pct != null) {
+                                if (duplicateCheck.indexOf(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].id) >= 0) duplicate = true
+                                if (this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].pct.indexOf(dataService.vegetationModel.input.pct[pct].pct.id) >=0 && !duplicate) {
+                                    duplicateCheck.push(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].id);
+
+                                    //if any patchSize or cover is null, just ignore them
+                                    //if (
+                                    //    (((inputCover != null) ? inputCover : cover ) == cover)
+                                    //    &&
+                                    //    (((inputPatchSize != null) ? inputPatchSize : patchSize ) == patchSize)
+                                    //)
+                                    input.speciesCredit.push(this.createSpeciesCreditInput(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j]));
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -153,6 +177,10 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
             this.emitHabitatUpdateEvent()
         },
+        loadSpecies: function() {
+            this.model.current = null;
+            this.update(dataService.siteContextModel.inputs.ibra, dataService.siteContextModel.inputs.subRegion,dataService.siteContextModel.inputs.cover, dataService.siteContextModel.inputs.patchSize);
+        },
 
         update: function (ibra, subRegion, cover, patchSize) {
             this.model.current = null;
@@ -167,12 +195,13 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
             this.model.current = this.findInput(ibraId, cover, patchSize);
 
             //find input
-            if (this.model.current != null)
-                return;
+            //if (this.model.current != null)
+                //return;
 
             //if not found, create one
             var input = this.createInput(ibraId, cover, patchSize);
-
+            input.speciesCredit = [];
+            input.ecosystemCredit = [];
             this.initEcoSystemCreditInput(input);
             this.initSpeciesCreditInput(input);
 

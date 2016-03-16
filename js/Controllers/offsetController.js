@@ -23,6 +23,11 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
     this.offset = {
 
         model: dataService.offsetModel,
+        pctChange: function() {
+            var body = dataService.events.createVegetationPctChangeEvent()
+            $rootScope.$emit(dataService.events.vegetationPctChangeEvent, body)
+
+        },
 
         getKeithClassesForWhichBenchmarkDataIsAvailable: function (formation) {
             availableKeithClasses = new Array();
@@ -196,6 +201,7 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
             pctId = pctArray[index].pct.id
             pctArray.splice(index, 1)
             this.removeVegetationZoneByPctCode(pctId)
+            this.pctChange();
         },
 
         removeVegetationZoneByPctCode: function (pctId) {

@@ -163,6 +163,7 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
             pctId = pctArray[index].pct.id
             pctArray.splice(index, 1)
             this.removeVegetationZoneByPctCode(pctId)
+            this.pctChange();
         },
 
         canAddMoreVegetationZones: function () {
@@ -188,7 +189,11 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
                 dataService.functionModel.futureFunctionCalcResults.push(dataService.functionModel.createFunctionCalcResult())
             }
         },
+        pctChange: function() {
+            var body = dataService.events.createVegetationPctChangeEvent()
+            $rootScope.$emit(dataService.events.vegetationPctChangeEvent, body)
 
+        },
         removeVegetationZoneByPctCode: function (pctId) {
             itemsToRemove = []
             vegZones = this.model.input.vegetationZones

@@ -36,7 +36,7 @@
                         <p ng-show="pctItem.keithClass != null">{{pctItem.keithClass.name}}</p>
                     </td>
                     <td>
-                        <select ng-show="pctItem.pct == null" class="form-control" ng-model="pctItem.pct" ng-options="ref.name for ref in pctItem.keithClass.pct | orderBy: 'name'" title="{{pctItem.pct.name}}"></select>
+                        <select ng-change="oc.offset.pctChange()" ng-show="pctItem.pct == null" class="form-control" ng-model="pctItem.pct" ng-options="ref.name for ref in pctItem.keithClass.pct | orderBy: 'name'" title="{{pctItem.pct.name}}"></select>
                         <p ng-show="pctItem.pct != null">{{pctItem.pct.name}}</p>
                     </td>
                     <td>{{pctItem.pct.id}}</td>
@@ -110,8 +110,6 @@
                 </tr>
                 </tbody>
             </table>
-        </div>
-        <div class="table-responsive">
             <h4>Vegetation zones (future without management)</h4>
             <table class="table doalign">
                 <thead>
@@ -158,8 +156,6 @@
                 </tr>
                 </tbody>
             </table>
-        </div>
-        <div class="table-responsive">
             <h4>Vegetation zones (future with management)</h4>
             <table class="table doalign">
                 <thead>
