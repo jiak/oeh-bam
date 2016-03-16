@@ -5,7 +5,7 @@ bamApp.controller('compositionController', ["$scope", "$rootScope", "$uibModal",
     $rootScope.$on(dataService.events.openCalculatorEvent, function (event, body) {
         if (dataService.applicationDetailsModel.assessmentType.name == 'Offset' && body.calculatorMode == 'offsetFutureWithManagement') {
             $scope.cc.composition.updateFutureWithManagement()
-        } else if(dataService.applicationDetailsModel.assessmentType.name == 'Development' && body.calculatorMode == 'future') {
+        } else if(body.calculatorMode == 'future') {
             $scope.cc.composition.updateFutureValuesInDevelopmentMode()
         }
     })

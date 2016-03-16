@@ -5,7 +5,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
     $rootScope.$on(dataService.events.openCalculatorEvent, function (event, body) {
         if(dataService.applicationDetailsModel.assessmentType.name == 'Offset' && body.calculatorMode == 'offsetFutureWithManagement') {
             $scope.fc.function.updateFutureWithManagement()
-        } else if(dataService.applicationDetailsModel.assessmentType.name == 'Development' && body.calculatorMode == 'future') {
+        } else if(body.calculatorMode == 'future') {
             $scope.fc.function.updateFutureValuesInDevelopmentMode()
         }
     })
@@ -340,7 +340,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             } else if (theObject == "StemSizeClasses") {
                 value = 0.15
             } else if (theObject == "RegenerationPresent") {
-                value = 0.2
+                value = 0.15
             }
             eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score = " + value)
             return value
