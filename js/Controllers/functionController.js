@@ -317,15 +317,9 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
 
         calculateWeightedFunctionScore: function (theObject, theObjectLower) {
             var result = 0
-            if (theObject == "RegenerationPresent") {
-                if (this.getBenchmark().regeneration == 'absent') {
-                    result = 0;
-                }
-            } else {
-                unweightedScore = eval("this.getCurrentFunction().unweighted" + theObject + "Score")
-                dynamicWeightingGainScore = eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score")
-                result = unweightedScore * dynamicWeightingGainScore
-            }
+            unweightedScore = eval("this.getCurrentFunction().unweighted" + theObject + "Score")
+            dynamicWeightingGainScore = eval("this.getCurrentFunction().dynamicWeighting" + theObject + "Score")
+            result = unweightedScore * dynamicWeightingGainScore
             eval("this.getCurrentFunction().weighted" + theObject + "Score = " + result)
         },
 

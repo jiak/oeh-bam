@@ -3,60 +3,128 @@
         <div>
             <h4>Ecosystem credits for Plant Communities Types (PCT), ecological communities &amp; threatened species habitat</h4>
         </div>
-        <table class="table">
-            <thead>
-            <tr>
-                <th>Zone</th>
-                <th>Veg zone name</th>
-                <th>PCT Name</th>
-                <th>VI Loss / Gain</th>
-                <th>Area</th>
-                <th ng-show="crc.credits.model.assessmentType.name != 'Offset'">OM</th>
-                <th>Ecosystem credits</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr ng-repeat="ecoCredit in crc.credits.model.ecoCredits">
-                <td>{{ecoCredit.zone}}</td>
-                <td>{{ecoCredit.identifier}}</td>
-                <td>{{ecoCredit.pctName}}</td>
-                <td>{{ecoCredit.viLoss | abs | r0d}}</td>
-                <td>{{ecoCredit.area}}</td>
-                <td ng-show="crc.credits.model.assessmentType.name != 'Offset'">{{crc.credits.model.highestOm}}</td>
-                <td>{{crc.credits.calculateEcosystemCredits(ecoCredit) | abs | r0d}}</td>
-            </tr>
-            </tbody>
-        </table>
-        <div>
-            <h4>Species credits for threatened species</h4>
+        <div ng-if="crc.credits.model.assessmentType.name != 'Offset'">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Zone</th>
+                    <th>Veg zone name</th>
+                    <th>PCT Name</th>
+                    <th>VI Loss / Gain</th>
+                    <th>Area</th>
+                    <th>Constant</th>
+                    <th>Intermediate Result</th>
+                    <th>OM</th>
+                    <th>Ecosystem credits</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="ecoCredit in crc.credits.model.ecoCredits">
+                    <td>{{ecoCredit.zone}}</td>
+                    <td>{{ecoCredit.identifier}}</td>
+                    <td>{{ecoCredit.pctName}}</td>
+                    <td>{{ecoCredit.viLoss | abs | r0d}}</td>
+                    <td>{{ecoCredit.area}}</td>
+                    <td>{{crc.credits.model.constant}}</td>
+                    <td>{{ecoCredit.intermediateResult | abs | r0d}}</td>
+                    <td>{{crc.credits.model.highestOm}}</td>
+                    <td>{{crc.credits.calculateEcosystemCredits(ecoCredit) | abs | r0d}}</td>
+                </tr>
+                </tbody>
+            </table>
+            <div>
+                <h4>Species credits for threatened species</h4>
+            </div>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Common name</th>
+                    <th>Scientific name</th>
+                    <th>Veg zone name</th>
+                    <th>Habitat condition (HC)</th>
+                    <th>Area / individual (HL)</th>
+                    <th>Constant</th>
+                    <th>Intermediate Result</th>
+                    <th>OM</th>
+                    <th>Species credits</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="speciesCredit in crc.credits.model.speciesCredit">
+                    <td>{{speciesCredit.type}}</td>
+                    <td>{{speciesCredit.commonName}}</td>
+                    <td>{{speciesCredit.scientificName}}</td>
+                    <td>
+                        <select class="form-control" ng-model="speciesCredit.vegZone" ng-options="vegZone.identifier() for vegZone in crc.credits.model.vegetationZones"></select>
+                    </td>
+                    <td>{{speciesCredit.vis | abs | r0d}}</td>
+                    <td>{{speciesCredit.area}}</td>
+                    <td>{{crc.credits.model.constant}}</td>
+                    <td>{{speciesCredit.intermediateResult | abs | r0d}}</td>
+                    <td>{{speciesCredit.om}}</td>
+                    <td>{{crc.credits.calculateSpeciesCredit(speciesCredit) | abs | r0d}}</td>
+                </tr>
+                </tbody>
+            </table>
         </div>
-        <table class="table">
-            <thead>
-            <tr>
-                <th>Type</th>
-                <th>Common name</th>
-                <th>Scientific name</th>
-                <th>Veg zone name</th>
-                <th>Habitat condition (HC)</th>
-                <th>Area / individual (HL)</th>
-                <th ng-show="crc.credits.model.assessmentType.name != 'Offset'">OM</th>
-                <th>Species credit</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr ng-repeat="speciesCredit in crc.credits.model.speciesCredit">
-                <td>{{speciesCredit.type}}</td>
-                <td>{{speciesCredit.commonName}}</td>
-                <td>{{speciesCredit.scientificName}}</td>
-                <td>
-                    <select class="form-control" ng-model="speciesCredit.vegZone" ng-options="vegZone.identifier() for vegZone in crc.credits.model.vegetationZones"></select>
-                </td>
-                <td>{{speciesCredit.vis | abs | r0d}}</td>
-                <td>{{speciesCredit.area}}</td>
-                <td ng-show="crc.credits.model.assessmentType.name != 'Offset'">{{speciesCredit.om}}</td>
-                <td>{{crc.credits.calculateSpeciesCredit(speciesCredit) | abs | r0d}}</td>
-            </tr>
-            </tbody>
-        </table>
+        <div ng-if="crc.credits.model.assessmentType.name == 'Offset'">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Zone</th>
+                    <th>Veg zone name</th>
+                    <th>PCT Name</th>
+                    <th>VI Loss / Gain</th>
+                    <th>Area</th>
+                    <th>Constant</th>
+                    <th>Ecosystem credits</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="ecoCredit in crc.credits.model.ecoCredits">
+                    <td>{{ecoCredit.zone}}</td>
+                    <td>{{ecoCredit.identifier}}</td>
+                    <td>{{ecoCredit.pctName}}</td>
+                    <td>{{ecoCredit.viLoss | abs | r0d}}</td>
+                    <td>{{ecoCredit.area}}</td>
+                    <td>{{crc.credits.model.constant}}</td>
+                    <td>{{crc.credits.calculateEcosystemCredits(ecoCredit) | abs | r0d}}</td>
+                </tr>
+                </tbody>
+            </table>
+            <div>
+                <h4>Species credits for threatened species</h4>
+            </div>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Common name</th>
+                    <th>Scientific name</th>
+                    <th>Veg zone name</th>
+                    <th>Habitat condition (HC)</th>
+                    <th>Area / individual (HL)</th>
+                    <th>Constant</th>
+                    <th>Species credits</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="speciesCredit in crc.credits.model.speciesCredit">
+                    <td>{{speciesCredit.type}}</td>
+                    <td>{{speciesCredit.commonName}}</td>
+                    <td>{{speciesCredit.scientificName}}</td>
+                    <td>
+                        <select class="form-control" ng-model="speciesCredit.vegZone" ng-options="vegZone.identifier() for vegZone in crc.credits.model.vegetationZones"></select>
+                    </td>
+                    <td ng-show="(speciesCredit.type == 'Flora' && speciesCredit.uom == 'Area') || speciesCredit.type == 'Fauna'">{{speciesCredit.vis | abs | r0d}}</td>
+                    <td ng-show="!((speciesCredit.type == 'Flora' && speciesCredit.uom == 'Area') || speciesCredit.type == 'Fauna')">N/A</td>
+                    <td>{{speciesCredit.area}}</td>
+                    <td>{{crc.credits.model.constant}}</td>
+                    <td>{{crc.credits.calculateSpeciesCredit(speciesCredit) | abs | r0d}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </form>
