@@ -48,16 +48,18 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
         updateSpeciesCredits: function (candidateThreatenedSpecies, predictedThreatenedSpecies) {
             $scope.crc.credits.model.speciesCredit = []
             candidateThreatenedSpecies.forEach(function (candidateThreatenedSpecies, index) {
-                if (candidateThreatenedSpecies.assessRequired.name == 'Yes' && candidateThreatenedSpecies.presence.name == 'Yes' && candidateThreatenedSpecies.candidate.name == 'Yes') {
-                    var entry = {};
-                    entry.type = candidateThreatenedSpecies.threatendedSpecies.speciesType
-                    entry.commonName = candidateThreatenedSpecies.threatendedSpecies.name
-                    entry.scientificName = candidateThreatenedSpecies.threatendedSpecies.scientificName
-                    entry.hc = candidateThreatenedSpecies.threatendedSpecies.habitatComponents
-                    entry.area = candidateThreatenedSpecies.value
-                    entry.om = candidateThreatenedSpecies.threatendedSpecies.offsetMultiplier
-                    entry.uom = candidateThreatenedSpecies.threatendedSpecies.unitOfMeasure
-                    $scope.crc.credits.model.speciesCredit.push(entry)
+                if(candidateThreatenedSpecies.assessRequired != null && candidateThreatenedSpecies.presence != null && candidateThreatenedSpecies.candidate != null) {
+                    if (candidateThreatenedSpecies.assessRequired.name == 'Yes' && candidateThreatenedSpecies.presence.name == 'Yes' && candidateThreatenedSpecies.candidate.name == 'Yes') {
+                        var entry = {};
+                        entry.type = candidateThreatenedSpecies.threatendedSpecies.speciesType
+                        entry.commonName = candidateThreatenedSpecies.threatendedSpecies.name
+                        entry.scientificName = candidateThreatenedSpecies.threatendedSpecies.scientificName
+                        entry.hc = candidateThreatenedSpecies.threatendedSpecies.habitatComponents
+                        entry.area = candidateThreatenedSpecies.value
+                        entry.om = candidateThreatenedSpecies.threatendedSpecies.offsetMultiplier
+                        entry.uom = candidateThreatenedSpecies.threatendedSpecies.unitOfMeasure
+                        $scope.crc.credits.model.speciesCredit.push(entry)
+                    }
                 }
             })
         },
