@@ -329,7 +329,9 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             } else {
                 switch (theObjectLower) {
                     case "forb":
+                        break;
                     case "fern" :
+                        break;
                     case "other":
                         returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow((observedValue / eval("benchmarks." + theObjectLower + "Cover")), 2.5))) * 100);
                         break;
@@ -345,7 +347,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                             );
                             returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Cover"), 2.5))) * 100);
                         }
-
+                        break;
                 }
             }
             eval("this.getCurrentStructure().unweighted" + theObject + "Score = " + returnValue)

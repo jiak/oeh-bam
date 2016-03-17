@@ -5,28 +5,10 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
     $rootScope.$on(dataService.events.vegetationZoneUpdateEvent, function (event, body) {
         $scope.crc.credits.updateEcoSystemsCreditsRequiredForVegetation(body.vegetationZones, body.pcts)
         $scope.crc.credits.model.vegetationZones = body.vegetationZones
-        var highestOm = 1
-        body.pcts.forEach(function (pct) {
-            if (pct.tec.offsetMutliplier > highestOm) {
-                highestOm = pct.tec.offsetMutliplier
-            }
-        })
-        $scope.crc.credits.model.highestOm = highestOm
     })
 
     $rootScope.$on(dataService.events.habitatUpdateEvent, function (event, body) {
         $scope.crc.credits.updateSpeciesCredits(body.candidateThreatenedSpecies)
-        if ($scope.crc.credits.model.assessmentType != null && $scope.crc.credits.model.assessmentType != undefined && $scope.crc.credits.model.assessmentType.name != 'Development') {
-            var highestOm = 1
-            body.predictedThreatenedSpecies.forEach(function (cts) {
-                if (cts.threatendedSpecies.offsetMultiplier > highestOm) {
-                    highestOm = cts.threatendedSpecies.offsetMultiplier
-                }
-            })
-            if (highestOm > $scope.crc.credits.model.highestOm) {
-                $scope.crc.credits.model.highestOm = highestOm
-            }
-        }
     })
 
     $rootScope.$on(dataService.events.applicationDetailsUpdateEvent, function (event, body) {
@@ -40,7 +22,6 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
             speciesCredit: [],
             impactThresholds: [],
             assessmentType: null,
-            highestOm: null,
             vegetationZones: null,
             constant: 0.25
         },
@@ -77,6 +58,8 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
                     ecoCreditEntry.viLoss = vegZone.futureAndCurrentDeltaVis
                 }
                 ecoCreditEntry.area = vegZone.area
+                ecoCreditEntry.tecThreatStatus = vegZone.pctCode.tec.status
+                ecoCreditEntry.pctClearingStatus = vegZone.pctCode.pct.percentCleared.pct_cleared
                 $scope.crc.credits.model.ecoCredits.push(ecoCreditEntry)
             })
         },
@@ -84,10 +67,32 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
         calculateEcosystemCredits: function (ecoCredit) {
             if (this.model.assessmentType.name != 'Offset') {
                 ecoCredit.intermediateResult = ecoCredit.area * ecoCredit.viLoss * this.model.constant
-                return this.model.highestOm * ecoCredit.intermediateResult
+                ecoCredit.om = this.getOm(ecoCredit.tecThreatStatus, ecoCredit.pctClearingStatus)
+                return ecoCredit.om * ecoCredit.intermediateResult
             } else {
                 return ecoCredit.area * ecoCredit.viLoss * this.model.constant
             }
+        },
+
+        getOm: function(tecThreatStatus, pctClearingStatus) {
+            if(tecThreatStatus == 'CE') {
+                return 3
+            } else if(tecThreatStatus == 'E') {
+                return 2
+            } else if(tecThreatStatus == 'V') {
+                return 1.5
+            } else if(tecThreatStatus == '') {
+                if(pctClearingStatus > 90) {
+                    return 3
+                } else if (pctClearingStatus > 70 && pctClearingStatus < 90) {
+                    return 2
+                } else if(pctClearingStatus > 50 && pctClearingStatus < 70) {
+                    return 1.5
+                } else if (pctClearingStatus < 50) {
+                    return 1
+                }
+            }
+            return 1
         },
 
         calculateSpeciesCredit: function (speciesCredit) {
@@ -97,7 +102,7 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
                         if (speciesCredit.uom == 'Area') {
                             speciesCredit.vis = speciesCredit.vegZone.futureWithAndWithoutDeltaVis
                         } else if (speciesCredit.uom == 'Individual') {
-                            speciesCredit.vis = speciesCredit.vegZone.currentAndFutureWithoutDeltaVis
+                            return speciesCredit.area - (speciesCredit.area * (Math.pow(1 - 0.01, 20)))
                         }
                     } else if (speciesCredit.type == 'Fauna') {
                         speciesCredit.vis = speciesCredit.vegZone.futureWithAndWithoutDeltaVis
@@ -110,7 +115,7 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
                             speciesCredit.vis = speciesCredit.vegZone.futureAndCurrentDeltaVis
                             speciesCredit.intermediateResult = speciesCredit.area * speciesCredit.vis * this.model.constant
                         } else if (speciesCredit.uom == 'Individual') {
-                            speciesCredit.intermediateResult = speciesCredit.area * this.model.constant
+                            speciesCredit.intermediateResult = speciesCredit.area
                         }
                     } else if (speciesCredit.type == 'Fauna') {
                         speciesCredit.intermediateResult = speciesCredit.vis * speciesCredit.area * this.model.constant
