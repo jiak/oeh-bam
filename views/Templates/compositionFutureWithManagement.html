@@ -8,7 +8,7 @@
         <th>Fern</th>
     </tr>
     <tr>
-        <th>Current value with added constant</th>
+        <th>Current value</th>
         <td>{{cc.composition.getCurrentComposition().currentValueWithAddedConstantTree | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().currentValueWithAddedConstantShrub | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().currentValueWithAddedConstantGrassAndGrassLike | r2d}}</td>
@@ -24,7 +24,7 @@
         <td>{{cc.composition.getCurrentComposition().futureValueWithOffsetFern | r2d}}</td>
     </tr>
     <tr>
-        <th>Future condition with offset (unadjusted)</th>
+        <th>Future condition with offset (unweighted)</th>
         <td>{{cc.composition.getCurrentComposition().futureConditionWithOffsetTree | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().futureConditionWithOffsetShrub | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().futureConditionWithOffsetGrassAndGrassLike | r2d}}</td>
@@ -32,31 +32,7 @@
         <td>{{cc.composition.getCurrentComposition().futureConditionWithOffsetFern | r2d}}</td>
     </tr>
     <tr>
-        <th>Raw averted loss</th>
-        <td>{{cc.composition.getCurrentComposition().rawAvertedLossTree | r2d}}</td>
-        <td>{{cc.composition.getCurrentComposition().rawAvertedLossShrub | r2d}}</td>
-        <td>{{cc.composition.getCurrentComposition().rawAvertedLossGrassAndGrassLike | r2d}}</td>
-        <td>{{cc.composition.getCurrentComposition().rawAvertedLossForb | r2d}}</td>
-        <td>{{cc.composition.getCurrentComposition().rawAvertedLossFern | r2d}}</td>
-    </tr>
-    <tr>
-        <th>Raw restoration gain</th>
-        <td>{{cc.composition.getCurrentComposition().rawRestorationGainTree | r2d}}</td>
-        <td>{{cc.composition.getCurrentComposition().rawRestorationGainShrub | r2d}}</td>
-        <td>{{cc.composition.getCurrentComposition().rawRestorationGainGrassAndGrassLike | r2d}}</td>
-        <td>{{cc.composition.getCurrentComposition().rawRestorationGainForb | r2d}}</td>
-        <td>{{cc.composition.getCurrentComposition().rawRestorationGainFern | r2d}}</td>
-    </tr>
-    <tr>
-        <th>Raw total gain</th>
-        <td>{{cc.composition.getCurrentComposition().rawTotalGainTree | r2d}}</td>
-        <td>{{cc.composition.getCurrentComposition().rawTotalGainShrub | r2d}}</td>
-        <td>{{cc.composition.getCurrentComposition().rawTotalGainGrassAndGrassLike | r2d}}</td>
-        <td>{{cc.composition.getCurrentComposition().rawTotalGainForb | r2d}}</td>
-        <td>{{cc.composition.getCurrentComposition().rawTotalGainFern | r2d}}</td>
-    </tr>
-    <tr>
-        <th>Weighted condition with offset</th>
+        <th>Weighted future condition with offset</th>
         <td>{{cc.composition.getCurrentComposition().weightedConditionWithOffsetTree | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().weightedConditionWithOffsetShrub | r2d}}</td>
         <td>{{cc.composition.getCurrentComposition().weightedConditionWithOffsetGrassAndGrassLike | r2d}}</td>

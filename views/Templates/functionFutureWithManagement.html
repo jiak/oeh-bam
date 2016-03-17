@@ -7,7 +7,7 @@
         <th>Regeneration stems <br/> stems <5cm DBH</th>
     </tr>
     <tr>
-        <th>Current value with added constant</th>
+        <th>Current value</th>
         <td>{{fc.function.getCurrentFunction().currentValueWithAddedConstantNumberOfLargeTrees | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().currentValueWithAddedConstantLitterCover | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().currentValueWithAddedConstantCoarseWoodyDebris | r2d}}</td>
@@ -21,35 +21,14 @@
         <td>{{fc.function.getCurrentFunction().futureValueWithOffsetRegenerationPresent | r2d}}</td>
     </tr>
     <tr>
-        <th>Future condition with offset (unadjusted)</th>
+        <th>Future condition with offset (unweighted)</th>
         <td>{{fc.function.getCurrentFunction().futureConditionWithOffsetNumberOfLargeTrees | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().futureConditionWithOffsetLitterCover | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().futureConditionWithOffsetCoarseWoodyDebris | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().futureConditionWithOffsetRegenerationPresent | r2d}}</td>
     </tr>
     <tr>
-        <th>Raw averted loss</th>
-        <td>{{fc.function.getCurrentFunction().rawAvertedLossNumberOfLargeTrees | r2d}}</td>
-        <td>{{fc.function.getCurrentFunction().rawAvertedLossLitterCover | r2d}}</td>
-        <td>{{fc.function.getCurrentFunction().rawAvertedLossCoarseWoodyDebris | r2d}}</td>
-        <td>{{fc.function.getCurrentFunction().rawAvertedLossRegenerationPresent | r2d}}</td>
-    </tr>
-    <tr>
-        <th>Raw restoration gain</th>
-        <td>{{fc.function.getCurrentFunction().rawRestorationGainNumberOfLargeTrees | r2d}}</td>
-        <td>{{fc.function.getCurrentFunction().rawRestorationGainLitterCover | r2d}}</td>
-        <td>{{fc.function.getCurrentFunction().rawRestorationGainCoarseWoodyDebris | r2d}}</td>
-        <td>{{fc.function.getCurrentFunction().rawRestorationGainRegenerationPresent | r2d}}</td>
-    </tr>
-    <tr>
-        <th>Raw total gain</th>
-        <td>{{fc.function.getCurrentFunction().rawTotalGainNumberOfLargeTrees | r2d}}</td>
-        <td>{{fc.function.getCurrentFunction().rawTotalGainLitterCover | r2d}}</td>
-        <td>{{fc.function.getCurrentFunction().rawTotalGainCoarseWoodyDebris | r2d}}</td>
-        <td>{{fc.function.getCurrentFunction().rawTotalGainRegenerationPresent | r2d}}</td>
-    </tr>
-    <tr>
-        <th>Weighted Condition With Offset</th>
+        <th>Weighted future condition with offset</th>
         <td>{{fc.function.getCurrentFunction().weightedConditionWithOffsetNumberOfLargeTrees | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().weightedConditionWithOffsetLitterCover | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().weightedConditionWithOffsetCoarseWoodyDebris | r2d}}</td>
