@@ -95,7 +95,7 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
                         if (speciesCredit.uom == 'Area') {
                             speciesCredit.vis = speciesCredit.vegZone.futureWithAndWithoutDeltaVis
                         } else if (speciesCredit.uom == 'Individual') {
-                            speciesCredit.vis = speciesCredit.vegZone.currentAndFutureWithoutDeltaVis
+                            return speciesCredit.area - (speciesCredit.area * (Math.pow(1 - 0.01, 20)))
                         }
                     } else if (speciesCredit.type == 'Fauna') {
                         speciesCredit.vis = speciesCredit.vegZone.futureWithAndWithoutDeltaVis
@@ -108,7 +108,7 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
                             speciesCredit.vis = speciesCredit.vegZone.futureAndCurrentDeltaVis
                             speciesCredit.intermediateResult = speciesCredit.area * speciesCredit.vis * this.model.constant
                         } else if (speciesCredit.uom == 'Individual') {
-                            speciesCredit.intermediateResult = speciesCredit.area * this.model.constant
+                            speciesCredit.intermediateResult = speciesCredit.area
                         }
                     } else if (speciesCredit.type == 'Fauna') {
                         speciesCredit.intermediateResult = speciesCredit.vis * speciesCredit.area * this.model.constant
