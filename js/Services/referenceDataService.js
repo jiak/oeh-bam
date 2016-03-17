@@ -7064,7 +7064,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -7142,7 +7142,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -7207,7 +7207,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -7305,7 +7305,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -7397,7 +7397,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -7478,7 +7478,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -7581,7 +7581,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -7654,7 +7654,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -7740,7 +7740,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -7833,7 +7833,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -7912,7 +7912,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -8021,7 +8021,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -8099,7 +8099,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -8164,7 +8164,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -8259,7 +8259,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -8357,7 +8357,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -8449,7 +8449,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -8541,7 +8541,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -8622,7 +8622,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -8714,7 +8714,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -8817,7 +8817,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -8890,7 +8890,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -8974,7 +8974,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -9060,7 +9060,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -9153,7 +9153,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -9232,7 +9232,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -9321,7 +9321,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -9430,7 +9430,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -9508,7 +9508,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -9573,7 +9573,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -9665,7 +9665,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -9746,7 +9746,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -9838,7 +9838,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -9941,7 +9941,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -10014,7 +10014,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -10098,7 +10098,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -10184,7 +10184,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -10277,7 +10277,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -10386,7 +10386,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -10464,7 +10464,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -10529,7 +10529,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -10627,7 +10627,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -10719,7 +10719,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -10811,7 +10811,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -10892,7 +10892,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -10984,7 +10984,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -11087,7 +11087,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -11160,7 +11160,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -11244,7 +11244,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -11330,7 +11330,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -11423,7 +11423,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -11502,7 +11502,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -11591,7 +11591,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -11700,7 +11700,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "individual",
+              "unitOfMeasure": "Individual",
               "sensitivity": "Moderate",
               "speciesType": "Flora",
               "pct": [
@@ -11719,7 +11719,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -11797,7 +11797,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -11862,7 +11862,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "hybrid zone where intergrades with the arid zone subspecies of Brown Treecreeper Climacteris picumnus picumnus",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -11957,7 +11957,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -12055,7 +12055,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -12112,7 +12112,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -12204,7 +12204,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -12296,7 +12296,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -12377,7 +12377,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -12469,7 +12469,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -12572,7 +12572,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -12638,7 +12638,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -12711,7 +12711,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -12795,7 +12795,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -12881,7 +12881,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -12928,7 +12928,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -13021,7 +13021,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -13100,7 +13100,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -13189,7 +13189,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -13298,7 +13298,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -13407,7 +13407,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -13485,7 +13485,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -13550,7 +13550,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -13645,7 +13645,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -13743,7 +13743,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -13835,7 +13835,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -13927,7 +13927,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -14008,7 +14008,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -14100,7 +14100,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -14203,7 +14203,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -14269,7 +14269,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -14308,7 +14308,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -14381,7 +14381,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -14465,7 +14465,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -14551,7 +14551,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -14644,7 +14644,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -14723,7 +14723,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -14812,7 +14812,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -14921,7 +14921,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -15030,7 +15030,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "individual",
+              "unitOfMeasure": "Individual",
               "sensitivity": "Moderate",
               "speciesType": "Flora",
               "pct": [
@@ -15049,7 +15049,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -15127,7 +15127,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -15192,7 +15192,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -15287,7 +15287,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -15385,7 +15385,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -15442,7 +15442,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -15534,7 +15534,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -15626,7 +15626,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -15707,7 +15707,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -15799,7 +15799,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -15902,7 +15902,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -15968,7 +15968,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -16007,7 +16007,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -16080,7 +16080,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -16164,7 +16164,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -16250,7 +16250,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -16297,7 +16297,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -16390,7 +16390,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -16469,7 +16469,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -16558,7 +16558,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -16667,7 +16667,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -16776,7 +16776,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -16854,7 +16854,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -16919,7 +16919,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -17014,7 +17014,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -17112,7 +17112,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -17204,7 +17204,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -17296,7 +17296,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -17377,7 +17377,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -17469,7 +17469,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -17572,7 +17572,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -17645,7 +17645,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -17729,7 +17729,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -17815,7 +17815,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -17908,7 +17908,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -17987,7 +17987,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -18076,7 +18076,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -18185,7 +18185,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -18294,7 +18294,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -18372,7 +18372,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -18464,7 +18464,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -18545,7 +18545,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -18648,7 +18648,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -18721,7 +18721,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -18807,7 +18807,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -18900,7 +18900,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -18979,7 +18979,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -19088,7 +19088,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -19197,7 +19197,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -19275,7 +19275,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -19340,7 +19340,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -19435,7 +19435,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -19492,7 +19492,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -19584,7 +19584,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -19676,7 +19676,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -19757,7 +19757,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -19849,7 +19849,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -19952,7 +19952,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -20025,7 +20025,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -20109,7 +20109,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -20195,7 +20195,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -20242,7 +20242,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -20335,7 +20335,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -20414,7 +20414,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -20503,7 +20503,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -20612,7 +20612,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -20721,7 +20721,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -20799,7 +20799,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -20864,7 +20864,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -20959,7 +20959,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -21051,7 +21051,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -21143,7 +21143,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -21224,7 +21224,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -21316,7 +21316,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -21419,7 +21419,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -21492,7 +21492,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -21576,7 +21576,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -21662,7 +21662,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -21755,7 +21755,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -21844,7 +21844,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -21953,7 +21953,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -22062,7 +22062,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -22140,7 +22140,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -22205,7 +22205,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -22300,7 +22300,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -22398,7 +22398,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -22490,7 +22490,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -22582,7 +22582,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -22663,7 +22663,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -22755,7 +22755,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -22858,7 +22858,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -22931,7 +22931,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -23015,7 +23015,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -23101,7 +23101,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -23148,7 +23148,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -23241,7 +23241,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -23320,7 +23320,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -23409,7 +23409,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -23518,7 +23518,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -23627,7 +23627,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -23705,7 +23705,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -23770,7 +23770,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -23865,7 +23865,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -23963,7 +23963,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -24020,7 +24020,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -24112,7 +24112,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -24204,7 +24204,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -24285,7 +24285,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -24377,7 +24377,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -24480,7 +24480,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -24546,7 +24546,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -24585,7 +24585,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -24658,7 +24658,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -24742,7 +24742,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -24828,7 +24828,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -24875,7 +24875,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -24968,7 +24968,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -25047,7 +25047,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "East of the New England Highway",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -25073,7 +25073,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -25139,7 +25139,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -25228,7 +25228,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -25337,7 +25337,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -25446,7 +25446,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -25524,7 +25524,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -25589,7 +25589,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -25684,7 +25684,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -25782,7 +25782,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -25839,7 +25839,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -25931,7 +25931,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -25981,7 +25981,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -26073,7 +26073,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -26176,7 +26176,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -26242,7 +26242,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -26281,7 +26281,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -26367,7 +26367,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -26414,7 +26414,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -26507,7 +26507,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -26586,7 +26586,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -26612,7 +26612,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -26701,7 +26701,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -26810,7 +26810,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -26875,7 +26875,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -26970,7 +26970,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -27068,7 +27068,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -27125,7 +27125,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -27217,7 +27217,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -27298,7 +27298,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -27348,7 +27348,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -27451,7 +27451,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -27517,7 +27517,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -27556,7 +27556,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -27629,7 +27629,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -27713,7 +27713,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -27799,7 +27799,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -27846,7 +27846,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -27939,7 +27939,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -28018,7 +28018,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -28044,7 +28044,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -28133,7 +28133,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -28242,7 +28242,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -28351,7 +28351,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -28429,7 +28429,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -28494,7 +28494,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -28589,7 +28589,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -28687,7 +28687,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -28744,7 +28744,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -28836,7 +28836,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -28917,7 +28917,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -28967,7 +28967,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -29070,7 +29070,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -29136,7 +29136,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -29175,7 +29175,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -29248,7 +29248,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -29332,7 +29332,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -29418,7 +29418,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -29465,7 +29465,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -29558,7 +29558,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -29637,7 +29637,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -29663,7 +29663,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -29752,7 +29752,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -29861,7 +29861,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -29970,7 +29970,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -30035,7 +30035,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -30130,7 +30130,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -30228,7 +30228,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -30285,7 +30285,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -30377,7 +30377,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -30458,7 +30458,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -30508,7 +30508,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -30611,7 +30611,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -30677,7 +30677,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -30716,7 +30716,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -30800,7 +30800,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -30886,7 +30886,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -30933,7 +30933,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -31026,7 +31026,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -31105,7 +31105,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -31131,7 +31131,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -31220,7 +31220,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -31329,7 +31329,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -31438,7 +31438,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -31503,7 +31503,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -31598,7 +31598,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -31696,7 +31696,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -31753,7 +31753,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -31845,7 +31845,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -31937,7 +31937,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -32040,7 +32040,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -32106,7 +32106,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -32145,7 +32145,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -32218,7 +32218,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -32304,7 +32304,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -32351,7 +32351,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -32430,7 +32430,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -32456,7 +32456,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -32545,7 +32545,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -32654,7 +32654,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -32732,7 +32732,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -32797,7 +32797,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -32892,7 +32892,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -32990,7 +32990,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -33047,7 +33047,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -33139,7 +33139,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -33189,7 +33189,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -33292,7 +33292,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -33358,7 +33358,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -33397,7 +33397,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -33470,7 +33470,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -33556,7 +33556,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -33603,7 +33603,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "west of Five Day Creek locality",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -33696,7 +33696,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -33775,7 +33775,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -33801,7 +33801,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -33890,7 +33890,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -33999,7 +33999,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -34108,7 +34108,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -34186,7 +34186,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -34251,7 +34251,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -34346,7 +34346,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -34444,7 +34444,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -34501,7 +34501,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -34593,7 +34593,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -34685,7 +34685,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -34735,7 +34735,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -34838,7 +34838,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -34904,7 +34904,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -34943,7 +34943,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -35027,7 +35027,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -35113,7 +35113,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -35160,7 +35160,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "north of Kempsey AND west of Skillion NR",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -35253,7 +35253,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -35332,7 +35332,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -35358,7 +35358,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -35447,7 +35447,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -35556,7 +35556,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -35665,7 +35665,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -35730,7 +35730,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -35825,7 +35825,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -35923,7 +35923,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -35980,7 +35980,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -36030,7 +36030,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -36133,7 +36133,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -36199,7 +36199,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -36238,7 +36238,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -36322,7 +36322,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -36408,7 +36408,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -36455,7 +36455,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -36548,7 +36548,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -36627,7 +36627,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -36653,7 +36653,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -36762,7 +36762,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -36871,7 +36871,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -36936,7 +36936,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -37031,7 +37031,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -37129,7 +37129,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -37186,7 +37186,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -37278,7 +37278,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -37370,7 +37370,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -37473,7 +37473,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -37539,7 +37539,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -37578,7 +37578,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -37662,7 +37662,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -37748,7 +37748,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -37795,7 +37795,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -37888,7 +37888,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -37967,7 +37967,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -37993,7 +37993,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -38102,7 +38102,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -38211,7 +38211,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -38276,7 +38276,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -38374,7 +38374,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -38431,7 +38431,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -38523,7 +38523,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -38573,7 +38573,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -38676,7 +38676,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -38742,7 +38742,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -38781,7 +38781,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -38865,7 +38865,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -38951,7 +38951,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -38998,7 +38998,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -39091,7 +39091,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -39170,7 +39170,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -39196,7 +39196,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -39285,7 +39285,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -39394,7 +39394,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -39503,7 +39503,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -39568,7 +39568,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -39663,7 +39663,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -39761,7 +39761,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -39818,7 +39818,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -39868,7 +39868,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -39971,7 +39971,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -40037,7 +40037,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -40076,7 +40076,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -40162,7 +40162,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -40209,7 +40209,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -40302,7 +40302,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -40381,7 +40381,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -40407,7 +40407,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -40496,7 +40496,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -40605,7 +40605,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -40714,7 +40714,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -40779,7 +40779,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -40874,7 +40874,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -40972,7 +40972,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -41029,7 +41029,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -41121,7 +41121,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -41171,7 +41171,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -41274,7 +41274,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -41340,7 +41340,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -41379,7 +41379,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -41452,7 +41452,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -41538,7 +41538,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -41585,7 +41585,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -41678,7 +41678,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -41757,7 +41757,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -41783,7 +41783,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -41849,7 +41849,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -41938,7 +41938,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -42047,7 +42047,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -42156,7 +42156,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -42221,7 +42221,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -42319,7 +42319,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -42376,7 +42376,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -42426,7 +42426,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -42529,7 +42529,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -42595,7 +42595,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -42634,7 +42634,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -42707,7 +42707,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -42793,7 +42793,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -42840,7 +42840,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -42933,7 +42933,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -43012,7 +43012,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -43038,7 +43038,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -43104,7 +43104,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -43193,7 +43193,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -43302,7 +43302,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -43411,7 +43411,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -43476,7 +43476,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -43571,7 +43571,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -43669,7 +43669,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -43726,7 +43726,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -43818,7 +43818,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -43868,7 +43868,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -43971,7 +43971,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -44037,7 +44037,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -44076,7 +44076,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -44149,7 +44149,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -44233,7 +44233,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -44319,7 +44319,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -44366,7 +44366,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -44459,7 +44459,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -44538,7 +44538,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -44564,7 +44564,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -44630,7 +44630,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -44719,7 +44719,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -44828,7 +44828,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -44937,7 +44937,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -44956,7 +44956,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -45021,7 +45021,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -45116,7 +45116,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -45214,7 +45214,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -45271,7 +45271,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -45363,7 +45363,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -45455,7 +45455,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -45505,7 +45505,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -45608,7 +45608,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -45674,7 +45674,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -45713,7 +45713,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -45786,7 +45786,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -45870,7 +45870,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -45956,7 +45956,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -46003,7 +46003,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -46096,7 +46096,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -46175,7 +46175,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -46201,7 +46201,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -46290,7 +46290,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -46399,7 +46399,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -46508,7 +46508,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "individual",
+              "unitOfMeasure": "Individual",
               "sensitivity": "Moderate",
               "speciesType": "Flora",
               "pct": [
@@ -46527,7 +46527,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -46592,7 +46592,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -46687,7 +46687,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -46785,7 +46785,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -46842,7 +46842,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -46934,7 +46934,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -47026,7 +47026,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -47107,7 +47107,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -47157,7 +47157,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -47249,7 +47249,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -47352,7 +47352,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -47418,7 +47418,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -47457,7 +47457,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -47530,7 +47530,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -47614,7 +47614,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -47700,7 +47700,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -47747,7 +47747,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -47840,7 +47840,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -47919,7 +47919,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -47945,7 +47945,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -48011,7 +48011,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -48100,7 +48100,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -48209,7 +48209,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -48318,7 +48318,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -48396,7 +48396,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -48461,7 +48461,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -48556,7 +48556,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -48654,7 +48654,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -48711,7 +48711,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -48803,7 +48803,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -48895,7 +48895,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -48976,7 +48976,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -49026,7 +49026,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -49118,7 +49118,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -49221,7 +49221,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -49287,7 +49287,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -49326,7 +49326,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -49399,7 +49399,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -49483,7 +49483,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -49569,7 +49569,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -49616,7 +49616,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -49709,7 +49709,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -49788,7 +49788,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -49814,7 +49814,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -49880,7 +49880,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -49969,7 +49969,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -50078,7 +50078,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -50187,7 +50187,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -50252,7 +50252,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -50347,7 +50347,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -50445,7 +50445,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -50502,7 +50502,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -50594,7 +50594,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -50675,7 +50675,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -50725,7 +50725,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -50828,7 +50828,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -50894,7 +50894,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -50933,7 +50933,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -51017,7 +51017,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -51103,7 +51103,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -51150,7 +51150,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -51243,7 +51243,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -51322,7 +51322,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -51348,7 +51348,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -51437,7 +51437,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -51546,7 +51546,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -51655,7 +51655,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -51733,7 +51733,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -51798,7 +51798,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -51893,7 +51893,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -51991,7 +51991,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -52048,7 +52048,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -52140,7 +52140,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -52243,7 +52243,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -52309,7 +52309,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -52348,7 +52348,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -52432,7 +52432,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -52518,7 +52518,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -52565,7 +52565,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -52658,7 +52658,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -52737,7 +52737,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -52763,7 +52763,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -52872,7 +52872,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -52981,7 +52981,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -53046,7 +53046,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -53144,7 +53144,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -53201,7 +53201,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -53293,7 +53293,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -53343,7 +53343,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -53435,7 +53435,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -53538,7 +53538,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -53604,7 +53604,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -53643,7 +53643,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -53729,7 +53729,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -53776,7 +53776,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -53869,7 +53869,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -53948,7 +53948,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -53974,7 +53974,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -54040,7 +54040,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -54129,7 +54129,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -54238,7 +54238,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -54347,7 +54347,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -54425,7 +54425,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -54490,7 +54490,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -54585,7 +54585,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -54683,7 +54683,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -54740,7 +54740,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -54832,7 +54832,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -54924,7 +54924,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -54974,7 +54974,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -55066,7 +55066,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -55169,7 +55169,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -55235,7 +55235,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -55274,7 +55274,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -55358,7 +55358,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -55444,7 +55444,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -55491,7 +55491,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -55584,7 +55584,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -55663,7 +55663,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -55689,7 +55689,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -55755,7 +55755,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -55844,7 +55844,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -55953,7 +55953,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -56062,7 +56062,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -56140,7 +56140,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -56205,7 +56205,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -56300,7 +56300,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -56398,7 +56398,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -56455,7 +56455,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -56547,7 +56547,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -56597,7 +56597,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -56700,7 +56700,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -56766,7 +56766,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -56805,7 +56805,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -56889,7 +56889,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -56975,7 +56975,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -57022,7 +57022,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -57115,7 +57115,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -57194,7 +57194,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -57220,7 +57220,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -57286,7 +57286,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -57375,7 +57375,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -57484,7 +57484,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -57593,7 +57593,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -57671,7 +57671,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -57736,7 +57736,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -57834,7 +57834,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -57891,7 +57891,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -57983,7 +57983,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -58033,7 +58033,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -58136,7 +58136,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -58202,7 +58202,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -58241,7 +58241,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -58327,7 +58327,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -58374,7 +58374,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -58453,7 +58453,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -58479,7 +58479,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -58568,7 +58568,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -58677,7 +58677,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -58786,7 +58786,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -58851,7 +58851,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -58946,7 +58946,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -59044,7 +59044,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -59101,7 +59101,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -59193,7 +59193,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -59243,7 +59243,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -59346,7 +59346,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -59412,7 +59412,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -59451,7 +59451,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -59524,7 +59524,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -59610,7 +59610,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -59657,7 +59657,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -59736,7 +59736,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -59762,7 +59762,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -59851,7 +59851,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -59960,7 +59960,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -60069,7 +60069,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -60134,7 +60134,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -60229,7 +60229,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -60327,7 +60327,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -60384,7 +60384,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -60465,7 +60465,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -60515,7 +60515,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -60618,7 +60618,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -60684,7 +60684,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -60723,7 +60723,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -60796,7 +60796,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -60880,7 +60880,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -60966,7 +60966,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -61013,7 +61013,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -61106,7 +61106,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -61185,7 +61185,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -61211,7 +61211,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -61300,7 +61300,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -61409,7 +61409,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -61518,7 +61518,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -61596,7 +61596,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -61661,7 +61661,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -61756,7 +61756,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -61854,7 +61854,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -61911,7 +61911,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -62003,7 +62003,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -62095,7 +62095,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -62176,7 +62176,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -62226,7 +62226,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -62318,7 +62318,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -62421,7 +62421,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -62487,7 +62487,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -62526,7 +62526,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -62599,7 +62599,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -62683,7 +62683,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -62769,7 +62769,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -62816,7 +62816,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -62909,7 +62909,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -62988,7 +62988,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -63014,7 +63014,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -63103,7 +63103,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -63212,7 +63212,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -63321,7 +63321,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -63399,7 +63399,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -63464,7 +63464,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -63559,7 +63559,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -63657,7 +63657,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -63714,7 +63714,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -63806,7 +63806,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -63898,7 +63898,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -63979,7 +63979,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -64029,7 +64029,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -64121,7 +64121,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -64224,7 +64224,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -64290,7 +64290,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -64329,7 +64329,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -64402,7 +64402,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -64486,7 +64486,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -64572,7 +64572,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -64619,7 +64619,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -64712,7 +64712,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -64791,7 +64791,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -64817,7 +64817,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -64906,7 +64906,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -65015,7 +65015,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -65124,7 +65124,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -65143,7 +65143,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "individual",
+              "unitOfMeasure": "Individual",
               "sensitivity": "Moderate",
               "speciesType": "Flora",
               "pct": [
@@ -65162,7 +65162,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -65240,7 +65240,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -65305,7 +65305,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -65400,7 +65400,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -65498,7 +65498,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -65555,7 +65555,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -65647,7 +65647,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -65739,7 +65739,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -65820,7 +65820,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -65870,7 +65870,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -65962,7 +65962,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -66065,7 +66065,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -66131,7 +66131,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -66170,7 +66170,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -66243,7 +66243,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -66327,7 +66327,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -66413,7 +66413,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -66460,7 +66460,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -66553,7 +66553,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "Up to 10% if the area of is greater than 25ha and the clearing does not fragment the habitat into smaller patches",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -66585,7 +66585,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -66664,7 +66664,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -66730,7 +66730,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -66819,7 +66819,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -66928,7 +66928,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -67037,7 +67037,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -67056,7 +67056,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "individual",
+              "unitOfMeasure": "Individual",
               "sensitivity": "Moderate",
               "speciesType": "Flora",
               "pct": [
@@ -67075,7 +67075,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -67153,7 +67153,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -67218,7 +67218,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -67313,7 +67313,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -67411,7 +67411,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -67468,7 +67468,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -67560,7 +67560,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -67652,7 +67652,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -67733,7 +67733,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -67783,7 +67783,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -67875,7 +67875,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -67978,7 +67978,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -68044,7 +68044,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -68083,7 +68083,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -68156,7 +68156,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -68240,7 +68240,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -68326,7 +68326,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -68373,7 +68373,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -68466,7 +68466,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -68545,7 +68545,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -68571,7 +68571,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -68637,7 +68637,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -68726,7 +68726,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -68835,7 +68835,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -68944,7 +68944,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -68964,7 +68964,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -69029,7 +69029,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -69124,7 +69124,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -69222,7 +69222,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -69279,7 +69279,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -69371,7 +69371,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -69463,7 +69463,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -69544,7 +69544,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -69594,7 +69594,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -69686,7 +69686,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -69789,7 +69789,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -69855,7 +69855,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -69894,7 +69894,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -69967,7 +69967,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -70051,7 +70051,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -70137,7 +70137,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -70184,7 +70184,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -70277,7 +70277,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "Up to 10% if the area of is greater than 25ha and the clearing does not fragment the habitat into smaller patches",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -70309,7 +70309,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -70388,7 +70388,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -70414,7 +70414,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -70480,7 +70480,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -70569,7 +70569,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -70678,7 +70678,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -70787,7 +70787,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "individual",
+              "unitOfMeasure": "Individual",
               "sensitivity": "Moderate",
               "speciesType": "Flora",
               "pct": [
@@ -70806,7 +70806,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -70826,7 +70826,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -70904,7 +70904,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -70969,7 +70969,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -71064,7 +71064,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -71162,7 +71162,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -71219,7 +71219,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -71311,7 +71311,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -71403,7 +71403,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -71484,7 +71484,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -71534,7 +71534,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -71626,7 +71626,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -71729,7 +71729,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -71795,7 +71795,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -71834,7 +71834,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -71907,7 +71907,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -71991,7 +71991,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -72077,7 +72077,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -72124,7 +72124,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -72217,7 +72217,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -72296,7 +72296,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -72322,7 +72322,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -72388,7 +72388,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -72477,7 +72477,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -72586,7 +72586,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -72695,7 +72695,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -72773,7 +72773,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -72838,7 +72838,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -72933,7 +72933,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -73031,7 +73031,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -73088,7 +73088,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -73180,7 +73180,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -73261,7 +73261,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -73311,7 +73311,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -73403,7 +73403,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -73506,7 +73506,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -73572,7 +73572,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -73611,7 +73611,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -73684,7 +73684,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -73768,7 +73768,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -73854,7 +73854,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -73901,7 +73901,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -73994,7 +73994,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -74073,7 +74073,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -74099,7 +74099,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -74165,7 +74165,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -74254,7 +74254,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -74363,7 +74363,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -74472,7 +74472,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -74550,7 +74550,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -74615,7 +74615,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -74710,7 +74710,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -74808,7 +74808,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -74865,7 +74865,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -74957,7 +74957,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -75038,7 +75038,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -75088,7 +75088,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -75180,7 +75180,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -75283,7 +75283,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -75349,7 +75349,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -75388,7 +75388,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -75474,7 +75474,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -75521,7 +75521,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -75614,7 +75614,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -75693,7 +75693,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -75719,7 +75719,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -75785,7 +75785,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -75874,7 +75874,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -75983,7 +75983,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -76092,7 +76092,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -76112,7 +76112,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -76190,7 +76190,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -76255,7 +76255,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -76350,7 +76350,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -76448,7 +76448,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -76505,7 +76505,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -76597,7 +76597,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -76689,7 +76689,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -76770,7 +76770,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -76820,7 +76820,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -76912,7 +76912,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -77015,7 +77015,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -77081,7 +77081,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -77120,7 +77120,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -77204,7 +77204,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -77290,7 +77290,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -77337,7 +77337,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -77430,7 +77430,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -77509,7 +77509,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -77535,7 +77535,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -77601,7 +77601,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -77690,7 +77690,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -77799,7 +77799,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -77908,7 +77908,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -77928,7 +77928,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -77993,7 +77993,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -78088,7 +78088,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -78186,7 +78186,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -78243,7 +78243,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -78335,7 +78335,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -78427,7 +78427,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -78508,7 +78508,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -78558,7 +78558,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -78650,7 +78650,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -78753,7 +78753,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -78819,7 +78819,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -78858,7 +78858,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -78942,7 +78942,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -79028,7 +79028,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -79075,7 +79075,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -79168,7 +79168,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -79247,7 +79247,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -79273,7 +79273,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -79339,7 +79339,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -79428,7 +79428,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -79537,7 +79537,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -79646,7 +79646,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -79666,7 +79666,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -79744,7 +79744,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -79809,7 +79809,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -79907,7 +79907,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -79964,7 +79964,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -80056,7 +80056,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -80137,7 +80137,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -80187,7 +80187,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -80279,7 +80279,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -80345,7 +80345,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -80384,7 +80384,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -80470,7 +80470,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -80517,7 +80517,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -80596,7 +80596,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -80622,7 +80622,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -80688,7 +80688,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -80777,7 +80777,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -80886,7 +80886,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -80995,7 +80995,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -81060,7 +81060,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -81158,7 +81158,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -81215,7 +81215,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -81307,7 +81307,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -81357,7 +81357,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -81449,7 +81449,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -81552,7 +81552,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -81618,7 +81618,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -81657,7 +81657,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -81743,7 +81743,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -81790,7 +81790,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -81816,7 +81816,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -81882,7 +81882,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -81971,7 +81971,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -82080,7 +82080,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -82189,7 +82189,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -82267,7 +82267,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -82332,7 +82332,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -82430,7 +82430,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -82487,7 +82487,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -82579,7 +82579,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -82629,7 +82629,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -82721,7 +82721,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -82824,7 +82824,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -82890,7 +82890,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -82929,7 +82929,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -83015,7 +83015,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -83062,7 +83062,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -83155,7 +83155,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -83234,7 +83234,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -83260,7 +83260,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -83326,7 +83326,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -83415,7 +83415,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -83524,7 +83524,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -83633,7 +83633,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -83698,7 +83698,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -83796,7 +83796,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -83853,7 +83853,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -83903,7 +83903,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -83995,7 +83995,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -84098,7 +84098,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -84164,7 +84164,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -84203,7 +84203,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -84289,7 +84289,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -84336,7 +84336,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -84415,7 +84415,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -84441,7 +84441,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -84507,7 +84507,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -84596,7 +84596,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -84705,7 +84705,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -84814,7 +84814,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -84892,7 +84892,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -84957,7 +84957,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -85055,7 +85055,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -85112,7 +85112,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -85204,7 +85204,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -85254,7 +85254,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -85346,7 +85346,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -85449,7 +85449,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -85515,7 +85515,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -85554,7 +85554,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -85640,7 +85640,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -85687,7 +85687,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -85766,7 +85766,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -85792,7 +85792,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -85858,7 +85858,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -85947,7 +85947,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -86056,7 +86056,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -86165,7 +86165,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -86260,7 +86260,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -86358,7 +86358,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -86450,7 +86450,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -86531,7 +86531,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -86623,7 +86623,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -86689,7 +86689,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -86728,7 +86728,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -86812,7 +86812,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -86859,7 +86859,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -86952,7 +86952,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "Up to 10% if the area of is greater than 25ha and the clearing does not fragment the habitat into smaller patches",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -86984,7 +86984,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -87050,7 +87050,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -87139,7 +87139,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -87248,7 +87248,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -87357,7 +87357,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -87422,7 +87422,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -87517,7 +87517,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -87615,7 +87615,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -87672,7 +87672,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -87764,7 +87764,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -87856,7 +87856,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -87937,7 +87937,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -87987,7 +87987,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -88079,7 +88079,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -88182,7 +88182,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -88248,7 +88248,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -88287,7 +88287,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -88371,7 +88371,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -88457,7 +88457,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -88504,7 +88504,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -88597,7 +88597,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "Up to 10% if the area of is greater than 25ha and the clearing does not fragment the habitat into smaller patches",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -88629,7 +88629,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -88708,7 +88708,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -88734,7 +88734,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -88800,7 +88800,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -88889,7 +88889,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -88998,7 +88998,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -89107,7 +89107,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -89172,7 +89172,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -89267,7 +89267,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -89365,7 +89365,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -89422,7 +89422,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -89514,7 +89514,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -89564,7 +89564,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -89667,7 +89667,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -89733,7 +89733,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -89772,7 +89772,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -89856,7 +89856,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -89903,7 +89903,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "Up to 10% if the area of is greater than 25ha and the clearing does not fragment the habitat into smaller patches",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -89935,7 +89935,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -90014,7 +90014,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -90040,7 +90040,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -90106,7 +90106,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -90195,7 +90195,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -90304,7 +90304,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -90413,7 +90413,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -90478,7 +90478,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -90573,7 +90573,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -90671,7 +90671,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -90728,7 +90728,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -90820,7 +90820,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -90901,7 +90901,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -90967,7 +90967,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -91006,7 +91006,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -91090,7 +91090,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -91137,7 +91137,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -91230,7 +91230,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "Up to 10% if the area of is greater than 25ha and the clearing does not fragment the habitat into smaller patches",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -91262,7 +91262,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -91328,7 +91328,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -91417,7 +91417,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -91526,7 +91526,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -91635,7 +91635,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -91700,7 +91700,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -91795,7 +91795,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -91893,7 +91893,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -91950,7 +91950,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -92042,7 +92042,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -92134,7 +92134,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -92215,7 +92215,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -92318,7 +92318,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -92384,7 +92384,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -92423,7 +92423,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -92507,7 +92507,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -92593,7 +92593,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -92640,7 +92640,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -92733,7 +92733,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "Up to 10% if the area of is greater than 25ha and the clearing does not fragment the habitat into smaller patches",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -92765,7 +92765,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -92844,7 +92844,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -92910,7 +92910,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -93019,7 +93019,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -93128,7 +93128,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -93206,7 +93206,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -93271,7 +93271,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -93366,7 +93366,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -93464,7 +93464,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -93521,7 +93521,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -93613,7 +93613,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -93705,7 +93705,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -93786,7 +93786,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -93889,7 +93889,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -93955,7 +93955,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -93994,7 +93994,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -94067,7 +94067,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -94151,7 +94151,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -94237,7 +94237,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -94284,7 +94284,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -94377,7 +94377,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "Up to 10% if the area of is greater than 25ha and the clearing does not fragment the habitat into smaller patches",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -94409,7 +94409,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -94488,7 +94488,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -94554,7 +94554,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -94643,7 +94643,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -94752,7 +94752,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -94861,7 +94861,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -94939,7 +94939,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -95004,7 +95004,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -95099,7 +95099,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -95197,7 +95197,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -95289,7 +95289,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -95381,7 +95381,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -95462,7 +95462,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -95554,7 +95554,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -95657,7 +95657,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -95723,7 +95723,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -95762,7 +95762,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -95835,7 +95835,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -95919,7 +95919,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -96005,7 +96005,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -96098,7 +96098,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "Up to 10% if the area of is greater than 25ha and the clearing does not fragment the habitat into smaller patches",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -96130,7 +96130,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -96196,7 +96196,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -96285,7 +96285,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -96394,7 +96394,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -96503,7 +96503,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -96581,7 +96581,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -96646,7 +96646,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -96741,7 +96741,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -96839,7 +96839,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -96896,7 +96896,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -96988,7 +96988,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -97080,7 +97080,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -97161,7 +97161,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -97253,7 +97253,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -97356,7 +97356,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -97422,7 +97422,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -97461,7 +97461,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -97534,7 +97534,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -97618,7 +97618,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -97704,7 +97704,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -97751,7 +97751,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -97844,7 +97844,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "Up to 10% if the area of is greater than 25ha and the clearing does not fragment the habitat into smaller patches",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -97876,7 +97876,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -97955,7 +97955,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -98021,7 +98021,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -98110,7 +98110,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -98219,7 +98219,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -98328,7 +98328,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -98393,7 +98393,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -98488,7 +98488,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -98586,7 +98586,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -98643,7 +98643,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -98735,7 +98735,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -98827,7 +98827,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -98930,7 +98930,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -98996,7 +98996,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -99035,7 +99035,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -99119,7 +99119,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -99212,7 +99212,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "Up to 10% if the area of is greater than 25ha and the clearing does not fragment the habitat into smaller patches",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -99244,7 +99244,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -99323,7 +99323,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -99349,7 +99349,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -99415,7 +99415,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -99524,7 +99524,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -99633,7 +99633,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -99698,7 +99698,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -99793,7 +99793,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -99891,7 +99891,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -99948,7 +99948,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -100040,7 +100040,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -100132,7 +100132,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -100235,7 +100235,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -100301,7 +100301,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -100340,7 +100340,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -100426,7 +100426,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -100473,7 +100473,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -100566,7 +100566,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "Up to 10% if the area of is greater than 25ha and the clearing does not fragment the habitat into smaller patches",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -100598,7 +100598,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -100677,7 +100677,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -100703,7 +100703,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -100769,7 +100769,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -100878,7 +100878,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -100987,7 +100987,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -101052,7 +101052,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -101147,7 +101147,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -101245,7 +101245,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -101302,7 +101302,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -101394,7 +101394,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -101486,7 +101486,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -101578,7 +101578,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -101681,7 +101681,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -101747,7 +101747,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -101786,7 +101786,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate",
               "speciesType": "Fauna",
               "pct": [
@@ -101870,7 +101870,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -101963,7 +101963,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "Up to 10% if the area of is greater than 25ha and the clearing does not fragment the habitat into smaller patches",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -101995,7 +101995,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -102061,7 +102061,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -102150,7 +102150,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -102259,7 +102259,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -102372,7 +102372,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -102467,7 +102467,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -102546,7 +102546,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -102598,7 +102598,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -102631,7 +102631,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -102720,7 +102720,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -102754,7 +102754,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -102819,7 +102819,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -102882,7 +102882,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -102974,7 +102974,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -103066,7 +103066,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -103118,7 +103118,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -103207,7 +103207,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -103250,7 +103250,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -103302,7 +103302,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -103335,7 +103335,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -103424,7 +103424,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -103458,7 +103458,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -103556,7 +103556,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -103612,7 +103612,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -103691,7 +103691,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -103743,7 +103743,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -103776,7 +103776,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -103865,7 +103865,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -103899,7 +103899,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -103964,7 +103964,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -104027,7 +104027,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -104119,7 +104119,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -104205,7 +104205,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -104227,7 +104227,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "Must be within Hunter catchment as defined by Australias River Basins (Geoscience Australia 1997)",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Flora",
               "pct": [
@@ -104350,7 +104350,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -104406,7 +104406,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -104485,7 +104485,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -104537,7 +104537,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -104626,7 +104626,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -104660,7 +104660,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -104723,7 +104723,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -104815,7 +104815,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -105002,7 +105002,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -105058,7 +105058,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -105137,7 +105137,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -105189,7 +105189,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -105222,7 +105222,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -105311,7 +105311,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -105345,7 +105345,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -105463,7 +105463,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -105549,7 +105549,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -105571,7 +105571,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "Must be within Hunter catchment as defined by Australias River Basins (Geoscience Australia 1997)",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Flora",
               "pct": [
@@ -105694,7 +105694,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -105750,7 +105750,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -105829,7 +105829,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -105881,7 +105881,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -105914,7 +105914,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -106003,7 +106003,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -106037,7 +106037,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -106102,7 +106102,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -106139,7 +106139,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -106364,7 +106364,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -106453,7 +106453,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -106524,7 +106524,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -106576,7 +106576,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -106626,7 +106626,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -106715,7 +106715,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -106749,7 +106749,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -106814,7 +106814,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -106932,7 +106932,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -107119,7 +107119,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -107198,7 +107198,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -107250,7 +107250,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -107339,7 +107339,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -107373,7 +107373,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -107438,7 +107438,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -107556,7 +107556,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -107648,7 +107648,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -107727,7 +107727,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -107779,7 +107779,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -107868,7 +107868,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -107931,7 +107931,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -108023,7 +108023,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -108210,7 +108210,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -108289,7 +108289,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -108341,7 +108341,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -108430,7 +108430,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -108493,7 +108493,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -108585,7 +108585,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -108772,7 +108772,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -108798,7 +108798,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -108818,7 +108818,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -108842,7 +108842,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -108892,7 +108892,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -108981,7 +108981,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -109099,7 +109099,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -109286,7 +109286,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -109306,7 +109306,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -109330,7 +109330,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -109380,7 +109380,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -109469,7 +109469,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -109587,7 +109587,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -109774,7 +109774,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -109853,7 +109853,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -109905,7 +109905,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -109925,7 +109925,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -109949,7 +109949,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -109999,7 +109999,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -110088,7 +110088,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -110122,7 +110122,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -110240,7 +110240,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -110427,7 +110427,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -110506,7 +110506,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -110526,7 +110526,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -110550,7 +110550,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -110600,7 +110600,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -110689,7 +110689,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -110723,7 +110723,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -110841,7 +110841,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -111028,7 +111028,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "within 10 km of coast",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -111051,7 +111051,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -111088,7 +111088,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -111112,7 +111112,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -111162,7 +111162,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -111251,7 +111251,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -111314,7 +111314,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -111406,7 +111406,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -111485,7 +111485,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "within 10 km of coast",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -111508,7 +111508,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -111545,7 +111545,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -111565,7 +111565,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -111589,7 +111589,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -111639,7 +111639,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -111728,7 +111728,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -111762,7 +111762,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -111880,7 +111880,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -112067,7 +112067,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "within 10 km of coast",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -112090,7 +112090,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -112116,7 +112116,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -112153,7 +112153,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -112173,7 +112173,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -112197,7 +112197,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -112247,7 +112247,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -112269,7 +112269,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -112358,7 +112358,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -112392,7 +112392,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -112510,7 +112510,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -112697,7 +112697,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -112717,7 +112717,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -112806,7 +112806,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -112869,7 +112869,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -113056,7 +113056,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -113135,7 +113135,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -113187,7 +113187,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -113207,7 +113207,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -113296,7 +113296,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -113359,7 +113359,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -113546,7 +113546,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -113566,7 +113566,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -113590,7 +113590,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -113640,7 +113640,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -113729,7 +113729,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -113792,7 +113792,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -113979,7 +113979,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -113999,7 +113999,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -114049,7 +114049,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -114138,7 +114138,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -114201,7 +114201,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -114388,7 +114388,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -114467,7 +114467,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -114487,7 +114487,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -114537,7 +114537,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -114626,7 +114626,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -114715,7 +114715,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -114902,7 +114902,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -114922,7 +114922,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -114946,7 +114946,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -114996,7 +114996,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -115085,7 +115085,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -115272,7 +115272,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -115351,7 +115351,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -115403,7 +115403,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -115423,7 +115423,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -115473,7 +115473,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -115562,7 +115562,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -115596,7 +115596,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -115682,7 +115682,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "Must be within Hunter catchment as defined by Australias River Basins (Geoscience Australia 1997)",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Flora",
               "pct": [
@@ -115805,7 +115805,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -115861,7 +115861,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -115940,7 +115940,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -116029,7 +116029,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -116063,7 +116063,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -116128,7 +116128,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -116214,7 +116214,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -116236,7 +116236,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "Must be within Hunter catchment as defined by Australias River Basins (Geoscience Australia 1997)",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Flora",
               "pct": [
@@ -116359,7 +116359,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -116415,7 +116415,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -116494,7 +116494,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -116517,7 +116517,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -116554,7 +116554,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -116604,7 +116604,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -116714,7 +116714,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -116800,7 +116800,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -116822,7 +116822,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "Must be within Hunter catchment as defined by Australias River Basins (Geoscience Australia 1997)",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Flora",
               "pct": [
@@ -116945,7 +116945,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -117024,7 +117024,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -117047,7 +117047,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -117073,7 +117073,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -117096,7 +117096,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -117133,7 +117133,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -117153,7 +117153,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -117177,7 +117177,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -117227,7 +117227,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -117249,7 +117249,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -117338,7 +117338,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -117448,7 +117448,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -117635,7 +117635,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -117661,7 +117661,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -117681,7 +117681,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -117705,7 +117705,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -117755,7 +117755,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -117844,7 +117844,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -117962,7 +117962,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -118149,7 +118149,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -118169,7 +118169,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -118258,7 +118258,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -118321,7 +118321,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -118508,7 +118508,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -118534,7 +118534,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -118571,7 +118571,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -118591,7 +118591,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -118641,7 +118641,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -118663,7 +118663,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -118853,7 +118853,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "N of Batemans Bay",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -118932,7 +118932,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -118969,7 +118969,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -118989,7 +118989,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -119039,7 +119039,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -119128,7 +119128,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -119191,7 +119191,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -119223,7 +119223,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -119410,7 +119410,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "north of Batemans Bay",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -119489,7 +119489,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -119515,7 +119515,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -119552,7 +119552,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -119572,7 +119572,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -119622,7 +119622,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -119711,7 +119711,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -119774,7 +119774,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -119961,7 +119961,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -120040,7 +120040,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "within 10 km of coast",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -120063,7 +120063,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -120087,7 +120087,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -120137,7 +120137,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -120226,7 +120226,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -120289,7 +120289,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -120381,7 +120381,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -120460,7 +120460,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "within 10 km of coast",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -120483,7 +120483,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -120507,7 +120507,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -120557,7 +120557,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -120579,7 +120579,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -120668,7 +120668,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -120786,7 +120786,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -120973,7 +120973,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -121052,7 +121052,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -121104,7 +121104,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -121128,7 +121128,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -121178,7 +121178,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -121267,7 +121267,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -121385,7 +121385,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -121572,7 +121572,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -121651,7 +121651,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -121677,7 +121677,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -121701,7 +121701,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -121751,7 +121751,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -121773,7 +121773,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -121862,7 +121862,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -121980,7 +121980,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -122167,7 +122167,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -122246,7 +122246,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "within 30 km of coast",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -122269,7 +122269,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -122306,7 +122306,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -122330,7 +122330,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -122380,7 +122380,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -122469,7 +122469,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -122587,7 +122587,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -122774,7 +122774,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -122830,7 +122830,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -122909,7 +122909,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -122942,7 +122942,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -122964,7 +122964,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -123053,7 +123053,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -123087,7 +123087,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -123124,7 +123124,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -123211,7 +123211,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -123297,7 +123297,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -123319,7 +123319,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "Must be within Hunter catchment as defined by Australias River Basins (Geoscience Australia 1997)",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Flora",
               "pct": [
@@ -123480,7 +123480,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -123503,7 +123503,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -123582,7 +123582,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -123605,7 +123605,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -123631,7 +123631,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -123664,7 +123664,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -123687,7 +123687,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -123724,7 +123724,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -123774,7 +123774,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -123863,7 +123863,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -123973,7 +123973,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -124059,7 +124059,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -124081,7 +124081,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "Must be within Hunter catchment as defined by Australias River Basins (Geoscience Australia 1997)",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Flora",
               "pct": [
@@ -124204,7 +124204,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -124227,7 +124227,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -124283,7 +124283,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -124303,7 +124303,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -124382,7 +124382,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -124415,7 +124415,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -124438,7 +124438,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -124475,7 +124475,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -124495,7 +124495,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -124519,7 +124519,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -124569,7 +124569,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -124592,7 +124592,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -124614,7 +124614,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -124703,7 +124703,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -124790,7 +124790,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -124876,7 +124876,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "Must be within Hunter catchment as defined by Australias River Basins (Geoscience Australia 1997)",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Flora",
               "pct": [
@@ -125037,7 +125037,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -125060,7 +125060,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -125139,7 +125139,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -125162,7 +125162,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -125199,7 +125199,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -125219,7 +125219,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -125243,7 +125243,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -125293,7 +125293,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -125316,7 +125316,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -125405,7 +125405,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -125492,7 +125492,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -125578,7 +125578,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "within 20 km of Appletree Flat",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -125600,7 +125600,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "Must be within Hunter catchment as defined by Australias River Basins (Geoscience Australia 1997)",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Flora",
               "pct": [
@@ -125723,7 +125723,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -125746,7 +125746,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -125766,7 +125766,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -125845,7 +125845,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -125868,7 +125868,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -125894,7 +125894,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -125917,7 +125917,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -125954,7 +125954,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -125974,7 +125974,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -125998,7 +125998,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -126048,7 +126048,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -126070,7 +126070,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -126180,7 +126180,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -126267,7 +126267,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -126454,7 +126454,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -126477,7 +126477,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -126497,7 +126497,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -126576,7 +126576,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "Kurnell Penninsula",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -126599,7 +126599,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -126625,7 +126625,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -126648,7 +126648,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -126685,7 +126685,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -126709,7 +126709,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -126759,7 +126759,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -126782,7 +126782,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -126804,7 +126804,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -126893,7 +126893,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -126980,7 +126980,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -127167,7 +127167,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -127190,7 +127190,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -127269,7 +127269,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -127292,7 +127292,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -127329,7 +127329,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -127379,7 +127379,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -127401,7 +127401,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -127421,7 +127421,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -127444,7 +127444,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -127533,7 +127533,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -127596,7 +127596,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "the northern and south western margins of the sub region",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -127628,7 +127628,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -127815,7 +127815,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -127838,7 +127838,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -127917,7 +127917,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -127940,7 +127940,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -127977,7 +127977,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -127997,7 +127997,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -128047,7 +128047,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -128069,7 +128069,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -128089,7 +128089,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -128112,7 +128112,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -128134,7 +128134,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -128223,7 +128223,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -128288,7 +128288,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -128320,7 +128320,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -128507,7 +128507,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -128530,7 +128530,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -128550,7 +128550,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -128629,7 +128629,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -128655,7 +128655,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -128678,7 +128678,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -128715,7 +128715,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -128735,7 +128735,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -128785,7 +128785,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -128807,7 +128807,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -128830,7 +128830,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -128852,7 +128852,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -128941,7 +128941,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -128973,7 +128973,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -129160,7 +129160,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -129183,7 +129183,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -129262,7 +129262,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -129288,7 +129288,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -129311,7 +129311,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -129348,7 +129348,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -129368,7 +129368,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -129418,7 +129418,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -129438,7 +129438,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -129460,7 +129460,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -129549,7 +129549,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -129682,7 +129682,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -129761,7 +129761,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -129787,7 +129787,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -129824,7 +129824,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -129844,7 +129844,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -129894,7 +129894,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -129983,7 +129983,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -130015,7 +130015,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -130202,7 +130202,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -130225,7 +130225,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -130304,7 +130304,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "eastern third of sub_CMA",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -130330,7 +130330,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -130367,7 +130367,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -130387,7 +130387,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -130437,7 +130437,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -130526,7 +130526,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -130558,7 +130558,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -130745,7 +130745,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -130768,7 +130768,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -130847,7 +130847,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "3 individuals",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -130873,7 +130873,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -130910,7 +130910,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -130930,7 +130930,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -130980,7 +130980,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -131069,7 +131069,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -131132,7 +131132,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -131164,7 +131164,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -131351,7 +131351,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "west of Dalton",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -131407,7 +131407,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -131439,7 +131439,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -131476,7 +131476,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -131526,7 +131526,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -131615,7 +131615,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -131649,7 +131649,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "the southern half of subregion",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -131714,7 +131714,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -131777,7 +131777,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -131809,7 +131809,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -131996,7 +131996,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -132019,7 +132019,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -132075,7 +132075,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -132154,7 +132154,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -132186,7 +132186,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -132219,7 +132219,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -132256,7 +132256,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -132276,7 +132276,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -132326,7 +132326,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -132348,7 +132348,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -132437,7 +132437,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -132502,7 +132502,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -132565,7 +132565,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -132597,7 +132597,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -132784,7 +132784,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -132804,7 +132804,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -132883,7 +132883,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -132915,7 +132915,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -132935,7 +132935,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -132985,7 +132985,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -133007,7 +133007,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -133096,7 +133096,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -133128,7 +133128,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -133315,7 +133315,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Flora",
               "pct": [
@@ -133338,7 +133338,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "south of Grabben Gullen",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -133394,7 +133394,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -133426,7 +133426,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -133463,7 +133463,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -133552,7 +133552,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -133615,7 +133615,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -133647,7 +133647,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -133834,7 +133834,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -133890,7 +133890,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -133969,7 +133969,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -134001,7 +134001,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -134038,7 +134038,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -134058,7 +134058,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -134080,7 +134080,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -134169,7 +134169,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -134234,7 +134234,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -134266,7 +134266,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -134453,7 +134453,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -134509,7 +134509,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -134588,7 +134588,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -134620,7 +134620,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -134657,7 +134657,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -134677,7 +134677,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -134727,7 +134727,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -134816,7 +134816,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -134881,7 +134881,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -134944,7 +134944,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -134976,7 +134976,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -135163,7 +135163,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -135219,7 +135219,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -135298,7 +135298,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -135348,7 +135348,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -135437,7 +135437,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -135502,7 +135502,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -135534,7 +135534,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -135721,7 +135721,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -135777,7 +135777,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -135856,7 +135856,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -135893,7 +135893,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -135982,7 +135982,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -136047,7 +136047,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -136079,7 +136079,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -136304,7 +136304,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -136336,7 +136336,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -136386,7 +136386,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -136475,7 +136475,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "Kosciuszko National Park",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -136538,7 +136538,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -136570,7 +136570,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -136757,7 +136757,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -136789,7 +136789,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "0",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -136809,7 +136809,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -136859,7 +136859,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -136948,7 +136948,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -137011,7 +137011,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -137043,7 +137043,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -137230,7 +137230,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -137286,7 +137286,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Fauna",
               "pct": [
@@ -137345,7 +137345,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
@@ -137382,7 +137382,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -137432,7 +137432,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -137521,7 +137521,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -137555,7 +137555,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Low",
               "speciesType": "Flora",
               "pct": [
@@ -137576,7 +137576,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -137641,7 +137641,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Flora",
               "pct": [
@@ -137704,7 +137704,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "High",
               "speciesType": "Fauna",
               "pct": [
@@ -137727,7 +137727,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Moderate ",
               "speciesType": "Fauna",
               "pct": [
@@ -137759,7 +137759,7 @@ bamApp.service('referenceDataService', function () {
               "offsetMultiplier": 1,
               "soiThreashold": "TBD",
               "geographicCondition": "-",
-              "unitOfMeasure": "area",
+              "unitOfMeasure": "Area",
               "sensitivity": "Very high",
               "speciesType": "Fauna",
               "pct": [
