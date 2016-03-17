@@ -122,10 +122,7 @@
                     <td ng-if="x.enabledPrecense" style="width: 10%">{{hc.dataService.habitatModel.referenceData.biodiversityConcern[x.threatendedSpecies.threatStatus][x.threatendedSpecies.sensitivity]}}</td>
                     <td ng-if="x.enabledPrecense" style="width: 10%">{{x.threatendedSpecies.offsetMultiplier}}</td>
                     <td ng-if="x.enabledPrecense" style="width: 10%">{{x.threatendedSpecies.soiThreashold}}</td>
-                    <td ng-if="x.enabledPrecense" style="width: 10%">
-                        <select ng-model="hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].SOISelected" ng-options="item as item.name for item in hc.habitat.model.referenceData.optionClass" class="form-control">
-                        </select>
-                    </td>
+                    <td ng-if="x.enabledPrecense" style="width: 10%">{{x.threatendedSpecies.soii}}</td>
                 <tr>
                 </tbody>
             </table>
