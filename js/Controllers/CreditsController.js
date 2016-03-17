@@ -66,7 +66,7 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
             if (this.model.assessmentType.name != 'Offset') {
                 ecoCredit.intermediateResult = ecoCredit.area * ecoCredit.viLoss * this.model.constant
                 ecoCredit.om = this.getOm(ecoCredit.tecThreatStatus, ecoCredit.pctClearingStatus)
-                return om * ecoCredit.intermediateResult
+                return ecoCredit.om * ecoCredit.intermediateResult
             } else {
                 return ecoCredit.area * ecoCredit.viLoss * this.model.constant
             }
