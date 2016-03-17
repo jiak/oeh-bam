@@ -2,8 +2,10 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
     return {
         events: {
             vegetationPctChangeEvent:"vegetationPctChangeEvent",
-            createVegetationPctChangeEvent: function() {
-              return {}
+            createVegetationPctChangeEvent: function(inputPCT) {
+              return {
+                  inputPCT: inputPCT
+              }
             },
             siteContextUpdateEvent: "siteContextUpdateEvent",
             createSiteContextUpdateEvent: function (ibra, subRegion, cover, patchSize) {

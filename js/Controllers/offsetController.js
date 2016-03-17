@@ -24,7 +24,7 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
 
         model: dataService.offsetModel,
         pctChange: function() {
-            var body = dataService.events.createVegetationPctChangeEvent()
+            var body = dataService.events.createVegetationPctChangeEvent(this.model.input.pct)
             $rootScope.$emit(dataService.events.vegetationPctChangeEvent, body)
 
         },
