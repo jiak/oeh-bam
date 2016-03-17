@@ -331,9 +331,8 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                     case "forb":
                     case "fern" :
                     case "other":
-                        returnValue = (1.01 * (1 - Math.exp(-5 * (observedValue / eval("benchmarks." + theObjectLower + "Cover")) ^ 2.5)) * 100);
+                        returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow((observedValue / eval("benchmarks." + theObjectLower + "Cover")), 2.5))) * 100);
                         break;
-
                     default:
                         if (observedValue > eval("benchmarks." + theObjectLower + "Cover")) {
                             returnValue = (
