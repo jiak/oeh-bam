@@ -10,6 +10,7 @@
                     <th>Habitat components</th>
                     <th>Habitat presence</th>
                     <th>Sensitivity class</th>
+                    <th>Threat Status</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -26,6 +27,7 @@
                         </select-->
                         <input ng-disabled="true" type="text" class="form-control" ng-model="hc.habitat.model.inputs[hc.habitat.model.current].ecoSystemCredit[$index].sensitivity" ng-value="x.threatendedSpecies.sensitivity"/>
                     </td>
+                    <td>{{x.threatendedSpecies.threatStatus}}</td>
                 <tr>
                 </tbody>
             </table>
@@ -42,6 +44,7 @@
                     <th>Geographic limitations</th>
                     <th>Habitat components</th>
                     <th>Sensitivity</th>
+                    <th>Threat Status</th>
                     <th>Candidate</th>
                     <th>Assess required</th>
                     <th>Presence</th>
@@ -56,6 +59,7 @@
                     <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 10%">{{x.threatendedSpecies.geographicCondition}}</td>
                     <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 20%">{{x.threatendedSpecies.habitatComponents}}</td>
                     <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)">{{x.threatendedSpecies.sensitivity}}</td>
+                    <td>{{x.threatendedSpecies.threatStatus}}</td>
                     <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 10%">
                         <select ng-model="hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit[$index].candidate"
                                 ng-options="item as item.name for item in hc.habitat.model.referenceData.optionClass" class="form-control"

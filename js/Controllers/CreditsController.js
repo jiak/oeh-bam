@@ -41,13 +41,14 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
             impactThresholds: [],
             assessmentType: null,
             highestOm: null,
-            vegetationZones: null
+            vegetationZones: null,
+            constant: 0.25
         },
 
         updateSpeciesCredits: function (candidateThreatenedSpecies, predictedThreatenedSpecies) {
             $scope.crc.credits.model.speciesCredit = []
             candidateThreatenedSpecies.forEach(function (candidateThreatenedSpecies, index) {
-                if (candidateThreatenedSpecies.assessRequired != null && candidateThreatenedSpecies.assessRequired.name == 'Yes' && candidateThreatenedSpecies.presence != null && candidateThreatenedSpecies.presence.name == 'Yes') {
+                if (candidateThreatenedSpecies.assessRequired.name == 'Yes' && candidateThreatenedSpecies.presence.name == 'Yes' && candidateThreatenedSpecies.candidate.name == 'Yes') {
                     var entry = {};
                     entry.type = candidateThreatenedSpecies.threatendedSpecies.speciesType
                     entry.commonName = candidateThreatenedSpecies.threatendedSpecies.name
@@ -80,9 +81,10 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
 
         calculateEcosystemCredits: function (ecoCredit) {
             if (this.model.assessmentType.name != 'Offset') {
-                return ecoCredit.area * ecoCredit.viLoss * this.model.highestOm * 0.25
+                ecoCredit.intermediateResult = ecoCredit.area * ecoCredit.viLoss * this.model.constant
+                return this.model.highestOm * ecoCredit.intermediateResult
             } else {
-                return ecoCredit.area * ecoCredit.viLoss * 0.25
+                return ecoCredit.area * ecoCredit.viLoss * this.model.constant
             }
         },
 
@@ -95,23 +97,23 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
                         } else if (speciesCredit.uom == 'Individual') {
                             speciesCredit.vis = speciesCredit.vegZone.currentAndFutureWithoutDeltaVis
                         }
-                        return speciesCredit.area * speciesCredit.vis * 0.25
                     } else if (speciesCredit.type == 'Fauna') {
                         speciesCredit.vis = speciesCredit.vegZone.futureWithAndWithoutDeltaVis
-                        return speciesCredit.vis * speciesCredit.area * 0.25
                     }
+                    return speciesCredit.area * speciesCredit.vis * this.model.constant
                 } else {
                     speciesCredit.vis = speciesCredit.vegZone.currentVis
                     if (speciesCredit.type == 'Flora') {
                         if (speciesCredit.uom == 'Area') {
                             speciesCredit.vis = speciesCredit.vegZone.futureAndCurrentDeltaVis
-                            return speciesCredit.area * speciesCredit.om * speciesCredit.vis * 0.25
+                            speciesCredit.intermediateResult = speciesCredit.area * speciesCredit.vis * this.model.constant
                         } else if (speciesCredit.uom == 'Individual') {
-                            return speciesCredit.area * speciesCredit.om * 0.25
+                            speciesCredit.intermediateResult = speciesCredit.area * this.model.constant
                         }
                     } else if (speciesCredit.type == 'Fauna') {
-                        return speciesCredit.vis * speciesCredit.area * speciesCredit.om * 0.25
+                        speciesCredit.intermediateResult = speciesCredit.vis * speciesCredit.area * this.model.constant
                     }
+                    return speciesCredit.intermediateResult * speciesCredit.om
                 }
             }
         }
