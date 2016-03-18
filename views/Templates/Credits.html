@@ -60,7 +60,8 @@
                     </td>
                     <td>{{speciesCredit.vis | abs | r0d}}</td>
                     <td>{{speciesCredit.area}}</td>
-                    <td>{{crc.credits.model.constant}}</td>
+                    <td ng-show="speciesCredit.type != 'Flora' && speciesCredit.uom != 'Individual'">{{crc.credits.model.constant}}</td>
+                    <td ng-show="!(speciesCredit.type != 'Flora' && speciesCredit.uom != 'Individual')">N/A</td>
                     <td>{{speciesCredit.intermediateResult | abs | r0d}}</td>
                     <td>{{speciesCredit.om}}</td>
                     <td>{{crc.credits.calculateSpeciesCredit(speciesCredit) | abs | r0d}}</td>
