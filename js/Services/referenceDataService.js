@@ -124735,7 +124735,7 @@ bamApp.service('referenceDataService', function () {
           "threatendedSpecies": [
             {
               "id": "10006",
-              "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+              "name": "Byno’s wattle",
               "scientificName": "Acacia bynoeana",
               "habitatComponents": "",
               "creditType": "SC",
@@ -125466,7 +125466,7 @@ bamApp.service('referenceDataService', function () {
           "threatendedSpecies": [
             {
               "id": "10006",
-              "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+              "name": "Byno’s wattle",
               "scientificName": "Acacia bynoeana",
               "habitatComponents": "",
               "creditType": "SC",
@@ -126306,7 +126306,7 @@ bamApp.service('referenceDataService', function () {
           "threatendedSpecies": [
             {
               "id": "10006",
-              "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+              "name": "Byno’s wattle",
               "scientificName": "Acacia bynoeana",
               "habitatComponents": "",
               "creditType": "SC",
@@ -126999,7 +126999,7 @@ bamApp.service('referenceDataService', function () {
           "threatendedSpecies": [
             {
               "id": "10006",
-              "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+              "name": "Byno’s wattle",
               "scientificName": "Acacia bynoeana",
               "habitatComponents": "",
               "creditType": "SC",
@@ -127736,7 +127736,7 @@ bamApp.service('referenceDataService', function () {
           "threatendedSpecies": [
             {
               "id": "10006",
-              "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+              "name": "Byno’s wattle",
               "scientificName": "Acacia bynoeana",
               "habitatComponents": "",
               "creditType": "SC",
@@ -128455,7 +128455,7 @@ bamApp.service('referenceDataService', function () {
           "threatendedSpecies": [
             {
               "id": "10006",
-              "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+              "name": "Byno’s wattle",
               "scientificName": "Acacia bynoeana",
               "habitatComponents": "",
               "creditType": "SC",
@@ -129109,7 +129109,7 @@ bamApp.service('referenceDataService', function () {
           "threatendedSpecies": [
             {
               "id": "10006",
-              "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+              "name": "Byno’s wattle",
               "scientificName": "Acacia bynoeana",
               "habitatComponents": "",
               "creditType": "SC",
@@ -129806,7 +129806,7 @@ bamApp.service('referenceDataService', function () {
           "threatendedSpecies": [
             {
               "id": "10006",
-              "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+              "name": "Byno’s wattle",
               "scientificName": "Acacia bynoeana",
               "habitatComponents": "",
               "creditType": "SC",
@@ -130464,7 +130464,7 @@ bamApp.service('referenceDataService', function () {
           "threatendedSpecies": [
             {
               "id": "10006",
-              "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+              "name": "Byno’s wattle",
               "scientificName": "Acacia bynoeana",
               "habitatComponents": "",
               "creditType": "SC",
@@ -131515,7 +131515,7 @@ bamApp.service('referenceDataService', function () {
           "threatendedSpecies": [
             {
               "id": "10006",
-              "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+              "name": "Byno’s wattle",
               "scientificName": "Acacia bynoeana",
               "habitatComponents": "",
               "creditType": "SC",
@@ -132063,7 +132063,7 @@ bamApp.service('referenceDataService', function () {
           "threatendedSpecies": [
             {
               "id": "10006",
-              "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+              "name": "Byno’s wattle",
               "scientificName": "Acacia bynoeana",
               "habitatComponents": "",
               "creditType": "SC",
@@ -133325,7 +133325,7 @@ bamApp.service('referenceDataService', function () {
           "threatendedSpecies": [
             {
               "id": "10006",
-              "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+              "name": "Byno’s wattle",
               "scientificName": "Acacia bynoeana",
               "habitatComponents": "",
               "creditType": "SC",
@@ -134655,7 +134655,7 @@ bamApp.service('referenceDataService', function () {
           "threatendedSpecies": [
             {
               "id": "10006",
-              "name": "Bynoe\u00e2\u20ac\u2122s wattle",
+              "name": "Byno’s wattle",
               "scientificName": "Acacia bynoeana",
               "habitatComponents": "",
               "creditType": "SC",
