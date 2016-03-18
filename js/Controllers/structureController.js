@@ -5,7 +5,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
     $rootScope.$on(dataService.events.openCalculatorEvent, function (event, body) {
         if (dataService.applicationDetailsModel.assessmentType.name == 'Offset' && body.calculatorMode == 'offsetFutureWithManagement') {
             $scope.sc.structure.updateFutureWithManagement()
-        } else if(body.calculatorMode == 'future') {
+        } else if (body.calculatorMode == 'future') {
             $scope.sc.structure.updateFutureValuesInDevelopmentMode()
         }
     })
@@ -21,8 +21,8 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             $rootScope.$emit(dataService.events.recalculateVisEvent, body)
         },
 
-        updateFutureValuesInDevelopmentMode: function() {
-            if(this.getCurrentStructure().structureTransects.length == 0) {
+        updateFutureValuesInDevelopmentMode: function () {
+            if (this.getCurrentStructure().structureTransects.length == 0) {
                 this.getCurrentStructure().structureTransects.push(this.createStructureTransect())
             }
             this.updateCalcsFor('Tree', 0)
@@ -139,7 +139,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             if (c11Benchmark == 0) {
                 result = 0
             } else {
-                if(theObject == 'Forb' || theObject == 'Fern') {
+                if (theObject == 'Forb' || theObject == 'Fern') {
                     result = 1.01 * (1 - Math.exp(-5 * Math.pow((n11FutureValueWithOffset / c11Benchmark), 2.5))) * 100
                 } else {
                     if (n11FutureValueWithOffset > c11Benchmark) {
@@ -328,10 +328,6 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 returnValue = 0;
             } else {
                 switch (theObjectLower) {
-                    case "forb":
-                        break;
-                    case "fern" :
-                        break;
                     case "other":
                         returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow((observedValue / eval("benchmarks." + theObjectLower + "Cover")), 2.5))) * 100);
                         break;
