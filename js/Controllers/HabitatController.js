@@ -2,25 +2,21 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
     this.dataService = dataService
 
-    //$rootScope.$on(dataService.events.siteContextUpdateEvent, function (event, body) {
-    //    $scope.hc.habitat.update(body.ibra, body.subRegion, body.cover, body.patchSize)
-    //})
     $rootScope.$on(dataService.events.vegetationPctChangeEvent, function (event, body) {
         $scope.hc.habitat.loadSpecies(body.inputPCT)
     })
 
-
     this.habitat = {
-        streamlineSensitivityCheck: function(species) {
-          if (dataService.applicationDetailsModel.assessmentType.id !=3) {
-              return true;
-          } else {
-              if (species.sensitivity == "Very high") {
-                  return true;
-              } else {
-                  return false;
-              }
-          }
+        streamlineSensitivityCheck: function (species) {
+            if (dataService.applicationDetailsModel.assessmentType.id != 3) {
+                return true;
+            } else {
+                if (species.sensitivity == "Very high") {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
         },
 
         applicationType: dataService.applicationDetailsModel.assessmentType,
@@ -55,7 +51,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                             var duplicate = false;
                             if (inputPCT[pct].pctCode != null) {
                                 if (duplicateCheck.indexOf(this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].id) >= 0) duplicate = true
-                                if (this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].pct.indexOf(inputPCT[pct].pctCode.pct.id) >=0 && !duplicate) {
+                                if (this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].pct.indexOf(inputPCT[pct].pctCode.pct.id) >= 0 && !duplicate) {
                                     duplicateCheck.push(this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].id);
                                     //if any patchSize or cover is null, just ignore them
                                     //if (
@@ -120,7 +116,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                             var duplicate = false;
                             if (inputPCT[pct].pctCode != null) {
                                 if (duplicateCheck.indexOf(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].id) >= 0) duplicate = true
-                                if (this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].pct.indexOf(inputPCT[pct].pctCode.pct.id) >=0) {
+                                if (this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].pct.indexOf(inputPCT[pct].pctCode.pct.id) >= 0) {
                                     duplicateCheck.push(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].id);
 
                                     //if any patchSize or cover is null, just ignore them
@@ -178,9 +174,9 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
             this.emitHabitatUpdateEvent()
         },
-        loadSpecies: function(inputPCT) {
+        loadSpecies: function (inputPCT) {
             this.model.current = null;
-            this.update(dataService.siteContextModel.inputs.ibra, dataService.siteContextModel.inputs.subRegion,dataService.siteContextModel.inputs.cover, dataService.siteContextModel.inputs.patchSize, inputPCT);
+            this.update(dataService.siteContextModel.inputs.ibra, dataService.siteContextModel.inputs.subRegion, dataService.siteContextModel.inputs.cover, dataService.siteContextModel.inputs.patchSize, inputPCT);
         },
 
         update: function (ibra, subRegion, cover, patchSize, inputPCT) {
@@ -197,7 +193,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
             //find input
             //if (this.model.current != null)
-                //return;
+            //return;
 
             //if not found, create one
             var input = this.createInput(ibraId, cover, patchSize);
