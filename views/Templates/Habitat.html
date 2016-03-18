@@ -41,6 +41,7 @@
                 <tr>
                     <th>Common name</th>
                     <th>Scientific name</th>
+                    <th>Veg Zone</th>
                     <th>Geographic limitations</th>
                     <th>Habitat components</th>
                     <th>Sensitivity class</th>
@@ -56,6 +57,7 @@
                 <tr ng-repeat="x in hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit">
                     <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 10%">{{x.threatendedSpecies.name}}</td>
                     <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 10%">{{x.threatendedSpecies.scientificName}}</td>
+                    <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 10%">{{x.vegZone}}</td>
                     <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 10%">{{x.threatendedSpecies.geographicCondition}}</td>
                     <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)" style="width: 20%">{{x.threatendedSpecies.habitatComponents}}</td>
                     <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)">{{x.threatendedSpecies.sensitivity}}</td>

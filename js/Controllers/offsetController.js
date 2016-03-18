@@ -24,7 +24,7 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
 
         model: dataService.offsetModel,
         pctChange: function() {
-            var body = dataService.events.createVegetationPctChangeEvent(this.model.input.pct)
+            var body = dataService.events.createVegetationPctChangeEvent(this.model.input.vegetationZones)
             $rootScope.$emit(dataService.events.vegetationPctChangeEvent, body)
 
         },
@@ -178,6 +178,7 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
 
         addToZoneMap: function (vegetationZoneItem) {
             this.model.zoneMap.push(vegetationZoneItem.pctCode.pct.id + "_" + vegetationZoneItem.conditionClass)
+            this.pctChange()
         },
 
         createVegetationZoneItem: function () {

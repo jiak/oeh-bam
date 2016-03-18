@@ -53,9 +53,9 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
                         for (pct in inputPCT) {
                             var duplicate = false;
-                            if (inputPCT[pct].pct != null) {
+                            if (inputPCT[pct].pctCode != null) {
                                 if (duplicateCheck.indexOf(this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].id) >= 0) duplicate = true
-                                if (this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].pct.indexOf(inputPCT[pct].pct.id) >=0 && !duplicate) {
+                                if (this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].pct.indexOf(inputPCT[pct].pctCode.pct.id) >=0 && !duplicate) {
                                     duplicateCheck.push(this.model.referenceData.ecosystemCredit.ibraSubRegion[i].threatendedSpecies[j].id);
                                     //if any patchSize or cover is null, just ignore them
                                     //if (
@@ -73,9 +73,10 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
             }
 
         },
-        createSpeciesCreditInput: function (threatendedSpecies) {
+        createSpeciesCreditInput: function (threatendedSpecies, vegZone) {
             return {
                 threatendedSpecies: threatendedSpecies,
+                vegZone: vegZone,
                 candidate: null,
                 assessRequired: null,
                 presence: null,
@@ -117,9 +118,9 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
                         for (pct in inputPCT) {
                             var duplicate = false;
-                            if (inputPCT[pct].pct != null) {
+                            if (inputPCT[pct].pctCode != null) {
                                 if (duplicateCheck.indexOf(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].id) >= 0) duplicate = true
-                                if (this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].pct.indexOf(inputPCT[pct].pct.id) >=0 && !duplicate) {
+                                if (this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].pct.indexOf(inputPCT[pct].pctCode.pct.id) >=0) {
                                     duplicateCheck.push(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].id);
 
                                     //if any patchSize or cover is null, just ignore them
@@ -128,7 +129,7 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                                     //    &&
                                     //    (((inputPatchSize != null) ? inputPatchSize : patchSize ) == patchSize)
                                     //)
-                                    input.speciesCredit.push(this.createSpeciesCreditInput(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j]));
+                                    input.speciesCredit.push(this.createSpeciesCreditInput(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j], inputPCT[pct].identifier()));
                                 }
                             }
                         }
