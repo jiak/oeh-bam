@@ -3653,6 +3653,41 @@ bamApp.service('referenceDataService', function () {
   "vegetation": {
     "formation": [
       {
+        "id": 0,
+        "name": "Dry Sclerophyll Forests (Shrubby sub-formation)",
+        "type": "1",
+        "keithClass": [
+          {
+            "id": 2,
+            "name": "Sydney Coastal Dry Sclerophyll Forests",
+            "pct": [
+              {
+                "id": 1181,
+                "name": "Smooth-barked Apple - Red Bloodwood - Sydney Peppermint heathy open forest on slopes of dry sandstone gullies of western and southern Sydney, Sydney Basin Bioregion",
+                "description": "Hinterland Sandstone Gully Forest (DSF p142) is equivalent to DSF 142 identified by Tindall et al. (2004), and is an open eucalypt forest with an abundant sclerophyll shrub stratum and a groundcover dominated by sedges. This forest surrounds the Cumberland plain, occurring along the western portion of the Hornsby and Woronora plateaux and in the lower Blue Mountains. Within this distribution Hinterland Sandstone Gully Forest occurs on lower slopes of dry sandstone gullies up to 600m ASL where average annual rainfall ranges from 850 to 1300mm. Hinterland Sandstone Gully Forest grades into Sandstone Riparian Scrub (FoW p58) immediately adjacent to creeklines and is replaced by Coastal Sandstone Ridgetop Woodland (DSF p131) or Wingecarribee-Burragorang Sandstone Forest (DSF p144) on upper slopes and exposed positions. As rainfall increases toward the coast, it is replaced by Coastal Sandstone Gully Forest (DSF p140). About one third of Hinterland Sandstone Gully Forests original extent has been supplanted by urban development. Large areas remain, including examples in conservation reserves, though edge effects such as weed invasion and high fire frequency are evident in some locations.",
+                "percentCleared": {
+                  "pct_cleared": 80
+                },
+                "tec": [
+                  {
+                    "offsetMultipler": 0,
+                    "id": 0,
+                    "name": "Not an EEC",
+                    "status": ""
+                  },
+                  {
+                    "offsetMultipler": 1,
+                    "id": 1,
+                    "name": "Southern Sydney sheltered forest on transitional sandstone soils in the Sydney Basin Bioregion (Part)",
+                    "status": "E"
+                  }
+                ]
+              },
+            ]
+          }
+        ]
+      },
+      {
         "id": 1,
         "name": "Forested Wetlands",
         "type": "1",
@@ -4210,6 +4245,9 @@ bamApp.service('referenceDataService', function () {
                 "id": 830,
                 "name": "Forest Red Gum - Grey Box shrubby woodland on shale of the southern Cumberland Plain, Sydney Basin",
                 "description": "Forest Red Gum - Grey Box shrubby woodland on shale of the southern Cumberland Plain, Sydney Basin",
+                "percentCleared": {
+                  "pct_cleared": 75
+                },
                 "tec": [
                   {
                     "offsetMutliplier": 0,
@@ -4229,6 +4267,9 @@ bamApp.service('referenceDataService', function () {
                 "id": 849,
                 "name": "Grey Box - Forest Red Gum grassy woodland on flats of the Cumberland Plain, Sydney Basin Bioregion",
                 "description": "Grey Box - Forest Red Gum grassy woodland on flats of the Cumberland Plain, Sydney Basin Bioregion",
+                "percentCleared": {
+                  "pct_cleared": 95
+                },
                 "tec": [
                   {
                     "offsetMutliplier": 0,
@@ -6184,6 +6225,34 @@ bamApp.service('referenceDataService', function () {
         "name": "Dry Sclerophyll Forests (Shrub\/grass sub-formation)",
         "type": "1",
         "keithClass": [
+          {
+            "id": 4,
+            "name": "Cumberland Dry Sclerophyll Forests",
+            "pct": [
+              {
+                "id": 725,
+                "name": "Broad-leaved Ironbark - Melaleuca decora shrubby open forest on clay soils of the Cumberland Plain, Sydney Basin Bioregion",
+                "description": "Castlereagh Ironbark Forest is one of two closely related ironbark shrub-grass forests found in western Sydney that occur on gravelly-clay soils. Map users may experience difficulty distinguishing between this unit and Castlereagh Shale-Gravel Transition Forest (S_DSF02), and as a result it may be easiest to consider them subtle variations of the one floristic assemblage. Castlereagh Ironbark Forest is associated with clay soils derived from Tertiary alluvial deposits (Tozer 2003). The structure ranges from a moderately tall open eucalypt forest or woodland to a low dense thicket of paperbarks with low emergent eucalypts. The latter is prevalent across the catchment of the Cooks River and is recognised in other classifications as Cooks River Clay Plain Scrub (Benson 1992). Benson and Howell (1994a) suggest that these scrubs may arise from human-induced changes to the original forest structure. Broad-leaved ironbark (Eucalyptus fibrosa) is the most commonly recorded eucalypt although at some sites it may be absent. Woollybutt (Eucalyptus longifolia) is a regular associate although sites often have a diverse canopy composition which reflects subtle grades between substrates sourced from Tertiary sand, sandstone bedrock, shale and ironstone gravels. For this reason there are localised unusual occurrences of hard-leaved scribbly gum (Eucalyptus sclerophylla), smooth-barked apple (Angophora costata) and narrow-leaved apple (Angophora bakeri), species more typically associated with siliceous soils of sand deposits and the sandstone plateau. A prominent small tree layer of Melaleuca decora features above a dense cover of shrubs that include Melaleuca nodosa, blackthorn (Bursaria spinosa) and peach heath (Lissanthe strigosa). The ground layer is a sparse cover of grasses and forbs. These may be very depauperate in locations where dense shrub layers exclude light and suppress plant growth",
+                "percentCleared": {
+                  "pct_cleared": 95
+                },
+                "tec": [
+                  {
+                    "offsetMutliplier": 0,
+                    "id": 0,
+                    "name": "Not an EEC",
+                    "status": ""
+                  },
+                  {
+                    "offsetMutliplier": 1,
+                    "id": 1,
+                    "name": "Cooks River/Castlereagh Ironbark Forest in the Sydney Basin Bioregion",
+                    "status": "E"
+                  }
+                ]
+              }
+            ]
+          },
           {
             "id": 3,
             "name": "Western Slopes Dry Sclerophyll Forests",
@@ -69622,26 +69691,6 @@ bamApp.service('referenceDataService', function () {
           "name": "Wollemi",
           "threatendedSpecies": [
             {
-              "id": "10526",
-              "name": "Cumberland Plain Land Snail",
-              "scientificName": "Meridolum corneovirens",
-              "habitatComponents": "Land containing bark or leaf litter accumulation",
-              "creditType": "SC",
-              "patchSize": "<5ha",
-              "percentCover": "Relictual 10%",
-              "threatStatus": "E",
-              "offsetMultiplier": 1,
-              "soiThreashold": "",
-              "geographicCondition": "-",
-              "unitOfMeasure": "Area",
-              "sensitivity": "Moderate",
-              "speciesType": "Fauna",
-              "pct": [
-                835,
-                1395
-              ]
-            },
-            {
               "id": "10140",
               "name": "Glossy-black cockatoos",
               "scientificName": "Calyptorhynchus lathami",
@@ -71484,45 +71533,6 @@ bamApp.service('referenceDataService', function () {
           "id": "SYB05",
           "name": "Yengo",
           "threatendedSpecies": [
-            {
-              "id": "10968",
-              "name": "Eucalyptus c - EP",
-              "scientificName": "Eucalyptus camaldulensis - endangered population",
-              "habitatComponents": "",
-              "creditType": "SC",
-              "patchSize": "",
-              "percentCover": "",
-              "threatStatus": "EP",
-              "offsetMultiplier": 1,
-              "soiThreashold": "",
-              "geographicCondition": "-",
-              "unitOfMeasure": "Individual",
-              "sensitivity": "Moderate",
-              "speciesType": "Flora",
-              "pct": [
-                42
-              ]
-            },
-            {
-              "id": "10526",
-              "name": "Cumberland Plain Land Snail",
-              "scientificName": "Meridolum corneovirens",
-              "habitatComponents": "Land containing bark or leaf litter accumulation",
-              "creditType": "SC",
-              "patchSize": "<5ha",
-              "percentCover": "Relictual 10%",
-              "threatStatus": "E",
-              "offsetMultiplier": 1,
-              "soiThreashold": "",
-              "geographicCondition": "-",
-              "unitOfMeasure": "Area",
-              "sensitivity": "Moderate",
-              "speciesType": "Fauna",
-              "pct": [
-                835,
-                1395
-              ]
-            },
             {
               "id": "10113",
               "name": "Bush Stone curlew",
@@ -76849,26 +76859,6 @@ bamApp.service('referenceDataService', function () {
           "name": "Cumberland",
           "threatendedSpecies": [
             {
-              "id": "10526",
-              "name": "Cumberland Plain Land Snail",
-              "scientificName": "Meridolum corneovirens",
-              "habitatComponents": "Land containing bark or leaf litter accumulation",
-              "creditType": "SC",
-              "patchSize": "<5ha",
-              "percentCover": "Relictual 10%",
-              "threatStatus": "E",
-              "offsetMultiplier": 1,
-              "soiThreashold": "",
-              "geographicCondition": "-",
-              "unitOfMeasure": "Area",
-              "sensitivity": "Moderate",
-              "speciesType": "Fauna",
-              "pct": [
-                835,
-                1395
-              ]
-            },
-            {
               "id": "10113",
               "name": "Bush Stone curlew",
               "scientificName": "Burhinus grallarius",
@@ -78685,26 +78675,6 @@ bamApp.service('referenceDataService', function () {
           "name": "Burragorang",
           "threatendedSpecies": [
             {
-              "id": "10526",
-              "name": "Cumberland Plain Land Snail",
-              "scientificName": "Meridolum corneovirens",
-              "habitatComponents": "Land containing bark or leaf litter accumulation",
-              "creditType": "SC",
-              "patchSize": "<5ha",
-              "percentCover": "Relictual 10%",
-              "threatStatus": "E",
-              "offsetMultiplier": 1,
-              "soiThreashold": "",
-              "geographicCondition": "-",
-              "unitOfMeasure": "Area",
-              "sensitivity": "Moderate",
-              "speciesType": "Fauna",
-              "pct": [
-                835,
-                1395
-              ]
-            },
-            {
               "id": "10140",
               "name": "Glossy-black cockatoos",
               "scientificName": "Calyptorhynchus lathami",
@@ -80441,26 +80411,6 @@ bamApp.service('referenceDataService', function () {
           "id": "SYB10",
           "name": "Sydney Cataract",
           "threatendedSpecies": [
-            {
-              "id": "10526",
-              "name": "Cumberland Plain Land Snail",
-              "scientificName": "Meridolum corneovirens",
-              "habitatComponents": "Land containing bark or leaf litter accumulation",
-              "creditType": "SC",
-              "patchSize": "<5ha",
-              "percentCover": "Relictual 10%",
-              "threatStatus": "E",
-              "offsetMultiplier": 1,
-              "soiThreashold": "",
-              "geographicCondition": "-",
-              "unitOfMeasure": "Area",
-              "sensitivity": "Moderate",
-              "speciesType": "Fauna",
-              "pct": [
-                835,
-                1395
-              ]
-            },
             {
               "id": "10113",
               "name": "Bush Stone curlew",
@@ -104102,7 +104052,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             }
@@ -105255,7 +105207,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -105958,7 +105912,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -106612,7 +106568,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -107293,7 +107251,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -108093,7 +108053,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -108723,7 +108685,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             }
@@ -109195,7 +109159,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -109763,7 +109729,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -110283,7 +110251,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -110777,7 +110747,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -111437,7 +111409,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -112045,7 +112019,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -112523,7 +112499,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             }
@@ -112609,7 +112587,9 @@ bamApp.service('referenceDataService', function () {
                 1215,
                 838,
                 1326,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -113095,7 +113075,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -113731,7 +113713,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -114094,7 +114078,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -114589,7 +114575,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -115027,7 +115015,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -115441,7 +115431,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -115961,7 +115953,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -116335,7 +116329,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -116851,7 +116847,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -117388,7 +117386,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -117980,7 +117980,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -118721,7 +118723,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -119241,7 +119245,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -119604,7 +119610,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -120515,7 +120523,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -121072,7 +121082,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -121593,7 +121605,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             }
@@ -122096,7 +122110,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -122702,7 +122718,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -123304,7 +123322,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -123918,7 +123938,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -124547,7 +124569,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -124755,7 +124779,8 @@ bamApp.service('referenceDataService', function () {
                 804,
                 849,
                 1083,
-                1395
+                1395,
+                1181
               ],
               "soii": "Yes"
             },
@@ -125316,7 +125341,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -125486,7 +125513,8 @@ bamApp.service('referenceDataService', function () {
                 804,
                 849,
                 1083,
-                1395
+                1395,
+                1181
               ],
               "soii": "Yes"
             },
@@ -126140,7 +126168,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -126326,7 +126356,8 @@ bamApp.service('referenceDataService', function () {
                 804,
                 849,
                 1083,
-                1395
+                1395,
+                1181
               ],
               "soii": "Yes"
             },
@@ -126849,7 +126880,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -127019,7 +127052,8 @@ bamApp.service('referenceDataService', function () {
                 804,
                 849,
                 1083,
-                1395
+                1395,
+                1181
               ],
               "soii": "Yes"
             },
@@ -127631,7 +127665,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -127756,7 +127792,8 @@ bamApp.service('referenceDataService', function () {
                 804,
                 849,
                 1083,
-                1395
+                1395,
+                1181
               ],
               "soii": "Yes"
             },
@@ -128350,7 +128387,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -128475,7 +128514,8 @@ bamApp.service('referenceDataService', function () {
                 804,
                 849,
                 1083,
-                1395
+                1395,
+                1181
               ],
               "soii": "Yes"
             },
@@ -129004,7 +129044,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -129129,7 +129171,8 @@ bamApp.service('referenceDataService', function () {
                 804,
                 849,
                 1083,
-                1395
+                1395,
+                1181
               ],
               "soii": "Yes"
             },
@@ -129701,7 +129744,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -129826,7 +129871,8 @@ bamApp.service('referenceDataService', function () {
                 804,
                 849,
                 1083,
-                1395
+                1395,
+                1181
               ],
               "soii": "Yes"
             },
@@ -130359,7 +130405,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -130484,7 +130532,8 @@ bamApp.service('referenceDataService', function () {
                 804,
                 849,
                 1083,
-                1395
+                1395,
+                1181
               ],
               "soii": "Yes"
             },
@@ -131410,7 +131459,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -131535,7 +131586,8 @@ bamApp.service('referenceDataService', function () {
                 804,
                 849,
                 1083,
-                1395
+                1395,
+                1181
               ],
               "soii": "Yes"
             },
@@ -131958,7 +132010,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -132083,7 +132137,8 @@ bamApp.service('referenceDataService', function () {
                 804,
                 849,
                 1083,
-                1395
+                1395,
+                1181
               ],
               "soii": "Yes"
             },
@@ -132570,7 +132625,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -133220,7 +133277,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -133345,7 +133404,8 @@ bamApp.service('referenceDataService', function () {
                 804,
                 849,
                 1083,
-                1395
+                1395,
+                1181
               ],
               "soii": "Yes"
             },
@@ -134014,7 +134074,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -134550,7 +134612,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -134675,7 +134739,8 @@ bamApp.service('referenceDataService', function () {
                 804,
                 849,
                 1083,
-                1395
+                1395,
+                1181
               ],
               "soii": "Yes"
             },
@@ -135073,7 +135138,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -135696,7 +135763,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -136412,7 +136481,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -136975,7 +137046,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -137524,7 +137597,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -138020,7 +138095,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -138498,7 +138575,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
@@ -139219,7 +139298,9 @@ bamApp.service('referenceDataService', function () {
                 1083,
                 1176,
                 1395,
-                1606
+                1606,
+                725,
+                1181
               ],
               "soii": "Yes"
             },
