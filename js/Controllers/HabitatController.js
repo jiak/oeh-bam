@@ -6,6 +6,13 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
         $scope.hc.habitat.loadSpecies(body.inputPCT)
     })
 
+    $rootScope.$on(dataService.events.localStorageUpdate, function (event, body) {
+        $scope.hc.habitat.model = body.model.habitatModel
+        if ($scope.hc.habitat.model.inputs.length > 0) $scope.hc.habitat.emitHabitatUpdateEvent();
+
+    })
+
+
     this.habitat = {
         streamlineSensitivityCheck: function (species) {
             if (dataService.applicationDetailsModel.assessmentType.id != 3) {
@@ -116,7 +123,8 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                             var duplicate = false;
                             if (inputPCT[pct].pctCode != null) {
                                 if (duplicateCheck.indexOf(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].id) >= 0) duplicate = true
-                                if (this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].pct.indexOf(inputPCT[pct].pctCode.pct.id) >= 0) {
+                                //if (this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].pct.indexOf(inputPCT[pct].pctCode.pct.id) >= 0) {
+                                    if (this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].pct.indexOf(inputPCT[pct].pctCode.pct.id) >= 0) {
                                     duplicateCheck.push(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].id);
 
                                     //if any patchSize or cover is null, just ignore them

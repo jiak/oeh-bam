@@ -168,7 +168,7 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             if (benchmark == 0) {
                 result = 0
             } else {
-                if (theObject == 'Tree' && observedValue > benchmark) {
+                if ((theObject == 'Tree' || theObject =="Forb" || theObject == "Fern") && observedValue > benchmark) {
                     result = observedValue;
                 } else {
                     if (supplimentaryPlanting == 'Absent') {
@@ -261,10 +261,18 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                 result = 0
             } else {
                 var futureValueWithoutOffset = eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject)
-                if (futureValueWithoutOffset > benchmark) {
-                    result = ((100 + 50) - (50 + ((100 - 50) / (1 + Math.exp(-10 * ((futureValueWithoutOffset / benchmark) - 1.5))))))
-                } else {
-                    result = (1.01 * (1 - Math.exp((-5 * Math.pow(futureValueWithoutOffset / benchmark, 2.5)))) * 100)
+                switch (theObjectLower) {
+                    case "other":
+                    case "forb":
+                    case "fern":
+                        result = (1.01 * (1 - Math.exp((-5 * Math.pow(futureValueWithoutOffset / benchmark, 2.5)))) * 100)
+                        break;
+                    default:
+                        if (futureValueWithoutOffset > benchmark) {
+                            result = ((100 + 50) - (50 + ((100 - 50) / (1 + Math.exp(-10 * ((futureValueWithoutOffset / benchmark) - 1.5))))))
+                        } else {
+                            result = (1.01 * (1 - Math.exp((-5 * Math.pow(futureValueWithoutOffset / benchmark, 2.5)))) * 100)
+                        }
                 }
             }
             eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject + " = " + result)
@@ -273,8 +281,14 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
         calculateFutureValueWithoutOffset: function (theObject, theObjectLower, rateOfDecline) {
             var result = 0
             var observedValue = eval("this.model.structureCalcResults[this.model.inFocusVegetationZoneIndex].observedMean" + theObject)
-            result = eval(observedValue + " * (Math.pow((1 - " + (rateOfDecline / 100) + "), " + 20 + "))")
-            eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject + " = " + result)
+            var benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower + "Cover")
+            if (observedValue > benchmark) {
+                result = observedValue;
+                eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject + " = " + result)
+            } else {
+                result = eval(observedValue + " * (Math.pow((1 - " + (rateOfDecline / 100) + "), " + 20 + "))")
+                eval("this.model.offsetFutureWithoutManagementStructureCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithoutOffset" + theObject + " = " + result)
+            }
         },
 
         calculateObservedMean: function (theObject, theObjectLower) {
@@ -329,6 +343,8 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
             } else {
                 switch (theObjectLower) {
                     case "other":
+                    case "forb":
+                    case "fern":
                         returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow((observedValue / eval("benchmarks." + theObjectLower + "Cover")), 2.5))) * 100);
                         break;
                     default:
@@ -338,9 +354,6 @@ bamApp.controller('structureController', ["$scope", "$rootScope", "referenceData
                             /
                             (1 + Math.exp(-10 * ((observedValue / eval("benchmarks." + theObjectLower + "Cover") - 1.5)))))))
                         } else {
-                            returnValue = (
-                                1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Cover"), 2.5))) * 100
-                            );
                             returnValue = (1.01 * (1 - Math.exp(-5 * Math.pow(observedValue / eval("benchmarks." + theObjectLower + "Cover"), 2.5))) * 100);
                         }
                         break;

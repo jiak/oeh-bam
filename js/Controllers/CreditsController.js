@@ -51,6 +51,7 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
                 var ecoCreditEntry = {}
                 ecoCreditEntry.zone = index + 1
                 ecoCreditEntry.identifier = vegZone.identifier()
+                //ecoCreditEntry.identifer = function() {return vegZone.pctCode.pct.id + "_" + vegZone.conditionClass}
                 ecoCreditEntry.pctName = vegZone.pctCode.pct.name
                 if ($scope.crc.credits.model.assessmentType.name == 'Offset') {
                     ecoCreditEntry.viLoss = vegZone.futureWithAndWithoutDeltaVis

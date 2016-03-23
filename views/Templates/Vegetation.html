@@ -1,15 +1,6 @@
 <form novalidate>
+    <h1 class="printOnly pageBreak">Vegetation Integrity</h1>
     <div ng-controller="vegetationController as vc" class="tabcontentdiv">
-        <div class="callout">
-            <h3>Information!</h3>
-            <p>For the purposes of demonstration, values for the following variables related to a vegetation zone have been fixed as follows:
-            <ul>
-                <li>High Threat Weed Cover = 10%</li>
-                <li>High Risk Land = 'No'</li>
-                <li>Average Stem Count = >0</li>
-            </ul>
-            </p>
-        </div>
         <div class="callout" ng-if="vc.dataService.applicationDetailsModel.assessmentType.id == 3">
             <h3>Information!</h3>
             <p>As you have selected <em>'{{vc.dataService.applicationDetailsModel.assessmentType.name}}'</em> as your <em>'Assessment Type'</em>, you will only need to identify the dominant Plant Community Type on the site.</p>

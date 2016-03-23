@@ -5,6 +5,12 @@
 <head>
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webshim/1.15.10/dev/polyfiller.js"></script>
+    <script>
+        webshim.activeLang('en');
+        webshims.polyfill('forms');
+        webshims.cfg.no$Switch = true;
+    </script>
 
     <!-- angular js -->
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
@@ -12,6 +18,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js"></script>
 
     <!-- ui-bootstrap -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.1.2.js"></script>
 
     <!-- bootstrap -->
@@ -19,6 +26,11 @@
 
     <!-- math libraries -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/mathjs/3.0.0/math.min.js"></script>
+
+    <!-- JSONfn library -->
+    <!-- math libraries -->
+    <script src="../js/JSONfn/JSONfn.js"></script>
+
 
     <!-- application js -->
     <script src="../js/App.js"></script>
@@ -76,7 +88,13 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" media="print" href="http://www.environment.nsw.gov.au/css/decc/print_v2.css?cb=10122015"/>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.0.1/js/bootstrap-switch.js"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.0.1/css/bootstrap3/bootstrap-switch.css" />
     <style type="text/css">
+
+
+
 
         html.resp .numericGrid > tbody > tr > th, html.resp .numericGrid tbody > tr > td, html.resp .numericInput {
             width: 100px;
@@ -178,7 +196,12 @@
             outline-offset: 1px;
         }
 
-
+.printOnly {
+    display:none;
+}
+    .bootstrap-switch {
+        float: right!important;
+        }
 
     </style>
 </head>
@@ -188,8 +211,63 @@
         <div class="container-fluid" style="padding: 20px">
             <div>
                 <div class="row">
-                    <div class="col-md-1">
+                    <div class="col-md-12">
                         <button onclick="location.reload()" class="btn btn-secondary">Reset Calculator</button>
+                        <button ng-click="ic.index.print()" type="button" class="btn btn-secondary">Print</button>
+                        <!-- Split button -->
+                        <div class="btn-group">
+                            <button ng-click="ic.index.save()" type="button" class="btn btn-secondary">Save</button>
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a ng-click="ic.index.save()" href="#">...This proposal</a></li>
+                                <li><a ng-click="ic.index.saveNew()" href="#">...As new proposal</a></li>
+                                <li><a ng-disabled="ic.index.first == false" ng-click="ic.index.saveNewRevision()" href="#">...As new revision</a></li>
+                            </ul>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#myModal">
+                            History
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="myModalLabel">Application History</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="callout">
+                                            The demonstration tool utlises HTML5 Local Storage which only allows for a limited capacity.<br/>
+                                            {{ic.index.localStorage()}}
+                                        </div>
+                                        <table class="table">
+                                            <tr ng-model="ic.index.loop" ng-repeat="(key, value) in ic.index.model.applications">
+                                                <td>{{key}}</td>
+                                                <td>
+                                                    <span ng-repeat="(key1,value1) in value">
+
+
+                                                            <div class="btn-group" role="group">
+                                                                <button class="btn btn-primary" type="button" ng-click="ic.index.load(value1.store)" href="#" style="margin:3px;">Rev: {{key1}}</button>
+                                                                <button class="btn btn-secondary" type="button" ng-click="ic.index.delete(value1.store)" href="#" style="margin:3px;"><span class="glyphicon glyphicon-remove"></span></button>
+                                                            </div>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="helpContainer" class="alert alert-success pull-right" role="alert"><em class="" aria-hidden="true">HELP IS&nbsp;</em><input id="showHelp" type="checkbox" data-off-text="OFF" data-on-text="ON" checked="false" class="BSswitch"></div>
+
                     </div>
                 </div>
                 <div class="row">
@@ -227,5 +305,23 @@
         </div>
     </div>
 </div>
+<script>
+    $(".BSswitch").bootstrapSwitch('state', true).on('switchChange.bootstrapSwitch', function () {
+
+        if ($(this).bootstrapSwitch('state')) {
+            $(".callout").show("fast");
+            $("#helpContainer").addClass("alert-success");
+            $("#helpContainer").removeClass("alert-info");
+        } else {
+            $(".callout").hide("fast");
+            $("#helpContainer").addClass("alert-info");
+            $("#helpContainer").removeClass("alert-success");
+
+
+        }
+    });
+
+</script>
+
 </body>
 </html>

@@ -1,6 +1,9 @@
 bamApp.controller('applicationDetailsController', ["$scope", "$rootScope", "referenceDataService", "dataService", function ($scope, $rootScope, referenceDataService, dataService) {
 
     this.dataService = dataService;
+    $rootScope.$on(dataService.events.localStorageUpdate, function (event, body) {
+        $scope.adc.applicationDetails.model = body.model.applicationDetailsModel;
+    })
 
     this.applicationDetails = {
 

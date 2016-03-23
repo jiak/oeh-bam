@@ -2,6 +2,12 @@ bamApp.controller('vegetationController', ["$scope", "$rootScope", "referenceDat
 
     this.dataService = dataService
 
+    $rootScope.$on(dataService.events.localStorageUpdate, function (event, body) {
+        $scope.vc.vegetationTab.model = body.model.vegetationModel
+        $scope.vc.vegetationTab.dispatchVegzoneUpdateEvent();
+    })
+
+
     $rootScope.$on(dataService.events.siteContextUpdateEvent, function (event, body) {
         if (dataService.applicationDetailsModel.assessmentType.name != 'Offset') {
             $scope.vc.vegetationTab.addPctObject()

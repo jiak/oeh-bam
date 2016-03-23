@@ -1,6 +1,10 @@
 bamApp.service('dataService', ["referenceDataService", function (referenceDataService) {
     return {
         events: {
+            localStorageUpdate:"localStorageUpdate",
+            createLocalStorageUpdate: function(model) {
+                return { model: model}
+            },
             vegetationPctChangeEvent:"vegetationPctChangeEvent",
             createVegetationPctChangeEvent: function(inputPCT) {
               return {
@@ -53,6 +57,8 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
             }
         },
         indexModel: {
+
+            applications: {},
             tabControl: {
                 tab1: true,
                 tab2: false,
@@ -136,8 +142,8 @@ bamApp.service('dataService', ["referenceDataService", function (referenceDataSe
             referenceData: referenceDataService.applicationDetails,
             current: null,
             assessmentType: null,
-            proposalId: "DEMO.0.0.1",
-            proposalVersion: "0.0.1"
+            proposalId: "DEMONSTRATION",
+            proposalVersion: 1
         },
         habitatModel: {
             referenceData: referenceDataService.habitat,

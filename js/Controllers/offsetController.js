@@ -20,6 +20,12 @@ bamApp.controller('offsetController', ["$rootScope", "$scope", "dataService", "r
         }
     })
 
+    $rootScope.$on(dataService.events.localStorageUpdate, function (event, body) {
+        $scope.oc.offset.model = body.model.offsetModel
+        $scope.oc.offset.dispatchVegzoneUpdateEvent();
+    })
+
+
     this.offset = {
 
         model: dataService.offsetModel,

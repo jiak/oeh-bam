@@ -145,7 +145,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 if (theObject == 'RegenerationPresent') {
                     result = (1.01 * (1 - Math.exp(-5 * (n11FutureValueWithOffset / c11Benchmark), 2.5)) * 100)
                 } else {
-                    if (theObject == 'Tree' && n11FutureValueWithOffset > c11Benchmark) {
+                    if (theObject == 'NumberOfLargeTrees' && n11FutureValueWithOffset > c11Benchmark) {
                         result = 100
                     } else {
                         result = (1.01 * (1 - Math.exp(-5 * Math.pow(n11FutureValueWithOffset / c11Benchmark, 2.5))) * 100)

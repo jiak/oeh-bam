@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html ng-app="bamApp" class="resp">
+
+<head>
+    <!-- jquery -->
+    <!-- ui-bootstrap -->
+    <!-- bootstrap -->
+    <!--link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"-->
+
+
+    <!-- css -->
+    <link href="http://d36paqt25bx4vd.cloudfront.net/Css/_Libs/oeh-font.css?" rel="stylesheet">
+    <link href="http://d36paqt25bx4vd.cloudfront.net/Css/_Libs/oeh-libs.css?" rel="stylesheet">
+    <link href="http://d36paqt25bx4vd.cloudfront.net/Css/_sitecore/sitecore-oeh-blessed1.min.css?" rel="stylesheet">
+    <!--link href="http://d36paqt25bx4vd.cloudfront.net/Css/_sitecore/sitecore-oeh.min.css?" rel="stylesheet"-->
+    <!--link href="http://d36paqt25bx4vd.cloudfront.net/Css/_sitecore/sitecore-oeh-print.css?" media="print" rel="stylesheet"-->
+    <link rel="stylesheet" type="text/css" href="http://w.sharethis.com/button/css/buttons.ab966a004186897711de4a5ed256c924.css">
+    <!--link href="http://www.environment.nsw.gov.au/css/decc/styles_v3.css?cb=10122015" rel="stylesheet"/-->
+    <link href="http://www.environment.nsw.gov.au/css/decc/modules.css?cb=10122015" rel="stylesheet"/>
+    <link href="http://www.environment.nsw.gov.au/css/decc/jquery-ui-1.7.1/jquery-ui.css?cb=10122015" rel="stylesheet"/>
+    <link href="http://www.environment.nsw.gov.au/css/decc/fontello/fontello.css?cb=10122015" rel="stylesheet"/>
+
+    <!-- Font Awesome -->
+    <link href="http://www.environment.nsw.gov.au/css/decc/secondary/font-awesome.min.css?cb=10122015" rel="stylesheet"/>
+
+    <!-- Roboto is loaded from CDN in oeh-styles-common.css -->
+    <!-- http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,700italic -->
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" href="http://www.environment.nsw.gov.au/css/decc/ie6.css?cb=10122015" type="text/css"/>
+    <![endif]-->
+    <!--[if gte IE 5.5]>
+    <link rel="stylesheet" href="http://www.environment.nsw.gov.au/css/decc/ie5.css?cb=10122015" type="text/css"/>
+    <![endif]-->
+
+
+    <!-- styles -->
+    <!--[if IE]>
+    <link rel="stylesheet" href="http://www.environment.nsw.gov.au/css/decc/ie_v2.css?cb=10122015" type="text/css"/>
+    <![endif]-->
+    <link href="http://www.environment.nsw.gov.au/css/decc/oeh-styles-common.css?cb=10122015" rel="stylesheet"/>
+    <link href="http://www.environment.nsw.gov.au/css/decc/oeh-styles-responsive.css?cb=10122015" rel="stylesheet"/>
+    <link href="http://www.environment.nsw.gov.au/css/decc/oeh-styles-unresponsive.css?cb=10122015" rel="stylesheet"/>
+    <link href="http://www.environment.nsw.gov.au/css/decc/responsive/oeh-work.css?cb=10122015" rel="stylesheet"/>
+
+    <!--[if lt IE 9]>
+    <link href="http://www.environment.nsw.gov.au/css/decc/oeh-styles-ie.css?cb=10122015" rel="stylesheet"/>
+    <![endif]-->
+
+    <!--link rel="stylesheet" type="text/css" media="print" href="http://www.environment.nsw.gov.au/css/decc/print_v2.css?cb=10122015"/-->
+    <style type="text/css">
+
+        html.resp .numericGrid > tbody > tr > th, html.resp .numericGrid tbody > tr > td, html.resp .numericInput {
+            width: 100px;
+        !important;
+            padding: 5px;
+        !important;
+            text-align: right;
+        }
+
+        /* tab alignment */
+        .tab-content {
+            margin-top: 9px;
+        }
+
+        #contentArea li.uib-tab > a {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        html.resp .nav-tabs > li {
+            margin-bottom: -6px;
+        }
+
+        #contentArea ul.nav.nav-tabs {
+            margin-bottom: 4px;
+        }
+
+        li.uib-tab.ng-isolate-scope.active {
+            margin-left: -18px;
+        }
+
+        .tabcontentdiv.ng-scope {
+            margin-top: -10px;
+        }
+
+        .popover {
+            max-width: 100%;
+        }
+
+        html.resp .nav-tabs > li.active > a, html.resp .nav-tabs > li.active > a:hover, html.resp .nav-tabs > li.active > a:focus {
+            color: #5c5c5c;
+            background-color: #ebebeb;
+        }
+
+        html.resp .form-control {
+            margin-bottom: 10px;
+        }
+
+        .tabcontentdiv {
+            border-style: solid;
+            border-width: thin;
+            border-top-style: none;
+            padding: 20px;
+            border-color: lightgrey;
+        }
+
+        #contentArea ul li {
+            background: none;
+        }
+
+        .nav-tabs > li.disabled > a > uib-tab-heading > h4 {
+            color: #ccc;
+        }
+
+        .glyphicon-check {
+            color: #407108;
+        }
+
+        td > input.numericInput {
+            float: right;
+        }
+
+        table.packedTable > tbody > tr > td, table.packedTable > thead > tr > th {
+            width: 20px !important;
+        }
+
+        table.doalign > thead > tr > th:nth-last-child(1) {
+            width: 100px
+        }
+
+        table.doalign > thead > tr > th:nth-last-child(2) {
+            width: 105px
+        }
+
+        table.doalign > thead > tr > th:nth-last-child(3) {
+            width: 100px
+        }
+
+        table.doalign > thead > tr > th:nth-last-child(4) {
+            width: 100px
+        }
+
+        table.doalign > thead > tr > th:nth-last-child(5) {
+            width: 100px
+        }
+
+        .btn:focus {
+            outline: thin dotted;
+            outline-offset: 1px;
+        }
+
+        .printOnly {
+            display:none;
+        }
+
+    </style>
+    <style>
+        .callout,.nav-tabs
+        {display:none}
+        .printOnly{display:block}
+        html:not(.resp) .tab-content > .tab-pane {display: block;}
+        html.resp .tab-content > .tab-pane {
+            display: block;
+        }
+        html.resp .table-responsive {
+            overflow-y: visible;
+            overflow-x: visible;
+        }
+        html.resp .container, html.resp #mainContainer02, html.resp #mainContainer03, html.resp #mainContainer04 {
+            width: auto;
+        }
+    </style>
+    <style type="text/css" media="print">
+        @page { size: landscape; }
+        h1.pageBreak { display: block; page-break-before: always; }
+    </style>
+</head>
+<body>
+</body>
+</html>

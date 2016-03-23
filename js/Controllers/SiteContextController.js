@@ -1,5 +1,9 @@
 bamApp.controller('siteContextController', ["$scope", "$rootScope", "dataService", function ($scope, $rootScope, dataService) {
 
+
+    $rootScope.$on(dataService.events.localStorageUpdate, function (event, body) {
+        $scope.scc.siteContext.model = body.model.siteContextModel;
+    })
     this.siteContext = {
 
         model: dataService.siteContextModel,
