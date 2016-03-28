@@ -35,6 +35,12 @@
     <form>
         <fieldset class="form-group table-responsive">
             <h4>Candidate threatened species (Species credits)</h4>
+            <label for="species">Select species</label>
+            <select id="species" ng-model="hc.habitat.species" class="form-control" ng-options="item.name for item in hc.habitat.model.ibraSpecies"></select>
+            <label for="speciesVegZone">Select vegetation zone</label>
+            <select id="speciesVegZone" ng-model="hc.habitat.speciesVegZone" class="form-control" ng-options="vegZone.identifier() for vegZone in hc.habitat.model.vegetationZones"></select>
+            <button ng-click="hc.habitat.insertSpeciesCreditInput()" type="button" class="btn btn-secondary">Add Species</button>
+            <br/><br/>
             <table class="table packedTable" ng-if="true">
                 <thead>
                 <tr>
@@ -54,7 +60,7 @@
                 <tbody>
                 <tr ng-repeat="x in hc.habitat.model.inputs[hc.habitat.model.current].speciesCredit">
                     <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)"><b><em>{{x.threatendedSpecies.scientificName}}</em></b><br/>{{x.threatendedSpecies.name}}</td>
-                    <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)">{{x.vegZone}}</td>
+                    <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)">{{x.vegZone.identifier()}}</td>
                     <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)">{{x.threatendedSpecies.geographicCondition}}</td>
                     <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)">{{x.threatendedSpecies.habitatComponents}}</td>
                     <td ng-if="hc.habitat.streamlineSensitivityCheck(x.threatendedSpecies)">{{x.threatendedSpecies.sensitivity}}</td>

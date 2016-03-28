@@ -291,7 +291,7 @@
                                 <ng-include src="'Templates/offset.html'"></ng-include>
                             </uib-tab>
                             <uib-tab disable="!(ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed)">
-                                <uib-tab-heading><h4>4. Habitat suitability <span ng-if="!ic.dataService.applicationDetailsModel.confirmed || !ic.dataService.siteContextModel.confirmed" class="glyphicon glyphicon-ban-circle"></span><span ng-if="ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed" class="glyphicon glyphicon-edit"></span></h4></uib-tab-heading>
+                                <uib-tab-heading><h4 ng-click="ic.index.requestVegzoneUpdateEvent()">4. Habitat suitability <span ng-if="!ic.dataService.applicationDetailsModel.confirmed || !ic.dataService.siteContextModel.confirmed" class="glyphicon glyphicon-ban-circle"></span><span ng-if="ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed" class="glyphicon glyphicon-edit"></span></h4></uib-tab-heading>
                                 <ng-include src="'Templates/Habitat.html'"></ng-include>
                             </uib-tab>
                             <uib-tab disable="!(ic.dataService.applicationDetailsModel.confirmed && ic.dataService.siteContextModel.confirmed)">

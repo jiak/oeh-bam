@@ -12,6 +12,17 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
     })
 
+    $rootScope.$on(dataService.events.vegetationZoneUpdateEvent, function (event, body) {
+        $scope.hc.habitat.model.vegetationZones = body.vegetationZones
+    })
+
+
+    $rootScope.$on(dataService.events.siteContextUpdateEvent, function (event, body) {
+            $scope.hc.habitat.updateSpeciesModel(body)
+    })
+
+
+
 
     this.habitat = {
         streamlineSensitivityCheck: function (species) {
@@ -25,7 +36,8 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
                 }
             }
         },
-
+        species: {},
+        speciesVegZone: {},
         applicationType: dataService.applicationDetailsModel.assessmentType,
 
         model: dataService.habitatModel,
@@ -107,7 +119,35 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
             return data.replace("<", "");
         },
+        updateSpeciesModel: function (input) {
+            this.model.ibraSpecies = [];
+            var duplicateCheck = [];
+            for (var i = 0; i < this.model.referenceData.speciesCredit.ibraSubRegion.length; i++) {
+                if (this.model.referenceData.speciesCredit.ibraSubRegion[i].id == input.subRegion.id) {
+                    //found subregion
+                    for (var j = 0; j < this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies.length; j++) {
+                        var patchSize = this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].patchSize;
+                        var cover = this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].percentCover;
+                        var inputPatchSize = this.formalizePatchSize(input.patchSize);
+                        var inputCover = this.formalizeCover(input.cover);
+                        var duplicate = false;
+                        if (duplicateCheck.indexOf(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].id) >= 0) duplicate = true
+                        if (!duplicate) {
+                            duplicateCheck.push(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j].id);
 
+                            this.model.ibraSpecies.push(this.model.referenceData.speciesCredit.ibraSubRegion[i].threatendedSpecies[j]);
+                        }
+
+                    }
+                }
+            }
+        },
+        insertSpeciesCreditInput: function() {
+            this.species.vegZone = this.speciesVegZone;
+            this.model.inputs[0].speciesCredit.push(this.createSpeciesCreditInput(this.species, this.speciesVegZone));
+            this.species = null;
+            this.speciesVegZone = null;
+        },
         initSpeciesCreditInput: function (input, inputPCT) {
             var duplicateCheck = [];
             for (var i = 0; i < this.model.referenceData.speciesCredit.ibraSubRegion.length; i++) {
@@ -197,21 +237,24 @@ angular.module('bamApp').controller('habitatController', ["$scope", "referenceDa
 
             var ibraId = subRegion.id;
 
-            this.model.current = this.findInput(ibraId, cover, patchSize);
+            //this.model.current = this.findInput(ibraId, cover, patchSize);
 
             //find input
             //if (this.model.current != null)
             //return;
 
             //if not found, create one
-            var input = this.createInput(ibraId, cover, patchSize);
-            input.speciesCredit = [];
-            input.ecosystemCredit = [];
-            this.initEcoSystemCreditInput(input, inputPCT);
-            this.initSpeciesCreditInput(input, inputPCT);
+            if (this.model.current = this.model.inputs.length == 0) {
+                var input = this.createInput(ibraId, cover, patchSize);
+                input.speciesCredit = [];
+                input.ecosystemCredit = [];
+                this.initEcoSystemCreditInput(input, inputPCT);
+                //this.initSpeciesCreditInput(input, inputPCT);
 
-            this.model.inputs.push(input);
+                this.model.inputs.push(input);
+            }
             this.model.current = this.model.inputs.length - 1;
+
 
         },
         findEcosystemCreditBySubRegion: function (input) {

@@ -39,6 +39,7 @@ bamApp.controller('creditsController', ["$scope", "$rootScope", "dataService", f
                         entry.area = candidateThreatenedSpecies.value
                         entry.om = candidateThreatenedSpecies.threatendedSpecies.offsetMultiplier
                         entry.uom = candidateThreatenedSpecies.threatendedSpecies.unitOfMeasure
+                        entry.vegZone = candidateThreatenedSpecies.threatendedSpecies.vegZone
                         $scope.crc.credits.model.speciesCredit.push(entry)
                     }
                 }
