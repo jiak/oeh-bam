@@ -6,6 +6,7 @@
         <th>Grass & <br/> grass like</th>
         <th>Forb</th>
         <th>Fern</th>
+        <th>Other</th>
     </tr>
     <tr>
         <th>Current value</th>
@@ -14,6 +15,7 @@
         <td>{{sc.structure.getCurrentStructure().currentValueWithAddedConstantGrassAndGrassLike | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().currentValueWithAddedConstantForb | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().currentValueWithAddedConstantFern | r2d}}</td>
+        <td>{{sc.structure.getCurrentStructure().currentValueWithAddedConstantOther | r2d}}</td>
     </tr>
     <tr>
         <th>Future value with offset</th>
@@ -22,6 +24,7 @@
         <td>{{sc.structure.getCurrentStructure().futureValueWithOffsetGrassAndGrassLike | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().futureValueWithOffsetForb | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().futureValueWithOffsetFern | r2d}}</td>
+        <td>{{sc.structure.getCurrentStructure().futureValueWithOffsetOther | r2d}}</td>
     </tr>
     <tr>
         <th>Future condition with offset (unweighted)</th>
@@ -30,6 +33,7 @@
         <td>{{sc.structure.getCurrentStructure().futureConditionWithOffsetGrassAndGrassLike | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().futureConditionWithOffsetForb | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().futureConditionWithOffsetFern | r2d}}</td>
+        <td>{{sc.structure.getCurrentStructure().futureConditionWithOffsetOther | r2d}}</td>
     </tr>
     <tr>
         <th>Weighted future condition with offset</th>
@@ -38,5 +42,6 @@
         <td>{{sc.structure.getCurrentStructure().weightedConditionWithOffsetGrassAndGrassLike | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().weightedConditionWithOffsetForb | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().weightedConditionWithOffsetFern | r2d}}</td>
+        <td>{{sc.structure.getCurrentStructure().weightedConditionWithOffsetOther | r2d}}</td>
     </tr>
 </table>

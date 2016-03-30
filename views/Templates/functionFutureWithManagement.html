@@ -5,6 +5,7 @@
         <th>Litter cover</th>
         <th>Coarse woody debris</th>
         <th>Regeneration stems <br/> stems <5cm DBH</th>
+        <th>Stem diversity</th>
     </tr>
     <tr>
         <th>Current value</th>
@@ -12,6 +13,7 @@
         <td>{{fc.function.getCurrentFunction().currentValueWithAddedConstantLitterCover | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().currentValueWithAddedConstantCoarseWoodyDebris | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().currentValueWithAddedConstantRegenerationPresent | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().currentValueWithAddedConstantStemSizeClasses | r2d}}</td>
     </tr>
     <tr>
         <th>Future value with offset</th>
@@ -19,6 +21,7 @@
         <td>{{fc.function.getCurrentFunction().futureValueWithOffsetLitterCover | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().futureValueWithOffsetCoarseWoodyDebris | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().futureValueWithOffsetRegenerationPresent | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().futureValueWithOffsetStemSizeClasses | r2d}}</td>
     </tr>
     <tr>
         <th>Future condition with offset (unweighted)</th>
@@ -26,6 +29,7 @@
         <td>{{fc.function.getCurrentFunction().futureConditionWithOffsetLitterCover | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().futureConditionWithOffsetCoarseWoodyDebris | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().futureConditionWithOffsetRegenerationPresent | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().futureConditionWithOffsetStemSizeClasses | r2d}}</td>
     </tr>
     <tr>
         <th>Weighted future condition with offset</th>
@@ -33,5 +37,6 @@
         <td>{{fc.function.getCurrentFunction().weightedConditionWithOffsetLitterCover | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().weightedConditionWithOffsetCoarseWoodyDebris | r2d}}</td>
         <td>{{fc.function.getCurrentFunction().weightedConditionWithOffsetRegenerationPresent | r2d}}</td>
+        <td>{{fc.function.getCurrentFunction().weightedConditionWithOffsetStemSizeClasses | r2d}}</td>
     </tr>
 </table>

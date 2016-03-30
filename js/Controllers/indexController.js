@@ -105,8 +105,9 @@ bamApp.controller('indexController', ["$scope", "$rootScope", "dataService", fun
                 this.model.applications[dataService.applicationDetailsModel.proposalId] = {};
             }
 
-            this.model.applications[dataService.applicationDetailsModel.proposalId][parseInt(dataService.applicationDetailsModel.proposalVersion)] = {"store": store};
-
+            this.model.applications[dataService.applicationDetailsModel.proposalId][parseInt(dataService.applicationDetailsModel.proposalVersion)] = store;//= {"store": store};
+            console.log(dataService.applicationDetailsModel.proposalVersion);
+            console.log(local.applicationDetailsModel.proposalVersion)
             console.log(this.model.applications);
 
             try {

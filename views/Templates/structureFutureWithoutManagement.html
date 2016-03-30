@@ -6,6 +6,7 @@
         <th>Grass & <br/> Grass Like</th>
         <th>Forb</th>
         <th>Fern</th>
+        <th>Other</th>
     </tr>
     <tr ng-repeat="item in sc.structure.getApplicableCalcResults()[sc.structure.model.inFocusVegetationZoneIndex].structureTransects">
         <th>Rate of decline (% per annum)</th>
@@ -59,6 +60,16 @@
                 <option value="0.50">0.50%</option>
             </select>
         </td>
+        <td>
+            <select class="form-control" ng-model="item.other" ng-blur="sc.structure.updateCalcsFor('Other', item.other)">
+                <option value="0.00">0.00%</option>
+                <option value="0.05">0.05%</option>
+                <option value="0.10">0.10%</option>
+                <option value="0.20">0.20%</option>
+                <option value="0.25">0.25%</option>
+                <option value="0.50">0.50%</option>
+            </select>
+        </td>
     </tr>
     <tr>
         <th>Future value without offset</th>
@@ -67,6 +78,7 @@
         <td>{{sc.structure.getCurrentStructure().futureValueWithoutOffsetGrassAndGrassLike | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().futureValueWithoutOffsetForb | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().futureValueWithoutOffsetFern | r2d}}</td>
+        <td>{{sc.structure.getCurrentStructure().futureValueWithoutOffsetOther | r2d}}</td>
     </tr>
     <tr>
         <th>Future condition without offset</th>
@@ -75,6 +87,7 @@
         <td>{{sc.structure.getCurrentStructure().futureConditionWithoutOffsetGrassAndGrassLike | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().futureConditionWithoutOffsetForb | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().futureConditionWithoutOffsetFern | r2d}}</td>
+        <td>{{sc.structure.getCurrentStructure().futureConditionWithoutOffsetOther | r2d}}</td>
     </tr>
     <tr>
         <th>Weighted condition without offset</th>
@@ -83,5 +96,6 @@
         <td>{{sc.structure.getCurrentStructure().adjustedConditionWithoutOffsetGrassAndGrassLike | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().adjustedConditionWithoutOffsetForb | r2d}}</td>
         <td>{{sc.structure.getCurrentStructure().adjustedConditionWithoutOffsetFern | r2d}}</td>
+        <td>{{sc.structure.getCurrentStructure().adjustedConditionWithoutOffsetOther | r2d}}</td>
     </tr>
 </table>

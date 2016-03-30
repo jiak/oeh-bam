@@ -185,6 +185,9 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 }
             } else if (theObject == 'RegenerationPresent') {
                 result = 1.0
+            } else if (theObject == "StemSizeClasses") {
+                var observedValue = parseInt(eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].observedMean" + theObject))
+                result = observedValue;
             }
             eval("this.model.offsetFutureWithManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureValueWithOffset" + theObject + " = " + result)
         },
@@ -260,6 +263,22 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         calculateAdjustedConditionWithoutOffset: function (theObject, theObjectLower) {
             var result = 0
             var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
+            var dynamicWeightingScore = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
+            var benchmark
+            if (theObject == 'RegenerationPresent') {
+                benchmark = this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name].regeneration
+            } else {
+                benchmark = eval("this.model.benchmarks[this.model.keithClass][dataService.siteContextModel.inputs.ibra.name]." + theObjectLower)
+            }
+            if (benchmark == 0) {
+                result = 0
+            } else {
+                result = (futureConditionWithoutOffset * dynamicWeightingScore)
+            }
+            eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].adjustedConditionWithoutOffset" + theObject + " = " + result)
+            /*
+            var result = 0
+            var futureConditionWithoutOffset = eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].futureConditionWithoutOffset" + theObject)
             var dynamicWeightingGain = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeightingGain" + theObject + "Score")
             var benchmark
             if (theObject == 'RegenerationPresent') {
@@ -273,6 +292,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
                 result = (futureConditionWithoutOffset * dynamicWeightingGain)
             }
             eval("this.model.offsetFutureWithoutManagementFunctionCalcResults[this.model.inFocusVegetationZoneIndex].adjustedConditionWithoutOffset" + theObject + " = " + result)
+            */
         },
 
         calculateFutureConditionWithoutOffset: function (theObject, theObjectLower) {
@@ -381,6 +401,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             total += c.weightedConditionWithOffsetLitterCover
             total += c.weightedConditionWithOffsetCoarseWoodyDebris
             total += c.weightedConditionWithOffsetRegenerationPresent
+            total += c.weightedConditionWithOffsetStemSizeClasses
             c.functionSubtotal = total
         },
 
@@ -391,6 +412,7 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
             total += c.adjustedConditionWithoutOffsetLitterCover
             total += c.adjustedConditionWithoutOffsetCoarseWoodyDebris
             total += c.adjustedConditionWithoutOffsetRegenerationPresent
+            total += c.adjustedConditionWithoutOffsetStemSizeClasses
             c.functionSubtotal = total
         },
 
@@ -422,12 +444,20 @@ bamApp.controller('functionController', ["$scope", "$rootScope", "referenceDataS
         },
 
         calculateWeightedConditionWithOffset: function (theObject, theObjectLower) {
+            dynamicWeightingScore = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeighting" + theObject + "Score")
+            futureConditionWithOffset = eval("this.getCurrentFunction().futureConditionWithOffset" + theObject)
+            result = (dynamicWeightingScore * futureConditionWithOffset)
+            eval("this.getCurrentFunction().weightedConditionWithOffset" + theObject + " = " + result)
+            return result
+            /*
             dynamicWeightingGainScore = eval("this.model.functionCalcResults[this.model.inFocusVegetationZoneIndex].dynamicWeightingGain" + theObject + "Score")
             futureConditionWithOffset = eval("this.getCurrentFunction().futureConditionWithOffset" + theObject)
             result = (dynamicWeightingGainScore * futureConditionWithOffset)
             eval("this.getCurrentFunction().weightedConditionWithOffset" + theObject + " = " + result)
             return result
-        },
+            */
+
+        }
     }
 
     if (this.function.getApplicableCalcResults()[this.function.model.inFocusVegetationZoneIndex].functionTransects.length == 0) {

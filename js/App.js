@@ -9,7 +9,7 @@ bamApp.filter('abs', function () {
 bamApp.filter('r2d', function () {
     return function (val) {
         if (isNaN(val)) {
-            return "NaN"
+            return "..."
         } else if (val == 0) {
             return "0"
         } else {
@@ -21,7 +21,7 @@ bamApp.filter('r2d', function () {
 bamApp.filter('r0d', function () {
     return function (val) {
         if (isNaN(val)) {
-            return "NaN"
+            return "..."
         } else if (val == 0) {
             return "0"
         } else {
